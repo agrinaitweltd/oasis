@@ -6,14 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "convert": "node scripts/convert.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.5.22",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "html-react-parser": "^5.1.18"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
