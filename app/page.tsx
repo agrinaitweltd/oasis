@@ -613,7 +613,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-cb276ec6d8d5e863f6cdbd7dd8518d75 wp-block-paragraph"><a href="/blog-whats-next-for-arbor-and-ai/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-cb276ec6d8d5e863f6cdbd7dd8518d75 wp-block-paragraph"><a href="https://arbor-education.com/blog-whats-next-for-arbor-and-ai/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -629,7 +629,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-mis-should-reduce-teacher-workload-and-improve-wellbeing/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-mis-should-reduce-teacher-workload-and-improve-wellbeing/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -645,7 +645,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-cd03ccd01a843ce7b5dabf22f89657ef wp-block-paragraph"><a href="/blog-top-five-reasons-schools-reviewing-their-mis/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-cd03ccd01a843ce7b5dabf22f89657ef wp-block-paragraph"><a href="https://arbor-education.com/blog-top-five-reasons-schools-reviewing-their-mis/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -661,7 +661,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-flexible-working-in-schools-recruitment/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-flexible-working-in-schools-recruitment/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 </div>

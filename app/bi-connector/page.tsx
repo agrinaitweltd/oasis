@@ -180,7 +180,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-31ac9d1be6a1e8ee7f0de130bb1a86d8 wp-block-paragraph"><a href="/blog-staff-absence-in-schools-data-drop/">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-31ac9d1be6a1e8ee7f0de130bb1a86d8 wp-block-paragraph"><a href="https://arbor-education.com/blog-staff-absence-in-schools-data-drop/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -196,7 +196,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/live-national-benchmarks-now-in-arbors-bi-connector/">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/live-national-benchmarks-now-in-arbors-bi-connector/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -212,7 +212,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-6a9de922732fd3400ca8928e032f6ecd wp-block-paragraph" style="padding-bottom:1px"><a href="/blog-5-easy-steps-to-build-a-bi-dashboard-with-your-arbor-data/">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-6a9de922732fd3400ca8928e032f6ecd wp-block-paragraph" style="padding-bottom:1px"><a href="https://arbor-education.com/blog-5-easy-steps-to-build-a-bi-dashboard-with-your-arbor-data/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -228,7 +228,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-data-drop-attendance-of-pupil-premium-eligible-sen-students/">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-data-drop-attendance-of-pupil-premium-eligible-sen-students/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 </div>

@@ -372,7 +372,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-079dae95991bee7351968abc60781111 wp-block-paragraph"><a href="/blog-flexible-working-in-schools-recruitment/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-079dae95991bee7351968abc60781111 wp-block-paragraph"><a href="https://arbor-education.com/blog-flexible-working-in-schools-recruitment/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -388,7 +388,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-welcoming-timetabler-to-the-key-group/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-welcoming-timetabler-to-the-key-group/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -404,7 +404,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ac20cc12a5e894f13e660e535679a60d wp-block-paragraph"><a href="/blog-how-dartmoor-mat-implements-policies-education-processes-and-procedures/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ac20cc12a5e894f13e660e535679a60d wp-block-paragraph"><a href="https://arbor-education.com/blog-how-dartmoor-mat-implements-policies-education-processes-and-procedures/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -420,7 +420,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-share-courses-with-arbor-shared-teaching/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-share-courses-with-arbor-shared-teaching/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 </div>

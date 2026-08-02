@@ -362,7 +362,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ea341aacc02a074c23a0d6e4010ae936 wp-block-paragraph"><a href="/how-schools-make-day-to-day-accounting-simple-with-arbor-finance/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ea341aacc02a074c23a0d6e4010ae936 wp-block-paragraph"><a href="https://arbor-education.com/how-schools-make-day-to-day-accounting-simple-with-arbor-finance/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -378,7 +378,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-saving-time-and-money-with-arbor-mis/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-saving-time-and-money-with-arbor-mis/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -410,7 +410,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="/blog-top-tips-for-managing-your-workload-from-school-business-leaders/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-top-tips-for-managing-your-workload-from-school-business-leaders/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { megaMenu } from "@/lib/nav-data";
@@ -93,24 +93,59 @@ export default function Header() {
                           : { display: "none", opacity: 0, visibility: "hidden" }
                       }
                     >
-                      {section.links.map((link) => (
-                        <li className="mega-menu-item" key={link.href}>
-                          {link.external ? (
-                            <a
-                              className="mega-menu-link"
-                              href={link.href}
-                              target="_blank"
-                              rel="noreferrer noopener"
-                            >
-                              {link.label}
-                            </a>
-                          ) : (
-                            <Link className="mega-menu-link" href={link.href}>
-                              {link.label}
-                            </Link>
-                          )}
-                        </li>
-                      ))}
+                      <li className="mega-menu-row">
+                        <ul className="mega-sub-menu" style={{ "--columns": 12 } as CSSProperties}>
+                          <li
+                            className="mega-menu-column mega-menu-columns-12-of-12"
+                            style={{ "--columns": 12, "--span": 12 } as CSSProperties}
+                          >
+                            <ul className="mega-sub-menu">
+                              <li className="mega-menu-item mega-menu-item-type-widget widget_maxmegamenu_reusable_block">
+                                <div
+                                  className="wp-block-columns is-not-stacked-on-mobile is-style-default has-base-background-color has-background is-layout-flex wp-block-columns-is-layout-flex"
+                                  style={{
+                                    paddingTop: 48,
+                                    paddingRight: 24,
+                                    paddingBottom: 48,
+                                    paddingLeft: 24,
+                                    boxShadow: "var(--wp--preset--shadow--deep)",
+                                  }}
+                                >
+                                  <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+                                    <div className="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+                                      <nav
+                                        className="has-text-color has-contrast-color is-vertical wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex"
+                                        aria-label={`Navigation (${section.label})`}
+                                      >
+                                        <ul className="wp-block-navigation__container has-text-color has-contrast-color is-vertical wp-block-navigation">
+                                          {section.links.map((link) => (
+                                            <li className="wp-block-navigation-item wp-block-navigation-link" key={link.href}>
+                                              {link.external ? (
+                                                <a
+                                                  className="wp-block-navigation-item__content"
+                                                  href={link.href}
+                                                  target="_blank"
+                                                  rel="noreferrer noopener"
+                                                >
+                                                  <span className="wp-block-navigation-item__label">{link.label}</span>
+                                                </a>
+                                              ) : (
+                                                <Link className="wp-block-navigation-item__content" href={link.href}>
+                                                  <span className="wp-block-navigation-item__label">{link.label}</span>
+                                                </Link>
+                                              )}
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      </nav>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 ))}

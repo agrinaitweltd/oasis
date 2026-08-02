@@ -20,7 +20,7 @@ export const schoolTypesLinks: NavLink[] = [
 ];
 
 export const resourcesLinks: NavLink[] = [
-  { label: "Blog", href: "/blog/" },
+  { label: "Blog", href: "https://arbor-education.com/blog/", external: true },
   { label: "eBooks and Case Studies", href: "/library/" },
   { label: "Webinars", href: "https://www.bigmarker.com/communities/arbor-education-webinars/conferences", external: true },
   { label: "Help Centre", href: "https://support.arbor-education.com/hc/en-us", external: true },

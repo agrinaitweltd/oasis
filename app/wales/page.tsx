@@ -37,7 +37,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">We already help more LAs and schools than all other MIS systems combined to <strong>reclaim hours every week</strong>, <strong>see the data that matters clearl</strong>y, and <strong>support staff with the tools, time and insight</strong> to <strong>work at their best.</strong><br><br>We&#8217;ve already rolled out Arbor to all schools in <a href="/blog-cardiff-chooses-arbor-mis-and-arbor-finance/"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color"><strong>Cardiff</strong></mark></a> and <strong><a href="/blog-vale-of-glamorgan-chooses-arbor-mis/"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">The Vale of Glamorgan</mark></a>,</strong> with features tailored to Wales (find out more below!)</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">We already help more LAs and schools than all other MIS systems combined to <strong>reclaim hours every week</strong>, <strong>see the data that matters clearl</strong>y, and <strong>support staff with the tools, time and insight</strong> to <strong>work at their best.</strong><br><br>We&#8217;ve already rolled out Arbor to all schools in <a href="https://arbor-education.com/blog-cardiff-chooses-arbor-mis-and-arbor-finance/" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color"><strong>Cardiff</strong></mark></a> and <strong><a href="https://arbor-education.com/blog-vale-of-glamorgan-chooses-arbor-mis/" target="_blank" rel="noreferrer noopener"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">The Vale of Glamorgan</mark></a>,</strong> with features tailored to Wales (find out more below!)</p>
 
 
 
@@ -385,7 +385,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">Mae dros <strong>10,000 o ysgolion yn y Deyrnas Unedig</strong> eisoes yn defnyddio Arbor bob dydd i adennill oriau bob wythnos, gweld y data sy’n bwysig yn glir, a<strong> chynorthwyo eu staff â’r offer, yr amser a’r wybodaeth i weithio ar eu gorau.&nbsp;</strong><br><br>A bellach mae Arbor wedi cael ei chyflwyno ym mhob un o’r ysgolion <a href="/blog-cardiff-chooses-arbor-mis-and-arbor-finance/">yng Caerdydd</a> a ym <strong><a href="/blog-vale-of-glamorgan-chooses-arbor-mis/" target="_blank" rel="noreferrer noopener">Mro Morgannwg </a></strong>&nbsp;gyda nodweddion penodol wedi’u <strong>teilwra i Gymru.</strong></p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">Mae dros <strong>10,000 o ysgolion yn y Deyrnas Unedig</strong> eisoes yn defnyddio Arbor bob dydd i adennill oriau bob wythnos, gweld y data sy’n bwysig yn glir, a<strong> chynorthwyo eu staff â’r offer, yr amser a’r wybodaeth i weithio ar eu gorau.&nbsp;</strong><br><br>A bellach mae Arbor wedi cael ei chyflwyno ym mhob un o’r ysgolion <a href="https://arbor-education.com/blog-cardiff-chooses-arbor-mis-and-arbor-finance/" target="_blank" rel="noreferrer noopener">yng Caerdydd</a> a ym <strong><a href="https://arbor-education.com/blog-vale-of-glamorgan-chooses-arbor-mis/" target="_blank" rel="noreferrer noopener">Mro Morgannwg </a></strong>&nbsp;gyda nodweddion penodol wedi’u <strong>teilwra i Gymru.</strong></p>
 
 
 
@@ -419,7 +419,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">Mae SIMS wedi datgan <a href="/blog-the-end-of-sims7-census-what-you-need-to-know/" target="_blank" rel="noreferrer noopener">y <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">bydd ysgolion yn gallu cwblhau’r cyfrifiad yn SIMS 7 hyd at y gwanwyn 2026 yn unig</mark></a>. Wedi hynny, bydd pob ysgol yn cael ei symud i Genhedlaeth Nesaf SIMS – MIS newydd sbon sy’n dal i gael ei datblygu.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.399), 17px);">Mae SIMS wedi datgan <a href="https://arbor-education.com/blog-the-end-of-sims7-census-what-you-need-to-know/" target="_blank" rel="noreferrer noopener">y <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">bydd ysgolion yn gallu cwblhau’r cyfrifiad yn SIMS 7 hyd at y gwanwyn 2026 yn unig</mark></a>. Wedi hynny, bydd pob ysgol yn cael ei symud i Genhedlaeth Nesaf SIMS – MIS newydd sbon sy’n dal i gael ei datblygu.</p>
 
 
 
