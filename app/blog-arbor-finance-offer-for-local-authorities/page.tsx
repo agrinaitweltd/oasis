@@ -23,7 +23,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-finance/" rel="tag">Arbor Finance</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/arbor-finance/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor Finance</a></div></div>
 </div>
 </div></div>
 </div>
@@ -54,7 +54,7 @@ export default function Page() {
 <p><span style="font-weight: 400;">– </span></p>
 <p><span style="font-weight: 400;">We already work with over 20 Local Authorities and over 50 local support teams to ensure schools have the tools they need to make day-to-day accounting simple and straightforward, and an MIS that will measurably improve the way you work. </span></p>
 <p><span style="font-weight: 400;">If you’re an LA team or or a Partner that works closely with LA schools reviewing your schools’ MIS and Finance options, we’d love to hear from you. Get in touch at </span><a href="mailto:hello@arbor-education.com"><span style="font-weight: 400;">hello@arbor-education.com</span></a></p>
-<p><span style="font-weight: 400;">Want to hear from LAs who have worked with us before? <a href="/wp-content/uploads/2023/03/Strategies-for-embracing-new-technology-in-education.pdf">Read our report</a> with HFL Education (Hertfordshire) and Hampshire County Council on their experience of working with Arbor. </span></p>
+<p><span style="font-weight: 400;">Want to hear from LAs who have worked with us before? <a href="https://arbor-education.com/wp-content/uploads/2023/03/Strategies-for-embracing-new-technology-in-education.pdf" target="_blank" rel="noreferrer noopener">Read our report</a> with HFL Education (Hertfordshire) and Hampshire County Council on their experience of working with Arbor. </span></p>
 <p><span style="font-weight: 400;">Are you an individual school or a current Arbor MIS customer? Speak to your Local Authority team about their plans for MIS and Finance.</span></p>
 <div class='rp4wp-related-posts'>
 <h3>You might also like:</h3>
@@ -78,7 +78,7 @@ export default function Page() {
 </div></div>
 
 
-<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="/tag/arbor-finance/" rel="tag">Arbor Finance</a></div>
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="https://arbor-education.com/tag/arbor-finance/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor Finance</a></div>
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">

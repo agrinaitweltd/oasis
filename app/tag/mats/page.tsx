@@ -16,14 +16,14 @@ export default function Page() {
 
 
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:0;padding-bottom:var(--wp--preset--spacing--50);padding-left:0"><ul class="columns-3 alignfull wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-8f400b11 wp-block-post-template-is-layout-grid"><li class="wp-block-post post-18535 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-collaboration-2-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we use our MAT&#8217;s systems to drive staff wellbeing and retention" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-collaboration-2-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-768x583.jpg 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-collaboration-2-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we use our MAT&#8217;s systems to drive staff wellbeing and retention" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-collaboration-2-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-collaboration-2-1-768x583.jpg 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_self" >How we use our MAT&#8217;s systems to drive staff wellbeing and retention</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_blank" rel="noreferrer noopener" >How we use our MAT&#8217;s systems to drive staff wellbeing and retention</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-mats-systems-to-drive-staff-wellbeing-and-retention/"><time datetime="2025-11-19T16:59:54+00:00">Nov 19, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_blank" rel="noreferrer noopener"><time datetime="2025-11-19T16:59:54+00:00">Nov 19, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -88,20 +88,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11757 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mats tag-product-updates">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-next-evolution-of-mat-mis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2024/02/14.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The next evolution of MAT MIS" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/02/14.jpg 740w, /wp-content/uploads/2024/02/14-300x244.jpg 300w, /wp-content/uploads/2024/02/14-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-next-evolution-of-mat-mis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2024/02/14.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The next evolution of MAT MIS" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/02/14.jpg 740w, /wp-content/uploads/2024/02/14-300x244.jpg 300w, /wp-content/uploads/2024/02/14-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-next-evolution-of-mat-mis/" target="_self" >The next evolution of MAT MIS</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-next-evolution-of-mat-mis/" target="_blank" rel="noreferrer noopener" >The next evolution of MAT MIS</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-next-evolution-of-mat-mis/"><time datetime="2024-02-27T11:20:28+00:00">Feb 27, 2024</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-next-evolution-of-mat-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2024-02-27T11:20:28+00:00">Feb 27, 2024</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mats/" rel="tag">MATs</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/product-updates/" rel="tag">Product updates</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mats/" rel="tag">MATs</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/product-updates/" target="_blank" rel="noreferrer noopener" rel="tag">Product updates</a></div></div>
 </div>
 </div>
 
@@ -112,14 +112,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11465 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-trusts-the-cost-of-living-crisis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Three leaders share how their trusts are saving money during the cost-of-living crisis" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg 740w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-300x244.jpg 300w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Three leaders share how their trusts are saving money during the cost-of-living crisis" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg 740w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-300x244.jpg 300w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-trusts-the-cost-of-living-crisis/" target="_self" >Three leaders share how their trusts are saving money during the cost-of-living crisis</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener" >Three leaders share how their trusts are saving money during the cost-of-living crisis</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-trusts-the-cost-of-living-crisis/"><time datetime="2023-10-19T08:46:02+00:00">Oct 19, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener"><time datetime="2023-10-19T08:46:02+00:00">Oct 19, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -136,14 +136,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11258 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-case-studies tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arbor-dcat-mat-growth/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why Arbor&#8217;s MAT MIS is critical to DCAT&#8217;s growth strategy" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3.jpg 740w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arbor-dcat-mat-growth/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why Arbor&#8217;s MAT MIS is critical to DCAT&#8217;s growth strategy" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3.jpg 740w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-3-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arbor-dcat-mat-growth/" target="_self" >Why Arbor&#8217;s MAT MIS is critical to DCAT&#8217;s growth strategy</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arbor-dcat-mat-growth/" target="_blank" rel="noreferrer noopener" >Why Arbor&#8217;s MAT MIS is critical to DCAT&#8217;s growth strategy</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arbor-dcat-mat-growth/"><time datetime="2023-08-02T09:24:16+00:00">Aug 2, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arbor-dcat-mat-growth/" target="_blank" rel="noreferrer noopener"><time datetime="2023-08-02T09:24:16+00:00">Aug 2, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -160,14 +160,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-10992 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-change-management-tips/" target="_self" ><img width="2035" height="1656" src="/wp-content/uploads/2023/06/Blog-size-9.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Perfecting the art of change management at your school or trust" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-9.jpg 2035w, /wp-content/uploads/2023/06/Blog-size-9-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-9-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-9-768x625.jpg 768w, /wp-content/uploads/2023/06/Blog-size-9-1536x1250.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-9-370x300.jpg 370w" sizes="auto, (max-width: 2035px) 100vw, 2035px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-change-management-tips/" target="_blank" rel="noreferrer noopener" ><img width="2035" height="1656" src="/wp-content/uploads/2023/06/Blog-size-9.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Perfecting the art of change management at your school or trust" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-9.jpg 2035w, /wp-content/uploads/2023/06/Blog-size-9-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-9-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-9-768x625.jpg 768w, /wp-content/uploads/2023/06/Blog-size-9-1536x1250.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-9-370x300.jpg 370w" sizes="auto, (max-width: 2035px) 100vw, 2035px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-change-management-tips/" target="_self" >Perfecting the art of change management at your school or trust</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-change-management-tips/" target="_blank" rel="noreferrer noopener" >Perfecting the art of change management at your school or trust</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-change-management-tips/"><time datetime="2023-04-12T09:12:58+00:00">Apr 12, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-change-management-tips/" target="_blank" rel="noreferrer noopener"><time datetime="2023-04-12T09:12:58+00:00">Apr 12, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -184,14 +184,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-10977 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arbor-confederation-of-school-trusts/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor becomes latest CST Platinum Partner" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arbor-confederation-of-school-trusts/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor becomes latest CST Platinum Partner" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arbor-confederation-of-school-trusts/" target="_self" >Arbor becomes latest CST Platinum Partner</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arbor-confederation-of-school-trusts/" target="_blank" rel="noreferrer noopener" >Arbor becomes latest CST Platinum Partner</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arbor-confederation-of-school-trusts/"><time datetime="2023-03-16T09:03:41+00:00">Mar 16, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arbor-confederation-of-school-trusts/" target="_blank" rel="noreferrer noopener"><time datetime="2023-03-16T09:03:41+00:00">Mar 16, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -208,14 +208,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9809 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-multi-academy-trust-growth-strategy/" target="_self" ><img width="1850" height="1505" src="/wp-content/uploads/2022/11/Blog-size-2-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Multi-academy trust growth strategy: How to scale as one organisation" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-multi-academy-trust-growth-strategy/" target="_blank" rel="noreferrer noopener" ><img width="1850" height="1505" src="/wp-content/uploads/2022/11/Blog-size-2-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Multi-academy trust growth strategy: How to scale as one organisation" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-multi-academy-trust-growth-strategy/" target="_self" >Multi-academy trust growth strategy: How to scale as one organisation</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-multi-academy-trust-growth-strategy/" target="_blank" rel="noreferrer noopener" >Multi-academy trust growth strategy: How to scale as one organisation</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-multi-academy-trust-growth-strategy/"><time datetime="2022-11-23T11:06:38+00:00">Nov 23, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-multi-academy-trust-growth-strategy/" target="_blank" rel="noreferrer noopener"><time datetime="2022-11-23T11:06:38+00:00">Nov 23, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -232,14 +232,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9564 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-taking-on-vulnerable-schools/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-improvement.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How and why Prince Albert Community Trust takes on vulnerable schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-taking-on-vulnerable-schools/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-improvement.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How and why Prince Albert Community Trust takes on vulnerable schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-taking-on-vulnerable-schools/" target="_self" >How and why Prince Albert Community Trust takes on vulnerable schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-taking-on-vulnerable-schools/" target="_blank" rel="noreferrer noopener" >How and why Prince Albert Community Trust takes on vulnerable schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-taking-on-vulnerable-schools/"><time datetime="2022-09-14T10:32:49+00:00">Sep 14, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-taking-on-vulnerable-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2022-09-14T10:32:49+00:00">Sep 14, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -256,20 +256,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8904 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-culture tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-create-a-shared-culture-in-your-trust/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2022/03/4.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to create a shared culture in your Trust" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-create-a-shared-culture-in-your-trust/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2022/03/4.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to create a shared culture in your Trust" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-create-a-shared-culture-in-your-trust/" target="_self" >How to create a shared culture in your Trust</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-create-a-shared-culture-in-your-trust/" target="_blank" rel="noreferrer noopener" >How to create a shared culture in your Trust</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-create-a-shared-culture-in-your-trust/"><time datetime="2022-03-29T12:17:26+00:00">Mar 29, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-create-a-shared-culture-in-your-trust/" target="_blank" rel="noreferrer noopener"><time datetime="2022-03-29T12:17:26+00:00">Mar 29, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/culture/" rel="tag">Culture</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/culture/" target="_blank" rel="noreferrer noopener" rel="tag">Culture</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
 </div>
 </div>
 
@@ -280,20 +280,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8860 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-mis-series tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-three-top-tips-for-an-effective-communications-strategy/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/54.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The MAT MIS series &#8211; three top tips for an effective communications strategy" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-three-top-tips-for-an-effective-communications-strategy/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/54.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The MAT MIS series &#8211; three top tips for an effective communications strategy" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-three-top-tips-for-an-effective-communications-strategy/" target="_self" >The MAT MIS series &#8211; three top tips for an effective communications strategy</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-three-top-tips-for-an-effective-communications-strategy/" target="_blank" rel="noreferrer noopener" >The MAT MIS series &#8211; three top tips for an effective communications strategy</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-three-top-tips-for-an-effective-communications-strategy/"><time datetime="2022-03-01T14:44:30+00:00">Mar 1, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-three-top-tips-for-an-effective-communications-strategy/" target="_blank" rel="noreferrer noopener"><time datetime="2022-03-01T14:44:30+00:00">Mar 1, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mat-mis-series/" rel="tag">MAT MIS Series</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/mat-mis-series/" target="_blank" rel="noreferrer noopener" rel="tag">MAT MIS Series</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
 </div>
 </div>
 
@@ -304,20 +304,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8759 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-mis-series tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-five-tips-to-be-more-data-driven/" target="_self" ><img width="1110" height="903" src="/wp-content/uploads/2022/06/Blog-size-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The MAT MIS series: How to make data-driven decisions for your MAT" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-five-tips-to-be-more-data-driven/" target="_blank" rel="noreferrer noopener" ><img width="1110" height="903" src="/wp-content/uploads/2022/06/Blog-size-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The MAT MIS series: How to make data-driven decisions for your MAT" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-five-tips-to-be-more-data-driven/" target="_self" >The MAT MIS series: How to make data-driven decisions for your MAT</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-five-tips-to-be-more-data-driven/" target="_blank" rel="noreferrer noopener" >The MAT MIS series: How to make data-driven decisions for your MAT</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-five-tips-to-be-more-data-driven/"><time datetime="2022-01-31T14:13:09+00:00">Jan 31, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-five-tips-to-be-more-data-driven/" target="_blank" rel="noreferrer noopener"><time datetime="2022-01-31T14:13:09+00:00">Jan 31, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mat-mis-series/" rel="tag">MAT MIS Series</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/mat-mis-series/" target="_blank" rel="noreferrer noopener" rel="tag">MAT MIS Series</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mat-operations/" rel="tag">MAT Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mats/" rel="tag">MATs</a></div></div>
 </div>
 </div>
 
@@ -328,14 +328,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8547 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-introducing-the-new-mat-mis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Introducing: The new MAT MIS" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-introducing-the-new-mat-mis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Introducing: The new MAT MIS" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-introducing-the-new-mat-mis/" target="_self" >Introducing: The new MAT MIS</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-introducing-the-new-mat-mis/" target="_blank" rel="noreferrer noopener" >Introducing: The new MAT MIS</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-introducing-the-new-mat-mis/"><time datetime="2021-12-07T09:37:36+00:00">Dec 7, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-introducing-the-new-mat-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2021-12-07T09:37:36+00:00">Dec 7, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -352,14 +352,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8417 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-academies-enterprise-trust-aet-arbor-mis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Academies Enterprise Trust chooses Arbor as the MIS for its 57 schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-academies-enterprise-trust-aet-arbor-mis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Academies Enterprise Trust chooses Arbor as the MIS for its 57 schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-academies-enterprise-trust-aet-arbor-mis/" target="_self" >Academies Enterprise Trust chooses Arbor as the MIS for its 57 schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-academies-enterprise-trust-aet-arbor-mis/" target="_blank" rel="noreferrer noopener" >Academies Enterprise Trust chooses Arbor as the MIS for its 57 schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-academies-enterprise-trust-aet-arbor-mis/"><time datetime="2021-10-11T10:33:14+00:00">Oct 11, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-academies-enterprise-trust-aet-arbor-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2021-10-11T10:33:14+00:00">Oct 11, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -376,14 +376,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8228 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-free-ebook-for-mat-leaders/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/06/Wordpress-dimensions-16.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to build a resilient trust: Interviews with MAT leaders and industry experts" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-free-ebook-for-mat-leaders/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/06/Wordpress-dimensions-16.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to build a resilient trust: Interviews with MAT leaders and industry experts" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-free-ebook-for-mat-leaders/" target="_self" >How to build a resilient trust: Interviews with MAT leaders and industry experts</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-free-ebook-for-mat-leaders/" target="_blank" rel="noreferrer noopener" >How to build a resilient trust: Interviews with MAT leaders and industry experts</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-free-ebook-for-mat-leaders/"><time datetime="2021-06-29T08:13:09+00:00">Jun 29, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-free-ebook-for-mat-leaders/" target="_blank" rel="noreferrer noopener"><time datetime="2021-06-29T08:13:09+00:00">Jun 29, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -400,14 +400,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5614 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="United Learning chooses Arbor MIS for all 72 of its state schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="United Learning chooses Arbor MIS for all 72 of its state schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/" target="_self" >United Learning chooses Arbor MIS for all 72 of its state schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/" target="_blank" rel="noreferrer noopener" >United Learning chooses Arbor MIS for all 72 of its state schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/"><time datetime="2020-07-17T15:41:00+00:00">Jul 17, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-united-learning-chooses-arbor-mis-for-all-72-of-its-state-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2020-07-17T15:41:00+00:00">Jul 17, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -424,14 +424,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2113 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/" target="_self" ><img width="1581" height="1266" src="/wp-content/uploads/2018/12/caleb-woods-269348-unsplash-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Scaling your MAT sustainably: Different ways to centralise to achieve economies of scale" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/" target="_blank" rel="noreferrer noopener" ><img width="1581" height="1266" src="/wp-content/uploads/2018/12/caleb-woods-269348-unsplash-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Scaling your MAT sustainably: Different ways to centralise to achieve economies of scale" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/" target="_self" >Scaling your MAT sustainably: Different ways to centralise to achieve economies of scale</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/" target="_blank" rel="noreferrer noopener" >Scaling your MAT sustainably: Different ways to centralise to achieve economies of scale</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/"><time datetime="2018-10-30T15:44:31+00:00">Oct 30, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-scaling-your-mat-sustainably-different-ways-to-centralise-to-achieve-economies-of-scale/" target="_blank" rel="noreferrer noopener"><time datetime="2018-10-30T15:44:31+00:00">Oct 30, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -448,14 +448,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1928 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-common-barriers-to-scaling-a-mat/" target="_self" ><img width="1110" height="900" src="/wp-content/uploads/2018/07/Image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The common barriers to scaling a MAT" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/Image.png 1110w, /wp-content/uploads/2018/07/Image-300x243.png 300w, /wp-content/uploads/2018/07/Image-768x623.png 768w, /wp-content/uploads/2018/07/Image-1024x830.png 1024w, /wp-content/uploads/2018/07/Image-370x300.png 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-common-barriers-to-scaling-a-mat/" target="_blank" rel="noreferrer noopener" ><img width="1110" height="900" src="/wp-content/uploads/2018/07/Image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The common barriers to scaling a MAT" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/Image.png 1110w, /wp-content/uploads/2018/07/Image-300x243.png 300w, /wp-content/uploads/2018/07/Image-768x623.png 768w, /wp-content/uploads/2018/07/Image-1024x830.png 1024w, /wp-content/uploads/2018/07/Image-370x300.png 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-common-barriers-to-scaling-a-mat/" target="_self" >The common barriers to scaling a MAT</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-common-barriers-to-scaling-a-mat/" target="_blank" rel="noreferrer noopener" >The common barriers to scaling a MAT</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-common-barriers-to-scaling-a-mat/"><time datetime="2018-04-19T09:30:12+00:00">Apr 19, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-common-barriers-to-scaling-a-mat/" target="_blank" rel="noreferrer noopener"><time datetime="2018-04-19T09:30:12+00:00">Apr 19, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>

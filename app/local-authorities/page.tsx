@@ -581,7 +581,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph"><a href="/wp-content/uploads/2023/03/Strategies-for-embracing-new-technology-in-education.pdf">Read our case study</a> with HfL Education (Hertfordshire), Hampshire County Council and AWS on on how they managed the change</p>
+<p class="wp-block-paragraph"><a href="https://arbor-education.com/wp-content/uploads/2023/03/Strategies-for-embracing-new-technology-in-education.pdf" target="_blank" rel="noreferrer noopener">Read our case study</a> with HfL Education (Hertfordshire), Hampshire County Council and AWS on on how they managed the change</p>
 </div>
 </div>
 </div>

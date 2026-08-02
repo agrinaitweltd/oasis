@@ -23,7 +23,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/governors/" rel="tag">Governors</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/governors/" target="_blank" rel="noreferrer noopener" rel="tag">Governors</a></div></div>
 </div>
 </div></div>
 </div>
@@ -40,7 +40,7 @@ export default function Page() {
 <h2><span style="font-weight: 400; color: #009d00;">Governor tools in Arbor MIS</span></h2>
 <p><span style="font-weight: 400;">Arbor is a cloud-based MIS, helping schools of all sizes work more easily and collaboratively, with intuitive tools designed to make a difference. With over 3,500 schools and trusts, we are the UK’s fastest-growing MIS community. </span></p>
 <p><span style="font-weight: 400;">In Arbor, governors can use tools such as Custom Report Writer to build out a report unique to their school, and live feed this report into Google or Power BI. Governors can look at this information any time and know that their live dashboard is up-to-date and truly reflects what is going on in their school. This could be for when governors want to see a statistical average for Pupil Premium attainment, or the attendance for a particular demographic in one year group &#8211; any kind of information that needs to be investigated. </span></p>
-<p><span style="font-weight: 400;">Arbor are also proud to have a team made up of ex-teachers and school staff, many of whom continue to be governors. </span><a href="/blog-role-of-school-governors/"><span style="font-weight: 400;">Click here</span></a><span style="font-weight: 400;"> to hear more from our school governors and trustees. </span></p>
+<p><span style="font-weight: 400;">Arbor are also proud to have a team made up of ex-teachers and school staff, many of whom continue to be governors. </span><a href="https://arbor-education.com/blog-role-of-school-governors/" target="_blank" rel="noreferrer noopener"><span style="font-weight: 400;">Click here</span></a><span style="font-weight: 400;"> to hear more from our school governors and trustees. </span></p>
 <p><span style="font-weight: 400;">If you think your school or trust would benefit from reviewing their MIS, we’d be happy to talk through your options with you, to help you find the right fit. </span><a href="/contact/"><span style="font-weight: 400;">Click here to get in touch</span></a><span style="font-weight: 400;"> with one of our friendly team. </span></p>
 <div class='rp4wp-related-posts'>
 <h3>You might also like:</h3>
@@ -64,7 +64,7 @@ export default function Page() {
 </div></div>
 
 
-<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="/tag/governors/" rel="tag">Governors</a></div>
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="https://arbor-education.com/tag/governors/" target="_blank" rel="noreferrer noopener" rel="tag">Governors</a></div>
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -120,7 +120,7 @@ export default function Page() {
 
 
 
-<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-response-demystifying-the-relationship-between-las-and-mis-providers/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Response: Demystifying the relationship between LAs and MIS providers</span></a></div>
+<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="https://arbor-education.com/blog-response-demystifying-the-relationship-between-las-and-mis-providers/" target="_blank" rel="noreferrer noopener" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Response: Demystifying the relationship between LAs and MIS providers</span></a></div>
 
 <div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-how-arbor-keeps-your-school-data-safe/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">How Arbor keeps your school data safe</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>

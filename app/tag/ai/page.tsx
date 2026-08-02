@@ -125,7 +125,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/ai/" rel="tag">AI</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/innovation/" rel="tag">Innovation</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/ai/" rel="tag">AI</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/innovation/" target="_blank" rel="noreferrer noopener" rel="tag">Innovation</a></div></div>
 </div>
 </div>
 

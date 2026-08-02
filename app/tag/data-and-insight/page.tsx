@@ -40,14 +40,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-17830 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-the-data-drop">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: A breakdown A Level Results by subject area" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-classroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-classroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-classroom-1-768x583.jpg 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: A breakdown A Level Results by subject area" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-classroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-classroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-classroom-1-768x583.jpg 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/" target="_self" >The Data Drop: A breakdown A Level Results by subject area</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/" target="_blank" rel="noreferrer noopener" >The Data Drop: A breakdown A Level Results by subject area</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/"><time datetime="2025-08-14T09:58:13+00:00">Aug 14, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-data-drop-a-breakdown-a-level-results-by-subject-area/" target="_blank" rel="noreferrer noopener"><time datetime="2025-08-14T09:58:13+00:00">Aug 14, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -64,14 +64,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-17649 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-cost-time-value-the-roi-report-2025/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cost, time, value: The ROI Report 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-768x583.png 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cost, time, value: The ROI Report 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-768x583.png 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-cost-time-value-the-roi-report-2025/" target="_self" >Cost, time, value: The ROI Report 2025</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener" >Cost, time, value: The ROI Report 2025</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-cost-time-value-the-roi-report-2025/"><time datetime="2025-07-16T14:13:34+00:00">Jul 16, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener"><time datetime="2025-07-16T14:13:34+00:00">Jul 16, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -88,14 +88,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-17541 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-the-data-drop">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-data-drop-national-phonics-results-2025/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2025/06/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: National phonics results 2025 " style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/06/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-768x583.png 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-data-drop-national-phonics-results-2025/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2025/06/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: National phonics results 2025 " style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/06/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/06/Copy-of-Blog-image-2-768x583.png 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-data-drop-national-phonics-results-2025/" target="_self" >The Data Drop: National phonics results 2025 </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-data-drop-national-phonics-results-2025/" target="_blank" rel="noreferrer noopener" >The Data Drop: National phonics results 2025 </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-data-drop-national-phonics-results-2025/"><time datetime="2025-06-24T15:37:23+00:00">Jun 24, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-data-drop-national-phonics-results-2025/" target="_blank" rel="noreferrer noopener"><time datetime="2025-06-24T15:37:23+00:00">Jun 24, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -112,14 +112,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-16760 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-the-data-drop">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-data-drop-school-clubs-most-popular/" target="_self" ><img width="1059" height="600" src="/wp-content/uploads/2024/10/Blog-1-classroom.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Which school clubs are the most popular?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-1-classroom.jpg 1059w, /wp-content/uploads/2024/10/Blog-1-classroom-300x170.jpg 300w, /wp-content/uploads/2024/10/Blog-1-classroom-1024x580.jpg 1024w, /wp-content/uploads/2024/10/Blog-1-classroom-768x435.jpg 768w" sizes="auto, (max-width: 1059px) 100vw, 1059px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-data-drop-school-clubs-most-popular/" target="_blank" rel="noreferrer noopener" ><img width="1059" height="600" src="/wp-content/uploads/2024/10/Blog-1-classroom.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Which school clubs are the most popular?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-1-classroom.jpg 1059w, /wp-content/uploads/2024/10/Blog-1-classroom-300x170.jpg 300w, /wp-content/uploads/2024/10/Blog-1-classroom-1024x580.jpg 1024w, /wp-content/uploads/2024/10/Blog-1-classroom-768x435.jpg 768w" sizes="auto, (max-width: 1059px) 100vw, 1059px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-data-drop-school-clubs-most-popular/" target="_self" >The Data Drop: Which school clubs are the most popular?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-data-drop-school-clubs-most-popular/" target="_blank" rel="noreferrer noopener" >The Data Drop: Which school clubs are the most popular?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-data-drop-school-clubs-most-popular/"><time datetime="2025-02-21T09:55:40+00:00">Feb 21, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-data-drop-school-clubs-most-popular/" target="_blank" rel="noreferrer noopener"><time datetime="2025-02-21T09:55:40+00:00">Feb 21, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -160,14 +160,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-12316 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-the-data-drop">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-gcse-results-day-comparison/" target="_self" ><img width="560" height="425" src="/wp-content/uploads/2024/08/3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Have GCSE Results been affected by attendance and the pandemic?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/08/3.png 560w, /wp-content/uploads/2024/08/3-300x228.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-gcse-results-day-comparison/" target="_blank" rel="noreferrer noopener" ><img width="560" height="425" src="/wp-content/uploads/2024/08/3.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Have GCSE Results been affected by attendance and the pandemic?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/08/3.png 560w, /wp-content/uploads/2024/08/3-300x228.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-gcse-results-day-comparison/" target="_self" >The Data Drop: Have GCSE Results been affected by attendance and the pandemic?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-gcse-results-day-comparison/" target="_blank" rel="noreferrer noopener" >The Data Drop: Have GCSE Results been affected by attendance and the pandemic?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-gcse-results-day-comparison/"><time datetime="2024-08-22T08:44:38+00:00">Aug 22, 2024</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-gcse-results-day-comparison/" target="_blank" rel="noreferrer noopener"><time datetime="2024-08-22T08:44:38+00:00">Aug 22, 2024</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -184,14 +184,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-12262 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Using Live Data in Policy Making: How Arbor and the GLA worked together to monitor Universal Free School Meals in London" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2.jpg 740w, /wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2-300x244.jpg 300w, /wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Using Live Data in Policy Making: How Arbor and the GLA worked together to monitor Universal Free School Meals in London" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2.jpg 740w, /wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2-300x244.jpg 300w, /wp-content/uploads/2023/07/Blog-and-social-media-icons-2023-2-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/" target="_self" >Using Live Data in Policy Making: How Arbor and the GLA worked together to monitor Universal Free School Meals in London</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/" target="_blank" rel="noreferrer noopener" >Using Live Data in Policy Making: How Arbor and the GLA worked together to monitor Universal Free School Meals in London</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/"><time datetime="2024-07-26T09:19:47+00:00">Jul 26, 2024</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arbors-live-data-to-evidence-the-135m-greater-london-authority-universal-free-school-meal-programme/" target="_blank" rel="noreferrer noopener"><time datetime="2024-07-26T09:19:47+00:00">Jul 26, 2024</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -221,7 +221,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/product-updates/" rel="tag">Product updates</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/product-updates/" target="_blank" rel="noreferrer noopener" rel="tag">Product updates</a></div></div>
 </div>
 </div>
 
@@ -232,14 +232,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-12164 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-the-data-drop">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-three-school-insights-for-the-education-secretary/" target="_self" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Three insights that should be on the new government’s mind" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-8.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-8-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-8-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-8-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-8-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-8-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-three-school-insights-for-the-education-secretary/" target="_blank" rel="noreferrer noopener" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The Data Drop: Three insights that should be on the new government’s mind" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-8.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-8-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-8-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-8-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-8-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-8-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-three-school-insights-for-the-education-secretary/" target="_self" >The Data Drop: Three insights that should be on the new government’s mind</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-three-school-insights-for-the-education-secretary/" target="_blank" rel="noreferrer noopener" >The Data Drop: Three insights that should be on the new government’s mind</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-three-school-insights-for-the-education-secretary/"><time datetime="2024-07-04T12:38:25+00:00">Jul 4, 2024</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-three-school-insights-for-the-education-secretary/" target="_blank" rel="noreferrer noopener"><time datetime="2024-07-04T12:38:25+00:00">Jul 4, 2024</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -256,20 +256,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11160 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-product-release">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-wait-is-over-dfe-primary-assessment-benchmarks/" target="_self" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The wait is over for DfE Primary Assessment Benchmarks" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-8.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-8-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-8-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-8-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-8-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-8-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-wait-is-over-dfe-primary-assessment-benchmarks/" target="_blank" rel="noreferrer noopener" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The wait is over for DfE Primary Assessment Benchmarks" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-8.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-8-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-8-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-8-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-8-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-8-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-wait-is-over-dfe-primary-assessment-benchmarks/" target="_self" >The wait is over for DfE Primary Assessment Benchmarks</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-wait-is-over-dfe-primary-assessment-benchmarks/" target="_blank" rel="noreferrer noopener" >The wait is over for DfE Primary Assessment Benchmarks</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-wait-is-over-dfe-primary-assessment-benchmarks/"><time datetime="2023-06-29T08:08:07+00:00">Jun 29, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-wait-is-over-dfe-primary-assessment-benchmarks/" target="_blank" rel="noreferrer noopener"><time datetime="2023-06-29T08:08:07+00:00">Jun 29, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/product-release/" rel="tag">Product release</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/product-release/" target="_blank" rel="noreferrer noopener" rel="tag">Product release</a></div></div>
 </div>
 </div>
 
@@ -328,14 +328,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8249 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-does-a-school-data-manager-do/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does a School Data Manager do?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does a School Data Manager do?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-does-a-school-data-manager-do/" target="_self" >What does a School Data Manager do?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener" >What does a School Data Manager do?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-does-a-school-data-manager-do/"><time datetime="2021-06-30T15:16:59+00:00">Jun 30, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener"><time datetime="2021-06-30T15:16:59+00:00">Jun 30, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -352,20 +352,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7644 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-popular">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-power-bi-for-data-managers/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways School Data Managers are using Microsoft Power BI" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-power-bi-for-data-managers/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways School Data Managers are using Microsoft Power BI" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-power-bi-for-data-managers/" target="_self" >5 ways School Data Managers are using Microsoft Power BI</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-power-bi-for-data-managers/" target="_blank" rel="noreferrer noopener" >5 ways School Data Managers are using Microsoft Power BI</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-power-bi-for-data-managers/"><time datetime="2021-02-25T09:30:01+00:00">Feb 25, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-power-bi-for-data-managers/" target="_blank" rel="noreferrer noopener"><time datetime="2021-02-25T09:30:01+00:00">Feb 25, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/popular/" rel="tag">Popular</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/data-and-insight/" rel="tag">Data and Insight</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a></div></div>
 </div>
 </div>
 
@@ -400,14 +400,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5205 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-understanding-your-mat-report/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Announcing the new Understanding Your MAT Report &#8211; out now!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-understanding-your-mat-report/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Announcing the new Understanding Your MAT Report &#8211; out now!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-understanding-your-mat-report/" target="_self" >Announcing the new Understanding Your MAT Report &#8211; out now!</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-understanding-your-mat-report/" target="_blank" rel="noreferrer noopener" >Announcing the new Understanding Your MAT Report &#8211; out now!</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-understanding-your-mat-report/"><time datetime="2020-06-04T07:20:33+00:00">Jun 4, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-understanding-your-mat-report/" target="_blank" rel="noreferrer noopener"><time datetime="2020-06-04T07:20:33+00:00">Jun 4, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -424,14 +424,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5158 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-mat-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Breaking the link between deprivation and attainment in schools &#8211; article by Loic Menzies" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Breaking the link between deprivation and attainment in schools &#8211; article by Loic Menzies" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/" target="_self" >Breaking the link between deprivation and attainment in schools &#8211; article by Loic Menzies</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/" target="_blank" rel="noreferrer noopener" >Breaking the link between deprivation and attainment in schools &#8211; article by Loic Menzies</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/"><time datetime="2020-06-01T10:27:34+00:00">Jun 1, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-breaking-the-link-between-deprivation-and-attainment-in-schools-article-by-loic-menzies/" target="_blank" rel="noreferrer noopener"><time datetime="2020-06-01T10:27:34+00:00">Jun 1, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -448,14 +448,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4308 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-mat-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-is-bi-and-how-can-it-help-my-trust/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What is BI and how can it help my trust?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-is-bi-and-how-can-it-help-my-trust/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What is BI and how can it help my trust?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-is-bi-and-how-can-it-help-my-trust/" target="_self" >What is BI and how can it help my trust?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-is-bi-and-how-can-it-help-my-trust/" target="_blank" rel="noreferrer noopener" >What is BI and how can it help my trust?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-is-bi-and-how-can-it-help-my-trust/"><time datetime="2020-01-21T08:19:54+00:00">Jan 21, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-is-bi-and-how-can-it-help-my-trust/" target="_blank" rel="noreferrer noopener"><time datetime="2020-01-21T08:19:54+00:00">Jan 21, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -472,14 +472,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3715 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="KS1 &#038; KS2 data for your MAT is now available in Group Insight!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="KS1 &#038; KS2 data for your MAT is now available in Group Insight!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/" target="_self" >KS1 &#038; KS2 data for your MAT is now available in Group Insight!</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/" target="_blank" rel="noreferrer noopener" >KS1 &#038; KS2 data for your MAT is now available in Group Insight!</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/"><time datetime="2019-10-18T07:54:03+00:00">Oct 18, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-ks1-ks2-data-for-your-mat-is-now-available-in-group-insight/" target="_blank" rel="noreferrer noopener"><time datetime="2019-10-18T07:54:03+00:00">Oct 18, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -496,14 +496,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3124 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-reduce-data-entry-at-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reduce data entry at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reduce data entry at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-reduce-data-entry-at-your-school/" target="_self" >How to reduce data entry at your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener" >How to reduce data entry at your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-reduce-data-entry-at-your-school/"><time datetime="2019-07-05T11:45:26+00:00">Jul 5, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2019-07-05T11:45:26+00:00">Jul 5, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -520,14 +520,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2133 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-mat-centralisation/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/07/children.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="4 practical ways to centralise school data &#038; back office ops" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/children.jpg 1555w, /wp-content/uploads/2018/07/children-300x244.jpg 300w, /wp-content/uploads/2018/07/children-768x625.jpg 768w, /wp-content/uploads/2018/07/children-1024x834.jpg 1024w, /wp-content/uploads/2018/07/children-370x300.jpg 370w" sizes="auto, (max-width: 1555px) 100vw, 1555px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/07/children.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="4 practical ways to centralise school data &#038; back office ops" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/children.jpg 1555w, /wp-content/uploads/2018/07/children-300x244.jpg 300w, /wp-content/uploads/2018/07/children-768x625.jpg 768w, /wp-content/uploads/2018/07/children-1024x834.jpg 1024w, /wp-content/uploads/2018/07/children-370x300.jpg 370w" sizes="auto, (max-width: 1555px) 100vw, 1555px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-mat-centralisation/" target="_self" >4 practical ways to centralise school data &#038; back office ops</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener" >4 practical ways to centralise school data &#038; back office ops</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-mat-centralisation/"><time datetime="2018-12-05T15:32:07+00:00">Dec 5, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener"><time datetime="2018-12-05T15:32:07+00:00">Dec 5, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -544,14 +544,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2035 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/12/4-ways-a-cloud-based-MIS-could-transform-the-way-your-school-operates.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The DfE&#8217;s ASP service helps you ask the important questions &#8211; Arbor can help you answer them" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/12/4-ways-a-cloud-based-MIS-could-transform-the-way-your-school-operates.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The DfE&#8217;s ASP service helps you ask the important questions &#8211; Arbor can help you answer them" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/" target="_self" >The DfE&#8217;s ASP service helps you ask the important questions &#8211; Arbor can help you answer them</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/" target="_blank" rel="noreferrer noopener" >The DfE&#8217;s ASP service helps you ask the important questions &#8211; Arbor can help you answer them</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/"><time datetime="2018-10-17T15:42:26+00:00">Oct 17, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-dfes-asp-service-helps-you-ask-the-important-questions-arbor-can-help-you-answer-them/" target="_blank" rel="noreferrer noopener"><time datetime="2018-10-17T15:42:26+00:00">Oct 17, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -568,14 +568,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1905 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-governors-can-get-to-grips-with-data-literacy/" target="_self" ><img width="1110" height="900" src="/wp-content/uploads/2018/07/Image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How school governors can get to grips with data literacy" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/Image.png 1110w, /wp-content/uploads/2018/07/Image-300x243.png 300w, /wp-content/uploads/2018/07/Image-768x623.png 768w, /wp-content/uploads/2018/07/Image-1024x830.png 1024w, /wp-content/uploads/2018/07/Image-370x300.png 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-governors-can-get-to-grips-with-data-literacy/" target="_blank" rel="noreferrer noopener" ><img width="1110" height="900" src="/wp-content/uploads/2018/07/Image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How school governors can get to grips with data literacy" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/Image.png 1110w, /wp-content/uploads/2018/07/Image-300x243.png 300w, /wp-content/uploads/2018/07/Image-768x623.png 768w, /wp-content/uploads/2018/07/Image-1024x830.png 1024w, /wp-content/uploads/2018/07/Image-370x300.png 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-governors-can-get-to-grips-with-data-literacy/" target="_self" >How school governors can get to grips with data literacy</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-governors-can-get-to-grips-with-data-literacy/" target="_blank" rel="noreferrer noopener" >How school governors can get to grips with data literacy</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-governors-can-get-to-grips-with-data-literacy/"><time datetime="2018-10-10T15:01:46+00:00">Oct 10, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-governors-can-get-to-grips-with-data-literacy/" target="_blank" rel="noreferrer noopener"><time datetime="2018-10-10T15:01:46+00:00">Oct 10, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -592,14 +592,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1831 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-ofsted-data-and-a-school-system-in-flux/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/dan-gold-605182-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Ofsted, data and a school system in flux" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-ofsted-data-and-a-school-system-in-flux/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/dan-gold-605182-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Ofsted, data and a school system in flux" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-ofsted-data-and-a-school-system-in-flux/" target="_self" >Ofsted, data and a school system in flux</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-ofsted-data-and-a-school-system-in-flux/" target="_blank" rel="noreferrer noopener" >Ofsted, data and a school system in flux</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-ofsted-data-and-a-school-system-in-flux/"><time datetime="2018-10-02T16:36:08+00:00">Oct 2, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-ofsted-data-and-a-school-system-in-flux/" target="_blank" rel="noreferrer noopener"><time datetime="2018-10-02T16:36:08+00:00">Oct 2, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>

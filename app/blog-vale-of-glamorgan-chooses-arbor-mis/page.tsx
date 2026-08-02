@@ -141,9 +141,9 @@ export default function Page() {
 
 
 
-<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-welcoming-habitude-to-arbor/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Welcoming Habitude to Arbor</span></a></div>
+<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="https://arbor-education.com/blog-welcoming-habitude-to-arbor/" target="_blank" rel="noreferrer noopener" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Welcoming Habitude to Arbor</span></a></div>
 
-<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-bromcom-v-arbor-legal-dispute/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Bromcom v Arbor Legal Dispute</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
+<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="https://arbor-education.com/blog-bromcom-v-arbor-legal-dispute/" target="_blank" rel="noreferrer noopener" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Bromcom v Arbor Legal Dispute</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>
 </div>
 ` }}

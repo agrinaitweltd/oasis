@@ -38,23 +38,11 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/3.png" alt="Arbor reviews" class="wp-image-9264"/></figure>
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/3.png" alt="Arbor reviews" class="wp-image-9264"/></figure>
 
 
 
-<figure class="wp-block-image"><a href="https://youtu.be/4d3X6QYnIPc"><img width="882" height="492" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.50.png" alt="Arbor reviews" class="wp-image-9274"/></a></figure>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/SogzEgAzLSo"><img width="882" height="494" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.40.png" alt="Arbor review" class="wp-image-9273"/></a></figure>
-
-
-
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/5.png" alt="" class="wp-image-9265"/></figure>
+<figure class="wp-block-image"><a href="https://youtu.be/4d3X6QYnIPc"><img width="882" height="492" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.50.png" alt="Arbor reviews" class="wp-image-9274"/></a></figure>
 
 
 
@@ -62,23 +50,11 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/7.png" alt="" class="wp-image-9266"/></figure>
+<figure class="wp-block-image"><a href="https://youtu.be/SogzEgAzLSo"><img width="882" height="494" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.40.png" alt="Arbor review" class="wp-image-9273"/></a></figure>
 
 
 
-<figure class="wp-block-image"><a href="https://youtu.be/D6pSBfmT1D4"><img width="880" height="492" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.23.png" alt="" class="wp-image-9277"/></a></figure>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/bV9RoqgB0Eo"><img width="884" height="492" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.49.07.png" alt="" class="wp-image-9276"/></a></figure>
-
-
-
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/9.png" alt="" class="wp-image-9267"/></figure>
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/5.png" alt="" class="wp-image-9265"/></figure>
 
 
 
@@ -86,23 +62,11 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/15.png" alt="" class="wp-image-9270"/></figure>
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/7.png" alt="" class="wp-image-9266"/></figure>
 
 
 
-<figure class="wp-block-image"><a href="https://youtu.be/C1RKERkDiMU"><img width="880" height="490" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.59.png" alt="" class="wp-image-9275"/></a></figure>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<figure class="wp-block-image"><a href="https://youtu.be/pkfrbwL1XdA"><img width="884" height="498" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.13.png" alt="" class="wp-image-9271"/></a></figure>
-
-
-
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/13.png" alt="" class="wp-image-9269"/></figure>
+<figure class="wp-block-image"><a href="https://youtu.be/D6pSBfmT1D4"><img width="880" height="492" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.23.png" alt="" class="wp-image-9277"/></a></figure>
 
 
 
@@ -110,11 +74,47 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image"><img width="1480" height="1204" src="//srv/htdocs/wp-content/uploads/2022/06/11.png" alt="" class="wp-image-9268"/></figure>
+<figure class="wp-block-image"><a href="https://youtu.be/bV9RoqgB0Eo"><img width="884" height="492" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.49.07.png" alt="" class="wp-image-9276"/></a></figure>
 
 
 
-<figure class="wp-block-image"><a href="https://youtu.be/XgV9ZdyPOyY"><img width="866" height="494" src="//srv/htdocs/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.33.png" alt="" class="wp-image-9272"/></a></figure>
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/9.png" alt="" class="wp-image-9267"/></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/15.png" alt="" class="wp-image-9270"/></figure>
+
+
+
+<figure class="wp-block-image"><a href="https://youtu.be/C1RKERkDiMU"><img width="880" height="490" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.59.png" alt="" class="wp-image-9275"/></a></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<figure class="wp-block-image"><a href="https://youtu.be/pkfrbwL1XdA"><img width="884" height="498" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.13.png" alt="" class="wp-image-9271"/></a></figure>
+
+
+
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/13.png" alt="" class="wp-image-9269"/></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<figure class="wp-block-image"><img width="1480" height="1204" src="/wp-content/uploads/2022/06/11.png" alt="" class="wp-image-9268"/></figure>
+
+
+
+<figure class="wp-block-image"><a href="https://youtu.be/XgV9ZdyPOyY"><img width="866" height="494" src="/wp-content/uploads/2022/06/Screenshot-2022-06-22-at-14.48.33.png" alt="" class="wp-image-9272"/></a></figure>
 
 
 
@@ -213,9 +213,9 @@ export default function Page() {
 
 
 
-<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-culture-ebook-for-mat-staff/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Our new ebook for MAT staff!</span></a></div>
+<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="https://arbor-education.com/blog-culture-ebook-for-mat-staff/" target="_blank" rel="noreferrer noopener" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Our new ebook for MAT staff!</span></a></div>
 
-<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-should-schools-in-a-mat-be-close-together/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Should schools in a MAT be close together?</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
+<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="https://arbor-education.com/blog-should-schools-in-a-mat-be-close-together/" target="_blank" rel="noreferrer noopener" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Should schools in a MAT be close together?</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>
 </div>
 ` }}

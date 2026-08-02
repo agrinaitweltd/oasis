@@ -102,7 +102,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image"><img width="2016" height="1512" src="//srv/htdocs/wp-content/uploads/2021/12/IMG_5418.jpg" alt="" class="wp-image-9993"/></figure>
+<figure class="wp-block-image"><img width="2016" height="1512" src="/wp-content/uploads/2021/12/IMG_5418.jpg" alt="" class="wp-image-9993"/></figure>
 
 
 
@@ -257,7 +257,7 @@ export default function Page() {
 
 
 
-<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">How we use our MAT&#8217;s systems to drive staff wellbeing and retention</span></a></div>
+<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="https://arbor-education.com/blog-mats-systems-to-drive-staff-wellbeing-and-retention/" target="_blank" rel="noreferrer noopener" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">How we use our MAT&#8217;s systems to drive staff wellbeing and retention</span></a></div>
 
 <div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-arbor-by-numbers/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Arbor by numbers</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>

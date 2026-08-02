@@ -16,14 +16,14 @@ export default function Page() {
 
 
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:0;padding-bottom:var(--wp--preset--spacing--50);padding-left:0"><ul class="columns-3 alignfull wp-block-post-template is-layout-grid wp-container-core-post-template-is-layout-8f400b11 wp-block-post-template-is-layout-grid"><li class="wp-block-post post-17649 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-cost-time-value-the-roi-report-2025/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cost, time, value: The ROI Report 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-768x583.png 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cost, time, value: The ROI Report 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/07/Copy-of-Blog-image-2.png 1120w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-300x228.png 300w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-1024x777.png 1024w, /wp-content/uploads/2025/07/Copy-of-Blog-image-2-768x583.png 768w" sizes="(max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-cost-time-value-the-roi-report-2025/" target="_self" >Cost, time, value: The ROI Report 2025</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener" >Cost, time, value: The ROI Report 2025</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-cost-time-value-the-roi-report-2025/"><time datetime="2025-07-16T14:13:34+00:00">Jul 16, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-cost-time-value-the-roi-report-2025/" target="_blank" rel="noreferrer noopener"><time datetime="2025-07-16T14:13:34+00:00">Jul 16, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -88,20 +88,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11426 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-popular tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-is-a-school-mis/" target="_self" ><img width="1110" height="903" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What is a school MIS?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4.jpg 1110w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-1024x833.jpg 1024w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-768x625.jpg 768w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-370x300.jpg 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-is-a-school-mis/" target="_blank" rel="noreferrer noopener" ><img width="1110" height="903" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What is a school MIS?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4.jpg 1110w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-1024x833.jpg 1024w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-768x625.jpg 768w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-4-370x300.jpg 370w" sizes="auto, (max-width: 1110px) 100vw, 1110px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-is-a-school-mis/" target="_self" >What is a school MIS?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-is-a-school-mis/" target="_blank" rel="noreferrer noopener" >What is a school MIS?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-is-a-school-mis/"><time datetime="2023-10-11T10:27:52+00:00">Oct 11, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-is-a-school-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2023-10-11T10:27:52+00:00">Oct 11, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/popular/" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -112,20 +112,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11296 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-it-support tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-top-time-saving-tips-for-school-it-managers/" target="_self" ><img width="1203" height="978" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top time-saving tips for School IT Managers" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1.jpg 1203w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-1024x832.jpg 1024w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-768x624.jpg 768w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-370x300.jpg 370w" sizes="auto, (max-width: 1203px) 100vw, 1203px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-top-time-saving-tips-for-school-it-managers/" target="_blank" rel="noreferrer noopener" ><img width="1203" height="978" src="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top time-saving tips for School IT Managers" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1.jpg 1203w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-300x244.jpg 300w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-1024x832.jpg 1024w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-768x624.jpg 768w, /wp-content/uploads/2023/08/Blog-and-social-media-icons-2023-1-370x300.jpg 370w" sizes="auto, (max-width: 1203px) 100vw, 1203px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-top-time-saving-tips-for-school-it-managers/" target="_self" >Top time-saving tips for School IT Managers</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-top-time-saving-tips-for-school-it-managers/" target="_blank" rel="noreferrer noopener" >Top time-saving tips for School IT Managers</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-top-time-saving-tips-for-school-it-managers/"><time datetime="2023-08-17T08:09:56+00:00">Aug 17, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-top-time-saving-tips-for-school-it-managers/" target="_blank" rel="noreferrer noopener"><time datetime="2023-08-17T08:09:56+00:00">Aug 17, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/it-support/" rel="tag">IT Support</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/it-support/" target="_blank" rel="noreferrer noopener" rel="tag">IT Support</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -208,14 +208,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11092 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/" target="_self" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to increase operational efficiency in your school or trust" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-3.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-3-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-3-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-3-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-3-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-3-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/" target="_blank" rel="noreferrer noopener" ><img width="1573" height="1279" src="/wp-content/uploads/2023/06/Blog-size-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to increase operational efficiency in your school or trust" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/06/Blog-size-3.jpg 1573w, /wp-content/uploads/2023/06/Blog-size-3-300x244.jpg 300w, /wp-content/uploads/2023/06/Blog-size-3-1024x833.jpg 1024w, /wp-content/uploads/2023/06/Blog-size-3-768x624.jpg 768w, /wp-content/uploads/2023/06/Blog-size-3-1536x1249.jpg 1536w, /wp-content/uploads/2023/06/Blog-size-3-370x300.jpg 370w" sizes="auto, (max-width: 1573px) 100vw, 1573px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/" target="_self" >How to increase operational efficiency in your school or trust</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/" target="_blank" rel="noreferrer noopener" >How to increase operational efficiency in your school or trust</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/"><time datetime="2023-06-13T15:14:17+00:00">Jun 13, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-increase-operational-efficiency-in-your-school-or-trust/" target="_blank" rel="noreferrer noopener"><time datetime="2023-06-13T15:14:17+00:00">Jun 13, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -256,14 +256,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9850 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-optimise-school-website/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/01/school-computer.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to optimise your trust or school website" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-optimise-school-website/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/01/school-computer.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to optimise your trust or school website" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-optimise-school-website/" target="_self" >How to optimise your trust or school website</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-optimise-school-website/" target="_blank" rel="noreferrer noopener" >How to optimise your trust or school website</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-optimise-school-website/"><time datetime="2022-12-06T09:44:34+00:00">Dec 6, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-optimise-school-website/" target="_blank" rel="noreferrer noopener"><time datetime="2022-12-06T09:44:34+00:00">Dec 6, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -280,20 +280,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9047 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-integrations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-civica-liveregister-cunninghams-cashless-catering/" target="_self" ><img width="1850" height="1505" src="/wp-content/uploads/2022/06/Blog-size-2-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cashless catering in one place: Arbor’s integrations with CRB Cunninghams, Civica, Live Register and Pebble" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-civica-liveregister-cunninghams-cashless-catering/" target="_blank" rel="noreferrer noopener" ><img width="1850" height="1505" src="/wp-content/uploads/2022/06/Blog-size-2-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Cashless catering in one place: Arbor’s integrations with CRB Cunninghams, Civica, Live Register and Pebble" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-civica-liveregister-cunninghams-cashless-catering/" target="_self" >Cashless catering in one place: Arbor’s integrations with CRB Cunninghams, Civica, Live Register and Pebble</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-civica-liveregister-cunninghams-cashless-catering/" target="_blank" rel="noreferrer noopener" >Cashless catering in one place: Arbor’s integrations with CRB Cunninghams, Civica, Live Register and Pebble</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-civica-liveregister-cunninghams-cashless-catering/"><time datetime="2022-10-05T12:15:00+00:00">Oct 5, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-civica-liveregister-cunninghams-cashless-catering/" target="_blank" rel="noreferrer noopener"><time datetime="2022-10-05T12:15:00+00:00">Oct 5, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/integrations/" rel="tag">Integrations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/integrations/" target="_blank" rel="noreferrer noopener" rel="tag">Integrations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -304,20 +304,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9468 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-governance tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-role-of-school-governors/" target="_self" ><img width="654" height="531" src="/wp-content/uploads/2021/12/Untitled-design-1.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The role of school governors" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-role-of-school-governors/" target="_blank" rel="noreferrer noopener" ><img width="654" height="531" src="/wp-content/uploads/2021/12/Untitled-design-1.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The role of school governors" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-role-of-school-governors/" target="_self" >The role of school governors</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-role-of-school-governors/" target="_blank" rel="noreferrer noopener" >The role of school governors</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-role-of-school-governors/"><time datetime="2022-07-15T08:07:42+00:00">Jul 15, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-role-of-school-governors/" target="_blank" rel="noreferrer noopener"><time datetime="2022-07-15T08:07:42+00:00">Jul 15, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/governance/" rel="tag">Governance</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/governance/" target="_blank" rel="noreferrer noopener" rel="tag">Governance</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -328,20 +328,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8674 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-11.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The NEW School Financial Benchmarking Report: Making school budget planning easier" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-11.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The NEW School Financial Benchmarking Report: Making school budget planning easier" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/" target="_self" >The NEW School Financial Benchmarking Report: Making school budget planning easier</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/" target="_blank" rel="noreferrer noopener" >The NEW School Financial Benchmarking Report: Making school budget planning easier</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/"><time datetime="2022-01-06T14:39:57+00:00">Jan 6, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-new-school-financial-benchmarking-report-making-school-budget-planning-easier/" target="_blank" rel="noreferrer noopener"><time datetime="2022-01-06T14:39:57+00:00">Jan 6, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-insight/" rel="tag">Arbor Insight</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/arbor-insight/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor Insight</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -352,14 +352,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8332 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-your-mis-can-reduce-staff-workload/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How your MIS can reduce your staff workload" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-your-mis-can-reduce-staff-workload/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How your MIS can reduce your staff workload" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-your-mis-can-reduce-staff-workload/" target="_self" >How your MIS can reduce your staff workload</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-your-mis-can-reduce-staff-workload/" target="_blank" rel="noreferrer noopener" >How your MIS can reduce your staff workload</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-your-mis-can-reduce-staff-workload/"><time datetime="2021-07-21T12:56:19+00:00">Jul 21, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-your-mis-can-reduce-staff-workload/" target="_blank" rel="noreferrer noopener"><time datetime="2021-07-21T12:56:19+00:00">Jul 21, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -376,20 +376,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8288 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-improvement tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-ultimate-guide-to-managing-change-in-schools/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ultimate guide to managing change in schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-ultimate-guide-to-managing-change-in-schools/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ultimate guide to managing change in schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-ultimate-guide-to-managing-change-in-schools/" target="_self" >The ultimate guide to managing change in schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-ultimate-guide-to-managing-change-in-schools/" target="_blank" rel="noreferrer noopener" >The ultimate guide to managing change in schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-ultimate-guide-to-managing-change-in-schools/"><time datetime="2021-07-08T12:08:31+00:00">Jul 8, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-ultimate-guide-to-managing-change-in-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2021-07-08T12:08:31+00:00">Jul 8, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/school-improvement/" rel="tag">School Improvement</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/school-improvement/" target="_blank" rel="noreferrer noopener" rel="tag">School Improvement</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -400,14 +400,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8278 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-effective-pupil-progress-tracking-for-primary-schools/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/01/63.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Effective strategies for tracking pupil progress at your primary school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-effective-pupil-progress-tracking-for-primary-schools/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/01/63.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Effective strategies for tracking pupil progress at your primary school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-effective-pupil-progress-tracking-for-primary-schools/" target="_self" >Effective strategies for tracking pupil progress at your primary school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-effective-pupil-progress-tracking-for-primary-schools/" target="_blank" rel="noreferrer noopener" >Effective strategies for tracking pupil progress at your primary school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-effective-pupil-progress-tracking-for-primary-schools/"><time datetime="2021-07-05T09:12:54+00:00">Jul 5, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-effective-pupil-progress-tracking-for-primary-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2021-07-05T09:12:54+00:00">Jul 5, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -424,14 +424,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8249 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-does-a-school-data-manager-do/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does a School Data Manager do?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does a School Data Manager do?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-does-a-school-data-manager-do/" target="_self" >What does a School Data Manager do?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener" >What does a School Data Manager do?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-does-a-school-data-manager-do/"><time datetime="2021-06-30T15:16:59+00:00">Jun 30, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-does-a-school-data-manager-do/" target="_blank" rel="noreferrer noopener"><time datetime="2021-06-30T15:16:59+00:00">Jun 30, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -448,14 +448,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8172 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-classroom-management-tips/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does successful classroom management look like? " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-classroom-management-tips/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does successful classroom management look like? " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-classroom-management-tips/" target="_self" >What does successful classroom management look like? </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-classroom-management-tips/" target="_blank" rel="noreferrer noopener" >What does successful classroom management look like? </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-classroom-management-tips/"><time datetime="2021-06-17T08:00:02+00:00">Jun 17, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-classroom-management-tips/" target="_blank" rel="noreferrer noopener"><time datetime="2021-06-17T08:00:02+00:00">Jun 17, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -472,14 +472,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6675 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/55.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons why you should switch to a cloud-based MIS now to future-proof your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/55.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons why you should switch to a cloud-based MIS now to future-proof your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/" target="_self" >3 reasons why you should switch to a cloud-based MIS now to future-proof your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/" target="_blank" rel="noreferrer noopener" >3 reasons why you should switch to a cloud-based MIS now to future-proof your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/"><time datetime="2021-06-01T09:30:26+00:00">Jun 1, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-3-reasons-to-switch-to-a-cloud-based-mis-now/" target="_blank" rel="noreferrer noopener"><time datetime="2021-06-01T09:30:26+00:00">Jun 1, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -496,14 +496,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2890 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-are-you-using-the-best-payment-method-for-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/12/procurement.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Are you using the best payment system for your school?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-are-you-using-the-best-payment-method-for-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/12/procurement.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Are you using the best payment system for your school?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-are-you-using-the-best-payment-method-for-your-school/" target="_self" >Are you using the best payment system for your school?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-are-you-using-the-best-payment-method-for-your-school/" target="_blank" rel="noreferrer noopener" >Are you using the best payment system for your school?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-are-you-using-the-best-payment-method-for-your-school/"><time datetime="2021-05-26T20:48:00+00:00">May 26, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-are-you-using-the-best-payment-method-for-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2021-05-26T20:48:00+00:00">May 26, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -520,14 +520,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8062 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-updates tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-senco-time-management/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/CPD-blog-image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to make the most of your time as a SENCO" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-senco-time-management/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/CPD-blog-image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to make the most of your time as a SENCO" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-senco-time-management/" target="_self" >How to make the most of your time as a SENCO</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-senco-time-management/" target="_blank" rel="noreferrer noopener" >How to make the most of your time as a SENCO</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-senco-time-management/"><time datetime="2021-05-24T09:28:58+00:00">May 24, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-senco-time-management/" target="_blank" rel="noreferrer noopener"><time datetime="2021-05-24T09:28:58+00:00">May 24, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -544,14 +544,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3005 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-5-ways-to-boost-parental-engagement-at-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/04/52.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways to boost parental engagement at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-5-ways-to-boost-parental-engagement-at-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/04/52.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways to boost parental engagement at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-5-ways-to-boost-parental-engagement-at-your-school/" target="_self" >5 ways to boost parental engagement at your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-5-ways-to-boost-parental-engagement-at-your-school/" target="_blank" rel="noreferrer noopener" >5 ways to boost parental engagement at your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-5-ways-to-boost-parental-engagement-at-your-school/"><time datetime="2021-05-17T12:39:15+00:00">May 17, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-5-ways-to-boost-parental-engagement-at-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2021-05-17T12:39:15+00:00">May 17, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -568,20 +568,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8000 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-popular tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-best-approach-to-the-catch-up-curriculum/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What’s the best approach to the catch-up curriculum? " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-best-approach-to-the-catch-up-curriculum/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What’s the best approach to the catch-up curriculum? " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-best-approach-to-the-catch-up-curriculum/" target="_self" >What’s the best approach to the catch-up curriculum? </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-best-approach-to-the-catch-up-curriculum/" target="_blank" rel="noreferrer noopener" >What’s the best approach to the catch-up curriculum? </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-best-approach-to-the-catch-up-curriculum/"><time datetime="2021-05-11T14:16:25+00:00">May 11, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-best-approach-to-the-catch-up-curriculum/" target="_blank" rel="noreferrer noopener"><time datetime="2021-05-11T14:16:25+00:00">May 11, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/popular/" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -592,14 +592,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7987 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-strategies-for-runinng-a-successful-parents-evening/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Strategies for running a successful parents&#8217; evening" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-strategies-for-runinng-a-successful-parents-evening/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/05/Wordpress-dimensions-14.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Strategies for running a successful parents&#8217; evening" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-strategies-for-runinng-a-successful-parents-evening/" target="_self" >Strategies for running a successful parents&#8217; evening</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-strategies-for-runinng-a-successful-parents-evening/" target="_blank" rel="noreferrer noopener" >Strategies for running a successful parents&#8217; evening</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-strategies-for-runinng-a-successful-parents-evening/"><time datetime="2021-05-06T08:52:58+00:00">May 6, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-strategies-for-runinng-a-successful-parents-evening/" target="_blank" rel="noreferrer noopener"><time datetime="2021-05-06T08:52:58+00:00">May 6, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -616,14 +616,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7936 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-online-teaching-and-learning-post-covid/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does online teaching and learning look like in a post-covid world?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-online-teaching-and-learning-post-covid/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What does online teaching and learning look like in a post-covid world?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-online-teaching-and-learning-post-covid/" target="_self" >What does online teaching and learning look like in a post-covid world?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-online-teaching-and-learning-post-covid/" target="_blank" rel="noreferrer noopener" >What does online teaching and learning look like in a post-covid world?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-online-teaching-and-learning-post-covid/"><time datetime="2021-04-20T17:25:39+00:00">Apr 20, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-online-teaching-and-learning-post-covid/" target="_blank" rel="noreferrer noopener"><time datetime="2021-04-20T17:25:39+00:00">Apr 20, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -640,20 +640,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7794 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-popular tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-financial-benchmarking-for-schools/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/12/procurement.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Your guide to schools’ financial benchmarking" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-financial-benchmarking-for-schools/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/12/procurement.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Your guide to schools’ financial benchmarking" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-financial-benchmarking-for-schools/" target="_self" >Your guide to schools’ financial benchmarking</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-financial-benchmarking-for-schools/" target="_blank" rel="noreferrer noopener" >Your guide to schools’ financial benchmarking</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-financial-benchmarking-for-schools/"><time datetime="2021-04-20T10:49:13+00:00">Apr 20, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-financial-benchmarking-for-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2021-04-20T10:49:13+00:00">Apr 20, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/popular/" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -664,14 +664,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7706 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-change-management/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to make big changes successfully at your school or MAT" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-change-management/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to make big changes successfully at your school or MAT" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-change-management/" target="_self" >How to make big changes successfully at your school or MAT</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-change-management/" target="_blank" rel="noreferrer noopener" >How to make big changes successfully at your school or MAT</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-change-management/"><time datetime="2021-03-11T09:15:17+00:00">Mar 11, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-change-management/" target="_blank" rel="noreferrer noopener"><time datetime="2021-03-11T09:15:17+00:00">Mar 11, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -688,14 +688,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3917 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-research-led-curriculum-design/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Research Led Curriculum Design" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-research-led-curriculum-design/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Research Led Curriculum Design" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-research-led-curriculum-design/" target="_self" >Research Led Curriculum Design</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-research-led-curriculum-design/" target="_blank" rel="noreferrer noopener" >Research Led Curriculum Design</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-research-led-curriculum-design/"><time datetime="2021-02-28T14:58:50+00:00">Feb 28, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-research-led-curriculum-design/" target="_blank" rel="noreferrer noopener"><time datetime="2021-02-28T14:58:50+00:00">Feb 28, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -712,20 +712,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7488 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-it-support tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-12.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="We now partner with over 100 apps &#8211; here&#8217;s why" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-12.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="We now partner with over 100 apps &#8211; here&#8217;s why" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/" target="_self" >We now partner with over 100 apps &#8211; here&#8217;s why</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/" target="_blank" rel="noreferrer noopener" >We now partner with over 100 apps &#8211; here&#8217;s why</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/"><time datetime="2021-02-12T08:51:19+00:00">Feb 12, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-creating-a-tech-ecosystem-that-works-for-your-school-with-arbor/" target="_blank" rel="noreferrer noopener"><time datetime="2021-02-12T08:51:19+00:00">Feb 12, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/it-support/" rel="tag">IT Support</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/it-support/" target="_blank" rel="noreferrer noopener" rel="tag">IT Support</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -736,20 +736,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7320 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-popular tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-improvement.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What’s the best time in the year to move your secondary to a cloud-based MIS?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-improvement.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What’s the best time in the year to move your secondary to a cloud-based MIS?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/" target="_self" >What’s the best time in the year to move your secondary to a cloud-based MIS?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener" >What’s the best time in the year to move your secondary to a cloud-based MIS?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/"><time datetime="2021-01-20T16:57:52+00:00">Jan 20, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-whats-the-best-time-in-the-year-to-move-your-secondary-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2021-01-20T16:57:52+00:00">Jan 20, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/popular/" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -784,14 +784,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6995 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-case-studies tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-Ops.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we’re preparing for Ofsted: Case studies from two Senior Leaders" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/School-Ops.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we’re preparing for Ofsted: Case studies from two Senior Leaders" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/" target="_self" >How we’re preparing for Ofsted: Case studies from two Senior Leaders</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/" target="_blank" rel="noreferrer noopener" >How we’re preparing for Ofsted: Case studies from two Senior Leaders</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/"><time datetime="2020-11-03T09:34:56+00:00">Nov 3, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-were-preparing-for-ofsted-this-term-case-studies-from-two-senior-leaders/" target="_blank" rel="noreferrer noopener"><time datetime="2020-11-03T09:34:56+00:00">Nov 3, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -808,20 +808,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6948 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-case-studies tag-popular tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How hundreds of LA maintained schools are moving to the cloud" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How hundreds of LA maintained schools are moving to the cloud" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/" target="_self" >How hundreds of LA maintained schools are moving to the cloud</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/" target="_blank" rel="noreferrer noopener" >How hundreds of LA maintained schools are moving to the cloud</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/"><time datetime="2020-10-29T09:37:28+00:00">Oct 29, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-hundreds-of-maintained-schools-are-moving-to-the-cloud/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-29T09:37:28+00:00">Oct 29, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/case-studies/" rel="tag">Case Studies</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/popular/" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/case-studies/" rel="tag">Case Studies</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -832,14 +832,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6949 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-case-studies tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/10/50.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why this maintained school chose to move to the cloud" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/10/50.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why this maintained school chose to move to the cloud" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/" target="_self" >Why this maintained school chose to move to the cloud</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener" >Why this maintained school chose to move to the cloud</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/"><time datetime="2020-10-29T09:36:53+00:00">Oct 29, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-this-hampshire-school-made-the-switch-to-a-cloud-based-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-29T09:36:53+00:00">Oct 29, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -856,14 +856,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6926 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-prepare-for-ofsted-inspections-this-term/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to prepare for Ofsted inspections this term" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-prepare-for-ofsted-inspections-this-term/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to prepare for Ofsted inspections this term" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-prepare-for-ofsted-inspections-this-term/" target="_self" >How to prepare for Ofsted inspections this term</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-prepare-for-ofsted-inspections-this-term/" target="_blank" rel="noreferrer noopener" >How to prepare for Ofsted inspections this term</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-prepare-for-ofsted-inspections-this-term/"><time datetime="2020-10-28T13:33:54+00:00">Oct 28, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-prepare-for-ofsted-inspections-this-term/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-28T13:33:54+00:00">Oct 28, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -880,14 +880,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6862 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/10/Blog-Post_6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What your school or MAT could gain by running a systems audit" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/10/Blog-Post_6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What your school or MAT could gain by running a systems audit" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/" target="_self" >What your school or MAT could gain by running a systems audit</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/" target="_blank" rel="noreferrer noopener" >What your school or MAT could gain by running a systems audit</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/"><time datetime="2020-10-13T16:26:48+00:00">Oct 13, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-your-school-or-mat-could-gain-by-running-a-systems-audit/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-13T16:26:48+00:00">Oct 13, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -904,14 +904,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6843 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-5-ways-to-cut-down-census-stress-with-arbor/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways to cut down census stress with Arbor" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-5-ways-to-cut-down-census-stress-with-arbor/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 ways to cut down census stress with Arbor" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-5-ways-to-cut-down-census-stress-with-arbor/" target="_self" >5 ways to cut down census stress with Arbor</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-5-ways-to-cut-down-census-stress-with-arbor/" target="_blank" rel="noreferrer noopener" >5 ways to cut down census stress with Arbor</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-5-ways-to-cut-down-census-stress-with-arbor/"><time datetime="2020-10-13T14:31:57+00:00">Oct 13, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-5-ways-to-cut-down-census-stress-with-arbor/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-13T14:31:57+00:00">Oct 13, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -928,14 +928,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6819 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-we-make-arbor-a-long-term-success-at-your-school/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/Blog-Post_9.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we make Arbor a long-term success at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-we-make-arbor-a-long-term-success-at-your-school/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/Blog-Post_9.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How we make Arbor a long-term success at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-we-make-arbor-a-long-term-success-at-your-school/" target="_self" >How we make Arbor a long-term success at your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-we-make-arbor-a-long-term-success-at-your-school/" target="_blank" rel="noreferrer noopener" >How we make Arbor a long-term success at your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-we-make-arbor-a-long-term-success-at-your-school/"><time datetime="2020-10-12T08:34:27+00:00">Oct 12, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-we-make-arbor-a-long-term-success-at-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-12T08:34:27+00:00">Oct 12, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -952,14 +952,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6657 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-save-hours-per-week-of-school-admin/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to save hours a week of school admin " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-save-hours-per-week-of-school-admin/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to save hours a week of school admin " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-save-hours-per-week-of-school-admin/" target="_self" >How to save hours a week of school admin </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-save-hours-per-week-of-school-admin/" target="_blank" rel="noreferrer noopener" >How to save hours a week of school admin </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-save-hours-per-week-of-school-admin/"><time datetime="2020-09-18T15:58:47+00:00">Sep 18, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-save-hours-per-week-of-school-admin/" target="_blank" rel="noreferrer noopener"><time datetime="2020-09-18T15:58:47+00:00">Sep 18, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -976,14 +976,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6324 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-case-studies tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How The Parks Academies Trust stayed flexible in the face of change " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How The Parks Academies Trust stayed flexible in the face of change " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/" target="_self" >How The Parks Academies Trust stayed flexible in the face of change </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/" target="_blank" rel="noreferrer noopener" >How The Parks Academies Trust stayed flexible in the face of change </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/"><time datetime="2020-09-03T09:30:00+00:00">Sep 3, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-the-parks-academies-trust-stayed-flexible-in-the-face-of-change/" target="_blank" rel="noreferrer noopener"><time datetime="2020-09-03T09:30:00+00:00">Sep 3, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1000,14 +1000,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5488 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-open-up-your-schools-mindset-to-change/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/Blog-Post_5.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to open up your school’s mindset to change" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-open-up-your-schools-mindset-to-change/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/Blog-Post_5.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to open up your school’s mindset to change" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-open-up-your-schools-mindset-to-change/" target="_self" >How to open up your school’s mindset to change</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-open-up-your-schools-mindset-to-change/" target="_blank" rel="noreferrer noopener" >How to open up your school’s mindset to change</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-open-up-your-schools-mindset-to-change/"><time datetime="2020-06-24T16:35:51+00:00">Jun 24, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-open-up-your-schools-mindset-to-change/" target="_blank" rel="noreferrer noopener"><time datetime="2020-06-24T16:35:51+00:00">Jun 24, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1024,14 +1024,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5467 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons you should switch to a cloud-based MIS now to future-proof your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons you should switch to a cloud-based MIS now to future-proof your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/" target="_self" >3 reasons you should switch to a cloud-based MIS now to future-proof your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/" target="_blank" rel="noreferrer noopener" >3 reasons you should switch to a cloud-based MIS now to future-proof your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/"><time datetime="2020-06-24T08:47:13+00:00">Jun 24, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-3-reasons-why-you-should-switch-to-a-cloud-based-mis-now-to-future-proof-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2020-06-24T08:47:13+00:00">Jun 24, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1048,14 +1048,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5273 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-can-you-move-forward-with-your-new-school-timetable/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How can you move forward with your socially distanced school timetable?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-can-you-move-forward-with-your-new-school-timetable/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How can you move forward with your socially distanced school timetable?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-can-you-move-forward-with-your-new-school-timetable/" target="_self" >How can you move forward with your socially distanced school timetable?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-can-you-move-forward-with-your-new-school-timetable/" target="_blank" rel="noreferrer noopener" >How can you move forward with your socially distanced school timetable?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-can-you-move-forward-with-your-new-school-timetable/"><time datetime="2020-06-05T14:14:53+00:00">Jun 5, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-can-you-move-forward-with-your-new-school-timetable/" target="_blank" rel="noreferrer noopener"><time datetime="2020-06-05T14:14:53+00:00">Jun 5, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1072,14 +1072,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5131 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arbors-guide-to-managing-your-school-flexibly/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/64.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor&#8217;s guide to managing your school flexibly" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arbors-guide-to-managing-your-school-flexibly/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/05/64.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor&#8217;s guide to managing your school flexibly" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arbors-guide-to-managing-your-school-flexibly/" target="_self" >Arbor&#8217;s guide to managing your school flexibly</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arbors-guide-to-managing-your-school-flexibly/" target="_blank" rel="noreferrer noopener" >Arbor&#8217;s guide to managing your school flexibly</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arbors-guide-to-managing-your-school-flexibly/"><time datetime="2020-05-28T08:18:00+00:00">May 28, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arbors-guide-to-managing-your-school-flexibly/" target="_blank" rel="noreferrer noopener"><time datetime="2020-05-28T08:18:00+00:00">May 28, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1096,14 +1096,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5075 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-top-tips-for-creating-a-socially-distanced-school-timetable/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top tips for creating a socially distanced school timetable" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-top-tips-for-creating-a-socially-distanced-school-timetable/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/09/case-studies.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top tips for creating a socially distanced school timetable" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-top-tips-for-creating-a-socially-distanced-school-timetable/" target="_self" >Top tips for creating a socially distanced school timetable</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-top-tips-for-creating-a-socially-distanced-school-timetable/" target="_blank" rel="noreferrer noopener" >Top tips for creating a socially distanced school timetable</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-top-tips-for-creating-a-socially-distanced-school-timetable/"><time datetime="2020-05-20T08:18:02+00:00">May 20, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-top-tips-for-creating-a-socially-distanced-school-timetable/" target="_blank" rel="noreferrer noopener"><time datetime="2020-05-20T08:18:02+00:00">May 20, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1120,14 +1120,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-5058 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-delivering-remote-teaching-and-learning-during-lockdown/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Delivering remote teaching and learning during lockdown by Richard Martin from LGFL" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-delivering-remote-teaching-and-learning-during-lockdown/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Delivering remote teaching and learning during lockdown by Richard Martin from LGFL" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-delivering-remote-teaching-and-learning-during-lockdown/" target="_self" >Delivering remote teaching and learning during lockdown by Richard Martin from LGFL</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-delivering-remote-teaching-and-learning-during-lockdown/" target="_blank" rel="noreferrer noopener" >Delivering remote teaching and learning during lockdown by Richard Martin from LGFL</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-delivering-remote-teaching-and-learning-during-lockdown/"><time datetime="2020-05-15T08:27:36+00:00">May 15, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-delivering-remote-teaching-and-learning-during-lockdown/" target="_blank" rel="noreferrer noopener"><time datetime="2020-05-15T08:27:36+00:00">May 15, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1144,14 +1144,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4840 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-top-3-tips-for-working-remotely-whatever-your-role/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top 3 tips for working remotely as school staff" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-top-3-tips-for-working-remotely-whatever-your-role/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top 3 tips for working remotely as school staff" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-top-3-tips-for-working-remotely-whatever-your-role/" target="_self" >Top 3 tips for working remotely as school staff</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-top-3-tips-for-working-remotely-whatever-your-role/" target="_blank" rel="noreferrer noopener" >Top 3 tips for working remotely as school staff</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-top-3-tips-for-working-remotely-whatever-your-role/"><time datetime="2020-04-22T08:30:46+00:00">Apr 22, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-top-3-tips-for-working-remotely-whatever-your-role/" target="_blank" rel="noreferrer noopener"><time datetime="2020-04-22T08:30:46+00:00">Apr 22, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1168,14 +1168,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4476 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-arbor-could-transform-your-secondary-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How Arbor could transform your secondary school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-arbor-could-transform-your-secondary-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How Arbor could transform your secondary school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-arbor-could-transform-your-secondary-school/" target="_self" >How Arbor could transform your secondary school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-arbor-could-transform-your-secondary-school/" target="_blank" rel="noreferrer noopener" >How Arbor could transform your secondary school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-arbor-could-transform-your-secondary-school/"><time datetime="2020-02-24T10:34:59+00:00">Feb 24, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-arbor-could-transform-your-secondary-school/" target="_blank" rel="noreferrer noopener"><time datetime="2020-02-24T10:34:59+00:00">Feb 24, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1192,14 +1192,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4324 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arbor-in-action-in-the-classroom/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor in Action in the Classroom" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arbor-in-action-in-the-classroom/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Arbor in Action in the Classroom" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arbor-in-action-in-the-classroom/" target="_self" >Arbor in Action in the Classroom</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arbor-in-action-in-the-classroom/" target="_blank" rel="noreferrer noopener" >Arbor in Action in the Classroom</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arbor-in-action-in-the-classroom/"><time datetime="2020-01-27T14:16:37+00:00">Jan 27, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arbor-in-action-in-the-classroom/" target="_blank" rel="noreferrer noopener"><time datetime="2020-01-27T14:16:37+00:00">Jan 27, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1216,14 +1216,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4281 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-best-of-breed-vs-one-stop-shop/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Best-of-Breed vs One-Stop-Shop?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-best-of-breed-vs-one-stop-shop/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/03/Arbor-dash.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Best-of-Breed vs One-Stop-Shop?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-best-of-breed-vs-one-stop-shop/" target="_self" >Best-of-Breed vs One-Stop-Shop?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-best-of-breed-vs-one-stop-shop/" target="_blank" rel="noreferrer noopener" >Best-of-Breed vs One-Stop-Shop?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-best-of-breed-vs-one-stop-shop/"><time datetime="2020-01-15T11:28:46+00:00">Jan 15, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-best-of-breed-vs-one-stop-shop/" target="_blank" rel="noreferrer noopener"><time datetime="2020-01-15T11:28:46+00:00">Jan 15, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1240,20 +1240,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3445 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations tag-vulnerable-students">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/09/safeguarding.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How Arbor can help you to proactively identify and help students at risk of exclusion" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/09/safeguarding.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How Arbor can help you to proactively identify and help students at risk of exclusion" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/" target="_self" >How Arbor can help you to proactively identify and help students at risk of exclusion</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/" target="_blank" rel="noreferrer noopener" >How Arbor can help you to proactively identify and help students at risk of exclusion</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/"><time datetime="2019-09-21T16:00:33+00:00">Sep 21, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-arbor-can-help-you-to-proactively-identify-and-help-students-at-risk-of-exclusion/" target="_blank" rel="noreferrer noopener"><time datetime="2019-09-21T16:00:33+00:00">Sep 21, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/school-operations/" rel="tag">School Operations</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/vulnerable-students/" rel="tag">Vulnerable Students</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/school-operations/" rel="tag">School Operations</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/vulnerable-students/" target="_blank" rel="noreferrer noopener" rel="tag">Vulnerable Students</a></div></div>
 </div>
 </div>
 
@@ -1288,14 +1288,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3466 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-education-and-modern-technology-is-a-change-of-attitude-needed/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Education and modern technology: is a change of attitude needed?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-education-and-modern-technology-is-a-change-of-attitude-needed/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Education and modern technology: is a change of attitude needed?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-education-and-modern-technology-is-a-change-of-attitude-needed/" target="_self" >Education and modern technology: is a change of attitude needed?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-education-and-modern-technology-is-a-change-of-attitude-needed/" target="_blank" rel="noreferrer noopener" >Education and modern technology: is a change of attitude needed?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-education-and-modern-technology-is-a-change-of-attitude-needed/"><time datetime="2019-09-17T14:15:44+00:00">Sep 17, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-education-and-modern-technology-is-a-change-of-attitude-needed/" target="_blank" rel="noreferrer noopener"><time datetime="2019-09-17T14:15:44+00:00">Sep 17, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1312,14 +1312,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3428 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/02/56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What are Strong Customer Authentication regulations and how will they impact school payments?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/02/56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What are Strong Customer Authentication regulations and how will they impact school payments?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/" target="_self" >What are Strong Customer Authentication regulations and how will they impact school payments?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/" target="_blank" rel="noreferrer noopener" >What are Strong Customer Authentication regulations and how will they impact school payments?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/"><time datetime="2019-08-21T07:33:13+00:00">Aug 21, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-are-strong-customer-authentication-regulations-and-how-will-it-impact-school-payments/" target="_blank" rel="noreferrer noopener"><time datetime="2019-08-21T07:33:13+00:00">Aug 21, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1336,20 +1336,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3197 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-assessment tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-preparing-for-exams-results-day/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Preparing for Exams Results Day" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-preparing-for-exams-results-day/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/08/Data-and-Insight.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Preparing for Exams Results Day" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-preparing-for-exams-results-day/" target="_self" >Preparing for Exams Results Day</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-preparing-for-exams-results-day/" target="_blank" rel="noreferrer noopener" >Preparing for Exams Results Day</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-preparing-for-exams-results-day/"><time datetime="2019-07-13T10:01:19+00:00">Jul 13, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-preparing-for-exams-results-day/" target="_blank" rel="noreferrer noopener"><time datetime="2019-07-13T10:01:19+00:00">Jul 13, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/assessment/" rel="tag">Assessment</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/assessment/" target="_blank" rel="noreferrer noopener" rel="tag">Assessment</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -1360,14 +1360,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3163 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-top-10-must-have-cloud-systems-for-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top 10 must-have cloud systems for your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-top-10-must-have-cloud-systems-for-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/51.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top 10 must-have cloud systems for your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-top-10-must-have-cloud-systems-for-your-school/" target="_self" >Top 10 must-have cloud systems for your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-top-10-must-have-cloud-systems-for-your-school/" target="_blank" rel="noreferrer noopener" >Top 10 must-have cloud systems for your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-top-10-must-have-cloud-systems-for-your-school/"><time datetime="2019-07-12T13:43:41+00:00">Jul 12, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-top-10-must-have-cloud-systems-for-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2019-07-12T13:43:41+00:00">Jul 12, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1384,14 +1384,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3143 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Is your curriculum planning improving outcomes for your students?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/06/school-improvement-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Is your curriculum planning improving outcomes for your students?" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/" target="_self" >Is your curriculum planning improving outcomes for your students?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/" target="_blank" rel="noreferrer noopener" >Is your curriculum planning improving outcomes for your students?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/"><time datetime="2019-07-10T10:37:43+00:00">Jul 10, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-is-your-curriculum-planning-improving-outcomes-for-your-students/" target="_blank" rel="noreferrer noopener"><time datetime="2019-07-10T10:37:43+00:00">Jul 10, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1408,14 +1408,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-3124 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-reduce-data-entry-at-your-school/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reduce data entry at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/06/53.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reduce data entry at your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-reduce-data-entry-at-your-school/" target="_self" >How to reduce data entry at your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener" >How to reduce data entry at your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-reduce-data-entry-at-your-school/"><time datetime="2019-07-05T11:45:26+00:00">Jul 5, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-reduce-data-entry-at-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2019-07-05T11:45:26+00:00">Jul 5, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1432,14 +1432,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2844 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-use-arbor-to-track-homework-in-your-school/" target="_self" ><img width="1600" height="1261" src="/wp-content/uploads/2019/01/3-key-aims-of-the-Teacher-Recruitment-Retention-Strategy-Featured-photo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to use Arbor to track homework in your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-use-arbor-to-track-homework-in-your-school/" target="_blank" rel="noreferrer noopener" ><img width="1600" height="1261" src="/wp-content/uploads/2019/01/3-key-aims-of-the-Teacher-Recruitment-Retention-Strategy-Featured-photo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to use Arbor to track homework in your school" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-use-arbor-to-track-homework-in-your-school/" target="_self" >How to use Arbor to track homework in your school</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-use-arbor-to-track-homework-in-your-school/" target="_blank" rel="noreferrer noopener" >How to use Arbor to track homework in your school</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-use-arbor-to-track-homework-in-your-school/"><time datetime="2019-03-25T16:36:55+00:00">Mar 25, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-use-arbor-to-track-homework-in-your-school/" target="_blank" rel="noreferrer noopener"><time datetime="2019-03-25T16:36:55+00:00">Mar 25, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1456,14 +1456,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2774 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-the-pros-and-cons-of-automating-school-communication/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2019/03/kelly-sikkema-266805-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The pros and cons of automating school communication" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-the-pros-and-cons-of-automating-school-communication/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2019/03/kelly-sikkema-266805-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The pros and cons of automating school communication" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-the-pros-and-cons-of-automating-school-communication/" target="_self" >The pros and cons of automating school communication</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-the-pros-and-cons-of-automating-school-communication/" target="_blank" rel="noreferrer noopener" >The pros and cons of automating school communication</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-the-pros-and-cons-of-automating-school-communication/"><time datetime="2019-03-07T09:26:12+00:00">Mar 7, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-the-pros-and-cons-of-automating-school-communication/" target="_blank" rel="noreferrer noopener"><time datetime="2019-03-07T09:26:12+00:00">Mar 7, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1480,14 +1480,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2720 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-take-the-stress-out-of-organising-cover/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2019/02/bonneval-sebastien-1389597-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to take the stress out of organising cover" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-take-the-stress-out-of-organising-cover/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2019/02/bonneval-sebastien-1389597-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to take the stress out of organising cover" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-take-the-stress-out-of-organising-cover/" target="_self" >How to take the stress out of organising cover</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-take-the-stress-out-of-organising-cover/" target="_blank" rel="noreferrer noopener" >How to take the stress out of organising cover</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-take-the-stress-out-of-organising-cover/"><time datetime="2019-02-27T11:54:22+00:00">Feb 27, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-take-the-stress-out-of-organising-cover/" target="_blank" rel="noreferrer noopener"><time datetime="2019-02-27T11:54:22+00:00">Feb 27, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1504,14 +1504,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2705 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-audit-your-school-or-mats-it-systems/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/john-petalcurin-1274588-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to audit your school or MAT’s IT systems" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-audit-your-school-or-mats-it-systems/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/john-petalcurin-1274588-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to audit your school or MAT’s IT systems" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-audit-your-school-or-mats-it-systems/" target="_self" >How to audit your school or MAT’s IT systems</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-audit-your-school-or-mats-it-systems/" target="_blank" rel="noreferrer noopener" >How to audit your school or MAT’s IT systems</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-audit-your-school-or-mats-it-systems/"><time datetime="2019-02-25T16:48:20+00:00">Feb 25, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-audit-your-school-or-mats-it-systems/" target="_blank" rel="noreferrer noopener"><time datetime="2019-02-25T16:48:20+00:00">Feb 25, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1528,20 +1528,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2628 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-assessment tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-you-can-track-pupil-progress-in-arbor-mis/" target="_self" ><img width="1555" height="1267" src="/wp-content/uploads/2019/02/chris-liverani-552011-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How you can track pupil progress in Arbor MIS" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-you-can-track-pupil-progress-in-arbor-mis/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1267" src="/wp-content/uploads/2019/02/chris-liverani-552011-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How you can track pupil progress in Arbor MIS" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-you-can-track-pupil-progress-in-arbor-mis/" target="_self" >How you can track pupil progress in Arbor MIS</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-you-can-track-pupil-progress-in-arbor-mis/" target="_blank" rel="noreferrer noopener" >How you can track pupil progress in Arbor MIS</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-you-can-track-pupil-progress-in-arbor-mis/"><time datetime="2019-02-06T15:34:04+00:00">Feb 6, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-you-can-track-pupil-progress-in-arbor-mis/" target="_blank" rel="noreferrer noopener"><time datetime="2019-02-06T15:34:04+00:00">Feb 6, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/assessment/" rel="tag">Assessment</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/assessment/" target="_blank" rel="noreferrer noopener" rel="tag">Assessment</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-operations/" rel="tag">School Operations</a></div></div>
 </div>
 </div>
 
@@ -1576,14 +1576,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2489 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-add-value-to-your-extra-curricular-program/" target="_self" ><img width="1597" height="1266" src="/wp-content/uploads/2019/01/anna-samoylova-535880-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to add value to your extra-curricular program" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-add-value-to-your-extra-curricular-program/" target="_blank" rel="noreferrer noopener" ><img width="1597" height="1266" src="/wp-content/uploads/2019/01/anna-samoylova-535880-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to add value to your extra-curricular program" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-add-value-to-your-extra-curricular-program/" target="_self" >How to add value to your extra-curricular program</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-add-value-to-your-extra-curricular-program/" target="_blank" rel="noreferrer noopener" >How to add value to your extra-curricular program</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-add-value-to-your-extra-curricular-program/"><time datetime="2019-01-03T17:40:49+00:00">Jan 3, 2019</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-add-value-to-your-extra-curricular-program/" target="_blank" rel="noreferrer noopener"><time datetime="2019-01-03T17:40:49+00:00">Jan 3, 2019</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1600,14 +1600,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2133 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-data-and-insight tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-mat-centralisation/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/07/children.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="4 practical ways to centralise school data &#038; back office ops" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/children.jpg 1555w, /wp-content/uploads/2018/07/children-300x244.jpg 300w, /wp-content/uploads/2018/07/children-768x625.jpg 768w, /wp-content/uploads/2018/07/children-1024x834.jpg 1024w, /wp-content/uploads/2018/07/children-370x300.jpg 370w" sizes="auto, (max-width: 1555px) 100vw, 1555px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/07/children.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="4 practical ways to centralise school data &#038; back office ops" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/07/children.jpg 1555w, /wp-content/uploads/2018/07/children-300x244.jpg 300w, /wp-content/uploads/2018/07/children-768x625.jpg 768w, /wp-content/uploads/2018/07/children-1024x834.jpg 1024w, /wp-content/uploads/2018/07/children-370x300.jpg 370w" sizes="auto, (max-width: 1555px) 100vw, 1555px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-mat-centralisation/" target="_self" >4 practical ways to centralise school data &#038; back office ops</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener" >4 practical ways to centralise school data &#038; back office ops</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-mat-centralisation/"><time datetime="2018-12-05T15:32:07+00:00">Dec 5, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-mat-centralisation/" target="_blank" rel="noreferrer noopener"><time datetime="2018-12-05T15:32:07+00:00">Dec 5, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1648,14 +1648,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2284 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/12/helloquence-51716-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to get ahead of Ofsted&#8217;s new inspection framework" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/12/helloquence-51716-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to get ahead of Ofsted&#8217;s new inspection framework" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/" target="_self" >How to get ahead of Ofsted&#8217;s new inspection framework</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/" target="_blank" rel="noreferrer noopener" >How to get ahead of Ofsted&#8217;s new inspection framework</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/"><time datetime="2018-11-27T16:35:15+00:00">Nov 27, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-get-ahead-of-ofsteds-new-inspection-framework/" target="_blank" rel="noreferrer noopener"><time datetime="2018-11-27T16:35:15+00:00">Nov 27, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1672,14 +1672,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2123 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-6-steps-to-create-an-effective-interventions-strategy/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="6 steps to create an effective interventions strategy" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-6-steps-to-create-an-effective-interventions-strategy/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/02/Wordpress-dimensions-13.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="6 steps to create an effective interventions strategy" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-6-steps-to-create-an-effective-interventions-strategy/" target="_self" >6 steps to create an effective interventions strategy</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-6-steps-to-create-an-effective-interventions-strategy/" target="_blank" rel="noreferrer noopener" >6 steps to create an effective interventions strategy</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-6-steps-to-create-an-effective-interventions-strategy/"><time datetime="2018-11-02T10:36:41+00:00">Nov 2, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-6-steps-to-create-an-effective-interventions-strategy/" target="_blank" rel="noreferrer noopener"><time datetime="2018-11-02T10:36:41+00:00">Nov 2, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1696,14 +1696,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1949 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/10/Blog-Post_6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons your school should avoid running competing IT systems" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/10/Blog-Post_6.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 reasons your school should avoid running competing IT systems" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/" target="_self" >3 reasons your school should avoid running competing IT systems</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/" target="_blank" rel="noreferrer noopener" >3 reasons your school should avoid running competing IT systems</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/"><time datetime="2018-10-11T13:48:16+00:00">Oct 11, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-3-reasons-your-school-should-avoid-running-competing-it-systems/" target="_blank" rel="noreferrer noopener"><time datetime="2018-10-11T13:48:16+00:00">Oct 11, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1720,14 +1720,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1765 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-switching-to-the-cloud-faq/" target="_self" ><img width="1920" height="728" src="/wp-content/uploads/2018/09/4_1920x728.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why have 4,000 schools switched MIS to the cloud?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/09/4_1920x728.jpg 1920w, /wp-content/uploads/2018/09/4_1920x728-300x114.jpg 300w, /wp-content/uploads/2018/09/4_1920x728-768x291.jpg 768w, /wp-content/uploads/2018/09/4_1920x728-1024x388.jpg 1024w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-switching-to-the-cloud-faq/" target="_blank" rel="noreferrer noopener" ><img width="1920" height="728" src="/wp-content/uploads/2018/09/4_1920x728.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why have 4,000 schools switched MIS to the cloud?" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/09/4_1920x728.jpg 1920w, /wp-content/uploads/2018/09/4_1920x728-300x114.jpg 300w, /wp-content/uploads/2018/09/4_1920x728-768x291.jpg 768w, /wp-content/uploads/2018/09/4_1920x728-1024x388.jpg 1024w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-switching-to-the-cloud-faq/" target="_self" >Why have 4,000 schools switched MIS to the cloud?</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-switching-to-the-cloud-faq/" target="_blank" rel="noreferrer noopener" >Why have 4,000 schools switched MIS to the cloud?</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-switching-to-the-cloud-faq/"><time datetime="2018-09-27T16:19:21+00:00">Sep 27, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-switching-to-the-cloud-faq/" target="_blank" rel="noreferrer noopener"><time datetime="2018-09-27T16:19:21+00:00">Sep 27, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1744,14 +1744,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2159 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-questions-you-should-ask-your-mis-about-gdpr/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/09/rawpixel-1053187-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Questions you should ask your MIS about GDPR" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-questions-you-should-ask-your-mis-about-gdpr/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/09/rawpixel-1053187-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Questions you should ask your MIS about GDPR" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-questions-you-should-ask-your-mis-about-gdpr/" target="_self" >Questions you should ask your MIS about GDPR</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-questions-you-should-ask-your-mis-about-gdpr/" target="_blank" rel="noreferrer noopener" >Questions you should ask your MIS about GDPR</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-questions-you-should-ask-your-mis-about-gdpr/"><time datetime="2018-09-05T09:00:21+00:00">Sep 5, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-questions-you-should-ask-your-mis-about-gdpr/" target="_blank" rel="noreferrer noopener"><time datetime="2018-09-05T09:00:21+00:00">Sep 5, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1768,14 +1768,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2073 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-8-steps-to-help-manage-change-in-schools/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2019/01/neonbrand-426918-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="8 steps to help manage change in schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-8-steps-to-help-manage-change-in-schools/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2019/01/neonbrand-426918-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="8 steps to help manage change in schools" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-8-steps-to-help-manage-change-in-schools/" target="_self" >8 steps to help manage change in schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-8-steps-to-help-manage-change-in-schools/" target="_blank" rel="noreferrer noopener" >8 steps to help manage change in schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-8-steps-to-help-manage-change-in-schools/"><time datetime="2018-06-01T15:00:39+00:00">Jun 1, 2018</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-8-steps-to-help-manage-change-in-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2018-06-01T15:00:39+00:00">Jun 1, 2018</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1792,14 +1792,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1963 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mat-operations tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/7-staffing-measures-your-mat-or-school-could-be-tracking/" target="_self" ><img width="1920" height="728" src="/wp-content/uploads/2018/09/3_1920x728.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="7 staffing measures your MAT or school should track" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/09/3_1920x728.jpg 1920w, /wp-content/uploads/2018/09/3_1920x728-300x114.jpg 300w, /wp-content/uploads/2018/09/3_1920x728-768x291.jpg 768w, /wp-content/uploads/2018/09/3_1920x728-1024x388.jpg 1024w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/7-staffing-measures-your-mat-or-school-could-be-tracking/" target="_blank" rel="noreferrer noopener" ><img width="1920" height="728" src="/wp-content/uploads/2018/09/3_1920x728.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="7 staffing measures your MAT or school should track" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2018/09/3_1920x728.jpg 1920w, /wp-content/uploads/2018/09/3_1920x728-300x114.jpg 300w, /wp-content/uploads/2018/09/3_1920x728-768x291.jpg 768w, /wp-content/uploads/2018/09/3_1920x728-1024x388.jpg 1024w" sizes="auto, (max-width: 1920px) 100vw, 1920px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/7-staffing-measures-your-mat-or-school-could-be-tracking/" target="_self" >7 staffing measures your MAT or school should track</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/7-staffing-measures-your-mat-or-school-could-be-tracking/" target="_blank" rel="noreferrer noopener" >7 staffing measures your MAT or school should track</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/7-staffing-measures-your-mat-or-school-could-be-tracking/"><time datetime="2017-10-19T15:00:47+00:00">Oct 19, 2017</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/7-staffing-measures-your-mat-or-school-could-be-tracking/" target="_blank" rel="noreferrer noopener"><time datetime="2017-10-19T15:00:47+00:00">Oct 19, 2017</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1816,14 +1816,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-1970 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-3-ways-school-automation-can-save-staff-hours-each-week/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/dan-gold-605182-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 ways school automation can save staff hours each week" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-3-ways-school-automation-can-save-staff-hours-each-week/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/dan-gold-605182-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="3 ways school automation can save staff hours each week" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-3-ways-school-automation-can-save-staff-hours-each-week/" target="_self" >3 ways school automation can save staff hours each week</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-3-ways-school-automation-can-save-staff-hours-each-week/" target="_blank" rel="noreferrer noopener" >3 ways school automation can save staff hours each week</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-3-ways-school-automation-can-save-staff-hours-each-week/"><time datetime="2017-07-05T15:00:47+00:00">Jul 5, 2017</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-3-ways-school-automation-can-save-staff-hours-each-week/" target="_blank" rel="noreferrer noopener"><time datetime="2017-07-05T15:00:47+00:00">Jul 5, 2017</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1840,14 +1840,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2061 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-successfully-launch-your-free-school-part-ii/" target="_self" ><img width="1600" height="1261" src="/wp-content/uploads/2019/01/3-key-aims-of-the-Teacher-Recruitment-Retention-Strategy-Featured-photo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to successfully launch your Free School (Part II)" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-ii/" target="_blank" rel="noreferrer noopener" ><img width="1600" height="1261" src="/wp-content/uploads/2019/01/3-key-aims-of-the-Teacher-Recruitment-Retention-Strategy-Featured-photo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to successfully launch your Free School (Part II)" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-successfully-launch-your-free-school-part-ii/" target="_self" >How to successfully launch your Free School (Part II)</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-ii/" target="_blank" rel="noreferrer noopener" >How to successfully launch your Free School (Part II)</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-successfully-launch-your-free-school-part-ii/"><time datetime="2017-02-22T14:36:17+00:00">Feb 22, 2017</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-ii/" target="_blank" rel="noreferrer noopener"><time datetime="2017-02-22T14:36:17+00:00">Feb 22, 2017</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -1864,14 +1864,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-2056 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-school-operations">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-successfully-launch-your-free-school-part-i/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/rawpixel-267082-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to successfully launch your Free School (Part I)" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-i/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2018/10/rawpixel-267082-unsplash.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to successfully launch your Free School (Part I)" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-successfully-launch-your-free-school-part-i/" target="_self" >How to successfully launch your Free School (Part I)</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-i/" target="_blank" rel="noreferrer noopener" >How to successfully launch your Free School (Part I)</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-successfully-launch-your-free-school-part-i/"><time datetime="2017-01-16T14:13:41+00:00">Jan 16, 2017</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-successfully-launch-your-free-school-part-i/" target="_blank" rel="noreferrer noopener"><time datetime="2017-01-16T14:13:41+00:00">Jan 16, 2017</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>

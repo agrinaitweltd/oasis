@@ -23,7 +23,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/attendance/" rel="tag">Attendance</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/school-improvement/" rel="tag">School Improvement</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/attendance/" target="_blank" rel="noreferrer noopener" rel="tag">Attendance</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/school-improvement/" target="_blank" rel="noreferrer noopener" rel="tag">School Improvement</a></div></div>
 </div>
 </div></div>
 </div>
@@ -66,7 +66,7 @@ export default function Page() {
 </div></div>
 
 
-<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="/tag/attendance/" rel="tag">Attendance</a><span class="wp-block-post-terms__separator">  </span><a href="/tag/school-improvement/" rel="tag">School Improvement</a></div>
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="https://arbor-education.com/tag/attendance/" target="_blank" rel="noreferrer noopener" rel="tag">Attendance</a><span class="wp-block-post-terms__separator">  </span><a href="https://arbor-education.com/tag/school-improvement/" target="_blank" rel="noreferrer noopener" rel="tag">School Improvement</a></div>
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -124,7 +124,7 @@ export default function Page() {
 
 <nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-welcoming-timetabler-to-the-key-group/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">Welcoming TimeTabler to The Key Group</span></a></div>
 
-<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-primary-school-shares-why-they-introduced-an-extra-week-of-holiday-for-staff-and-students/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">One primary school shares why they introduced an extra week of holiday for staff and students</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
+<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="https://arbor-education.com/blog-primary-school-shares-why-they-introduced-an-extra-week-of-holiday-for-staff-and-students/" target="_blank" rel="noreferrer noopener" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">One primary school shares why they introduced an extra week of holiday for staff and students</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>
 </div>
 ` }}

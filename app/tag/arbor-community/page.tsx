@@ -64,14 +64,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-17426 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-arbor-updates">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-what-you-missed-at-arborfest-2025/" target="_self" ><img width="706" height="400" src="/wp-content/uploads/2025/02/Blog-image-1-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What you missed at ArborFest 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/02/Blog-image-1-1.png 706w, /wp-content/uploads/2025/02/Blog-image-1-1-300x170.png 300w" sizes="(max-width: 706px) 100vw, 706px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-what-you-missed-at-arborfest-2025/" target="_blank" rel="noreferrer noopener" ><img width="706" height="400" src="/wp-content/uploads/2025/02/Blog-image-1-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="What you missed at ArborFest 2025" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2025/02/Blog-image-1-1.png 706w, /wp-content/uploads/2025/02/Blog-image-1-1-300x170.png 300w" sizes="(max-width: 706px) 100vw, 706px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-what-you-missed-at-arborfest-2025/" target="_self" >What you missed at ArborFest 2025</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-what-you-missed-at-arborfest-2025/" target="_blank" rel="noreferrer noopener" >What you missed at ArborFest 2025</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-what-you-missed-at-arborfest-2025/"><time datetime="2025-05-28T09:26:27+00:00">May 28, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-what-you-missed-at-arborfest-2025/" target="_blank" rel="noreferrer noopener"><time datetime="2025-05-28T09:26:27+00:00">May 28, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -88,14 +88,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-17332 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-ten-things-i-would-do-if-i-were-education-secretary/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-MATs-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Ten things I would do if I were Education Secretary" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-MATs-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-MATs-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-MATs-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-MATs-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-ten-things-i-would-do-if-i-were-education-secretary/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-MATs-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Ten things I would do if I were Education Secretary" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-MATs-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-MATs-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-MATs-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-MATs-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-ten-things-i-would-do-if-i-were-education-secretary/" target="_self" >Ten things I would do if I were Education Secretary</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-ten-things-i-would-do-if-i-were-education-secretary/" target="_blank" rel="noreferrer noopener" >Ten things I would do if I were Education Secretary</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-ten-things-i-would-do-if-i-were-education-secretary/"><time datetime="2025-04-29T09:29:17+00:00">Apr 29, 2025</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-ten-things-i-would-do-if-i-were-education-secretary/" target="_blank" rel="noreferrer noopener"><time datetime="2025-04-29T09:29:17+00:00">Apr 29, 2025</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -136,14 +136,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11325 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-new-arbor-mis-getting-started-tips/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-data-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="New to Arbor MIS? Here&#8217;s four top tips to get you started" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-data-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-data-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-data-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-data-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-new-arbor-mis-getting-started-tips/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-data-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="New to Arbor MIS? Here&#8217;s four top tips to get you started" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-data-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-data-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-data-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-data-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-new-arbor-mis-getting-started-tips/" target="_self" >New to Arbor MIS? Here&#8217;s four top tips to get you started</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-new-arbor-mis-getting-started-tips/" target="_blank" rel="noreferrer noopener" >New to Arbor MIS? Here&#8217;s four top tips to get you started</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-new-arbor-mis-getting-started-tips/"><time datetime="2024-12-14T14:12:00+00:00">Dec 14, 2024</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-new-arbor-mis-getting-started-tips/" target="_blank" rel="noreferrer noopener"><time datetime="2024-12-14T14:12:00+00:00">Dec 14, 2024</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -160,14 +160,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11465 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-mats">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-trusts-the-cost-of-living-crisis/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Three leaders share how their trusts are saving money during the cost-of-living crisis" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg 740w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-300x244.jpg 300w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Three leaders share how their trusts are saving money during the cost-of-living crisis" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234.jpg 740w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-300x244.jpg 300w, /wp-content/uploads/2023/10/Wordpress-dimensionsblog-icon-size-20234-370x300.jpg 370w" sizes="auto, (max-width: 740px) 100vw, 740px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-trusts-the-cost-of-living-crisis/" target="_self" >Three leaders share how their trusts are saving money during the cost-of-living crisis</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener" >Three leaders share how their trusts are saving money during the cost-of-living crisis</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-trusts-the-cost-of-living-crisis/"><time datetime="2023-10-19T08:46:02+00:00">Oct 19, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-trusts-the-cost-of-living-crisis/" target="_blank" rel="noreferrer noopener"><time datetime="2023-10-19T08:46:02+00:00">Oct 19, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -184,20 +184,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-11414 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-arborfest">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arborfest/" target="_self" ><img width="1480" height="1204" src="/wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ArborFest Roundup 2023" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1.jpg 1480w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-300x244.jpg 300w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-1024x833.jpg 1024w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-768x625.jpg 768w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-370x300.jpg 370w" sizes="auto, (max-width: 1480px) 100vw, 1480px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arborfest/" target="_blank" rel="noreferrer noopener" ><img width="1480" height="1204" src="/wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ArborFest Roundup 2023" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1.jpg 1480w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-300x244.jpg 300w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-1024x833.jpg 1024w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-768x625.jpg 768w, /wp-content/uploads/2023/10/Blog-and-social-media-icons-2023-1-370x300.jpg 370w" sizes="auto, (max-width: 1480px) 100vw, 1480px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arborfest/" target="_self" >The ArborFest Roundup 2023</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arborfest/" target="_blank" rel="noreferrer noopener" >The ArborFest Roundup 2023</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arborfest/"><time datetime="2023-10-04T13:51:30+00:00">Oct 4, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arborfest/" target="_blank" rel="noreferrer noopener"><time datetime="2023-10-04T13:51:30+00:00">Oct 4, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/arborfest/" rel="tag">ArborFest</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/arborfest/" target="_blank" rel="noreferrer noopener" rel="tag">ArborFest</a></div></div>
 </div>
 </div>
 
@@ -232,20 +232,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9957 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-arborfest">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-arborfest-2023/" target="_self" ><img width="2220" height="1806" src="/wp-content/uploads/2022/11/Blog-size-3-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ArborFest 2023 round-up" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-arborfest-2023/" target="_blank" rel="noreferrer noopener" ><img width="2220" height="1806" src="/wp-content/uploads/2022/11/Blog-size-3-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ArborFest 2023 round-up" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-arborfest-2023/" target="_self" >The ArborFest 2023 round-up</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-arborfest-2023/" target="_blank" rel="noreferrer noopener" >The ArborFest 2023 round-up</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-arborfest-2023/"><time datetime="2023-01-27T16:43:51+00:00">Jan 27, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-arborfest-2023/" target="_blank" rel="noreferrer noopener"><time datetime="2023-01-27T16:43:51+00:00">Jan 27, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/arborfest/" rel="tag">ArborFest</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/arborfest/" target="_blank" rel="noreferrer noopener" rel="tag">ArborFest</a></div></div>
 </div>
 </div>
 
@@ -256,20 +256,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9639 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-customer-support">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-customer-service-week-arbor-support/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/11/Wordpress-dimensions-6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="National Customer Service Week: Hear from our team" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-customer-service-week-arbor-support/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/11/Wordpress-dimensions-6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="National Customer Service Week: Hear from our team" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-customer-service-week-arbor-support/" target="_self" >National Customer Service Week: Hear from our team</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-customer-service-week-arbor-support/" target="_blank" rel="noreferrer noopener" >National Customer Service Week: Hear from our team</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-customer-service-week-arbor-support/"><time datetime="2022-10-03T07:55:45+00:00">Oct 3, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-customer-service-week-arbor-support/" target="_blank" rel="noreferrer noopener"><time datetime="2022-10-03T07:55:45+00:00">Oct 3, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/customer-support/" rel="tag">Customer Support</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/customer-support/" target="_blank" rel="noreferrer noopener" rel="tag">Customer Support</a></div></div>
 </div>
 </div>
 
@@ -304,20 +304,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8943 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-arbor-mis">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2022/03/3-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Creating a joined-up secondary school &#8211; our brand new ebook!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2022/03/3-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Creating a joined-up secondary school &#8211; our brand new ebook!" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/" target="_self" >Creating a joined-up secondary school &#8211; our brand new ebook!</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/" target="_blank" rel="noreferrer noopener" >Creating a joined-up secondary school &#8211; our brand new ebook!</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/"><time datetime="2022-03-30T09:58:05+00:00">Mar 30, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-creating-a-joined-up-secondary-school-our-brand-new-ebook/" target="_blank" rel="noreferrer noopener"><time datetime="2022-03-30T09:58:05+00:00">Mar 30, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/arbor-mis/" rel="tag">Arbor MIS</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/arbor-mis/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor MIS</a></div></div>
 </div>
 </div>
 
@@ -328,14 +328,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-8483 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-arbor-updates">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-options-for-your-upcoming-3-year-sims-renewal/" target="_self" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Options for your upcoming 3 year SIMS renewal" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-options-for-your-upcoming-3-year-sims-renewal/" target="_blank" rel="noreferrer noopener" ><img width="740" height="602" src="/wp-content/uploads/2020/07/MATs.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Options for your upcoming 3 year SIMS renewal" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-options-for-your-upcoming-3-year-sims-renewal/" target="_self" >Options for your upcoming 3 year SIMS renewal</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-options-for-your-upcoming-3-year-sims-renewal/" target="_blank" rel="noreferrer noopener" >Options for your upcoming 3 year SIMS renewal</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-options-for-your-upcoming-3-year-sims-renewal/"><time datetime="2021-11-16T11:24:44+00:00">Nov 16, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-options-for-your-upcoming-3-year-sims-renewal/" target="_blank" rel="noreferrer noopener"><time datetime="2021-11-16T11:24:44+00:00">Nov 16, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -352,20 +352,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7760 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-popular">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Back On Track &#8211; Fewer Things, Greater Depth with Mary Myatt" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2021/03/6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Back On Track &#8211; Fewer Things, Greater Depth with Mary Myatt" style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/" target="_self" >Back On Track &#8211; Fewer Things, Greater Depth with Mary Myatt</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/" target="_blank" rel="noreferrer noopener" >Back On Track &#8211; Fewer Things, Greater Depth with Mary Myatt</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/"><time datetime="2021-03-31T07:57:57+00:00">Mar 31, 2021</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-back-on-track-fewer-things-greater-depth-with-mary-myatt/" target="_blank" rel="noreferrer noopener"><time datetime="2021-03-31T07:57:57+00:00">Mar 31, 2021</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/popular/" rel="tag">Popular</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a></div></div>
 </div>
 </div>
 
@@ -376,20 +376,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7202 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-arbor-community tag-case-studies tag-it-support">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/" target="_self" ><img width="1555" height="1266" src="/wp-content/uploads/2020/11/partners-blog-image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why we’ve partnered with Local Authorities to give schools like you more choice " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/" target="_blank" rel="noreferrer noopener" ><img width="1555" height="1266" src="/wp-content/uploads/2020/11/partners-blog-image.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Why we’ve partnered with Local Authorities to give schools like you more choice " style="border-radius:0px;width:100%;object-fit:cover;" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/" target="_self" >Why we’ve partnered with Local Authorities to give schools like you more choice </a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/" target="_blank" rel="noreferrer noopener" >Why we’ve partnered with Local Authorities to give schools like you more choice </a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/"><time datetime="2020-12-08T08:57:58+00:00">Dec 8, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-why-weve-partnered-with-local-authorities-to-give-schools-like-you-more-choice/" target="_blank" rel="noreferrer noopener"><time datetime="2020-12-08T08:57:58+00:00">Dec 8, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/case-studies/" rel="tag">Case Studies</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/it-support/" rel="tag">IT Support</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-community/" rel="tag">Arbor Community</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/case-studies/" rel="tag">Case Studies</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/it-support/" target="_blank" rel="noreferrer noopener" rel="tag">IT Support</a></div></div>
 </div>
 </div>
 

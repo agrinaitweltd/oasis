@@ -31,23 +31,37 @@ export default function Header() {
             </div>
 
             <div id="mega-menu-wrap-max_mega_menu_1" className="mega-menu-wrap">
-              <div className="mega-menu-toggle">
-                <button
-                  aria-expanded={mobileOpen}
-                  aria-label="Toggle Menu"
-                  className={`mega-toggle-animated mega-toggle-animated-slider${mobileOpen ? " active" : ""}`}
-                  type="button"
-                  onClick={() => setMobileOpen((v) => !v)}
-                >
-                  <span className="mega-toggle-animated-box">
-                    <span className="mega-toggle-animated-inner"></span>
-                  </span>
-                </button>
+              <div className={`mega-menu-toggle${mobileOpen ? " mega-menu-open" : ""}`}>
+                <div className="mega-toggle-blocks-left"></div>
+                <div className="mega-toggle-blocks-center"></div>
+                <div className="mega-toggle-blocks-right">
+                  <div className="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0" id="mega-toggle-block-0">
+                    <button
+                      aria-controls="mega-menu-max_mega_menu_1"
+                      aria-expanded={mobileOpen}
+                      aria-haspopup="true"
+                      aria-label="Toggle Menu"
+                      className="mega-toggle-animated mega-toggle-animated-slider"
+                      type="button"
+                      onClick={() => setMobileOpen((v) => !v)}
+                    >
+                      <span className="mega-toggle-animated-box">
+                        <span className="mega-toggle-animated-inner"></span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
               </div>
 
               <ul
                 id="mega-menu-max_mega_menu_1"
-                className={`mega-menu max-mega-menu mega-menu-horizontal${mobileOpen ? " mega-menu-open" : ""}`}
+                className="mega-menu max-mega-menu mega-menu-horizontal"
+                data-event="hover_intent"
+                data-effect="disabled"
+                data-second-click="close"
+                data-document-click="collapse"
+                data-vertical-behaviour="accordion"
+                data-breakpoint="930"
               >
                 {megaMenu.map((section) => (
                   <li
@@ -73,7 +87,11 @@ export default function Header() {
                     <ul
                       className="mega-sub-menu"
                       role="presentation"
-                      style={{ display: openMenu === section.label ? "block" : undefined }}
+                      style={
+                        openMenu === section.label
+                          ? { display: "block", opacity: 1, visibility: "visible" }
+                          : { display: "none", opacity: 0, visibility: "hidden" }
+                      }
                     >
                       {section.links.map((link) => (
                         <li className="mega-menu-item" key={link.href}>

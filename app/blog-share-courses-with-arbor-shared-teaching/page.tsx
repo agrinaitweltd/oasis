@@ -23,7 +23,7 @@ export default function Page() {
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/arbor-mis/" rel="tag">Arbor MIS</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/new-release/" rel="tag">New Release</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/arbor-mis/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor MIS</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/new-release/" target="_blank" rel="noreferrer noopener" rel="tag">New Release</a></div></div>
 </div>
 </div></div>
 </div>
@@ -66,7 +66,7 @@ But, we know that sharing teaching can be a very time consuming and manual proce
 </div></div>
 
 
-<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="/tag/arbor-mis/" rel="tag">Arbor MIS</a><span class="wp-block-post-terms__separator">  </span><a href="/tag/new-release/" rel="tag">New Release</a></div>
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)"><div class="taxonomy-post_tag is-style-pill wp-block-post-terms"><a href="https://arbor-education.com/tag/arbor-mis/" target="_blank" rel="noreferrer noopener" rel="tag">Arbor MIS</a><span class="wp-block-post-terms__separator">  </span><a href="https://arbor-education.com/tag/new-release/" target="_blank" rel="noreferrer noopener" rel="tag">New Release</a></div>
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
@@ -122,9 +122,9 @@ But, we know that sharing teaching can be a very time consuming and manual proce
 
 
 
-<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-wellbeing-in-schools/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">The ultimate guide to wellbeing initiatives in schools</span></a></div>
+<nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="https://arbor-education.com/blog-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">The ultimate guide to wellbeing initiatives in schools</span></a></div>
 
-<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-arbor-pay-for-one-promise/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">An open letter on our Pay-for-One Promise</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
+<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="https://arbor-education.com/blog-arbor-pay-for-one-promise/" target="_blank" rel="noreferrer noopener" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">An open letter on our Pay-for-One Promise</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>
 </div>
 ` }}

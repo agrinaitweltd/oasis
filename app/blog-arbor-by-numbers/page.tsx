@@ -190,7 +190,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph"><span style="font-weight: 400;">More of a words person? You can read what our customers have to say about us </span><a href="/meet-our-schools/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.&nbsp;</span></p>
+<p class="wp-block-paragraph"><span style="font-weight: 400;">More of a words person? You can read what our customers have to say about us </span><a href="https://arbor-education.com/meet-our-schools/" target="_blank" rel="noreferrer noopener"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.&nbsp;</span></p>
 
 
 

@@ -143,7 +143,7 @@ export default function Page() {
 
 <nav aria-label="Posts" class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-ff41d29d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><div class="post-navigation-link-previous wp-block-post-navigation-link"><span class="wp-block-post-navigation-link__arrow-previous is-arrow-arrow" aria-hidden="true">←</span><a href="/blog-whats-next-for-arbor-and-ai/" rel="prev"><span class="post-navigation-link__label">Previous: </span> <span class="post-navigation-link__title">What&#8217;s next for Arbor and AI?</span></a></div>
 
-<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="/blog-whats-new-in-march-2025/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">What&#8217;s new in March?</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
+<div class="post-navigation-link-next wp-block-post-navigation-link"><a href="https://arbor-education.com/blog-whats-new-in-march-2025/" target="_blank" rel="noreferrer noopener" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">What&#8217;s new in March?</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span></div></nav>
 </div>
 </div>
 ` }}

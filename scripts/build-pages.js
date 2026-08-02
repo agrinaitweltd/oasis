@@ -119,6 +119,20 @@ function main() {
   const homeHtml = fs.readFileSync(path.join(MIRROR, "index.html"), "utf8");
   processPage("", homeHtml, path.join(APP, "page.tsx"));
 
+  // other top-level .html files (e.g. workflows.html -> /workflows)
+  const topLevelHtml = fs
+    .readdirSync(MIRROR, { withFileTypes: true })
+    .filter((e) => e.isFile() && e.name.endsWith(".html") && e.name !== "index.html");
+  for (const e of topLevelHtml) {
+    const slug = e.name.replace(/\.html$/, "");
+    const html = fs.readFileSync(path.join(MIRROR, e.name), "utf8");
+    const outDir = path.join(APP, slug);
+    fs.mkdirSync(outDir, { recursive: true });
+    const success = processPage(slug, html, path.join(outDir, "page.tsx"));
+    if (success) ok++;
+    else fail.push(slug);
+  }
+
   for (const { slug, file } of pages) {
     const html = fs.readFileSync(file, "utf8");
     const outDir = path.join(APP, slug);

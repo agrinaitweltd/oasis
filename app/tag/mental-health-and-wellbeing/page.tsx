@@ -88,14 +88,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7015 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health-and-wellbeing">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-prevent-staff-burnout-in-schools/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-school-office-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to recognise and prevent employee burnout" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-school-office-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-school-office-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-school-office-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-school-office-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-prevent-staff-burnout-in-schools/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-school-office-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to recognise and prevent employee burnout" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-school-office-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-school-office-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-school-office-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-school-office-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-prevent-staff-burnout-in-schools/" target="_self" >How to recognise and prevent employee burnout</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-prevent-staff-burnout-in-schools/" target="_blank" rel="noreferrer noopener" >How to recognise and prevent employee burnout</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-prevent-staff-burnout-in-schools/"><time datetime="2023-01-06T10:22:00+00:00">Jan 6, 2023</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-prevent-staff-burnout-in-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2023-01-06T10:22:00+00:00">Jan 6, 2023</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -112,14 +112,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-9217 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health-and-wellbeing">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-staff-wellbeing-in-schools/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-staffroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Staff wellbeing in schools &#8211; the little things that matter" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-staffroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-staff-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-staffroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Staff wellbeing in schools &#8211; the little things that matter" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-staffroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-staffroom-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-staff-wellbeing-in-schools/" target="_self" >Staff wellbeing in schools &#8211; the little things that matter</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-staff-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener" >Staff wellbeing in schools &#8211; the little things that matter</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-staff-wellbeing-in-schools/"><time datetime="2022-06-07T14:18:09+00:00">Jun 7, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-staff-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2022-06-07T14:18:09+00:00">Jun 7, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -136,14 +136,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7961 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health-and-wellbeing">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-wellbeing-in-schools/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-Arbor-hero-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ultimate guide to wellbeing initiatives in schools" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-Arbor-hero-2.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-Arbor-hero-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="The ultimate guide to wellbeing initiatives in schools" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-Arbor-hero-2.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-Arbor-hero-2-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-wellbeing-in-schools/" target="_self" >The ultimate guide to wellbeing initiatives in schools</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener" >The ultimate guide to wellbeing initiatives in schools</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-wellbeing-in-schools/"><time datetime="2022-04-24T15:50:00+00:00">Apr 24, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-wellbeing-in-schools/" target="_blank" rel="noreferrer noopener"><time datetime="2022-04-24T15:50:00+00:00">Apr 24, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
@@ -160,20 +160,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-4944 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health-and-wellbeing tag-popular">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-top-tips-for-managing-stress-during-covid19/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-cloud-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top tips for managing stress during constant change" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-cloud-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-cloud-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-cloud-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-cloud-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-top-tips-for-managing-stress-during-covid19/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-cloud-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Top tips for managing stress during constant change" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-cloud-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-cloud-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-cloud-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-cloud-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-top-tips-for-managing-stress-during-covid19/" target="_self" >Top tips for managing stress during constant change</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-top-tips-for-managing-stress-during-covid19/" target="_blank" rel="noreferrer noopener" >Top tips for managing stress during constant change</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-top-tips-for-managing-stress-during-covid19/"><time datetime="2022-01-10T14:00:08+00:00">Jan 10, 2022</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-top-tips-for-managing-stress-during-covid19/" target="_blank" rel="noreferrer noopener"><time datetime="2022-01-10T14:00:08+00:00">Jan 10, 2022</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mental-health-and-wellbeing/" rel="tag">Mental Health and Wellbeing</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/popular/" rel="tag">Popular</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/mental-health-and-wellbeing/" rel="tag">Mental Health and Wellbeing</a><span class="wp-block-post-terms__separator">, </span><a href="https://arbor-education.com/tag/popular/" target="_blank" rel="noreferrer noopener" rel="tag">Popular</a></div></div>
 </div>
 </div>
 
@@ -184,20 +184,20 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-7139 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-edtech tag-mental-health-and-wellbeing">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-desktop-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reflect on rapid technology change and plan for the future" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-desktop-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-desktop-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-desktop-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-desktop-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-desktop-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="How to reflect on rapid technology change and plan for the future" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-desktop-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-desktop-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-desktop-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-desktop-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/" target="_self" >How to reflect on rapid technology change and plan for the future</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/" target="_blank" rel="noreferrer noopener" >How to reflect on rapid technology change and plan for the future</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/"><time datetime="2020-11-27T08:52:17+00:00">Nov 27, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-how-to-reflect-on-rapid-technology-change-and-plan-for-the-future/" target="_blank" rel="noreferrer noopener"><time datetime="2020-11-27T08:52:17+00:00">Nov 27, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
 
 
-<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="/tag/edtech/" rel="tag">EdTech</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mental-health-and-wellbeing/" rel="tag">Mental Health and Wellbeing</a></div></div>
+<div class="taxonomy-post_tag wp-block-post-terms"><span class="wp-block-post-terms__prefix">in </span><a href="https://arbor-education.com/tag/edtech/" target="_blank" rel="noreferrer noopener" rel="tag">EdTech</a><span class="wp-block-post-terms__separator">, </span><a href="/tag/mental-health-and-wellbeing/" rel="tag">Mental Health and Wellbeing</a></div></div>
 </div>
 </div>
 
@@ -208,14 +208,14 @@ export default function Page() {
 </div>
 
 </li><li class="wp-block-post post-6970 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-mental-health-and-wellbeing">
-<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="/blog-managing-classroom-behaviour/" target="_self" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 top behaviour management strategies for the classroom" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-classroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-classroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-classroom-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
+<figure style="padding-bottom:var(--wp--preset--spacing--20);margin-bottom:0" class="wp-block-post-featured-image"><a href="https://arbor-education.com/blog-managing-classroom-behaviour/" target="_blank" rel="noreferrer noopener" ><img width="1120" height="850" src="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="5 top behaviour management strategies for the classroom" style="border-radius:0px;width:100%;object-fit:cover;" srcset="/wp-content/uploads/2024/10/Blog-2-classroom-1.jpg 1120w, /wp-content/uploads/2024/10/Blog-2-classroom-1-300x228.jpg 300w, /wp-content/uploads/2024/10/Blog-2-classroom-1-1024x777.jpg 1024w, /wp-content/uploads/2024/10/Blog-2-classroom-1-768x583.jpg 768w" sizes="auto, (max-width: 1120px) 100vw, 1120px" /></a></figure>
 
 
-<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="/blog-managing-classroom-behaviour/" target="_self" >5 top behaviour management strategies for the classroom</a></h2>
+<div class="wp-block-group is-vertical is-nowrap is-layout-flex wp-container-core-group-is-layout-37c62d8e wp-block-group-is-layout-flex" style="margin-top:var(--wp--preset--spacing--20);padding-top:0"><h2 class="wp-block-post-title has-large-font-size wp-container-content-32e3a40d"><a href="https://arbor-education.com/blog-managing-classroom-behaviour/" target="_blank" rel="noreferrer noopener" >5 top behaviour management strategies for the classroom</a></h2>
 
 <div class="wp-block-template-part">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="/blog-managing-classroom-behaviour/"><time datetime="2020-10-29T10:36:17+00:00">Oct 29, 2020</time></a></div>
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3923442b wp-block-group-is-layout-flex"><div class="wp-block-post-date"><a href="https://arbor-education.com/blog-managing-classroom-behaviour/" target="_blank" rel="noreferrer noopener"><time datetime="2020-10-29T10:36:17+00:00">Oct 29, 2020</time></a></div>
 
 
 <p class="has-contrast-2-color has-text-color wp-block-paragraph">—</p>
