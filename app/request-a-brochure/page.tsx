@@ -1,0 +1,65 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Request a brochure - Arbor",
+  description: "117 On average, schools save  117 minutes per staff member, per week with Arbor",
+};
+
+export default function Page() {
+  return (
+    <div
+      className={"wp-block-group is-layout-flow wp-block-group-is-layout-flow"}
+      dangerouslySetInnerHTML={{ __html: `
+<div class="wp-block-group has-accent-5-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:88px;padding-bottom:88px"><h1 class="has-text-align-center wp-block-post-title">Request a brochure</h1>
+
+
+<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+</div>
+
+
+<div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-02e41962 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "8475353",
+    formId: "2d28233f-4f66-4e51-a508-0996d8e7547a",
+    css: "",
+    cssClass: "arbor-hubspot-form arbor-hubspot-form-two-columns"
+});
+</script>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="wp-block-group alignwide has-global-padding is-layout-constrained wp-container-core-group-is-layout-a8319191 wp-block-group-is-layout-constrained" style="margin-bottom:88px">
+<figure class="wp-block-image alignwide size-large"><img src="/wp-content/uploads/2024/10/IMG_9275-ARBOR-JULY24-BUYOUT-1024x565.jpg" alt="" class="wp-image-448"/></figure>
+
+
+
+<div class="wp-block-columns alignwide has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-9d9089a1 wp-block-columns-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div class="wp-block-column is-vertically-aligned-stretch has-base-2-color has-accent-background-color has-text-color has-background has-link-color wp-elements-dcd7e7989cb065ac2c280782f1e06a18 is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:45%">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-2ef4afd0 wp-block-group-is-layout-flex" style="min-height:100%;padding-top:24px;padding-bottom:24px">
+<p class="has-text-align-center has-grenette-pro-font-family wp-block-paragraph" style="font-size:clamp(67.975px, 4.248rem + ((1vw - 3.2px) * 10.642), 148px);letter-spacing:-2.96px;line-height:1">117</p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:55%">
+<h3 class="wp-block-heading">On average, schools save  117 minutes per staff member, per week with Arbor</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>` }}
+    />
+  );
+}

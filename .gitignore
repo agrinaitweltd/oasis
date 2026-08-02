@@ -1,0 +1,13 @@
+node_modules
+.next
+.vercel
+*.log
+npm-debug.log*
+.DS_Store
+arbor-education.com
+scripts/_head-styles.css
+scripts/_home-body.html
+scripts/_links.txt
+wordpress.com
+*.wordpress.com
+*.wp.com
