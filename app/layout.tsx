@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import "@/styles/blocks.css";
+import "@/styles/dashicons.css";
 import "@/styles/globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -16,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-GB">
-      <body className="wp-site-blocks">
+      <body className="wp-site-blocks wp-custom-logo wp-embed-responsive wp-theme-arbor mega-menu-max-mega-menu-1 block-theme">
         <a className="skip-link screen-reader-text" id="wp-skip-link" href="#wp--skip-link--target">
           Skip to content
         </a>
