@@ -9,6 +9,24 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const navRef = useRef<HTMLUListElement>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function cancelClose() {
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
+  }
+
+  function openNow(label: string) {
+    cancelClose();
+    setOpenMenu(label);
+  }
+
+  function closeWithDelay() {
+    cancelClose();
+    closeTimer.current = setTimeout(() => setOpenMenu(null), 350);
+  }
 
   useEffect(() => {
     function handleDocumentClick(e: MouseEvent) {
@@ -89,8 +107,8 @@ export default function Header() {
                       openMenu === section.label ? " mega-toggle-on" : ""
                     }`}
                     style={{ position: "relative" }}
-                    onMouseEnter={() => setOpenMenu(section.label)}
-                    onMouseLeave={() => setOpenMenu(null)}
+                    onMouseEnter={() => openNow(section.label)}
+                    onMouseLeave={closeWithDelay}
                   >
                     <a
                       className="mega-menu-link"
@@ -99,7 +117,7 @@ export default function Header() {
                       onClick={(e) => {
                         e.preventDefault();
                         e.stopPropagation();
-                        setOpenMenu(section.label);
+                        setOpenMenu((v) => (v === section.label ? null : section.label));
                       }}
                     >
                       {section.label}
@@ -108,6 +126,8 @@ export default function Header() {
                     <ul
                       className="mega-sub-menu"
                       role="presentation"
+                      onMouseEnter={() => cancelClose()}
+                      onMouseLeave={closeWithDelay}
                       style={
                         openMenu === section.label
                           ? {
@@ -115,19 +135,20 @@ export default function Header() {
                               opacity: 1,
                               visibility: "visible",
                               left: 0,
+                              width: 320,
+                              maxWidth: "calc(100vw - 48px)",
                               zIndex: 9999,
                               pointerEvents: "auto",
-                              transform: "translateY(0)",
-                              transition: "opacity 180ms ease, transform 180ms ease",
                             }
                           : {
                               display: "none",
                               opacity: 0,
                               visibility: "hidden",
                               left: 0,
+                              width: 320,
+                              maxWidth: "calc(100vw - 48px)",
                               zIndex: 9999,
                               pointerEvents: "none",
-                              transform: "translateY(-6px)",
                             }
                       }
                     >

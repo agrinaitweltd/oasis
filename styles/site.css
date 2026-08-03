@@ -37,35 +37,6 @@
   transform: translateY(0);
 }
 
-/* Mega menu top-level links: animated underline on hover */
-.mega-menu-link {
-  position: relative;
-  transition: color 150ms ease;
-}
-.mega-menu-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 2px;
-  background: currentColor;
-  transition: width 200ms ease;
-}
-.mega-menu-item:hover > .mega-menu-link::after,
-.mega-toggle-on > .mega-menu-link::after {
-  width: 100%;
-}
-
-/* Mega menu dropdown links: gentle slide-in on hover */
-.wp-block-navigation-item__content {
-  transition: transform 150ms ease, opacity 150ms ease, color 150ms ease;
-  display: inline-block;
-}
-.wp-block-navigation-item__content:hover {
-  transform: translateX(4px);
-}
-
 /* Cards / columns with shadow: lift on hover for a livelier feel */
 .wp-block-column[style*="box-shadow"],
 .wp-block-columns .wp-block-column.has-background {
