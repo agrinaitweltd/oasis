@@ -72,17 +72,25 @@ export default function FaqAccordion() {
               <span className="wp-block-heading" style={{ fontSize: 18, fontWeight: 500, margin: 0 }}>
                 {item.q}
               </span>
-              <span aria-hidden="true" style={{ fontSize: 20, flexShrink: 0, transform: open ? "rotate(45deg)" : "rotate(0deg)", transition: "transform 150ms ease" }}>
+              <span aria-hidden="true" style={{ fontSize: 20, flexShrink: 0, transform: open ? "rotate(45deg)" : "rotate(0deg)", transition: "transform 250ms cubic-bezier(0.65,0,0.35,1)" }}>
                 +
               </span>
             </button>
-            {open && (
-              <div style={{ padding: "0 24px 20px", animation: "accordionReveal 220ms ease both" }}>
-                <p className="wp-block-paragraph" style={{ margin: 0, color: "var(--wp--preset--color--contrast-2)" }}>
-                  {item.a}
-                </p>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateRows: open ? "1fr" : "0fr",
+                transition: "grid-template-rows 320ms cubic-bezier(0.65,0,0.35,1)",
+              }}
+            >
+              <div style={{ overflow: "hidden" }}>
+                <div style={{ padding: "0 24px 20px", opacity: open ? 1 : 0, transition: "opacity 220ms ease" }}>
+                  <p className="wp-block-paragraph" style={{ margin: 0, color: "var(--wp--preset--color--contrast-2)" }}>
+                    {item.a}
+                  </p>
+                </div>
               </div>
-            )}
+            </div>
           </div>
         );
       })}

@@ -30,6 +30,8 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(160deg, #6d70e0 0%, #888cf8 45%, #a6a9f7 100%);
+  background-size: 200% 200%;
+  animation: authPanelDrift 14s ease-in-out infinite;
   color: #fff;
   padding: 56px 48px;
   flex-direction: column;
@@ -39,6 +41,10 @@
   .auth-panel {
     display: flex;
   }
+}
+@keyframes authPanelDrift {
+  0%, 100% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
 }
 .auth-panel::before,
 .auth-panel::after {

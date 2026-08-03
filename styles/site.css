@@ -317,6 +317,51 @@ body.js-reveal-active .scroll-reveal.is-in-view {
   transition: color 150ms ease;
 }
 
+/* Homepage hero: entrance animation on page load (not scroll-triggered,
+   since it's always above the fold - plays immediately instead of waiting
+   for ScrollReveal). Heading, then buttons, in a quick stagger. */
+.wp-block-cover__inner-container > p {
+  animation: heroFadeIn 800ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.wp-block-cover__inner-container .wp-block-buttons {
+  animation: heroFadeIn 800ms cubic-bezier(0.16, 1, 0.3, 1) 180ms both;
+}
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Buttons: a light diagonal shine sweeps across on hover, on top of the
+   existing lift/shadow effect. */
+.wp-block-button__link,
+.wp-element-button {
+  position: relative;
+  overflow: hidden;
+}
+.wp-block-button__link::after,
+.wp-element-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+  transform: skewX(-20deg);
+  transition: left 550ms ease;
+  pointer-events: none;
+}
+.wp-block-button__link:hover::after,
+.wp-element-button:hover::after {
+  left: 125%;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001ms !important;

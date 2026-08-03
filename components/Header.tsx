@@ -355,10 +355,18 @@ export default function Header() {
         </div>
 
         <div style={{ flexGrow: 1, padding: "8px 12px" }}>
-          {megaMenu.map((section) => {
+          {megaMenu.map((section, sectionIndex) => {
             const isExpanded = mobileExpanded === section.label;
             return (
-              <div key={section.label} style={{ borderBottom: "1px solid rgba(22,20,12,0.08)" }}>
+              <div
+                key={section.label}
+                style={{
+                  borderBottom: "1px solid rgba(22,20,12,0.08)",
+                  opacity: mobileOpen ? 1 : 0,
+                  transform: mobileOpen ? "translateX(0)" : "translateX(-12px)",
+                  transition: `opacity 320ms ease ${mobileOpen ? sectionIndex * 60 : 0}ms, transform 320ms ease ${mobileOpen ? sectionIndex * 60 : 0}ms`,
+                }}
+              >
                 <button
                   type="button"
                   onClick={() => setMobileExpanded((v) => (v === section.label ? null : section.label))}
