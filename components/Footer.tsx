@@ -1,6 +1,12 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { footerColumns, NavLink } from "@/lib/nav-data";
+
+const FOOTER_LOGO_DEFAULT = "/images/logo.png";
+const FOOTER_LOGO_FALLBACK = "/images/oasis-logo-footer.svg";
 
 function FooterNav({ links, ariaLabel }: { links: NavLink[]; ariaLabel: string }) {
   if (!links.length) return null;
@@ -30,6 +36,9 @@ function FooterNav({ links, ariaLabel }: { links: NavLink[]; ariaLabel: string }
 }
 
 export default function Footer() {
+  const [logoError, setLogoError] = useState(false);
+  const logoSrc = logoError ? FOOTER_LOGO_FALLBACK : FOOTER_LOGO_DEFAULT;
+
   return (
     <footer className="wp-block-template-part">
       <div
@@ -40,13 +49,16 @@ export default function Footer() {
           <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style={{ flexBasis: "20%" }}>
             <div className="wp-block-group is-vertical is-layout-flex wp-block-group-is-layout-flex">
               <figure className="wp-block-image size-large is-resized">
-                <Link href="/">
+                <Link href="/" style={{ display: "block", width: 140, height: 48 }}>
                   <Image
+                    key={logoSrc}
                     width={140}
                     height={48}
-                    src="/images/oasis-logo-footer.svg"
+                    src={logoSrc}
                     alt="OASIS"
-                    style={{ width: 135 }}
+                    unoptimized
+                    style={{ width: 140, height: 48, maxHeight: 48, objectFit: "contain", objectPosition: "left center" }}
+                    onError={() => setLogoError(true)}
                   />
                 </Link>
               </figure>
@@ -88,7 +100,7 @@ export default function Footer() {
         <div className="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style={{ paddingTop: "var(--wp--preset--spacing--30)", paddingBottom: 0 }}>
           <div className="wp-block-group is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex footer-flex-row" style={{ marginTop: 0, marginBottom: 0, paddingTop: 0 }}>
             <p className="inline-block has-link-color has-grenette-pro-font-family wp-block-paragraph" style={{ fontSize: "clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 2.674), 48px)", letterSpacing: "-0.96px", lineHeight: 1.17 }}>
-              Get in touch: <a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a>
+              Get in touch: <a href="mailto:info@oasis.co.ug" style={{ color: "#888CF8" }}>info@oasis.co.ug</a>
             </p>
 
             <div className="wp-block-group is-nowrap is-layout-flex wp-block-group-is-layout-flex">

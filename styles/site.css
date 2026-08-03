@@ -1,6 +1,24 @@
 /* Custom OASIS site styles: layout fixes + animation polish added on top of the
    extracted theme CSS. Keep additive/non-destructive to preserve the original design. */
 
+/* Header logo: the theme has a global `img{height:auto}` reset intended for
+   flowing content images, which would otherwise let the header's height
+   change based on whichever logo file's aspect ratio happens to be loaded
+   (e.g. the scroll-swapped logo.png vs logo1.png). Lock it to a fixed box
+   so the header's size never depends on the logo image at all. */
+.wp-block-site-logo,
+.wp-block-site-logo .custom-logo-link {
+  width: 140px !important;
+  height: 48px !important;
+}
+.wp-block-site-logo img.custom-logo {
+  width: 140px !important;
+  height: 48px !important;
+  max-height: 48px !important;
+  object-fit: contain;
+  object-position: left center;
+}
+
 /* Header CTA buttons on mobile: the theme's own mobile rule sets each button
    to flex-basis: calc(50% - 6px) with a 24px gap between them, which doesn't
    leave enough room (needs -12px, not -6px) - the row overflows by ~12px and
@@ -125,24 +143,32 @@ footer figure a:hover img {
   transform: translateY(-3px) scale(1.08);
 }
 
-/* Mobile menu: slide + fade open instead of an instant display toggle */
+/* Mobile navigation: replaced by the slide-out drawer (.mobile-drawer /
+   .mobile-drawer-backdrop, rendered in Header.tsx). The original horizontal
+   mega-menu <ul> is still needed for desktop, so keep it in the DOM, but
+   never let it show its old below-header dropdown behavior on mobile - and
+   hide the CTA buttons row too, since the drawer has its own copy of them. */
 @media (max-width: 930px) {
   #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 {
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 320ms ease, opacity 220ms ease;
+    display: none !important;
   }
-  #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle.mega-menu-open + #mega-menu-max_mega_menu_1 {
-    max-height: 1400px;
-    opacity: 1;
+  .header-buttons {
+    display: none !important;
   }
-  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item {
-    transition: background-color 150ms ease;
+}
+
+/* The drawer/backdrop are mobile-only; desktop keeps the horizontal menu. */
+@media (min-width: 931px) {
+  .mobile-drawer,
+  .mobile-drawer-backdrop {
+    display: none !important;
   }
-  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item:active {
-    background-color: var(--wp--preset--color--accent-5);
-  }
+}
+
+.mobile-drawer a:focus-visible,
+.mobile-drawer button:focus-visible {
+  outline: 2px solid #888CF8;
+  outline-offset: -2px;
 }
 
 /* Hamburger icon: animate the bars smoothly */

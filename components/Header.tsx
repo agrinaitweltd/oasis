@@ -12,6 +12,7 @@ const LOGO_FALLBACK = "/images/oasis-logo.svg";
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const [logoError, setLogoError] = useState<{ default: boolean; scrolled: boolean }>({ default: false, scrolled: false });
   const navRef = useRef<HTMLUListElement>(null);
@@ -55,7 +56,10 @@ export default function Header() {
       }
     }
     function handleEscape(e: KeyboardEvent) {
-      if (e.key === "Escape") setOpenMenu(null);
+      if (e.key === "Escape") {
+        setOpenMenu(null);
+        setMobileOpen(false);
+      }
     }
     document.addEventListener("click", handleDocumentClick);
     document.addEventListener("keydown", handleEscape);
@@ -65,6 +69,18 @@ export default function Header() {
     };
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
+  function closeDrawer() {
+    setMobileOpen(false);
+    setMobileExpanded(null);
+  }
+
   return (
     <header className="wp-block-template-part">
       <div
@@ -73,8 +89,14 @@ export default function Header() {
       >
         <div className="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex">
           <div className="wp-block-group menu-container is-layout-flex wp-block-group-is-layout-flex">
-            <div className="wp-block-site-logo">
-              <Link href="/" className="custom-logo-link" rel="home" aria-current="page">
+            <div className="wp-block-site-logo" style={{ width: 140, height: 48, flexShrink: 0, overflow: "hidden" }}>
+              <Link
+                href="/"
+                className="custom-logo-link"
+                rel="home"
+                aria-current="page"
+                style={{ display: "block", width: 140, height: 48 }}
+              >
                 <Image
                   key={logoSrc}
                   width={140}
@@ -84,7 +106,15 @@ export default function Header() {
                   alt="OASIS"
                   priority
                   unoptimized
-                  style={{ transition: "opacity 200ms ease" }}
+                  style={{
+                    width: 140,
+                    height: 48,
+                    maxWidth: 140,
+                    maxHeight: 48,
+                    objectFit: "contain",
+                    objectPosition: "left center",
+                    transition: "opacity 200ms ease",
+                  }}
                   onError={() => {
                     if (wantsScrolledLogo) setLogoError((v) => ({ ...v, scrolled: true }));
                     else setLogoError((v) => ({ ...v, default: true }));
@@ -257,6 +287,169 @@ export default function Header() {
           </div>
         </div>
       </div>
+
+      {/* Mobile drawer backdrop */}
+      <div
+        className="mobile-drawer-backdrop"
+        onClick={closeDrawer}
+        aria-hidden="true"
+        style={{
+          position: "fixed",
+          inset: 0,
+          background: "rgba(0,0,0,0.5)",
+          zIndex: 10000,
+          opacity: mobileOpen ? 1 : 0,
+          pointerEvents: mobileOpen ? "auto" : "none",
+          transition: "opacity 300ms ease",
+        }}
+      />
+
+      {/* Mobile slide-out drawer */}
+      <nav
+        className="mobile-drawer"
+        aria-label="Mobile navigation"
+        aria-hidden={!mobileOpen}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: 256,
+          height: "100vh",
+          background: "var(--wp--preset--color--base, #fffcf8)",
+          zIndex: 10001,
+          transform: mobileOpen ? "translateX(0)" : "translateX(-100%)",
+          transition: "transform 300ms ease",
+          boxShadow: mobileOpen ? "4px 0 24px rgba(0,0,0,0.2)" : "none",
+          display: "flex",
+          flexDirection: "column",
+          overflowY: "auto",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 20px 12px" }}>
+          <Link href="/" onClick={closeDrawer} style={{ display: "block", width: 120, height: 41 }}>
+            <Image
+              width={120}
+              height={41}
+              src={logoSrc}
+              alt="OASIS"
+              unoptimized
+              style={{ width: 120, height: 41, maxHeight: 41, objectFit: "contain", objectPosition: "left center" }}
+            />
+          </Link>
+          <button
+            type="button"
+            aria-label="Close menu"
+            onClick={closeDrawer}
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              fontSize: 28,
+              lineHeight: 1,
+              padding: 8,
+              color: "#16140C",
+            }}
+          >
+            &times;
+          </button>
+        </div>
+
+        <div style={{ flexGrow: 1, padding: "8px 12px" }}>
+          {megaMenu.map((section) => {
+            const isExpanded = mobileExpanded === section.label;
+            return (
+              <div key={section.label} style={{ borderBottom: "1px solid rgba(22,20,12,0.08)" }}>
+                <button
+                  type="button"
+                  onClick={() => setMobileExpanded((v) => (v === section.label ? null : section.label))}
+                  aria-expanded={isExpanded}
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: "14px 8px",
+                    fontSize: 16,
+                    fontWeight: 600,
+                    fontFamily: "inherit",
+                    color: "#16140C",
+                    textAlign: "left",
+                  }}
+                >
+                  {section.label}
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      display: "inline-block",
+                      transition: "transform 220ms ease",
+                      transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)",
+                    }}
+                  >
+                    &#9660;
+                  </span>
+                </button>
+                <div
+                  style={{
+                    maxHeight: isExpanded ? 600 : 0,
+                    overflow: "hidden",
+                    transition: "max-height 300ms ease",
+                  }}
+                >
+                  <ul style={{ listStyle: "none", margin: 0, padding: "0 8px 12px" }}>
+                    {section.links.map((link) =>
+                      link.external ? (
+                        <li key={link.href}>
+                          <a
+                            href={link.href}
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            onClick={closeDrawer}
+                            style={{ display: "block", padding: "8px 8px", color: "#16140C", fontSize: 15 }}
+                          >
+                            {link.label}
+                          </a>
+                        </li>
+                      ) : (
+                        <li key={link.href}>
+                          <Link
+                            href={link.href}
+                            onClick={closeDrawer}
+                            style={{ display: "block", padding: "8px 8px", color: "#16140C", fontSize: 15 }}
+                          >
+                            {link.label}
+                          </Link>
+                        </li>
+                      )
+                    )}
+                  </ul>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div style={{ padding: 20, display: "flex", flexDirection: "column", gap: 10 }}>
+          <Link
+            className="wp-block-button__link wp-element-button"
+            href="/contact/"
+            onClick={closeDrawer}
+            style={{ display: "block", textAlign: "center" }}
+          >
+            Book a demo
+          </Link>
+          <Link
+            className="wp-block-button__link wp-element-button is-style-outline is-style-outline--1"
+            href="/contact/"
+            onClick={closeDrawer}
+            style={{ display: "block", textAlign: "center" }}
+          >
+            Start Free Trial
+          </Link>
+        </div>
+      </nav>
     </header>
   );
 }
