@@ -36,7 +36,7 @@ export default function Footer() {
         className="wp-block-group has-base-2-color has-contrast-background-color has-text-color has-background has-link-color has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
         style={{ marginTop: 88, marginBottom: 0, paddingTop: 44, paddingBottom: 44 }}
       >
-        <div className="wp-block-columns alignwide is-layout-flex wp-block-columns-is-layout-flex">
+        <div className="wp-block-columns alignwide is-layout-flex wp-block-columns-is-layout-flex footer-top-columns">
           <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style={{ flexBasis: "20%" }}>
             <div className="wp-block-group is-vertical is-layout-flex wp-block-group-is-layout-flex">
               <figure className="wp-block-image size-large is-resized">
@@ -44,7 +44,7 @@ export default function Footer() {
                   <Image
                     width={140}
                     height={48}
-                    src="/wp-content/uploads/2024/10/oasis-logo-footer.svg"
+                    src="/images/oasis-logo-footer.svg"
                     alt="OASIS"
                     style={{ width: 135 }}
                   />
@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
 
         <div className="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style={{ paddingTop: "var(--wp--preset--spacing--30)", paddingBottom: 0 }}>
-          <div className="wp-block-group is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex" style={{ marginTop: 0, marginBottom: 0, paddingTop: 0 }}>
+          <div className="wp-block-group is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex footer-flex-row" style={{ marginTop: 0, marginBottom: 0, paddingTop: 0 }}>
             <p className="inline-block has-link-color has-grenette-pro-font-family wp-block-paragraph" style={{ fontSize: "clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 2.674), 48px)", letterSpacing: "-0.96px", lineHeight: 1.17 }}>
               Get in touch: <a href="mailto:hello@oasis.ug">hello@oasis.ug</a>
             </p>
@@ -94,12 +94,12 @@ export default function Footer() {
             <div className="wp-block-group is-nowrap is-layout-flex wp-block-group-is-layout-flex">
               <figure className="wp-block-image size-large is-resized">
                 <a href="https://www.linkedin.com/company/oasis-uganda" target="_blank" rel="noreferrer noopener">
-                  <Image width={32} height={33} src="/wp-content/uploads/2024/10/LinkedIn.svg" alt="" style={{ width: 32 }} />
+                  <Image width={32} height={33} src="/images/LinkedIn.svg" alt="" style={{ width: 32 }} />
                 </a>
               </figure>
               <figure className="wp-block-image size-large is-resized">
                 <a href="https://twitter.com/oasis_uganda" target="_blank" rel="noreferrer noopener">
-                  <Image width={32} height={33} src="/wp-content/uploads/2024/10/X.svg" alt="" style={{ width: 32 }} />
+                  <Image width={32} height={33} src="/images/X.svg" alt="" style={{ width: 32 }} />
                 </a>
               </figure>
             </div>

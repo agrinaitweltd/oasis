@@ -32,7 +32,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1000" height="1000" src="/wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4.png" alt="OASIS Workflows" class="wp-image-18823" srcset="/wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4.png 1000w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-300x300.png 300w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-768x768.png 768w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-800x800.png?crop=1 800w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-600x600.png?crop=1 600w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-400x400.png?crop=1 400w, /wp-content/uploads/2026/01/Amy-U-work-Ad-hoc-square-4-200x200.png?crop=1 200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+<figure class="wp-block-image size-full"><img width="1000" height="1000" src="/images/Amy-U-work-Ad-hoc-square-4.png" alt="OASIS Workflows" class="wp-image-18823" srcset="/images/Amy-U-work-Ad-hoc-square-4.png 1000w, /images/Amy-U-work-Ad-hoc-square-4-300x300.png 300w, /images/Amy-U-work-Ad-hoc-square-4-768x768.png 768w, /images/Amy-U-work-Ad-hoc-square-4-800x800.png?crop=1 800w, /images/Amy-U-work-Ad-hoc-square-4-600x600.png?crop=1 600w, /images/Amy-U-work-Ad-hoc-square-4-400x400.png?crop=1 400w, /images/Amy-U-work-Ad-hoc-square-4-200x200.png?crop=1 200w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
 </div>
 </div>
 </div>
@@ -71,7 +71,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-3-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/wp-content/uploads/2026/01/169.png" alt="OASIS Workflows" class="wp-image-18793" style="border-radius:4px;aspect-ratio:1.7778874021088982;width:425px;height:auto" srcset="/wp-content/uploads/2026/01/169.png 2000w, /wp-content/uploads/2026/01/169-300x169.png 300w, /wp-content/uploads/2026/01/169-1024x576.png 1024w, /wp-content/uploads/2026/01/169-768x432.png 768w, /wp-content/uploads/2026/01/169-1536x864.png 1536w, /wp-content/uploads/2026/01/169-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/169.png" alt="OASIS Workflows" class="wp-image-18793" style="border-radius:4px;aspect-ratio:1.7778874021088982;width:425px;height:auto" srcset="/images/169.png 2000w, /images/169-300x169.png 300w, /images/169-1024x576.png 1024w, /images/169-768x432.png 768w, /images/169-1536x864.png 1536w, /images/169-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -93,7 +93,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-4-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="2000" height="1125" src="/wp-content/uploads/2026/01/169-1.png" alt="OASIS Workflows" class="wp-image-18795" style="border-radius:4px" srcset="/wp-content/uploads/2026/01/169-1.png 2000w, /wp-content/uploads/2026/01/169-1-300x169.png 300w, /wp-content/uploads/2026/01/169-1-1024x576.png 1024w, /wp-content/uploads/2026/01/169-1-768x432.png 768w, /wp-content/uploads/2026/01/169-1-1536x864.png 1536w, /wp-content/uploads/2026/01/169-1-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="2000" height="1125" src="/images/169-1.png" alt="OASIS Workflows" class="wp-image-18795" style="border-radius:4px" srcset="/images/169-1.png 2000w, /images/169-1-300x169.png 300w, /images/169-1-1024x576.png 1024w, /images/169-1-768x432.png 768w, /images/169-1-1536x864.png 1536w, /images/169-1-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -115,7 +115,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-2-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1352" height="807" src="/wp-content/uploads/2026/01/2-Dashboard_1-1.png" alt="OASIS Workflows" class="wp-image-18797" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/wp-content/uploads/2026/01/2-Dashboard_1-1.png 1352w, /wp-content/uploads/2026/01/2-Dashboard_1-1-300x179.png 300w, /wp-content/uploads/2026/01/2-Dashboard_1-1-1024x611.png 1024w, /wp-content/uploads/2026/01/2-Dashboard_1-1-768x458.png 768w, /wp-content/uploads/2026/01/2-Dashboard_1-1-1200x716.png 1200w" sizes="auto, (max-width: 1352px) 100vw, 1352px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1352" height="807" src="/images/2-Dashboard_1-1.png" alt="OASIS Workflows" class="wp-image-18797" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/images/2-Dashboard_1-1.png 1352w, /images/2-Dashboard_1-1-300x179.png 300w, /images/2-Dashboard_1-1-1024x611.png 1024w, /images/2-Dashboard_1-1-768x458.png 768w, /images/2-Dashboard_1-1-1200x716.png 1200w" sizes="auto, (max-width: 1352px) 100vw, 1352px" /></figure>
 </div>
 </div>
 </div></div>
@@ -137,7 +137,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/wp-content/uploads/2026/01/169-2.png" alt="OASIS Workflows" class="wp-image-18800" style="border-radius:4px;width:468px;height:auto" srcset="/wp-content/uploads/2026/01/169-2.png 2000w, /wp-content/uploads/2026/01/169-2-300x169.png 300w, /wp-content/uploads/2026/01/169-2-1024x576.png 1024w, /wp-content/uploads/2026/01/169-2-768x432.png 768w, /wp-content/uploads/2026/01/169-2-1536x864.png 1536w, /wp-content/uploads/2026/01/169-2-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/169-2.png" alt="OASIS Workflows" class="wp-image-18800" style="border-radius:4px;width:468px;height:auto" srcset="/images/169-2.png 2000w, /images/169-2-300x169.png 300w, /images/169-2-1024x576.png 1024w, /images/169-2-768x432.png 768w, /images/169-2-1536x864.png 1536w, /images/169-2-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -147,7 +147,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignfull has-base-2-color has-accent-background-color has-text-color has-background has-link-color wp-elements-5e354ece16a1b863b3bc9060f4a5c148 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:88px;padding-bottom:88px">
-<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/pf6M7sB-Quc"><div class="wp-block-getwid-video-popup__wrapper"><img width="2237" height="1587" src="/wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-19167" srcset="/wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2.png 2237w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-300x213.png 300w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-1024x726.png 1024w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-768x545.png 768w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-1536x1090.png 1536w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-2048x1453.png 2048w, /wp-content/uploads/2026/03/Amy-U-Ad-hoc-work-2-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /><div class="wp-block-getwid-video-popup__button is-style-default has-animation-pulse is-size-large" style="border-color:#009d00"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-accent-background-color" style="border-color:#009d00"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
+<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/pf6M7sB-Quc"><div class="wp-block-getwid-video-popup__wrapper"><img width="2237" height="1587" src="/images/Amy-U-Ad-hoc-work-2.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-19167" srcset="/images/Amy-U-Ad-hoc-work-2.png 2237w, /images/Amy-U-Ad-hoc-work-2-300x213.png 300w, /images/Amy-U-Ad-hoc-work-2-1024x726.png 1024w, /images/Amy-U-Ad-hoc-work-2-768x545.png 768w, /images/Amy-U-Ad-hoc-work-2-1536x1090.png 1536w, /images/Amy-U-Ad-hoc-work-2-2048x1453.png 2048w, /images/Amy-U-Ad-hoc-work-2-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /><div class="wp-block-getwid-video-popup__button is-style-default has-animation-pulse is-size-large" style="border-color:#009d00"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-accent-background-color" style="border-color:#009d00"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
 </div>
 
 
@@ -162,7 +162,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-full" style="margin-top:0"><img width="755" height="377" src="/wp-content/uploads/2026/01/Send-welcome-email-to-parents-1.gif" alt="Workflows GIF" class="wp-image-18802"/></figure>
+<figure class="wp-block-image size-full" style="margin-top:0"><img width="755" height="377" src="/images/Send-welcome-email-to-parents-1.gif" alt="Workflows GIF" class="wp-image-18802"/></figure>
 </div>
 </div>
 
@@ -442,7 +442,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13.png" alt="OASIS Workflows" class="wp-image-18836" srcset="/wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13.png 2237w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-300x213.png 300w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-1024x726.png 1024w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-768x545.png 768w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-1536x1090.png 1536w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-2048x1453.png 2048w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-13-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/Amy-U-Ad-hoc-work-13.png" alt="OASIS Workflows" class="wp-image-18836" srcset="/images/Amy-U-Ad-hoc-work-13.png 2237w, /images/Amy-U-Ad-hoc-work-13-300x213.png 300w, /images/Amy-U-Ad-hoc-work-13-1024x726.png 1024w, /images/Amy-U-Ad-hoc-work-13-768x545.png 768w, /images/Amy-U-Ad-hoc-work-13-1536x1090.png 1536w, /images/Amy-U-Ad-hoc-work-13-2048x1453.png 2048w, /images/Amy-U-Ad-hoc-work-13-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -462,7 +462,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15.png" alt="OASIS Workflows" class="wp-image-18838" srcset="/wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15.png 2237w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-300x213.png 300w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-1024x726.png 1024w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-768x545.png 768w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-1536x1090.png 1536w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-2048x1453.png 2048w, /wp-content/uploads/2026/01/Amy-U-Ad-hoc-work-15-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/Amy-U-Ad-hoc-work-15.png" alt="OASIS Workflows" class="wp-image-18838" srcset="/images/Amy-U-Ad-hoc-work-15.png 2237w, /images/Amy-U-Ad-hoc-work-15-300x213.png 300w, /images/Amy-U-Ad-hoc-work-15-1024x726.png 1024w, /images/Amy-U-Ad-hoc-work-15-768x545.png 768w, /images/Amy-U-Ad-hoc-work-15-1536x1090.png 1536w, /images/Amy-U-Ad-hoc-work-15-2048x1453.png 2048w, /images/Amy-U-Ad-hoc-work-15-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 

@@ -1355,8 +1355,8 @@ img#wpstats{display:none}
 @font-face{font-family:Inter;font-style:normal;font-weight:800;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2') format('woff2');}
 @font-face{font-family:Inter;font-style:normal;font-weight:900;font-display:fallback;src:url('https://fonts.wp.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2') format('woff2');}
 @font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('/wp-content/themes/arbor/assets/fonts/inter/Inter-VariableFont_slnt.woff2') format('woff2');font-stretch:normal;}
-@font-face{font-family:"Grenette Pro";font-style:italic;font-weight:400;font-display:fallback;src:url('/wp-content/uploads/fonts/grenette-italic-pro.ttf') format('truetype');}
-@font-face{font-family:"Grenette Pro";font-style:normal;font-weight:400;font-display:fallback;src:url('/wp-content/uploads/fonts/grenette-regular-pro.ttf') format('truetype');}
+@font-face{font-family:"Grenette Pro";font-style:italic;font-weight:400;font-display:fallback;src:url('/images/grenette-italic-pro.ttf') format('truetype');}
+@font-face{font-family:"Grenette Pro";font-style:normal;font-weight:400;font-display:fallback;src:url('/images/grenette-regular-pro.ttf') format('truetype');}
 .wpnbha article .entry-title {
 			font-size: 1.2em;
 		}

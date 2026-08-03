@@ -13,6 +13,31 @@
   }
 }
 
+/* Footer: stack the logo + nav-columns row vertically once it can't fit side by
+   side, instead of overflowing horizontally off the edge of the screen. */
+@media (max-width: 700px) {
+  .footer-top-columns {
+    flex-direction: column !important;
+  }
+  .footer-top-columns > .wp-block-column {
+    flex-basis: 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* Footer: let the "get in touch" / social-icons and legal-links rows wrap
+   instead of forcing a single non-wrapping line that overflows on mobile. */
+.footer-flex-row {
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+@media (max-width: 600px) {
+  footer .wp-block-group.is-content-justification-space-between {
+    flex-wrap: wrap !important;
+    row-gap: 12px;
+  }
+}
+
 .footer-nav-item a {
   display: inline-block;
   transition: transform 150ms ease, opacity 150ms ease;
@@ -75,6 +100,56 @@ footer figure img {
 }
 footer figure a:hover img {
   transform: translateY(-3px) scale(1.08);
+}
+
+/* Mobile menu: slide + fade open instead of an instant display toggle */
+@media (max-width: 930px) {
+  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 320ms ease, opacity 220ms ease;
+  }
+  #mega-menu-wrap-max_mega_menu_1 .mega-menu-toggle.mega-menu-open + #mega-menu-max_mega_menu_1 {
+    max-height: 1400px;
+    opacity: 1;
+  }
+  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item {
+    transition: background-color 150ms ease;
+  }
+  #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item:active {
+    background-color: var(--wp--preset--color--accent-5);
+  }
+}
+
+/* Hamburger icon: animate the bars smoothly */
+.mega-toggle-animated-inner,
+.mega-toggle-animated-inner::before,
+.mega-toggle-animated-inner::after {
+  transition: transform 220ms ease, opacity 220ms ease !important;
+}
+
+/* Touch devices: give hover-only effects a matching :active (tap) response,
+   since hover never fires on mobile/touch. */
+@media (hover: none) {
+  .wp-block-button__link:active,
+  .wp-element-button:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  }
+  .wp-block-column[style*="box-shadow"]:active {
+    transform: scale(0.98);
+  }
+  .footer-nav-item a:active {
+    transform: translateX(4px);
+    opacity: 0.7;
+  }
+  .wp-block-navigation-item__content:active {
+    opacity: 0.6;
+  }
+  .custom-logo-link:active img {
+    transform: scale(0.96);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -35,7 +35,7 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-group alignwide has-global-padding is-layout-constrained wp-container-core-group-is-layout-a8319191 wp-block-group-is-layout-constrained" style="margin-bottom:88px">
-<figure class="wp-block-image alignwide size-large"><img src="/wp-content/uploads/2024/10/IMG_9275-ARBOR-JULY24-BUYOUT-1024x565.jpg" alt="" class="wp-image-448"/></figure>
+<figure class="wp-block-image alignwide size-large"><img src="/images/IMG_9275-ARBOR-JULY24-BUYOUT-1024x565.jpg" alt="" class="wp-image-448"/></figure>
 
 
 

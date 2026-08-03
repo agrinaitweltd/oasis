@@ -5,11 +5,31 @@ import Link from "next/link";
 import Image from "next/image";
 import { megaMenu } from "@/lib/nav-data";
 
+const LOGO_DEFAULT = "/images/logo.png";
+const LOGO_SCROLLED = "/images/logo1.png";
+const LOGO_FALLBACK = "/images/oasis-logo.svg";
+
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
+  const [logoError, setLogoError] = useState<{ default: boolean; scrolled: boolean }>({ default: false, scrolled: false });
   const navRef = useRef<HTMLUListElement>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    function handleScroll() {
+      setScrolled(window.scrollY > 24);
+    }
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const wantsScrolledLogo = scrolled;
+  let logoSrc = wantsScrolledLogo ? LOGO_SCROLLED : LOGO_DEFAULT;
+  if (wantsScrolledLogo && logoError.scrolled) logoSrc = logoError.default ? LOGO_FALLBACK : LOGO_DEFAULT;
+  if (!wantsScrolledLogo && logoError.default) logoSrc = LOGO_FALLBACK;
 
   function cancelClose() {
     if (closeTimer.current) {
@@ -56,12 +76,19 @@ export default function Header() {
             <div className="wp-block-site-logo">
               <Link href="/" className="custom-logo-link" rel="home" aria-current="page">
                 <Image
+                  key={logoSrc}
                   width={140}
                   height={48}
-                  src="/wp-content/uploads/2024/10/oasis-logo.svg"
+                  src={logoSrc}
                   className="custom-logo"
                   alt="OASIS"
                   priority
+                  unoptimized
+                  style={{ transition: "opacity 200ms ease" }}
+                  onError={() => {
+                    if (wantsScrolledLogo) setLogoError((v) => ({ ...v, scrolled: true }));
+                    else setLogoError((v) => ({ ...v, default: true }));
+                  }}
                 />
               </Link>
             </div>

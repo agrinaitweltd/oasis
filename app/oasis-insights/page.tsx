@@ -14,7 +14,7 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2a9448a0 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:0">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent.png" alt="" class="wp-image-16847" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent.png" alt="" class="wp-image-16847" style="width:59px;height:auto" srcset="/images/Ask-Arbor-Transparrent.png 780w, /images/Ask-Arbor-Transparrent-279x300.png 279w, /images/Ask-Arbor-Transparrent-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -43,7 +43,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1678" height="1191" src="/wp-content/uploads/2025/03/Ad-hoc-2.png" alt="OASIS AI" class="wp-image-16837" srcset="/wp-content/uploads/2025/03/Ad-hoc-2.png 1678w, /wp-content/uploads/2025/03/Ad-hoc-2-300x213.png 300w, /wp-content/uploads/2025/03/Ad-hoc-2-1024x727.png 1024w, /wp-content/uploads/2025/03/Ad-hoc-2-768x545.png 768w, /wp-content/uploads/2025/03/Ad-hoc-2-1536x1090.png 1536w, /wp-content/uploads/2025/03/Ad-hoc-2-1200x852.png 1200w" sizes="auto, (max-width: 1678px) 100vw, 1678px" /></figure>
+<figure class="wp-block-image size-full"><img width="1678" height="1191" src="/images/Ad-hoc-2.png" alt="OASIS AI" class="wp-image-16837" srcset="/images/Ad-hoc-2.png 1678w, /images/Ad-hoc-2-300x213.png 300w, /images/Ad-hoc-2-1024x727.png 1024w, /images/Ad-hoc-2-768x545.png 768w, /images/Ad-hoc-2-1536x1090.png 1536w, /images/Ad-hoc-2-1200x852.png 1200w" sizes="auto, (max-width: 1678px) 100vw, 1678px" /></figure>
 </div>
 </div>
 </div>
@@ -70,7 +70,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/images/Ask-Arbor-Transparrent-1.png 780w, /images/Ask-Arbor-Transparrent-1-279x300.png 279w, /images/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -85,7 +85,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-3-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1619" height="1587" src="/wp-content/uploads/2025/03/Ask-OASIS-1.png" alt="" class="wp-image-16891" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:272px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-1.png 1619w, /wp-content/uploads/2025/03/Ask-OASIS-1-300x294.png 300w, /wp-content/uploads/2025/03/Ask-OASIS-1-1024x1004.png 1024w, /wp-content/uploads/2025/03/Ask-OASIS-1-768x753.png 768w, /wp-content/uploads/2025/03/Ask-OASIS-1-1536x1506.png 1536w, /wp-content/uploads/2025/03/Ask-OASIS-1-1200x1176.png 1200w" sizes="auto, (max-width: 1619px) 100vw, 1619px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1619" height="1587" src="/images/Ask-Arbor-1.png" alt="" class="wp-image-16891" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:272px;height:auto" srcset="/images/Ask-Arbor-1.png 1619w, /images/Ask-Arbor-1-300x294.png 300w, /images/Ask-Arbor-1-1024x1004.png 1024w, /images/Ask-Arbor-1-768x753.png 768w, /images/Ask-Arbor-1-1536x1506.png 1536w, /images/Ask-Arbor-1-1200x1176.png 1200w" sizes="auto, (max-width: 1619px) 100vw, 1619px" /></figure>
 </div>
 </div>
 </div></div>
@@ -96,7 +96,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/images/Ask-Arbor-Transparrent-1.png 780w, /images/Ask-Arbor-Transparrent-1-279x300.png 279w, /images/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -111,7 +111,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-4-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1444" height="1587" src="/wp-content/uploads/2025/03/Ad-hoc-3-1.png" alt="" class="wp-image-16893" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:230px;height:auto" srcset="/wp-content/uploads/2025/03/Ad-hoc-3-1.png 1444w, /wp-content/uploads/2025/03/Ad-hoc-3-1-273x300.png 273w, /wp-content/uploads/2025/03/Ad-hoc-3-1-932x1024.png 932w, /wp-content/uploads/2025/03/Ad-hoc-3-1-768x844.png 768w, /wp-content/uploads/2025/03/Ad-hoc-3-1-1398x1536.png 1398w, /wp-content/uploads/2025/03/Ad-hoc-3-1-1200x1319.png 1200w" sizes="auto, (max-width: 1444px) 100vw, 1444px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1444" height="1587" src="/images/Ad-hoc-3-1.png" alt="" class="wp-image-16893" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:230px;height:auto" srcset="/images/Ad-hoc-3-1.png 1444w, /images/Ad-hoc-3-1-273x300.png 273w, /images/Ad-hoc-3-1-932x1024.png 932w, /images/Ad-hoc-3-1-768x844.png 768w, /images/Ad-hoc-3-1-1398x1536.png 1398w, /images/Ad-hoc-3-1-1200x1319.png 1200w" sizes="auto, (max-width: 1444px) 100vw, 1444px" /></figure>
 </div>
 </div>
 </div></div>
@@ -122,7 +122,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/images/Ask-Arbor-Transparrent-1.png 780w, /images/Ask-Arbor-Transparrent-1-279x300.png 279w, /images/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -137,7 +137,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-2-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="5594" height="3222" src="/wp-content/uploads/2025/03/Ask-OASIS-1-1.png" alt="" class="wp-image-16896" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-1-1.png 5594w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-300x173.png 300w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1024x590.png 1024w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-768x442.png 768w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1536x885.png 1536w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-2048x1180.png 2048w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1200x691.png 1200w" sizes="auto, (max-width: 5594px) 100vw, 5594px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="5594" height="3222" src="/images/Ask-Arbor-1-1.png" alt="" class="wp-image-16896" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/images/Ask-Arbor-1-1.png 5594w, /images/Ask-Arbor-1-1-300x173.png 300w, /images/Ask-Arbor-1-1-1024x590.png 1024w, /images/Ask-Arbor-1-1-768x442.png 768w, /images/Ask-Arbor-1-1-1536x885.png 1536w, /images/Ask-Arbor-1-1-2048x1180.png 2048w, /images/Ask-Arbor-1-1-1200x691.png 1200w" sizes="auto, (max-width: 5594px) 100vw, 5594px" /></figure>
 </div>
 </div>
 </div></div>
@@ -148,7 +148,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/images/Ask-Arbor-Transparrent-1.png 780w, /images/Ask-Arbor-Transparrent-1-279x300.png 279w, /images/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -163,7 +163,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1681" height="1587" src="/wp-content/uploads/2025/03/Ad-hoc-3-2.png" alt="" class="wp-image-16903" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:283px;height:auto" srcset="/wp-content/uploads/2025/03/Ad-hoc-3-2.png 1681w, /wp-content/uploads/2025/03/Ad-hoc-3-2-300x283.png 300w, /wp-content/uploads/2025/03/Ad-hoc-3-2-1024x967.png 1024w, /wp-content/uploads/2025/03/Ad-hoc-3-2-768x725.png 768w, /wp-content/uploads/2025/03/Ad-hoc-3-2-1536x1450.png 1536w, /wp-content/uploads/2025/03/Ad-hoc-3-2-1200x1133.png 1200w" sizes="auto, (max-width: 1681px) 100vw, 1681px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1681" height="1587" src="/images/Ad-hoc-3-2.png" alt="" class="wp-image-16903" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:283px;height:auto" srcset="/images/Ad-hoc-3-2.png 1681w, /images/Ad-hoc-3-2-300x283.png 300w, /images/Ad-hoc-3-2-1024x967.png 1024w, /images/Ad-hoc-3-2-768x725.png 768w, /images/Ad-hoc-3-2-1536x1450.png 1536w, /images/Ad-hoc-3-2-1200x1133.png 1200w" sizes="auto, (max-width: 1681px) 100vw, 1681px" /></figure>
 </div>
 </div>
 </div></div>
@@ -310,7 +310,7 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-left:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -325,7 +325,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1620" height="1020" src="/wp-content/uploads/2025/09/Ask-OASIS-Website-Gif-1.gif" alt="Ask OASIS website GiF" class="wp-image-18105" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1620" height="1020" src="/images/Ask-Arbor-Website-Gif-1.gif" alt="Ask OASIS website GiF" class="wp-image-18105" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
 </div>
 </div>
 
@@ -334,7 +334,7 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-default is-layout-flex wp-container-core-columns-is-layout-6ee76cfc wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -349,7 +349,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="569" src="/wp-content/uploads/2026/04/Ofsted-Inspection-Gif-1024x569.gif" alt="" class="wp-image-19428" style="border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2026/04/Ofsted-Inspection-Gif-1024x569.gif 1024w, /wp-content/uploads/2026/04/Ofsted-Inspection-Gif-300x167.gif 300w, /wp-content/uploads/2026/04/Ofsted-Inspection-Gif-768x427.gif 768w, /wp-content/uploads/2026/04/Ofsted-Inspection-Gif-1536x854.gif 1536w, /wp-content/uploads/2026/04/Ofsted-Inspection-Gif-1200x667.gif 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="569" src="/images/Ofsted-Inspection-Gif-1024x569.gif" alt="" class="wp-image-19428" style="border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/Ofsted-Inspection-Gif-1024x569.gif 1024w, /images/Ofsted-Inspection-Gif-300x167.gif 300w, /images/Ofsted-Inspection-Gif-768x427.gif 768w, /images/Ofsted-Inspection-Gif-1536x854.gif 1536w, /images/Ofsted-Inspection-Gif-1200x667.gif 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 
@@ -357,14 +357,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-6ee76cfc wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1000" height="944" src="/wp-content/uploads/2025/09/Auto-Absence-gif.gif" alt="Auto Absence gif" class="wp-image-18082" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;aspect-ratio:1.059324333491622;width:361px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1000" height="944" src="/images/Auto-Absence-gif.gif" alt="Auto Absence gif" class="wp-image-18082" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;aspect-ratio:1.059324333491622;width:361px;height:auto"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -381,14 +381,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/Student-summary-gif.gif" alt="" class="wp-image-16927" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/images/Student-summary-gif.gif" alt="" class="wp-image-16927" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:0px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -405,14 +405,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-6ee76cfc wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/OASIS-AI-feature-Suggest-email-gif.gif" alt="" class="wp-image-16908" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:488px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1790" height="1080" src="/images/Arbor-AI-feature-Suggest-email-gif.gif" alt="" class="wp-image-16908" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:488px;height:auto"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0px;padding-left:var(--wp--preset--spacing--40)">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -429,14 +429,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/OASIS-AI-feature-Suggest-formula-gif-1.gif" alt="" class="wp-image-16961" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/images/Arbor-AI-feature-Suggest-formula-gif-1.gif" alt="" class="wp-image-16961" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--50);padding-left:0px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/images/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/images/Ask-Arbor-Transparrent-3.png 780w, /images/Ask-Arbor-Transparrent-3-279x300.png 279w, /images/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -634,7 +634,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5.png" alt="" class="wp-image-19419" srcset="/wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5.png 2237w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-300x213.png 300w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-1024x726.png 1024w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-768x545.png 768w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-1536x1090.png 1536w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-2048x1453.png 2048w, /wp-content/uploads/2026/04/Amy-U-Ad-hoc-work-5-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/Amy-U-Ad-hoc-work-5.png" alt="" class="wp-image-19419" srcset="/images/Amy-U-Ad-hoc-work-5.png 2237w, /images/Amy-U-Ad-hoc-work-5-300x213.png 300w, /images/Amy-U-Ad-hoc-work-5-1024x726.png 1024w, /images/Amy-U-Ad-hoc-work-5-768x545.png 768w, /images/Amy-U-Ad-hoc-work-5-1536x1090.png 1536w, /images/Amy-U-Ad-hoc-work-5-2048x1453.png 2048w, /images/Amy-U-Ad-hoc-work-5-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -654,7 +654,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2026/04/AI-templates.png" alt="AI templates" class="wp-image-19416" srcset="/wp-content/uploads/2026/04/AI-templates.png 2237w, /wp-content/uploads/2026/04/AI-templates-300x213.png 300w, /wp-content/uploads/2026/04/AI-templates-1024x726.png 1024w, /wp-content/uploads/2026/04/AI-templates-768x545.png 768w, /wp-content/uploads/2026/04/AI-templates-1536x1090.png 1536w, /wp-content/uploads/2026/04/AI-templates-2048x1453.png 2048w, /wp-content/uploads/2026/04/AI-templates-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/AI-templates.png" alt="AI templates" class="wp-image-19416" srcset="/images/AI-templates.png 2237w, /images/AI-templates-300x213.png 300w, /images/AI-templates-1024x726.png 1024w, /images/AI-templates-768x545.png 768w, /images/AI-templates-1536x1090.png 1536w, /images/AI-templates-2048x1453.png 2048w, /images/AI-templates-1200x851.png 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -674,7 +674,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="1398" height="992" src="/wp-content/uploads/2025/03/Ad-hoc.jpg" alt="" class="wp-image-16989" srcset="/wp-content/uploads/2025/03/Ad-hoc.jpg 1398w, /wp-content/uploads/2025/03/Ad-hoc-300x213.jpg 300w, /wp-content/uploads/2025/03/Ad-hoc-1024x727.jpg 1024w, /wp-content/uploads/2025/03/Ad-hoc-768x545.jpg 768w, /wp-content/uploads/2025/03/Ad-hoc-1200x852.jpg 1200w" sizes="auto, (max-width: 1398px) 100vw, 1398px" /></figure>
+<figure class="wp-block-image size-full"><img width="1398" height="992" src="/images/Ad-hoc.jpg" alt="" class="wp-image-16989" srcset="/images/Ad-hoc.jpg 1398w, /images/Ad-hoc-300x213-2025-03.jpg 300w, /images/Ad-hoc-1024x727.jpg 1024w, /images/Ad-hoc-768x545-2025-03.jpg 768w, /images/Ad-hoc-1200x852.jpg 1200w" sizes="auto, (max-width: 1398px) 100vw, 1398px" /></figure>
 
 
 

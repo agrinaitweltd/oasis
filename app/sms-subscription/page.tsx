@@ -34,7 +34,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/wp-content/uploads/2024/10/OASIS-3_866x720.png" alt="" class="wp-image-14465" style="border-radius:4px" srcset="/wp-content/uploads/2024/10/OASIS-3_866x720.png 866w, /wp-content/uploads/2024/10/OASIS-3_866x720-300x249.png 300w, /wp-content/uploads/2024/10/OASIS-3_866x720-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/images/Arbor-3_866x720.png" alt="" class="wp-image-14465" style="border-radius:4px" srcset="/images/Arbor-3_866x720.png 866w, /images/Arbor-3_866x720-300x249.png 300w, /images/Arbor-3_866x720-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
 </div>
 </div>
 </div>
@@ -68,7 +68,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-container-core-column-is-layout-ad7c68f1 wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized" style="margin-right:0;margin-left:0"><img width="432" height="836" src="/wp-content/uploads/2024/10/Illus_Character-2-Man-sitting_RGB.png" alt="" class="wp-image-14255" style="width:150px" srcset="/wp-content/uploads/2024/10/Illus_Character-2-Man-sitting_RGB.png 432w, /wp-content/uploads/2024/10/Illus_Character-2-Man-sitting_RGB-155x300.png 155w" sizes="auto, (max-width: 432px) 100vw, 432px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized" style="margin-right:0;margin-left:0"><img width="432" height="836" src="/images/Illus_Character-2-Man-sitting_RGB.png" alt="" class="wp-image-14255" style="width:150px" srcset="/images/Illus_Character-2-Man-sitting_RGB.png 432w, /images/Illus_Character-2-Man-sitting_RGB-155x300.png 155w" sizes="auto, (max-width: 432px) 100vw, 432px" /></figure>
 </div>
 </div>
 
@@ -96,7 +96,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="776" height="1012" src="/wp-content/uploads/2024/10/Illus_Walking-on-clouds_RGB.png" alt="" class="wp-image-14258" style="width:225px" srcset="/wp-content/uploads/2024/10/Illus_Walking-on-clouds_RGB.png 776w, /wp-content/uploads/2024/10/Illus_Walking-on-clouds_RGB-230x300.png 230w, /wp-content/uploads/2024/10/Illus_Walking-on-clouds_RGB-768x1002.png 768w" sizes="auto, (max-width: 776px) 100vw, 776px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="776" height="1012" src="/images/Illus_Walking-on-clouds_RGB.png" alt="" class="wp-image-14258" style="width:225px" srcset="/images/Illus_Walking-on-clouds_RGB.png 776w, /images/Illus_Walking-on-clouds_RGB-230x300.png 230w, /images/Illus_Walking-on-clouds_RGB-768x1002.png 768w" sizes="auto, (max-width: 776px) 100vw, 776px" /></figure>
 </div>
 </div>
 </div>

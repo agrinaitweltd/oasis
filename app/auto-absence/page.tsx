@@ -35,7 +35,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full" style="margin-right:0px;margin-left:0px"><img width="3636" height="2580" src="/wp-content/uploads/2025/04/Ad-hoc-1.png" alt="Auto Absence OASIS AI" class="wp-image-17256" srcset="/wp-content/uploads/2025/04/Ad-hoc-1.png 3636w, /wp-content/uploads/2025/04/Ad-hoc-1-300x213.png 300w, /wp-content/uploads/2025/04/Ad-hoc-1-1024x727.png 1024w, /wp-content/uploads/2025/04/Ad-hoc-1-768x545.png 768w, /wp-content/uploads/2025/04/Ad-hoc-1-1536x1090.png 1536w, /wp-content/uploads/2025/04/Ad-hoc-1-2048x1453.png 2048w, /wp-content/uploads/2025/04/Ad-hoc-1-1200x851.png 1200w" sizes="auto, (max-width: 3636px) 100vw, 3636px" /></figure>
+<figure class="wp-block-image size-full" style="margin-right:0px;margin-left:0px"><img width="3636" height="2580" src="/images/Ad-hoc-1.png" alt="Auto Absence OASIS AI" class="wp-image-17256" srcset="/images/Ad-hoc-1.png 3636w, /images/Ad-hoc-1-300x213.png 300w, /images/Ad-hoc-1-1024x727.png 1024w, /images/Ad-hoc-1-768x545.png 768w, /images/Ad-hoc-1-1536x1090.png 1536w, /images/Ad-hoc-1-2048x1453.png 2048w, /images/Ad-hoc-1-1200x851.png 1200w" sizes="auto, (max-width: 3636px) 100vw, 3636px" /></figure>
 </div>
 </div>
 </div>
@@ -65,7 +65,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1146" height="609" src="/wp-content/uploads/2025/04/AA-voicemail-1.png" alt="" class="wp-image-17261" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2025/04/AA-voicemail-1.png 1146w, /wp-content/uploads/2025/04/AA-voicemail-1-300x159.png 300w, /wp-content/uploads/2025/04/AA-voicemail-1-1024x544.png 1024w, /wp-content/uploads/2025/04/AA-voicemail-1-768x408.png 768w" sizes="auto, (max-width: 1146px) 100vw, 1146px" /></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1146" height="609" src="/images/AA-voicemail-1.png" alt="" class="wp-image-17261" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/AA-voicemail-1.png 1146w, /images/AA-voicemail-1-300x159.png 300w, /images/AA-voicemail-1-1024x544.png 1024w, /images/AA-voicemail-1-768x408.png 768w" sizes="auto, (max-width: 1146px) 100vw, 1146px" /></figure>
 </div>
 </div>
 
@@ -83,7 +83,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1156" height="954" src="/wp-content/uploads/2025/04/AA-transcibe.png" alt="" class="wp-image-17259" style="box-shadow:var(--wp--preset--shadow--deep)" srcset="/wp-content/uploads/2025/04/AA-transcibe.png 1156w, /wp-content/uploads/2025/04/AA-transcibe-300x248.png 300w, /wp-content/uploads/2025/04/AA-transcibe-1024x845.png 1024w, /wp-content/uploads/2025/04/AA-transcibe-768x634.png 768w" sizes="auto, (max-width: 1156px) 100vw, 1156px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1156" height="954" src="/images/AA-transcibe.png" alt="" class="wp-image-17259" style="box-shadow:var(--wp--preset--shadow--deep)" srcset="/images/AA-transcibe.png 1156w, /images/AA-transcibe-300x248.png 300w, /images/AA-transcibe-1024x845.png 1024w, /images/AA-transcibe-768x634.png 768w" sizes="auto, (max-width: 1156px) 100vw, 1156px" /></figure>
 </div>
 </div>
 
@@ -101,7 +101,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="2212" height="976" src="/wp-content/uploads/2025/04/AA-absence-code.png" alt="" class="wp-image-17258" style="box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2025/04/AA-absence-code.png 2212w, /wp-content/uploads/2025/04/AA-absence-code-300x132.png 300w, /wp-content/uploads/2025/04/AA-absence-code-1024x452.png 1024w, /wp-content/uploads/2025/04/AA-absence-code-768x339.png 768w, /wp-content/uploads/2025/04/AA-absence-code-1536x678.png 1536w, /wp-content/uploads/2025/04/AA-absence-code-2048x904.png 2048w, /wp-content/uploads/2025/04/AA-absence-code-1200x529.png 1200w" sizes="auto, (max-width: 2212px) 100vw, 2212px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="2212" height="976" src="/images/AA-absence-code.png" alt="" class="wp-image-17258" style="box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/AA-absence-code.png 2212w, /images/AA-absence-code-300x132.png 300w, /images/AA-absence-code-1024x452.png 1024w, /images/AA-absence-code-768x339.png 768w, /images/AA-absence-code-1536x678.png 1536w, /images/AA-absence-code-2048x904.png 2048w, /images/AA-absence-code-1200x529.png 1200w" sizes="auto, (max-width: 2212px) 100vw, 2212px" /></figure>
 </div>
 </div>
 
@@ -119,7 +119,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40)">
-<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="439" src="/wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-1024x439.png" alt="OASIS absence" class="wp-image-17273" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-1024x439.png 1024w, /wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-300x129.png 300w, /wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-768x330.png 768w, /wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-1536x659.png 1536w, /wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33-1200x515.png 1200w, /wp-content/uploads/2025/04/Screenshot-2025-04-23-at-11.43.33.png 1636w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="439" src="/images/Screenshot-2025-04-23-at-11.43.33-1024x439.png" alt="OASIS absence" class="wp-image-17273" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/Screenshot-2025-04-23-at-11.43.33-1024x439.png 1024w, /images/Screenshot-2025-04-23-at-11.43.33-300x129.png 300w, /images/Screenshot-2025-04-23-at-11.43.33-768x330.png 768w, /images/Screenshot-2025-04-23-at-11.43.33-1536x659.png 1536w, /images/Screenshot-2025-04-23-at-11.43.33-1200x515.png 1200w, /images/Screenshot-2025-04-23-at-11.43.33.png 1636w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 </div>
@@ -361,7 +361,7 @@ export default function Page() {
 
 <div class="wp-block-columns is-not-stacked-on-mobile overflow-x-auto is-layout-flex wp-container-core-columns-is-layout-40a5ed1d wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
-<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/wp-content/uploads/2025/04/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-17248" style="width:263px;height:auto" srcset="/wp-content/uploads/2025/04/Illus_Clear-data_RGB-1024x689.png 1024w, /wp-content/uploads/2025/04/Illus_Clear-data_RGB-300x202.png 300w, /wp-content/uploads/2025/04/Illus_Clear-data_RGB-768x517.png 768w, /wp-content/uploads/2025/04/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/images/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-17248" style="width:263px;height:auto" srcset="/images/Illus_Clear-data_RGB-1024x689.png 1024w, /images/Illus_Clear-data_RGB-300x202.png 300w, /images/Illus_Clear-data_RGB-768x517.png 768w, /images/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 
 
@@ -398,7 +398,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2025/04/12.jpg" alt="" class="wp-image-17281" srcset="/wp-content/uploads/2025/04/12.jpg 2237w, /wp-content/uploads/2025/04/12-300x213.jpg 300w, /wp-content/uploads/2025/04/12-1024x726.jpg 1024w, /wp-content/uploads/2025/04/12-768x545.jpg 768w, /wp-content/uploads/2025/04/12-1536x1090.jpg 1536w, /wp-content/uploads/2025/04/12-2048x1453.jpg 2048w, /wp-content/uploads/2025/04/12-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/12-2025-04.jpg" alt="" class="wp-image-17281" srcset="/images/12-2025-04.jpg 2237w, /images/12-300x213.jpg 300w, /images/12-1024x726.jpg 1024w, /images/12-768x545.jpg 768w, /images/12-1536x1090.jpg 1536w, /images/12-2048x1453.jpg 2048w, /images/12-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -418,7 +418,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2025/04/10.jpg" alt="" class="wp-image-17280" srcset="/wp-content/uploads/2025/04/10.jpg 2237w, /wp-content/uploads/2025/04/10-300x213.jpg 300w, /wp-content/uploads/2025/04/10-1024x726.jpg 1024w, /wp-content/uploads/2025/04/10-768x545.jpg 768w, /wp-content/uploads/2025/04/10-1536x1090.jpg 1536w, /wp-content/uploads/2025/04/10-2048x1453.jpg 2048w, /wp-content/uploads/2025/04/10-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/10.jpg" alt="" class="wp-image-17280" srcset="/images/10.jpg 2237w, /images/10-300x213.jpg 300w, /images/10-1024x726.jpg 1024w, /images/10-768x545.jpg 768w, /images/10-1536x1090.jpg 1536w, /images/10-2048x1453.jpg 2048w, /images/10-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -438,7 +438,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/wp-content/uploads/2025/04/15.jpg" alt="" class="wp-image-17282" srcset="/wp-content/uploads/2025/04/15.jpg 2237w, /wp-content/uploads/2025/04/15-300x213.jpg 300w, /wp-content/uploads/2025/04/15-1024x726.jpg 1024w, /wp-content/uploads/2025/04/15-768x545.jpg 768w, /wp-content/uploads/2025/04/15-1536x1090.jpg 1536w, /wp-content/uploads/2025/04/15-2048x1453.jpg 2048w, /wp-content/uploads/2025/04/15-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/15-2025-04.jpg" alt="" class="wp-image-17282" srcset="/images/15-2025-04.jpg 2237w, /images/15-300x213.jpg 300w, /images/15-1024x726.jpg 1024w, /images/15-768x545.jpg 768w, /images/15-1536x1090.jpg 1536w, /images/15-2048x1453.jpg 2048w, /images/15-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 

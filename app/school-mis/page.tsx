@@ -33,7 +33,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img width="2144" height="1206" src="/wp-content/uploads/2024/10/School-MIS_Header-1.png" alt="School MIS_Header (1)" class="wp-image-14990" srcset="/wp-content/uploads/2024/10/School-MIS_Header-1.png 2144w, /wp-content/uploads/2024/10/School-MIS_Header-1-300x169.png 300w, /wp-content/uploads/2024/10/School-MIS_Header-1-1024x576.png 1024w, /wp-content/uploads/2024/10/School-MIS_Header-1-768x432.png 768w, /wp-content/uploads/2024/10/School-MIS_Header-1-1536x864.png 1536w, /wp-content/uploads/2024/10/School-MIS_Header-1-2048x1152.png 2048w, /wp-content/uploads/2024/10/School-MIS_Header-1-1200x675.png 1200w" sizes="auto, (max-width: 2144px) 100vw, 2144px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="2144" height="1206" src="/images/School-MIS_Header-1.png" alt="School MIS_Header (1)" class="wp-image-14990" srcset="/images/School-MIS_Header-1.png 2144w, /images/School-MIS_Header-1-300x169.png 300w, /images/School-MIS_Header-1-1024x576.png 1024w, /images/School-MIS_Header-1-768x432.png 768w, /images/School-MIS_Header-1-1536x864.png 1536w, /images/School-MIS_Header-1-2048x1152.png 2048w, /images/School-MIS_Header-1-1200x675.png 1200w" sizes="auto, (max-width: 2144px) 100vw, 2144px" /></figure>
 </div>
 
 
@@ -139,7 +139,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="970" height="576" src="/wp-content/uploads/2024/10/Product-Visual-1.png" alt="School MIS" class="wp-image-15678" srcset="/wp-content/uploads/2024/10/Product-Visual-1.png 970w, /wp-content/uploads/2024/10/Product-Visual-1-300x178.png 300w, /wp-content/uploads/2024/10/Product-Visual-1-768x456.png 768w" sizes="auto, (max-width: 970px) 100vw, 970px" /></figure>
+<figure class="wp-block-image size-full"><img width="970" height="576" src="/images/Product-Visual-1-2024-10.png" alt="School MIS" class="wp-image-15678" srcset="/images/Product-Visual-1-2024-10.png 970w, /images/Product-Visual-1-300x178.png 300w, /images/Product-Visual-1-768x456.png 768w" sizes="auto, (max-width: 970px) 100vw, 970px" /></figure>
 </div>
 </div>
 </div></div>
@@ -177,7 +177,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="828" height="566" src="/wp-content/uploads/2024/10/Student-profile.png" alt="Student profile" class="wp-image-14973" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:398px;height:auto" srcset="/wp-content/uploads/2024/10/Student-profile.png 828w, /wp-content/uploads/2024/10/Student-profile-300x205.png 300w, /wp-content/uploads/2024/10/Student-profile-768x525.png 768w" sizes="auto, (max-width: 828px) 100vw, 828px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="828" height="566" src="/images/Student-profile.png" alt="Student profile" class="wp-image-14973" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:398px;height:auto" srcset="/images/Student-profile.png 828w, /images/Student-profile-300x205.png 300w, /images/Student-profile-768x525.png 768w" sizes="auto, (max-width: 828px) 100vw, 828px" /></figure>
 </div>
 </div>
 </div></div>
@@ -215,7 +215,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="984" height="590" src="/wp-content/uploads/2024/10/School-MIS_Benefits_Take-action-instantly-1.png" alt="Cloud MIS benefits" class="wp-image-13678" srcset="/wp-content/uploads/2024/10/School-MIS_Benefits_Take-action-instantly-1.png 984w, /wp-content/uploads/2024/10/School-MIS_Benefits_Take-action-instantly-1-300x180.png 300w, /wp-content/uploads/2024/10/School-MIS_Benefits_Take-action-instantly-1-768x460.png 768w" sizes="auto, (max-width: 984px) 100vw, 984px" /></figure>
+<figure class="wp-block-image size-full"><img width="984" height="590" src="/images/School-MIS_Benefits_Take-action-instantly-1.png" alt="Cloud MIS benefits" class="wp-image-13678" srcset="/images/School-MIS_Benefits_Take-action-instantly-1.png 984w, /images/School-MIS_Benefits_Take-action-instantly-1-300x180.png 300w, /images/School-MIS_Benefits_Take-action-instantly-1-768x460.png 768w" sizes="auto, (max-width: 984px) 100vw, 984px" /></figure>
 </div>
 </div>
 </div></div>
@@ -227,7 +227,7 @@ export default function Page() {
 <div class="wp-block-group alignfull has-contrast-color has-custom-color-1-background-color has-text-color has-background has-link-color wp-elements-6f7ed50e41ee10c1229f4c0fc863f94f has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:132px;padding-bottom:88px">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9e1a36f6 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0">
-<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide" style="--aspect-ratio:calc(1024 / 768)"><div class="wp-block-jetpack-slideshow_container swiper"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19030" data-id="19030" data-aspect-ratio="1024 / 768" src="/wp-content/uploads/2026/02/1-1024x768.png" srcset="/wp-content/uploads/2026/02/1-1024x768.png 1024w, /wp-content/uploads/2026/02/1-300x225.png 300w, /wp-content/uploads/2026/02/1-768x576.png 768w, /wp-content/uploads/2026/02/1-1536x1152.png 1536w, /wp-content/uploads/2026/02/1-1200x900.png?crop=1 1200w, /wp-content/uploads/2026/02/1-800x600.png?crop=1 800w, /wp-content/uploads/2026/02/1-600x450.png?crop=1 600w, /wp-content/uploads/2026/02/1-400x300.png?crop=1 400w, /wp-content/uploads/2026/02/1-200x150.png?crop=1 200w, /wp-content/uploads/2026/02/1.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19032" data-id="19032" data-aspect-ratio="1024 / 768" src="/wp-content/uploads/2026/02/2-1024x768.png" srcset="/wp-content/uploads/2026/02/2-1024x768.png 1024w, /wp-content/uploads/2026/02/2-300x225.png 300w, /wp-content/uploads/2026/02/2-768x576.png 768w, /wp-content/uploads/2026/02/2-1536x1152.png 1536w, /wp-content/uploads/2026/02/2-1200x900.png?crop=1 1200w, /wp-content/uploads/2026/02/2-800x600.png?crop=1 800w, /wp-content/uploads/2026/02/2-600x450.png?crop=1 600w, /wp-content/uploads/2026/02/2-400x300.png?crop=1 400w, /wp-content/uploads/2026/02/2-200x150.png?crop=1 200w, /wp-content/uploads/2026/02/2.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19031" data-id="19031" data-aspect-ratio="1024 / 768" src="/wp-content/uploads/2026/02/3-1024x768.png" srcset="/wp-content/uploads/2026/02/3-1024x768.png 1024w, /wp-content/uploads/2026/02/3-300x225.png 300w, /wp-content/uploads/2026/02/3-768x576.png 768w, /wp-content/uploads/2026/02/3-1536x1152.png 1536w, /wp-content/uploads/2026/02/3-1200x900.png?crop=1 1200w, /wp-content/uploads/2026/02/3-800x600.png?crop=1 800w, /wp-content/uploads/2026/02/3-600x450.png?crop=1 600w, /wp-content/uploads/2026/02/3-400x300.png?crop=1 400w, /wp-content/uploads/2026/02/3-200x150.png?crop=1 200w, /wp-content/uploads/2026/02/3.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide" style="--aspect-ratio:calc(1024 / 768)"><div class="wp-block-jetpack-slideshow_container swiper"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19030" data-id="19030" data-aspect-ratio="1024 / 768" src="/images/1-1024x768.png" srcset="/images/1-1024x768.png 1024w, /images/1-300x225.png 300w, /images/1-768x576.png 768w, /images/1-1536x1152.png 1536w, /images/1-1200x900.png?crop=1 1200w, /images/1-800x600.png?crop=1 800w, /images/1-600x450.png?crop=1 600w, /images/1-400x300.png?crop=1 400w, /images/1-200x150.png?crop=1 200w, /images/1-2026-02.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19032" data-id="19032" data-aspect-ratio="1024 / 768" src="/images/2-1024x768.png" srcset="/images/2-1024x768.png 1024w, /images/2-300x225.png 300w, /images/2-768x576.png 768w, /images/2-1536x1152.png 1536w, /images/2-1200x900.png?crop=1 1200w, /images/2-800x600.png?crop=1 800w, /images/2-600x450.png?crop=1 600w, /images/2-400x300.png?crop=1 400w, /images/2-200x150.png?crop=1 200w, /images/2-2026-02.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img width="1024" height="768" alt="" class="wp-block-jetpack-slideshow_image wp-image-19031" data-id="19031" data-aspect-ratio="1024 / 768" src="/images/3-1024x768.png" srcset="/images/3-1024x768.png 1024w, /images/3-300x225.png 300w, /images/3-768x576.png 768w, /images/3-1536x1152.png 1536w, /images/3-1200x900.png?crop=1 1200w, /images/3-800x600.png?crop=1 800w, /images/3-600x450.png?crop=1 600w, /images/3-400x300.png?crop=1 400w, /images/3-200x150.png?crop=1 200w, /images/3-2026-02.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
 </div>
 
 
@@ -414,7 +414,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-full" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"><img width="866" height="544" src="/wp-content/uploads/2024/10/Frame-9468-5.png" alt="School" class="wp-image-14976" srcset="/wp-content/uploads/2024/10/Frame-9468-5.png 866w, /wp-content/uploads/2024/10/Frame-9468-5-300x188.png 300w, /wp-content/uploads/2024/10/Frame-9468-5-768x482.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
+<figure class="wp-block-image size-full" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)"><img width="866" height="544" src="/images/Frame-9468-5.png" alt="School" class="wp-image-14976" srcset="/images/Frame-9468-5.png 866w, /images/Frame-9468-5-300x188.png 300w, /images/Frame-9468-5-768x482.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
 </div>
 
 
@@ -475,25 +475,25 @@ export default function Page() {
 <div class="wp-block-group logos has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-3852a06c wp-block-columns-is-layout-flex" style="margin-top:44px;margin-bottom:44px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
-<figure class="wp-block-image aligncenter size-full"><img width="315" height="120" src="/wp-content/uploads/2024/10/CPOMS_01.png" alt="" class="wp-image-12525" srcset="/wp-content/uploads/2024/10/CPOMS_01.png 315w, /wp-content/uploads/2024/10/CPOMS_01-300x114.png 300w" sizes="auto, (max-width: 315px) 100vw, 315px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="315" height="120" src="/images/CPOMS_01.png" alt="" class="wp-image-12525" srcset="/images/CPOMS_01.png 315w, /images/CPOMS_01-300x114.png 300w" sizes="auto, (max-width: 315px) 100vw, 315px" /></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
-<figure class="wp-block-image aligncenter size-full"><img width="1797" height="709" src="/wp-content/uploads/2024/10/Untitled-design.png" alt="" class="wp-image-12834" srcset="/wp-content/uploads/2024/10/Untitled-design.png 1797w, /wp-content/uploads/2024/10/Untitled-design-300x118.png 300w, /wp-content/uploads/2024/10/Untitled-design-1024x404.png 1024w, /wp-content/uploads/2024/10/Untitled-design-768x303.png 768w, /wp-content/uploads/2024/10/Untitled-design-1536x606.png 1536w, /wp-content/uploads/2024/10/Untitled-design-1200x473.png 1200w" sizes="auto, (max-width: 1797px) 100vw, 1797px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1797" height="709" src="/images/Untitled-design.png" alt="" class="wp-image-12834" srcset="/images/Untitled-design.png 1797w, /images/Untitled-design-300x118.png 300w, /images/Untitled-design-1024x404.png 1024w, /images/Untitled-design-768x303.png 768w, /images/Untitled-design-1536x606.png 1536w, /images/Untitled-design-1200x473.png 1200w" sizes="auto, (max-width: 1797px) 100vw, 1797px" /></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
-<figure class="wp-block-image aligncenter size-full"><img width="343" height="120" src="/wp-content/uploads/2024/10/CPOMS_03.png" alt="" class="wp-image-12528" srcset="/wp-content/uploads/2024/10/CPOMS_03.png 343w, /wp-content/uploads/2024/10/CPOMS_03-300x105.png 300w" sizes="auto, (max-width: 343px) 100vw, 343px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="343" height="120" src="/images/CPOMS_03.png" alt="" class="wp-image-12528" srcset="/images/CPOMS_03.png 343w, /images/CPOMS_03-300x105.png 300w" sizes="auto, (max-width: 343px) 100vw, 343px" /></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
-<figure class="wp-block-image aligncenter size-full"><img width="331" height="120" src="/wp-content/uploads/2024/10/CPOMS_04.png" alt="" class="wp-image-12529" srcset="/wp-content/uploads/2024/10/CPOMS_04.png 331w, /wp-content/uploads/2024/10/CPOMS_04-300x109.png 300w" sizes="auto, (max-width: 331px) 100vw, 331px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="331" height="120" src="/images/CPOMS_04.png" alt="" class="wp-image-12529" srcset="/images/CPOMS_04.png 331w, /images/CPOMS_04-300x109.png 300w" sizes="auto, (max-width: 331px) 100vw, 331px" /></figure>
 </div>
 </div>
 </div>
@@ -831,7 +831,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image alignwide size-large" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--60)"><img width="1024" height="681" src="/wp-content/uploads/2024/10/Teacher_Primary_9275-1024x681.png" alt="Primary teacher" class="wp-image-14982" srcset="/wp-content/uploads/2024/10/Teacher_Primary_9275-1024x681.png 1024w, /wp-content/uploads/2024/10/Teacher_Primary_9275-300x200.png 300w, /wp-content/uploads/2024/10/Teacher_Primary_9275-768x511.png 768w, /wp-content/uploads/2024/10/Teacher_Primary_9275-1536x1022.png 1536w, /wp-content/uploads/2024/10/Teacher_Primary_9275-1200x798.png 1200w, /wp-content/uploads/2024/10/Teacher_Primary_9275.png 1780w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image alignwide size-large" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--60)"><img width="1024" height="681" src="/images/Teacher_Primary_9275-1024x681.png" alt="Primary teacher" class="wp-image-14982" srcset="/images/Teacher_Primary_9275-1024x681.png 1024w, /images/Teacher_Primary_9275-300x200.png 300w, /images/Teacher_Primary_9275-768x511.png 768w, /images/Teacher_Primary_9275-1536x1022.png 1536w, /images/Teacher_Primary_9275-1200x798.png 1200w, /images/Teacher_Primary_9275.png 1780w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 
 
@@ -846,7 +846,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-large"><img width="262" height="186" src="/wp-content/uploads/2024/10/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
+<figure class="wp-block-image size-large"><img width="262" height="186" src="/images/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
 </div>
 
 
@@ -1203,7 +1203,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img src="/wp-content/uploads/2024/10/Product-visual-2.png" alt="" class="wp-image-114"/></figure>
+<figure class="wp-block-image size-full"><img src="/images/Product-visual-2.png" alt="" class="wp-image-114"/></figure>
 
 
 
@@ -1218,7 +1218,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img src="/wp-content/uploads/2024/10/Family-logos-1.svg" alt="" class="wp-image-118"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="/images/Family-logos-1.svg" alt="" class="wp-image-118"/></figure>
 </div>
 </div>
 
@@ -1227,7 +1227,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="587" height="365" src="/wp-content/uploads/2024/10/SAMpeople-card.png" alt="" class="wp-image-14969" srcset="/wp-content/uploads/2024/10/SAMpeople-card.png 587w, /wp-content/uploads/2024/10/SAMpeople-card-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
+<figure class="wp-block-image size-full"><img width="587" height="365" src="/images/SAMpeople-card.png" alt="" class="wp-image-14969" srcset="/images/SAMpeople-card.png 587w, /images/SAMpeople-card-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
 
 
 
@@ -1242,7 +1242,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img src="/wp-content/uploads/2024/10/Family-logos-2.svg" alt="" class="wp-image-119"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="/images/Family-logos-2.svg" alt="" class="wp-image-119"/></figure>
 </div>
 </div>
 
@@ -1251,7 +1251,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="588" height="365" src="/wp-content/uploads/2024/10/Product-visual-1-1.png" alt="TimeTabler" class="wp-image-14081" srcset="/wp-content/uploads/2024/10/Product-visual-1-1.png 588w, /wp-content/uploads/2024/10/Product-visual-1-1-300x186.png 300w" sizes="auto, (max-width: 588px) 100vw, 588px" /></figure>
+<figure class="wp-block-image size-full"><img width="588" height="365" src="/images/Product-visual-1-1.png" alt="TimeTabler" class="wp-image-14081" srcset="/images/Product-visual-1-1.png 588w, /images/Product-visual-1-1-300x186.png 300w" sizes="auto, (max-width: 588px) 100vw, 588px" /></figure>
 
 
 
@@ -1266,7 +1266,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img src="/wp-content/uploads/2024/10/Family-logos-3.svg" alt="" class="wp-image-120"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img src="/images/Family-logos-3.svg" alt="" class="wp-image-120"/></figure>
 </div>
 </div>
 </div>

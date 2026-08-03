@@ -29,7 +29,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="780" height="660" src="/wp-content/uploads/2024/10/Data-Warehouse.png" alt="Data Warehouse" class="wp-image-14095" srcset="/wp-content/uploads/2024/10/Data-Warehouse.png 780w, /wp-content/uploads/2024/10/Data-Warehouse-300x254.png 300w, /wp-content/uploads/2024/10/Data-Warehouse-768x650.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full"><img width="780" height="660" src="/images/Data-Warehouse.png" alt="Data Warehouse" class="wp-image-14095" srcset="/images/Data-Warehouse.png 780w, /images/Data-Warehouse-300x254.png 300w, /images/Data-Warehouse-768x650.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 </div>
 </div>
 </div>
@@ -45,7 +45,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<figure class="wp-block-image aligncenter size-large"><img width="356" height="272" src="/wp-content/uploads/2024/10/Illustration-3.svg" alt="" class="wp-image-12609"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img width="356" height="272" src="/images/Illustration-3.svg" alt="" class="wp-image-12609"/></figure>
 </div>
 </div>
 </div>
@@ -105,7 +105,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="1288" height="1012" src="/wp-content/uploads/2024/10/Illus_Cloud-tools_RGB.png" alt="Data" class="wp-image-14493" style="width:350px" srcset="/wp-content/uploads/2024/10/Illus_Cloud-tools_RGB.png 1288w, /wp-content/uploads/2024/10/Illus_Cloud-tools_RGB-300x236.png 300w, /wp-content/uploads/2024/10/Illus_Cloud-tools_RGB-1024x805.png 1024w, /wp-content/uploads/2024/10/Illus_Cloud-tools_RGB-768x603.png 768w, /wp-content/uploads/2024/10/Illus_Cloud-tools_RGB-1200x943.png 1200w" sizes="auto, (max-width: 1288px) 100vw, 1288px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="1288" height="1012" src="/images/Illus_Cloud-tools_RGB.png" alt="Data" class="wp-image-14493" style="width:350px" srcset="/images/Illus_Cloud-tools_RGB.png 1288w, /images/Illus_Cloud-tools_RGB-300x236.png 300w, /images/Illus_Cloud-tools_RGB-1024x805.png 1024w, /images/Illus_Cloud-tools_RGB-768x603.png 768w, /images/Illus_Cloud-tools_RGB-1200x943.png 1200w" sizes="auto, (max-width: 1288px) 100vw, 1288px" /></figure>
 </div>
 </div>
 
@@ -165,7 +165,7 @@ export default function Page() {
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-large is-resized"><img width="1024" height="689" src="/wp-content/uploads/2024/10/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-14240" style="width:331px;height:auto" srcset="/wp-content/uploads/2024/10/Illus_Clear-data_RGB-1024x689.png 1024w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB-300x202.png 300w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB-768x517.png 768w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img width="1024" height="689" src="/images/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-14240" style="width:331px;height:auto" srcset="/images/Illus_Clear-data_RGB-1024x689.png 1024w, /images/Illus_Clear-data_RGB-300x202.png 300w, /images/Illus_Clear-data_RGB-768x517.png 768w, /images/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 </div>

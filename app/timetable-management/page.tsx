@@ -26,14 +26,14 @@ export default function Page() {
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="377" height="117" src="/wp-content/uploads/2024/10/TimeTabler-OASIS.png" alt="" class="wp-image-13508" style="width:auto;height:65px" srcset="/wp-content/uploads/2024/10/TimeTabler-OASIS.png 377w, /wp-content/uploads/2024/10/TimeTabler-OASIS-300x93.png 300w" sizes="auto, (max-width: 377px) 100vw, 377px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="377" height="117" src="/images/TimeTabler-Arbor.png" alt="" class="wp-image-13508" style="width:auto;height:65px" srcset="/images/TimeTabler-Arbor.png 377w, /images/TimeTabler-Arbor-300x93.png 300w" sizes="auto, (max-width: 377px) 100vw, 377px" /></figure>
 </div>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1096" height="1129" src="/wp-content/uploads/2024/10/Frame-10-3.png" alt="TimeTabler" class="wp-image-14190" srcset="/wp-content/uploads/2024/10/Frame-10-3.png 1096w, /wp-content/uploads/2024/10/Frame-10-3-291x300.png 291w, /wp-content/uploads/2024/10/Frame-10-3-994x1024.png 994w, /wp-content/uploads/2024/10/Frame-10-3-768x791.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
+<figure class="wp-block-image size-full"><img width="1096" height="1129" src="/images/Frame-10-3.png" alt="TimeTabler" class="wp-image-14190" srcset="/images/Frame-10-3.png 1096w, /images/Frame-10-3-291x300.png 291w, /images/Frame-10-3-994x1024.png 994w, /images/Frame-10-3-768x791.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
 </div>
 </div>
 </div>
@@ -52,7 +52,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img width="1048" height="395" src="/wp-content/uploads/2024/10/Frame-9468-4.png" alt="TimeTabler collaboration" class="wp-image-13690" srcset="/wp-content/uploads/2024/10/Frame-9468-4.png 1048w, /wp-content/uploads/2024/10/Frame-9468-4-300x113.png 300w, /wp-content/uploads/2024/10/Frame-9468-4-1024x386.png 1024w, /wp-content/uploads/2024/10/Frame-9468-4-768x289.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image size-full"><img width="1048" height="395" src="/images/Frame-9468-4.png" alt="TimeTabler collaboration" class="wp-image-13690" srcset="/images/Frame-9468-4.png 1048w, /images/Frame-9468-4-300x113.png 300w, /images/Frame-9468-4-1024x386.png 1024w, /images/Frame-9468-4-768x289.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -177,7 +177,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1016" height="668" src="/wp-content/uploads/2024/10/TimeTabler-2.png" alt="TimeTabler" class="wp-image-14194" style="box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2024/10/TimeTabler-2.png 1016w, /wp-content/uploads/2024/10/TimeTabler-2-300x197.png 300w, /wp-content/uploads/2024/10/TimeTabler-2-768x505.png 768w" sizes="auto, (max-width: 1016px) 100vw, 1016px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1016" height="668" src="/images/TimeTabler-2.png" alt="TimeTabler" class="wp-image-14194" style="box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/TimeTabler-2.png 1016w, /images/TimeTabler-2-300x197.png 300w, /images/TimeTabler-2-768x505.png 768w" sizes="auto, (max-width: 1016px) 100vw, 1016px" /></figure>
 </div>
 </div>
 
@@ -195,7 +195,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1048" height="501" src="/wp-content/uploads/2024/10/Frame-9468-1-4.png" alt="TimeTabler" class="wp-image-14191" srcset="/wp-content/uploads/2024/10/Frame-9468-1-4.png 1048w, /wp-content/uploads/2024/10/Frame-9468-1-4-300x143.png 300w, /wp-content/uploads/2024/10/Frame-9468-1-4-1024x490.png 1024w, /wp-content/uploads/2024/10/Frame-9468-1-4-768x367.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1048" height="501" src="/images/Frame-9468-1-4.png" alt="TimeTabler" class="wp-image-14191" srcset="/images/Frame-9468-1-4.png 1048w, /images/Frame-9468-1-4-300x143.png 300w, /images/Frame-9468-1-4-1024x490.png 1024w, /images/Frame-9468-1-4-768x367.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -213,7 +213,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1048" height="559" src="/wp-content/uploads/2024/10/Frame-9470.png" alt="TimeTabler" class="wp-image-14193" srcset="/wp-content/uploads/2024/10/Frame-9470.png 1048w, /wp-content/uploads/2024/10/Frame-9470-300x160.png 300w, /wp-content/uploads/2024/10/Frame-9470-1024x546.png 1024w, /wp-content/uploads/2024/10/Frame-9470-768x410.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1048" height="559" src="/images/Frame-9470.png" alt="TimeTabler" class="wp-image-14193" srcset="/images/Frame-9470.png 1048w, /images/Frame-9470-300x160.png 300w, /images/Frame-9470-1024x546.png 1024w, /images/Frame-9470-768x410.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -231,7 +231,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1048" height="474" src="/wp-content/uploads/2024/10/Frame-9470-1.png" alt="TimeTabler" class="wp-image-14192" srcset="/wp-content/uploads/2024/10/Frame-9470-1.png 1048w, /wp-content/uploads/2024/10/Frame-9470-1-300x136.png 300w, /wp-content/uploads/2024/10/Frame-9470-1-1024x463.png 1024w, /wp-content/uploads/2024/10/Frame-9470-1-768x347.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1048" height="474" src="/images/Frame-9470-1.png" alt="TimeTabler" class="wp-image-14192" srcset="/images/Frame-9470-1.png 1048w, /images/Frame-9470-1-300x136.png 300w, /images/Frame-9470-1-1024x463.png 1024w, /images/Frame-9470-1-768x347.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 </div>

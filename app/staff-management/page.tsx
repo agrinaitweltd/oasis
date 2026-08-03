@@ -32,14 +32,14 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-full is-resized"><img width="319" height="117" src="/wp-content/uploads/2024/10/Sampeople-OASIS.png" alt="" class="wp-image-13506" style="width:193px;height:auto" srcset="/wp-content/uploads/2024/10/Sampeople-OASIS.png 319w, /wp-content/uploads/2024/10/Sampeople-OASIS-300x110.png 300w" sizes="auto, (max-width: 319px) 100vw, 319px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="319" height="117" src="/images/Sampeople-Arbor.png" alt="" class="wp-image-13506" style="width:193px;height:auto" srcset="/images/Sampeople-Arbor.png 319w, /images/Sampeople-Arbor-300x110.png 300w" sizes="auto, (max-width: 319px) 100vw, 319px" /></figure>
 </div>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1072" height="1105" src="/wp-content/uploads/2024/10/SAMpeople-2.png" alt="SAMpeople" class="wp-image-14201" srcset="/wp-content/uploads/2024/10/SAMpeople-2.png 1072w, /wp-content/uploads/2024/10/SAMpeople-2-291x300.png 291w, /wp-content/uploads/2024/10/SAMpeople-2-993x1024.png 993w, /wp-content/uploads/2024/10/SAMpeople-2-768x792.png 768w" sizes="auto, (max-width: 1072px) 100vw, 1072px" /></figure>
+<figure class="wp-block-image size-full"><img width="1072" height="1105" src="/images/SAMpeople-2.png" alt="SAMpeople" class="wp-image-14201" srcset="/images/SAMpeople-2.png 1072w, /images/SAMpeople-2-291x300.png 291w, /images/SAMpeople-2-993x1024.png 993w, /images/SAMpeople-2-768x792.png 768w" sizes="auto, (max-width: 1072px) 100vw, 1072px" /></figure>
 </div>
 </div>
 </div>
@@ -58,7 +58,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img width="1048" height="396" src="/wp-content/uploads/2024/10/Frame-9468-3.png" alt="SAMpeople collaboration" class="wp-image-13670" srcset="/wp-content/uploads/2024/10/Frame-9468-3.png 1048w, /wp-content/uploads/2024/10/Frame-9468-3-300x113.png 300w, /wp-content/uploads/2024/10/Frame-9468-3-1024x387.png 1024w, /wp-content/uploads/2024/10/Frame-9468-3-768x290.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image size-full"><img width="1048" height="396" src="/images/Frame-9468-3.png" alt="SAMpeople collaboration" class="wp-image-13670" srcset="/images/Frame-9468-3.png 1048w, /images/Frame-9468-3-300x113.png 300w, /images/Frame-9468-3-1024x387.png 1024w, /images/Frame-9468-3-768x290.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -89,13 +89,13 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-f4757ddb wp-block-columns-is-layout-flex" style="padding-bottom:var(--wp--preset--spacing--30)">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:50%">
-<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/lymbUJ8w-M4"><div class="wp-block-getwid-video-popup__wrapper" style="min-height:100px"><img width="1320" height="1628" src="/wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-17667" srcset="/wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13.png 1320w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13-243x300.png 243w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13-830x1024.png 830w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13-768x947.png 768w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13-1245x1536.png 1245w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.46.13-1200x1480.png 1200w" sizes="auto, (max-width: 1320px) 100vw, 1320px" /><div class="wp-block-getwid-video-popup__button is-style-default is-size-large" style="border-color:#ffffff"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-base-2-background-color" style="border-color:#ffffff"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
+<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/lymbUJ8w-M4"><div class="wp-block-getwid-video-popup__wrapper" style="min-height:100px"><img width="1320" height="1628" src="/images/Screenshot-2025-07-17-at-10.46.13.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-17667" srcset="/images/Screenshot-2025-07-17-at-10.46.13.png 1320w, /images/Screenshot-2025-07-17-at-10.46.13-243x300.png 243w, /images/Screenshot-2025-07-17-at-10.46.13-830x1024.png 830w, /images/Screenshot-2025-07-17-at-10.46.13-768x947.png 768w, /images/Screenshot-2025-07-17-at-10.46.13-1245x1536.png 1245w, /images/Screenshot-2025-07-17-at-10.46.13-1200x1480.png 1200w" sizes="auto, (max-width: 1320px) 100vw, 1320px" /><div class="wp-block-getwid-video-popup__button is-style-default is-size-large" style="border-color:#ffffff"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-base-2-background-color" style="border-color:#ffffff"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
 </div>
 
 
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:50%">
-<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/GdTHqb3S2Uw"><div class="wp-block-getwid-video-popup__wrapper" style="min-height:100px"><img width="1302" height="1606" src="/wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-17670" srcset="/wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21.png 1302w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21-243x300.png 243w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21-830x1024.png 830w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21-768x947.png 768w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21-1245x1536.png 1245w, /wp-content/uploads/2025/07/Screenshot-2025-07-17-at-10.50.21-1200x1480.png 1200w" sizes="auto, (max-width: 1302px) 100vw, 1302px" /><div class="wp-block-getwid-video-popup__button is-style-default is-size-large" style="border-color:#ffffff"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-base-2-background-color" style="border-color:#ffffff"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
+<div class="wp-block-getwid-video-popup has-image has-foreground-0 alignwide"><a class="wp-block-getwid-video-popup__link" href="https://youtu.be/GdTHqb3S2Uw"><div class="wp-block-getwid-video-popup__wrapper" style="min-height:100px"><img width="1302" height="1606" src="/images/Screenshot-2025-07-17-at-10.50.21.png" alt="" class="wp-block-getwid-video-popup__image wp-block-getwid-video-popup__source wp-image-17670" srcset="/images/Screenshot-2025-07-17-at-10.50.21.png 1302w, /images/Screenshot-2025-07-17-at-10.50.21-243x300.png 243w, /images/Screenshot-2025-07-17-at-10.50.21-830x1024.png 830w, /images/Screenshot-2025-07-17-at-10.50.21-768x947.png 768w, /images/Screenshot-2025-07-17-at-10.50.21-1245x1536.png 1245w, /images/Screenshot-2025-07-17-at-10.50.21-1200x1480.png 1200w" sizes="auto, (max-width: 1302px) 100vw, 1302px" /><div class="wp-block-getwid-video-popup__button is-style-default is-size-large" style="border-color:#ffffff"><div class="wp-block-getwid-video-popup__icon has-text-color has-contrast-color has-background has-base-2-background-color" style="border-color:#ffffff"><i class="fas fa-play" aria-hidden="true"></i></div></div></div></a><div class="wp-block-getwid-video-popup__caption"></div></div>
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1096" height="677" src="/wp-content/uploads/2024/10/OASIS-School-MIS-Homepage.png" alt="Case work contracts" class="wp-image-13671" srcset="/wp-content/uploads/2024/10/OASIS-School-MIS-Homepage.png 1096w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-300x185.png 300w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-1024x633.png 1024w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-768x474.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1096" height="677" src="/images/Arbor-School-MIS-Homepage.png" alt="Case work contracts" class="wp-image-13671" srcset="/images/Arbor-School-MIS-Homepage.png 1096w, /images/Arbor-School-MIS-Homepage-300x185.png 300w, /images/Arbor-School-MIS-Homepage-1024x633.png 1024w, /images/Arbor-School-MIS-Homepage-768x474.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
 </div>
 </div>
 
@@ -133,7 +133,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1000" height="505" src="/wp-content/uploads/2024/10/Frame-26085899.png" alt="Sickness tracker" class="wp-image-14204" style="box-shadow:var(--wp--preset--shadow--deep)" srcset="/wp-content/uploads/2024/10/Frame-26085899.png 1000w, /wp-content/uploads/2024/10/Frame-26085899-300x152.png 300w, /wp-content/uploads/2024/10/Frame-26085899-768x388.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1000" height="505" src="/images/Frame-26085899.png" alt="Sickness tracker" class="wp-image-14204" style="box-shadow:var(--wp--preset--shadow--deep)" srcset="/images/Frame-26085899.png 1000w, /images/Frame-26085899-300x152.png 300w, /images/Frame-26085899-768x388.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
 </div>
 </div>
 
@@ -151,7 +151,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1048" height="932" src="/wp-content/uploads/2024/10/Frame-9467-5.png" alt="SAMpeople phone" class="wp-image-13667" srcset="/wp-content/uploads/2024/10/Frame-9467-5.png 1048w, /wp-content/uploads/2024/10/Frame-9467-5-300x267.png 300w, /wp-content/uploads/2024/10/Frame-9467-5-1024x911.png 1024w, /wp-content/uploads/2024/10/Frame-9467-5-768x683.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1048" height="932" src="/images/Frame-9467-5.png" alt="SAMpeople phone" class="wp-image-13667" srcset="/images/Frame-9467-5.png 1048w, /images/Frame-9467-5-300x267.png 300w, /images/Frame-9467-5-1024x911.png 1024w, /images/Frame-9467-5-768x683.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -169,7 +169,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1071" height="524" src="/wp-content/uploads/2024/10/Sampeople-tasks.png" alt="Sampeople tasks" class="wp-image-14200" srcset="/wp-content/uploads/2024/10/Sampeople-tasks.png 1071w, /wp-content/uploads/2024/10/Sampeople-tasks-300x147.png 300w, /wp-content/uploads/2024/10/Sampeople-tasks-1024x501.png 1024w, /wp-content/uploads/2024/10/Sampeople-tasks-768x376.png 768w" sizes="auto, (max-width: 1071px) 100vw, 1071px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1071" height="524" src="/images/Sampeople-tasks.png" alt="Sampeople tasks" class="wp-image-14200" srcset="/images/Sampeople-tasks.png 1071w, /images/Sampeople-tasks-300x147.png 300w, /images/Sampeople-tasks-1024x501.png 1024w, /images/Sampeople-tasks-768x376.png 768w" sizes="auto, (max-width: 1071px) 100vw, 1071px" /></figure>
 </div>
 </div>
 
@@ -187,7 +187,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1096" height="666" src="/wp-content/uploads/2024/10/Frame-9468-2-1.png" alt="Hiring school staff" class="wp-image-13669" srcset="/wp-content/uploads/2024/10/Frame-9468-2-1.png 1096w, /wp-content/uploads/2024/10/Frame-9468-2-1-300x182.png 300w, /wp-content/uploads/2024/10/Frame-9468-2-1-1024x622.png 1024w, /wp-content/uploads/2024/10/Frame-9468-2-1-768x467.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1096" height="666" src="/images/Frame-9468-2-1.png" alt="Hiring school staff" class="wp-image-13669" srcset="/images/Frame-9468-2-1.png 1096w, /images/Frame-9468-2-1-300x182.png 300w, /images/Frame-9468-2-1-1024x622.png 1024w, /images/Frame-9468-2-1-768x467.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
 </div>
 </div>
 </div>

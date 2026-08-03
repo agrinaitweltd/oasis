@@ -10,7 +10,7 @@ export default function Page() {
     <div
       className={"wp-block-group is-layout-flow wp-block-group-is-layout-flow"}
       dangerouslySetInnerHTML={{ __html: `<div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><img width="2704" height="1310" class="wp-block-cover__image-background wp-image-15743" alt="OASIS school management system" src="/wp-content/uploads/2024/10/frame_9149.webp" style="object-position:13% 25%" data-object-fit="cover" data-object-position="13% 25%" srcset="/wp-content/uploads/2024/10/frame_9149.webp 2704w, /wp-content/uploads/2024/10/frame_9149-300x145.webp 300w, /wp-content/uploads/2024/10/frame_9149-1024x496.webp 1024w, /wp-content/uploads/2024/10/frame_9149-768x372.webp 768w, /wp-content/uploads/2024/10/frame_9149-1536x744.webp 1536w, /wp-content/uploads/2024/10/frame_9149-2048x992.webp 2048w, /wp-content/uploads/2024/10/frame_9149-1200x581.webp 1200w" sizes="auto, (max-width: 2704px) 100vw, 2704px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-container-core-cover-is-layout-1c9c1223 wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><img width="2704" height="1310" class="wp-block-cover__image-background wp-image-15743" alt="OASIS school management system" src="/images/frame_9149.webp" style="object-position:13% 25%" data-object-fit="cover" data-object-position="13% 25%" srcset="/images/frame_9149.webp 2704w, /images/frame_9149-300x145.webp 300w, /images/frame_9149-1024x496.webp 1024w, /images/frame_9149-768x372.webp 768w, /images/frame_9149-1536x744.webp 1536w, /images/frame_9149-2048x992.webp 2048w, /images/frame_9149-1200x581.webp 1200w" sizes="auto, (max-width: 2704px) 100vw, 2704px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-container-core-cover-is-layout-1c9c1223 wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-base-2-color has-text-color has-link-color has-grenette-pro-font-family wp-elements-d6f7cf92c479946e11277df76ffc4a23 wp-block-paragraph" style="font-size:clamp(67.975px, 4.248rem + ((1vw - 3.2px) * 10.642), 148px);letter-spacing:-2.96px;line-height:1">One platform. <em>Every</em> school.</p>
 
 
@@ -42,7 +42,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="438" height="244" src="/wp-content/uploads/2024/10/Illustration-1.svg" alt="" class="wp-image-12415" style="width:437px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="438" height="244" src="/images/Illustration-1.svg" alt="" class="wp-image-12415" style="width:437px;height:auto"/></figure>
 </div>
 </div>
 </div>
@@ -71,7 +71,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border" style="margin-right:0;margin-left:0"><img width="1000" height="588" src="/wp-content/uploads/2024/10/School-MIS-dashboard.png" alt="OASIS student information dashboard" class="wp-image-14968" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep);width:500px;height:auto" srcset="/wp-content/uploads/2024/10/School-MIS-dashboard.png 1000w, /wp-content/uploads/2024/10/School-MIS-dashboard-300x176.png 300w, /wp-content/uploads/2024/10/School-MIS-dashboard-768x452.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border" style="margin-right:0;margin-left:0"><img width="1000" height="588" src="/images/School-MIS-dashboard.png" alt="OASIS student information dashboard" class="wp-image-14968" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep);width:500px;height:auto" srcset="/images/School-MIS-dashboard.png 1000w, /images/School-MIS-dashboard-300x176.png 300w, /images/School-MIS-dashboard-768x452.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
 </div>
 </div>
 
@@ -99,7 +99,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img src="/wp-content/uploads/2024/10/Product-visual.png" alt="" class="wp-image-73" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep);width:500px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img src="/images/Product-visual.png" alt="" class="wp-image-73" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep);width:500px;height:auto"/></figure>
 </div>
 </div>
 </div>
@@ -494,7 +494,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="587" height="365" src="/wp-content/uploads/2024/10/OASIS-FInance-card-1.png" alt="" class="wp-image-14219" srcset="/wp-content/uploads/2024/10/OASIS-FInance-card-1.png 587w, /wp-content/uploads/2024/10/OASIS-FInance-card-1-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
+<figure class="wp-block-image size-full"><img width="587" height="365" src="/images/Arbor-FInance-card-1.png" alt="" class="wp-image-14219" srcset="/images/Arbor-FInance-card-1.png 587w, /images/Arbor-FInance-card-1-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
 
 
 
@@ -514,7 +514,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="587" height="365" src="/wp-content/uploads/2024/10/SAMpeople-card.png" alt="" class="wp-image-14969" srcset="/wp-content/uploads/2024/10/SAMpeople-card.png 587w, /wp-content/uploads/2024/10/SAMpeople-card-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
+<figure class="wp-block-image size-full"><img width="587" height="365" src="/images/SAMpeople-card.png" alt="" class="wp-image-14969" srcset="/images/SAMpeople-card.png 587w, /images/SAMpeople-card-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
 
 
 
@@ -534,7 +534,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="588" height="365" src="/wp-content/uploads/2024/10/Product-visual-1-1.png" alt="OASIS Timetable Management" class="wp-image-14081" srcset="/wp-content/uploads/2024/10/Product-visual-1-1.png 588w, /wp-content/uploads/2024/10/Product-visual-1-1-300x186.png 300w" sizes="auto, (max-width: 588px) 100vw, 588px" /></figure>
+<figure class="wp-block-image size-full"><img width="588" height="365" src="/images/Product-visual-1-1.png" alt="OASIS Timetable Management" class="wp-image-14081" srcset="/images/Product-visual-1-1.png 588w, /images/Product-visual-1-1-300x186.png 300w" sizes="auto, (max-width: 588px) 100vw, 588px" /></figure>
 
 
 

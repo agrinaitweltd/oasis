@@ -23,7 +23,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<figure class="wp-block-image aligncenter size-large"><img width="262" height="186" src="/wp-content/uploads/2024/10/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
+<figure class="wp-block-image aligncenter size-large"><img width="262" height="186" src="/images/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
 </div>
 </div>
 </div>

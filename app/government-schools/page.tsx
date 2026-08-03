@@ -29,7 +29,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1067" height="776" src="/wp-content/uploads/2024/10/OASIS-for-school groups.png" alt="OASIS for school groups" class="wp-image-13522" srcset="/wp-content/uploads/2024/10/OASIS-for-school groups.png 1067w, /wp-content/uploads/2024/10/OASIS-for-school groups-300x218.png 300w, /wp-content/uploads/2024/10/OASIS-for-school groups-1024x745.png 1024w, /wp-content/uploads/2024/10/OASIS-for-school groups-768x559.png 768w" sizes="auto, (max-width: 1067px) 100vw, 1067px" /></figure>
+<figure class="wp-block-image size-full"><img width="1067" height="776" src="/images/Arbor-for-MATs.png" alt="OASIS for school groups" class="wp-image-13522" srcset="/images/Arbor-for-MATs.png 1067w, /images/Arbor-for-MATs-300x218.png 300w, /images/Arbor-for-MATs-1024x745.png 1024w, /images/Arbor-for-MATs-768x559.png 768w" sizes="auto, (max-width: 1067px) 100vw, 1067px" /></figure>
 </div>
 </div>
 </div>
@@ -127,7 +127,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image size-full has-custom-border"><img width="468" height="281" src="/wp-content/uploads/2024/10/School-MIS-1.png" alt="" class="wp-image-14097" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2024/10/School-MIS-1.png 468w, /wp-content/uploads/2024/10/School-MIS-1-300x180.png 300w" sizes="auto, (max-width: 468px) 100vw, 468px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="468" height="281" src="/images/School-MIS-1.png" alt="" class="wp-image-14097" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/School-MIS-1.png 468w, /images/School-MIS-1-300x180.png 300w" sizes="auto, (max-width: 468px) 100vw, 468px" /></figure>
 </div>
 </div>
 </div></div>
@@ -147,7 +147,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image size-full has-custom-border"><img width="1000" height="668" src="/wp-content/uploads/2024/10/Cloud-finance.png" alt="Cloud finance" class="wp-image-13618" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/wp-content/uploads/2024/10/Cloud-finance.png 1000w, /wp-content/uploads/2024/10/Cloud-finance-300x200.png 300w, /wp-content/uploads/2024/10/Cloud-finance-768x513.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="1000" height="668" src="/images/Cloud-finance.png" alt="Cloud finance" class="wp-image-13618" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/Cloud-finance.png 1000w, /images/Cloud-finance-300x200.png 300w, /images/Cloud-finance-768x513.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -167,7 +167,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="737" height="428" src="/wp-content/uploads/2020/09/Home_MIS-MATS-Groups_Attendance@2x.png" alt="" class="wp-image-6227"/></figure>
+<figure class="wp-block-image size-full"><img width="737" height="428" src="/images/Home_MIS-MATS-Groups_Attendance@2x.png" alt="" class="wp-image-6227"/></figure>
 </div>
 </div>
 </div></div>
@@ -187,7 +187,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="585" height="495" src="/wp-content/uploads/2024/11/Frame-26085909.png" alt="Local Authority OASIS" class="wp-image-16113" style="width:323px;height:auto" srcset="/wp-content/uploads/2024/11/Frame-26085909.png 585w, /wp-content/uploads/2024/11/Frame-26085909-300x254.png 300w" sizes="auto, (max-width: 585px) 100vw, 585px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="585" height="495" src="/images/Frame-26085909.png" alt="Local Authority OASIS" class="wp-image-16113" style="width:323px;height:auto" srcset="/images/Frame-26085909.png 585w, /images/Frame-26085909-300x254.png 300w" sizes="auto, (max-width: 585px) 100vw, 585px" /></figure>
 </div>
 </div>
 </div></div>
@@ -418,7 +418,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/wp-content/uploads/2024/10/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-14240" style="width:259px;height:auto" srcset="/wp-content/uploads/2024/10/Illus_Clear-data_RGB-1024x689.png 1024w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB-300x202.png 300w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB-768x517.png 768w, /wp-content/uploads/2024/10/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/images/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-14240" style="width:259px;height:auto" srcset="/images/Illus_Clear-data_RGB-1024x689.png 1024w, /images/Illus_Clear-data_RGB-300x202.png 300w, /images/Illus_Clear-data_RGB-768x517.png 768w, /images/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 
 
@@ -550,7 +550,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-large" style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.691), 1.2rem);"><img width="262" height="186" src="/wp-content/uploads/2024/10/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
+<figure class="wp-block-image size-large" style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.691), 1.2rem);"><img width="262" height="186" src="/images/Illustration-2.svg" alt="" class="wp-image-12524"/></figure>
 </div>
 
 
@@ -581,7 +581,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph"><a href="/wp-content/uploads/2023/03/Strategies-for-embracing-new-technology-in-education.pdf" target="_blank" rel="noreferrer noopener">Read our case study</a> with HfL Education (Hertfordshire), Hampshire County Council and AWS on on how they managed the change</p>
+<p class="wp-block-paragraph"><a href="/images/Strategies-for-embracing-new-technology-in-education.pdf" target="_blank" rel="noreferrer noopener">Read our case study</a> with HfL Education (Hertfordshire), Hampshire County Council and AWS on on how they managed the change</p>
 </div>
 </div>
 </div>
