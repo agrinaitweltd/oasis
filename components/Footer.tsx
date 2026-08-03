@@ -12,7 +12,7 @@ function FooterNav({ links, ariaLabel }: { links: NavLink[]; ariaLabel: string }
     >
       <ul style={{ fontStyle: "normal", fontWeight: 400 }} className="wp-block-navigation__container has-small-font-size is-vertical wp-block-navigation">
         {links.map((link) => (
-          <li className="wp-block-navigation-item wp-block-navigation-link" key={link.href}>
+          <li className="wp-block-navigation-item wp-block-navigation-link footer-nav-item" key={link.href}>
             {link.external ? (
               <a className="wp-block-navigation-item__content" href={link.href} target="_blank" rel="noreferrer noopener">
                 <span className="wp-block-navigation-item__label">{link.label}</span>
@@ -54,7 +54,16 @@ export default function Footer() {
           </div>
 
           <div className="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style={{ flexBasis: "80%" }}>
-            <div className="wp-block-group flex-wrap is-content-justification-space-between is-nowrap is-layout-flex wp-block-group-is-layout-flex">
+            <div
+              className="wp-block-group is-layout-flow wp-block-group-is-layout-flow footer-columns-grid"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(4, minmax(140px, 1fr))",
+                columnGap: 24,
+                rowGap: 32,
+                alignItems: "start",
+              }}
+            >
               {footerColumns.map((col) => (
                 <div
                   className="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-block-group-is-layout-flex"

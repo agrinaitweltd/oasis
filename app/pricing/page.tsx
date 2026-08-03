@@ -18,10 +18,26 @@ export default function Page() {
         </h1>
         <p
           className="has-text-align-center wp-block-paragraph"
-          style={{ maxWidth: 700, marginLeft: "auto", marginRight: "auto", marginTop: 16 }}
+          style={{ maxWidth: 700, marginLeft: "auto", marginRight: "auto", marginTop: 16, marginBottom: 20 }}
         >
           One platform, priced fairly for schools of every size across Uganda. Pick the billing period that
           works best for your school &#8212; prices update automatically.
+        </p>
+        <p style={{ textAlign: "center" }}>
+          <span
+            style={{
+              display: "inline-block",
+              background: "var(--wp--preset--color--accent-5)",
+              border: "1px solid #009D00",
+              color: "#009D00",
+              fontWeight: 700,
+              fontSize: 14,
+              padding: "8px 18px",
+              borderRadius: 999,
+            }}
+          >
+            Starting from as little as UGX 500 per student, per year
+          </span>
         </p>
       </div>
 

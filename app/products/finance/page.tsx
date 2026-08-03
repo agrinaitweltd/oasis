@@ -21,7 +21,11 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Shrink month-end reconciliation down from hours to minutes with OASIS and OASIS Finance together. User-friendly and affordable, it&#8217;s perfect for LA maintained schools.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Shrink month-end reconciliation down from hours to minutes with OASIS Finance. User-friendly and affordable, it&#8217;s perfect for government and private schools alike.</p>
+
+
+
+<p><span style="display:inline-block;background:var(--wp--preset--color--accent-3);color:#16140c;font-weight:700;font-size:14px;padding:8px 18px;border-radius:999px">Finance &amp; fees starting from only UGX 700 per student, per term</span></p>
 
 
 

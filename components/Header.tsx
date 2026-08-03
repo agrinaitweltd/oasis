@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type CSSProperties } from "react";
+import { useState, useRef, useEffect, type CSSProperties } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { megaMenu } from "@/lib/nav-data";
@@ -8,6 +8,24 @@ import { megaMenu } from "@/lib/nav-data";
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const navRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    function handleDocumentClick(e: MouseEvent) {
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setOpenMenu(null);
+      }
+    }
+    function handleEscape(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpenMenu(null);
+    }
+    document.addEventListener("click", handleDocumentClick);
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, []);
 
   return (
     <header className="wp-block-template-part">
@@ -55,6 +73,7 @@ export default function Header() {
 
               <ul
                 id="mega-menu-max_mega_menu_1"
+                ref={navRef}
                 className="mega-menu max-mega-menu mega-menu-horizontal"
                 data-event="hover_intent"
                 data-effect="disabled"
@@ -69,6 +88,7 @@ export default function Header() {
                     className={`mega-menu-item mega-menu-item-type-custom mega-menu-item-has-children mega-menu-megamenu${
                       openMenu === section.label ? " mega-toggle-on" : ""
                     }`}
+                    style={{ position: "relative" }}
                     onMouseEnter={() => setOpenMenu(section.label)}
                     onMouseLeave={() => setOpenMenu(null)}
                   >
@@ -78,7 +98,8 @@ export default function Header() {
                       aria-expanded={openMenu === section.label}
                       onClick={(e) => {
                         e.preventDefault();
-                        setOpenMenu((v) => (v === section.label ? null : section.label));
+                        e.stopPropagation();
+                        setOpenMenu(section.label);
                       }}
                     >
                       {section.label}
@@ -89,8 +110,25 @@ export default function Header() {
                       role="presentation"
                       style={
                         openMenu === section.label
-                          ? { display: "block", opacity: 1, visibility: "visible" }
-                          : { display: "none", opacity: 0, visibility: "hidden" }
+                          ? {
+                              display: "block",
+                              opacity: 1,
+                              visibility: "visible",
+                              left: 0,
+                              zIndex: 9999,
+                              pointerEvents: "auto",
+                              transform: "translateY(0)",
+                              transition: "opacity 180ms ease, transform 180ms ease",
+                            }
+                          : {
+                              display: "none",
+                              opacity: 0,
+                              visibility: "hidden",
+                              left: 0,
+                              zIndex: 9999,
+                              pointerEvents: "none",
+                              transform: "translateY(-6px)",
+                            }
                       }
                     >
                       <li className="mega-menu-row">

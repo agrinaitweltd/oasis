@@ -17,12 +17,17 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it even easier to keep parents in the loop with OASIS's annual SMS tariff.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it even easier to keep parents in the loop with OASIS's SMS &amp; email communication tools.</p>
+
+
+
+<p><span style="display:inline-block;background:var(--wp--preset--color--accent-3);color:#16140c;font-weight:700;font-size:14px;padding:8px 18px;border-radius:999px">SMS system starting from only UGX 700 per student, per term</span></p>
 
 
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/pricing/">See full pricing</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--1"><a class="wp-block-button__link wp-element-button" href="/contact/">Get in touch</a></div>
 </div>
 </div>
 
