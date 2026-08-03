@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Notice &#038; Cookie Statement - Arbor",
-  description: "In this document IntroductionWho we are and how to contact usHow we process personal data and whyOur role as controller and processorWhom we share personal data withHow we store and transfer personal dataCookiesRights and complaints Introduction Arbor Education Partners Limited (“Arbor”, “we”, “us” and “our”) operates arbor-education.com and Arbor’s Management Information System (“MIS”). We are…",
+  title: "Privacy Notice &#038; Cookie Statement - OASIS",
+  description: "In this document IntroductionWho we are and how to contact usHow we process personal data and whyOur role as controller and processorWhom we share personal data withHow we store and transfer personal dataCookiesRights and complaints Introduction OASIS Limited (“OASIS”, “we”, “us” and “our”) operates oasis-schools.ug and OASIS's Management Information System (“MIS”). We are…",
 };
 
 export default function Page() {
@@ -38,11 +38,11 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor Education Partners Limited (“<b>Arbor</b>”, “<b>we</b>”, “<b>us</b>” and “<b>our</b>”) operates arbor-education.com and Arbor’s Management Information System (“<b>MIS</b>”). We are committed to protecting your personal data. This Privacy Notice sets out how we handle personal data that is provided to us or collected by us in relation to our website, MIS, general enquiries, and other contact with us.</p>
+<p class="wp-block-paragraph">OASIS Limited (“<b>OASIS</b>”, “<b>we</b>”, “<b>us</b>” and “<b>our</b>”) operates oasis-schools.ug and OASIS's Management Information System (“<b>MIS</b>”). We are committed to protecting your personal data. This Privacy Notice sets out how we handle personal data that is provided to us or collected by us in relation to our website, MIS, general enquiries, and other contact with us.</p>
 
 
 
-<p class="wp-block-paragraph">If you have any questions about this Privacy Notice or how we handle personal data, contact <a href="mailto:dataprotection@arbor-education.com">dataprotection@arbor-education.com</a>.</p>
+<p class="wp-block-paragraph">If you have any questions about this Privacy Notice or how we handle personal data, contact <a href="mailto:dataprotection@oasis-schools.ug">dataprotection@oasis-schools.ug</a>.</p>
 
 
 
@@ -58,11 +58,11 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor is a company registered in England with company number 07790198 and registered address HYLO 103-105 Bunhill Row, London, EC1V 8LZ.&nbsp; Arbor is part of The Key Group and together we serve the education sector.</p>
+<p class="wp-block-paragraph">OASIS is built and operated by Swivel Technologies, based in Kampala, Uganda.</p>
 
 
 
-<p class="wp-block-paragraph">Arbor’s MIS gives schools the tools they need to work better today and be ready for tomorrow, free staff from busywork, work more collaboratively, and stay connected on the cloud. We are part of the same group of companies as: ScholarPack and Integris, both of which offer management information systems to schools; GovernorHub (which offers online resources to school governors); and The Key (which provides up-to-the-minute sector intelligence and resources that empower education leaders with the knowledge to act).</p>
+<p class="wp-block-paragraph">OASIS gives schools the tools they need to work better today and be ready for tomorrow &#8212; freeing staff from busywork, helping them work more collaboratively, and keeping everyone connected on the cloud.</p>
 
 
 
@@ -248,7 +248,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Some of our group companies and service providers run their operations outside of the UK and EEA, including in countries with different data protection laws to the UK. In these circumstances, there are safeguards in place to ensure that personal data is adequately protected in accordance with UK data protection law. Please contact us if you would like more information about these safeguards.</p>
+<p class="wp-block-paragraph">Some of our group companies and service providers run their operations outside of Uganda and EEA, including in countries with different data protection laws to Uganda. In these circumstances, there are safeguards in place to ensure that personal data is adequately protected in accordance with Uganda data protection law. Please contact us if you would like more information about these safeguards.</p>
 
 
 
@@ -290,7 +290,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">To make a request or complaint, or to opt out of marketing emails, contact us at <a href="mailto:dataprotection@arbor-education.com">dataprotection@arbor-education.com</a>. We hope to be able to address any of your concerns. You can also make a complaint to the Information Commissioner’s Office.</p>
+<p class="wp-block-paragraph">To make a request or complaint, or to opt out of marketing emails, contact us at <a href="mailto:dataprotection@oasis-schools.ug">dataprotection@oasis-schools.ug</a>. We hope to be able to address any of your concerns. You can also make a complaint to the Information Commissioner’s Office.</p>
 
 
 

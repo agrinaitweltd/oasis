@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Arbor Payments - Arbor",
-  description: "School payments made simple Our payments packages fit seamlessly within Arbor, working hand-in-hand with your student data and comms tools. Get in touch Payments Core Take the admin out of school payments Our light and affordable payments system Ideal for smaller schools who need to take payments from parents for clubs and trips and use…",
+  title: "OASIS Payments - OASIS",
+  description: "School payments made simple Our payments packages fit seamlessly within OASIS, working hand-in-hand with your student data and comms tools. Get in touch Payments Core Take the admin out of school payments Our light and affordable payments system Ideal for smaller schools who need to take payments from parents for clubs and trips and use…",
 };
 
 export default function Page() {
@@ -17,19 +17,19 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Our payments packages fit seamlessly within Arbor, working hand-in-hand with your student data and comms tools.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Our payments packages fit seamlessly within OASIS, working hand-in-hand with your student data and comms tools.</p>
 
 
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full" style="margin-right:0;margin-left:0"><img width="1096" height="776" src="/wp-content/uploads/2024/10/Arbor-Payments-2.png" alt="Arbor Payments 2" class="wp-image-14206" srcset="/wp-content/uploads/2024/10/Arbor-Payments-2.png 1096w, /wp-content/uploads/2024/10/Arbor-Payments-2-300x212.png 300w, /wp-content/uploads/2024/10/Arbor-Payments-2-1024x725.png 1024w, /wp-content/uploads/2024/10/Arbor-Payments-2-768x544.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
+<figure class="wp-block-image size-full" style="margin-right:0;margin-left:0"><img width="1096" height="776" src="/wp-content/uploads/2024/10/OASIS-Payments-2.png" alt="OASIS Payments 2" class="wp-image-14206" srcset="/wp-content/uploads/2024/10/OASIS-Payments-2.png 1096w, /wp-content/uploads/2024/10/OASIS-Payments-2-300x212.png 300w, /wp-content/uploads/2024/10/OASIS-Payments-2-1024x725.png 1024w, /wp-content/uploads/2024/10/OASIS-Payments-2-768x544.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
 </div>
 </div>
 </div>
@@ -67,7 +67,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Schedule clubs and trips, record consent and take payments all from within Arbor</p>
+<p class="wp-block-paragraph">Schedule clubs and trips, record consent and take payments all from within OASIS</p>
 </div>
 
 
@@ -77,7 +77,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Save time for staff and parents by managing meal payments in Arbor</p>
+<p class="wp-block-paragraph">Save time for staff and parents by managing meal payments in OASIS</p>
 </div>
 
 
@@ -87,7 +87,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Parents can make payments anytime using the Parent Portal or Arbor App</p>
+<p class="wp-block-paragraph">Parents can make payments anytime using the Parent Portal or OASIS App</p>
 </div>
 </div>
 </div>
@@ -98,7 +98,7 @@ export default function Page() {
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img width="1003" height="630" src="/wp-content/uploads/2024/10/Arbor-payments.png" alt="Arbor payments" class="wp-image-15067" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;object-fit:cover" srcset="/wp-content/uploads/2024/10/Arbor-payments.png 1003w, /wp-content/uploads/2024/10/Arbor-payments-300x188.png 300w, /wp-content/uploads/2024/10/Arbor-payments-768x482.png 768w" sizes="auto, (max-width: 1003px) 100vw, 1003px" /></figure>
+<figure class="wp-block-image size-full has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img width="1003" height="630" src="/wp-content/uploads/2024/10/OASIS-payments.png" alt="OASIS payments" class="wp-image-15067" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;object-fit:cover" srcset="/wp-content/uploads/2024/10/OASIS-payments.png 1003w, /wp-content/uploads/2024/10/OASIS-payments-300x188.png 300w, /wp-content/uploads/2024/10/OASIS-payments-768x482.png 768w" sizes="auto, (max-width: 1003px) 100vw, 1003px" /></figure>
 </div>
 </div>
 </div>
@@ -249,7 +249,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="padding-bottom:5px">Extend Arbor&#8217;s functionality with end-to-end payments for your school</p>
+<p class="has-text-align-center wp-block-paragraph" style="padding-bottom:5px">Extend OASIS's functionality with end-to-end payments for your school</p>
 
 
 
@@ -289,13 +289,13 @@ export default function Page() {
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading has-text-align-center">Get started with Arbor Payments today</h2>
+<h2 class="wp-block-heading has-text-align-center">Get started with OASIS Payments today</h2>
 
 
 
 <div class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-f56f9fcf wp-block-group-is-layout-flex">
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 </div>

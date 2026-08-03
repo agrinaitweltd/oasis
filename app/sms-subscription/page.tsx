@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SMS Subscription - Arbor",
-  description: "SMS Subscription Make it even easier to keep parents in the loop with Arbor’s annual SMS tariff. Get in touch Why schools choose Arbor for SMS Say goodbye to keeping a contact list updated in another system See all the messages you’ve sent at a glance Send messages based on criteria like student attendance or…",
+  title: "SMS Subscription - OASIS",
+  description: "SMS Subscription Make it even easier to keep parents in the loop with OASIS's annual SMS tariff. Get in touch Why schools choose OASIS for SMS Say goodbye to keeping a contact list updated in another system See all the messages you’ve sent at a glance Send messages based on criteria like student attendance or…",
 };
 
 export default function Page() {
@@ -17,19 +17,19 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it even easier to keep parents in the loop with Arbor’s annual SMS tariff.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it even easier to keep parents in the loop with OASIS's annual SMS tariff.</p>
 
 
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/wp-content/uploads/2024/10/Arbor-3_866x720.png" alt="" class="wp-image-14465" style="border-radius:4px" srcset="/wp-content/uploads/2024/10/Arbor-3_866x720.png 866w, /wp-content/uploads/2024/10/Arbor-3_866x720-300x249.png 300w, /wp-content/uploads/2024/10/Arbor-3_866x720-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/wp-content/uploads/2024/10/OASIS-3_866x720.png" alt="" class="wp-image-14465" style="border-radius:4px" srcset="/wp-content/uploads/2024/10/OASIS-3_866x720.png 866w, /wp-content/uploads/2024/10/OASIS-3_866x720-300x249.png 300w, /wp-content/uploads/2024/10/OASIS-3_866x720-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
 </div>
 </div>
 </div>
@@ -39,7 +39,7 @@ export default function Page() {
 <div class="wp-block-group alignwide gap is-vertical is-layout-flex wp-container-core-group-is-layout-1dd6ec52 wp-block-group-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0px;padding-left:91px">
-<h3 class="wp-block-heading" style="padding-bottom:var(--wp--preset--spacing--10)">Why schools choose Arbor for SMS</h3>
+<h3 class="wp-block-heading" style="padding-bottom:var(--wp--preset--spacing--10)">Why schools choose OASIS for SMS</h3>
 
 
 
@@ -99,7 +99,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="border-radius:16px;margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading">The Arbor Blog</h2>
+<h2 class="wp-block-heading">The OASIS Blog</h2>
 
 
 
@@ -118,7 +118,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-5527983f90101f6c7ac0889eb167b8aa wp-block-paragraph"><a href="https://arbor-education.com/https-arbor-education-com-blog-arbor-sms-school-parent-engagement-strategy/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-5527983f90101f6c7ac0889eb167b8aa wp-block-paragraph"><a href="/faq/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -134,7 +134,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-what-does-a-school-attendance-officer-do-2/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/pricing/">Read more</a></p>
 </div>
 </div>
 
@@ -150,7 +150,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-b60932bfab68f1ae511f1a691a965eb5 wp-block-paragraph"><a href="https://arbor-education.com/blog-the-ultimate-guide-to-improving-school-communication-with-parents/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-b60932bfab68f1ae511f1a691a965eb5 wp-block-paragraph"><a href="/library/">Read more</a></p>
 </div>
 </div>
 
@@ -166,7 +166,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-improve-school-attendance-wellbeing-communication-with-parents/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/switching-to-oasis/">Read more</a></p>
 </div>
 </div>
 </div>
@@ -181,7 +181,7 @@ export default function Page() {
 
 <div class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-f56f9fcf wp-block-group-is-layout-flex">
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 </div>

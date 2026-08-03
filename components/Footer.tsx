@@ -42,11 +42,11 @@ export default function Footer() {
               <figure className="wp-block-image size-large is-resized">
                 <Link href="/">
                   <Image
-                    width={128}
-                    height={50}
-                    src="/wp-content/uploads/2024/10/Arbor_footer_logo.svg"
-                    alt=""
-                    style={{ width: 125 }}
+                    width={140}
+                    height={48}
+                    src="/wp-content/uploads/2024/10/oasis-logo-footer.svg"
+                    alt="OASIS"
+                    style={{ width: 135 }}
                   />
                 </Link>
               </figure>
@@ -79,17 +79,17 @@ export default function Footer() {
         <div className="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style={{ paddingTop: "var(--wp--preset--spacing--30)", paddingBottom: 0 }}>
           <div className="wp-block-group is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex" style={{ marginTop: 0, marginBottom: 0, paddingTop: 0 }}>
             <p className="inline-block has-link-color has-grenette-pro-font-family wp-block-paragraph" style={{ fontSize: "clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 2.674), 48px)", letterSpacing: "-0.96px", lineHeight: 1.17 }}>
-              Get in touch: <a href="mailto:hello@arbor-education.com">hello@arbor-education.com</a>
+              Get in touch: <a href="mailto:hello@oasis.ug">hello@oasis.ug</a>
             </p>
 
             <div className="wp-block-group is-nowrap is-layout-flex wp-block-group-is-layout-flex">
               <figure className="wp-block-image size-large is-resized">
-                <a href="https://www.linkedin.com/company/arbor-education-partners" target="_blank" rel="noreferrer noopener">
+                <a href="https://www.linkedin.com/company/oasis-uganda" target="_blank" rel="noreferrer noopener">
                   <Image width={32} height={33} src="/wp-content/uploads/2024/10/LinkedIn.svg" alt="" style={{ width: 32 }} />
                 </a>
               </figure>
               <figure className="wp-block-image size-large is-resized">
-                <a href="https://twitter.com/arboredu" target="_blank" rel="noreferrer noopener">
+                <a href="https://twitter.com/oasis_uganda" target="_blank" rel="noreferrer noopener">
                   <Image width={32} height={33} src="/wp-content/uploads/2024/10/X.svg" alt="" style={{ width: 32 }} />
                 </a>
               </figure>
@@ -100,7 +100,7 @@ export default function Footer() {
         <div className="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style={{ paddingTop: "var(--wp--preset--spacing--30)", paddingBottom: 0 }}>
           <div className="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-block-group-is-layout-flex" style={{ paddingTop: "var(--wp--preset--spacing--10)" }}>
             <p className="has-link-color has-small-font-size wp-block-paragraph">
-              Arbor Education, Floor 4, FORA, 21-33 Great Eastern St, London, EC2A 3EJ
+              OASIS by Swivel Technologies, Kampala, Uganda
             </p>
           </div>
 
@@ -114,9 +114,7 @@ export default function Footer() {
               </p>
             </div>
             <p className="has-link-color has-small-font-size wp-block-paragraph">
-              <a href="https://thekeygroup.com/" target="_blank" rel="noreferrer noopener">
-                Arbor is part of The Key Group
-              </a>
+              <Link href="/about-us/">OASIS is built by Swivel Technologies</Link>
             </p>
           </div>
         </div>

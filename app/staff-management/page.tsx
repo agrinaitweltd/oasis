@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SAMpeople - Arbor",
-  description: "Education HR system Everything you need to manage and support your staff SAMpeople is the UK’s fastest growing education HR system, transforming HR, recruitment and payroll for over 2,300 schools and trusts. Book a demo SAMpeople is now part of the Arbor School Management Suite Onboard new hires, track absences, and manage cover with two…",
+  title: "SAMpeople - OASIS",
+  description: "Education HR system Everything you need to manage and support your staff SAMpeople is Uganda's fastest growing education HR system, transforming HR, recruitment and payroll for over 2,300 schools. Book a demo SAMpeople is now part of the OASIS School Management Suite Onboard new hires, track absences, and manage cover with two…",
 };
 
 export default function Page() {
@@ -21,7 +21,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">SAMpeople is the UK’s fastest growing education HR system, transforming HR, recruitment and payroll for over 2,300 schools and trusts.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">SAMpeople is Uganda's fastest growing education HR system, transforming HR, recruitment and payroll for over 2,300 schools.</p>
 
 
 
@@ -32,7 +32,7 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-full is-resized"><img width="319" height="117" src="/wp-content/uploads/2024/10/Sampeople-Arbor.png" alt="" class="wp-image-13506" style="width:193px;height:auto" srcset="/wp-content/uploads/2024/10/Sampeople-Arbor.png 319w, /wp-content/uploads/2024/10/Sampeople-Arbor-300x110.png 300w" sizes="auto, (max-width: 319px) 100vw, 319px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="319" height="117" src="/wp-content/uploads/2024/10/Sampeople-OASIS.png" alt="" class="wp-image-13506" style="width:193px;height:auto" srcset="/wp-content/uploads/2024/10/Sampeople-OASIS.png 319w, /wp-content/uploads/2024/10/Sampeople-OASIS-300x110.png 300w" sizes="auto, (max-width: 319px) 100vw, 319px" /></figure>
 </div>
 </div>
 
@@ -48,11 +48,11 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<h2 class="wp-block-heading" style="font-size:clamp(20px, 1.25rem + ((1vw - 3.2px) * 1.596), 32px);">SAMpeople is now part of the Arbor School Management Suite</h2>
+<h2 class="wp-block-heading" style="font-size:clamp(20px, 1.25rem + ((1vw - 3.2px) * 1.596), 32px);">SAMpeople is now part of the OASIS School Management Suite</h2>
 
 
 
-<p class="wp-block-paragraph">Onboard new hires, track absences, and manage cover with two systems that work seamlessly together. Staff data syncs instantly between Arbor and SAMpeople, keeping it accurate and up-to-date everywhere at once.</p>
+<p class="wp-block-paragraph">Onboard new hires, track absences, and manage cover with two systems that work seamlessly together. Staff data syncs instantly between OASIS and SAMpeople, keeping it accurate and up-to-date everywhere at once.</p>
 </div>
 
 
@@ -67,7 +67,7 @@ export default function Page() {
 <div class="wp-block-group alignfull has-base-2-color has-custom-color-1-background-color has-text-color has-background has-link-color wp-elements-15d6776b7c978363e0c6ea656b307ff7 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:88px;padding-bottom:88px">
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-f4757ddb wp-block-columns-is-layout-flex" style="padding-bottom:var(--wp--preset--spacing--30)">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0;padding-left:0;flex-basis:40%">
-<h2 class="wp-block-heading has-contrast-color has-text-color has-link-color wp-elements-7b1451c1a4c754b2ce48183ec43c4c74">SAMpeople and Arbor <em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">together</mark></em></h2>
+<h2 class="wp-block-heading has-contrast-color has-text-color has-link-color wp-elements-7b1451c1a4c754b2ce48183ec43c4c74">SAMpeople and OASIS <em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">together</mark></em></h2>
 </div>
 
 
@@ -79,7 +79,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:0;flex-basis:100%">
-<p class="has-contrast-color has-text-color has-link-color has-small-font-size wp-elements-669847c7f265c734d7c65016c8e89938 wp-block-paragraph">Hear from two trust leaders on how they&#8217;re using SAMpeople and Arbor to bring together their staff and student data and make a real difference to their schools.</p>
+<p class="has-contrast-color has-text-color has-link-color has-small-font-size wp-elements-669847c7f265c734d7c65016c8e89938 wp-block-paragraph">Hear from two trust leaders on how they&#8217;re using SAMpeople and OASIS to bring together their staff and student data and make a real difference to their schools.</p>
 </div>
 </div>
 </div>
@@ -109,13 +109,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">SAMpeople is a complete HR system for schools and trusts, designed by education HR specialists. Manage absences, CPD, communications, documents and more — with best-practice workflows and features built-in.</p>
+<p class="wp-block-paragraph">SAMpeople is a complete HR system for schools, designed by education HR specialists. Manage absences, CPD, communications, documents and more — with best-practice workflows and features built-in.</p>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full"><img width="1096" height="677" src="/wp-content/uploads/2024/10/Arbor-School-MIS-Homepage.png" alt="Case work contracts" class="wp-image-13671" srcset="/wp-content/uploads/2024/10/Arbor-School-MIS-Homepage.png 1096w, /wp-content/uploads/2024/10/Arbor-School-MIS-Homepage-300x185.png 300w, /wp-content/uploads/2024/10/Arbor-School-MIS-Homepage-1024x633.png 1024w, /wp-content/uploads/2024/10/Arbor-School-MIS-Homepage-768x474.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1096" height="677" src="/wp-content/uploads/2024/10/OASIS-School-MIS-Homepage.png" alt="Case work contracts" class="wp-image-13671" srcset="/wp-content/uploads/2024/10/OASIS-School-MIS-Homepage.png 1096w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-300x185.png 300w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-1024x633.png 1024w, /wp-content/uploads/2024/10/OASIS-School-MIS-Homepage-768x474.png 768w" sizes="auto, (max-width: 1096px) 100vw, 1096px" /></figure>
 </div>
 </div>
 
@@ -225,7 +225,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Understand the trends, triggers and cost of absences at a school or MAT-level</p>
+<p class="wp-block-paragraph">Understand the trends, triggers and cost of absences at a school or school group-level</p>
 </div>
 
 
@@ -331,7 +331,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Visualise your staff and Arbor data together, any way you like&nbsp;</p>
+<p class="wp-block-paragraph">Visualise your staff and OASIS data together, any way you like&nbsp;</p>
 </div>
 </div>
 </div>
@@ -346,7 +346,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16081" alt="School HR system" src="/wp-content/uploads/2024/11/Raleigh.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Raleigh.jpg 675w, /wp-content/uploads/2024/11/Raleigh-300x300.jpg 300w, /wp-content/uploads/2024/11/Raleigh-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Raleigh-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Raleigh-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -356,7 +356,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;[SAMpeople] has all reduced admin time excessively&#8230; It’s helping build an inclusive culture.&#8221;</p>
-<cite><strong>Sally Boaden</strong><br>Chief Finance &amp; Operations Officer, Raleigh Education Trust</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Chief Finance &amp; Operations Officer, Raleigh Education Trust</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -366,7 +366,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16085" alt="School HR system" src="/wp-content/uploads/2024/11/Southgate-school.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Southgate-school.jpg 675w, /wp-content/uploads/2024/11/Southgate-school-300x300.jpg 300w, /wp-content/uploads/2024/11/Southgate-school-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Southgate-school-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Southgate-school-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -376,7 +376,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;Before using the system, we had one of the highest absence rates for Special Schools across the council and now we have one of the lowest.&#8221;</p>
-<cite><strong>Josephine Hallas</strong><br>Business Manager, Southgate School</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Business Manager, Southgate School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -386,7 +386,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16084" alt="School HR system" src="/wp-content/uploads/2024/11/Ruskin.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Ruskin.jpg 675w, /wp-content/uploads/2024/11/Ruskin-300x300.jpg 300w, /wp-content/uploads/2024/11/Ruskin-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Ruskin-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Ruskin-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -396,7 +396,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;SAMpeople was our first venture into removing some heavy paper admin work. It&#8217; already making time savings and improved reporting processes.&#8221;</p>
-<cite><strong>Hazel Goodwin</strong><br>Ruskin Community High School</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Ruskin Community High School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -406,7 +406,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16061" alt="School HR system" src="/wp-content/uploads/2024/11/Lakes-college.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Lakes-college.jpg 675w, /wp-content/uploads/2024/11/Lakes-college-300x300.jpg 300w, /wp-content/uploads/2024/11/Lakes-college-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Lakes-college-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Lakes-college-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -416,7 +416,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;Staff and Managers have found the system to be very user friendly and can be tailored to your college needs.&#8221;</p>
-<cite><strong>Neil Anderson</strong><br>Head of HR, Lakes College West Cumbria</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Head of HR, Lakes College West Cumbria</cite></blockquote>
 </div>
 </div>
 </div></div>

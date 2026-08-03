@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Arbor Finance - Arbor",
-  description: "School finance system Simple accounting software for schools Shrink month-end reconciliation down from hours to minutes with Arbor MIS and Arbor Finance together. User-friendly and affordable, it&#039;s perfect for LA maintained schools. Book a demo Arbor Finance is part of the Arbor School Management Suite With Arbor MIS and Arbor Finance together, you can finally…",
+  title: "OASIS Finance - OASIS",
+  description: "School finance system Simple accounting software for schools Shrink month-end reconciliation down from hours to minutes with OASIS and OASIS Finance together. User-friendly and affordable, it&#039;s perfect for LA maintained schools. Book a demo OASIS Finance is part of the OASIS School Management Suite With OASIS and OASIS Finance together, you can finally…",
 };
 
 export default function Page() {
@@ -21,7 +21,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Shrink month-end reconciliation down from hours to minutes with Arbor MIS and Arbor Finance together. User-friendly and affordable, it&#8217;s perfect for LA maintained schools.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Shrink month-end reconciliation down from hours to minutes with OASIS and OASIS Finance together. User-friendly and affordable, it&#8217;s perfect for LA maintained schools.</p>
 
 
 
@@ -32,14 +32,14 @@ export default function Page() {
 
 
 
-<figure class="wp-block-image size-full is-resized"><img width="367" height="117" src="/wp-content/uploads/2024/10/Arbor-Finance.png" alt="" class="wp-image-13504" style="width:240px;height:auto" srcset="/wp-content/uploads/2024/10/Arbor-Finance.png 367w, /wp-content/uploads/2024/10/Arbor-Finance-300x96.png 300w" sizes="auto, (max-width: 367px) 100vw, 367px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="367" height="117" src="/wp-content/uploads/2024/10/OASIS-Finance.png" alt="" class="wp-image-13504" style="width:240px;height:auto" srcset="/wp-content/uploads/2024/10/OASIS-Finance.png 367w, /wp-content/uploads/2024/10/OASIS-Finance-300x96.png 300w" sizes="auto, (max-width: 367px) 100vw, 367px" /></figure>
 </div>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1084" height="984" src="/wp-content/uploads/2024/10/Arbor-Finance-1.png" alt="Arbor Finance" class="wp-image-13616" srcset="/wp-content/uploads/2024/10/Arbor-Finance-1.png 1084w, /wp-content/uploads/2024/10/Arbor-Finance-1-300x272.png 300w, /wp-content/uploads/2024/10/Arbor-Finance-1-1024x930.png 1024w, /wp-content/uploads/2024/10/Arbor-Finance-1-768x697.png 768w" sizes="auto, (max-width: 1084px) 100vw, 1084px" /></figure>
+<figure class="wp-block-image size-full"><img width="1084" height="984" src="/wp-content/uploads/2024/10/OASIS-Finance-1.png" alt="OASIS Finance" class="wp-image-13616" srcset="/wp-content/uploads/2024/10/OASIS-Finance-1.png 1084w, /wp-content/uploads/2024/10/OASIS-Finance-1-300x272.png 300w, /wp-content/uploads/2024/10/OASIS-Finance-1-1024x930.png 1024w, /wp-content/uploads/2024/10/OASIS-Finance-1-768x697.png 768w" sizes="auto, (max-width: 1084px) 100vw, 1084px" /></figure>
 </div>
 </div>
 </div>
@@ -48,17 +48,17 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<h2 class="wp-block-heading" style="font-size:clamp(20px, 1.25rem + ((1vw - 3.2px) * 1.596), 32px);">Arbor Finance is part of the Arbor School Management Suite</h2>
+<h2 class="wp-block-heading" style="font-size:clamp(20px, 1.25rem + ((1vw - 3.2px) * 1.596), 32px);">OASIS Finance is part of the OASIS School Management Suite</h2>
 
 
 
-<p class="wp-block-paragraph">With Arbor MIS and Arbor Finance together, you can finally move everything off your server, work with just one team for both your MIS and your finance system, and make month-end much less of a mountain.</p>
+<p class="wp-block-paragraph">With OASIS and OASIS Finance together, you can finally move everything off your server, work with just one team for both your MIS and your finance system, and make month-end much less of a mountain.</p>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image size-full"><img width="1048" height="395" src="/wp-content/uploads/2024/10/Arbor-Finance-2.png" alt="Arbor Finance 2" class="wp-image-13614" srcset="/wp-content/uploads/2024/10/Arbor-Finance-2.png 1048w, /wp-content/uploads/2024/10/Arbor-Finance-2-300x113.png 300w, /wp-content/uploads/2024/10/Arbor-Finance-2-1024x386.png 1024w, /wp-content/uploads/2024/10/Arbor-Finance-2-768x289.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image size-full"><img width="1048" height="395" src="/wp-content/uploads/2024/10/OASIS-Finance-2.png" alt="OASIS Finance 2" class="wp-image-13614" srcset="/wp-content/uploads/2024/10/OASIS-Finance-2.png 1048w, /wp-content/uploads/2024/10/OASIS-Finance-2-300x113.png 300w, /wp-content/uploads/2024/10/OASIS-Finance-2-1024x386.png 1024w, /wp-content/uploads/2024/10/OASIS-Finance-2-768x289.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 
@@ -70,7 +70,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16097" alt="" src="/wp-content/uploads/2024/11/NYES-.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/NYES-.jpg 675w, /wp-content/uploads/2024/11/NYES--300x300.jpg 300w, /wp-content/uploads/2024/11/NYES--600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/NYES--400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/NYES--200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -79,8 +79,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">&#8220;Arbor Finance is just so refreshing in comparison to other systems &#8211; we can’t sing its praises enough.&#8221;</p>
-<cite><strong>Helen Simpson</strong><br>Financial Consultant, NYES Financial Management Services</cite></blockquote>
+<p class="wp-block-paragraph">&#8220;OASIS Finance is just so refreshing in comparison to other systems &#8211; we can’t sing its praises enough.&#8221;</p>
+<cite><strong>OASIS User</strong><br>Financial Consultant, NYES Financial Management Services</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -90,7 +90,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16086" alt="Arbor Finance" src="/wp-content/uploads/2024/11/Susie-Warriner.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Susie-Warriner.jpg 675w, /wp-content/uploads/2024/11/Susie-Warriner-300x300.jpg 300w, /wp-content/uploads/2024/11/Susie-Warriner-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Susie-Warriner-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Susie-Warriner-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -99,8 +99,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“It’s a superb piece of software. I can’t think of anything that needs improving, but if I did, I’d know that I could go to Arbor and they’d take the feedback onboard.&#8221;</p>
-<cite><strong>Susie Warriner</strong><br>School Business Manager, Le Cateau Community Primary School </cite></blockquote>
+<p class="wp-block-paragraph">“It’s a superb piece of software. I can’t think of anything that needs improving, but if I did, I’d know that I could go to OASIS and they’d take the feedback onboard.&#8221;</p>
+<cite><strong>OASIS User</strong><br>School Business Manager, Le Cateau Community Primary School </cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -110,7 +110,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16097" alt="" src="/wp-content/uploads/2024/11/NYES-.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/NYES-.jpg 675w, /wp-content/uploads/2024/11/NYES--300x300.jpg 300w, /wp-content/uploads/2024/11/NYES--600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/NYES--400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/NYES--200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -119,8 +119,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">&#8220;Arbor Finance is very intuitive, it does exactly what you need it to and it’s web-based, so you can access it from anywhere.&#8221;</p>
-<cite><strong>Helen Otter</strong><br>Deputy Head of Financial Management Services, NYES Financial Management Services </cite></blockquote>
+<p class="wp-block-paragraph">&#8220;OASIS Finance is very intuitive, it does exactly what you need it to and it’s web-based, so you can access it from anywhere.&#8221;</p>
+<cite><strong>OASIS User</strong><br>Deputy Head of Financial Management Services, NYES Financial Management Services </cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -130,7 +130,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16046" alt="" src="/wp-content/uploads/2024/11/Carrie-Drewer.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Carrie-Drewer.jpg 675w, /wp-content/uploads/2024/11/Carrie-Drewer-300x300.jpg 300w, /wp-content/uploads/2024/11/Carrie-Drewer-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Carrie-Drewer-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Carrie-Drewer-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -140,7 +140,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;&#8221;It&#8217;s easy to get your head around as a non-finance person.&#8221;</p>
-<cite><strong>Carrie Drewer</strong><br>Business Manager, TIG Federation</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Business Manager, TIG Federation</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -185,7 +185,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="772" height="597" src="/wp-content/uploads/2024/10/Budget-reporting-Arbor-Finance.png" alt="Budget reporting Arbor Finance" class="wp-image-13617" style="box-shadow:var(--wp--preset--shadow--deep);width:386px" srcset="/wp-content/uploads/2024/10/Budget-reporting-Arbor-Finance.png 772w, /wp-content/uploads/2024/10/Budget-reporting-Arbor-Finance-300x232.png 300w, /wp-content/uploads/2024/10/Budget-reporting-Arbor-Finance-768x594.png 768w" sizes="auto, (max-width: 772px) 100vw, 772px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="772" height="597" src="/wp-content/uploads/2024/10/Budget-reporting-OASIS-Finance.png" alt="Budget reporting OASIS Finance" class="wp-image-13617" style="box-shadow:var(--wp--preset--shadow--deep);width:386px" srcset="/wp-content/uploads/2024/10/Budget-reporting-OASIS-Finance.png 772w, /wp-content/uploads/2024/10/Budget-reporting-OASIS-Finance-300x232.png 300w, /wp-content/uploads/2024/10/Budget-reporting-OASIS-Finance-768x594.png 768w" sizes="auto, (max-width: 772px) 100vw, 772px" /></figure>
 </div>
 </div>
 
@@ -197,13 +197,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Get started with Arbor Finance with very little training. Whether you&#8217;re a business manager, senior leader, finance officer or administrator, Arbor Finance is quick to pick up and run with &#8211; so you can get back to all the other jobs you do.</p>
+<p class="wp-block-paragraph">Get started with OASIS Finance with very little training. Whether you&#8217;re a business manager, senior leader, finance officer or administrator, OASIS Finance is quick to pick up and run with &#8211; so you can get back to all the other jobs you do.</p>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="873" height="635" src="/wp-content/uploads/2024/10/Reconcile-Arbor-Finance.png" alt="Reconcile Arbor Finance" class="wp-image-13619" style="width:410px" srcset="/wp-content/uploads/2024/10/Reconcile-Arbor-Finance.png 873w, /wp-content/uploads/2024/10/Reconcile-Arbor-Finance-300x218.png 300w, /wp-content/uploads/2024/10/Reconcile-Arbor-Finance-768x559.png 768w" sizes="auto, (max-width: 873px) 100vw, 873px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="873" height="635" src="/wp-content/uploads/2024/10/Reconcile-OASIS-Finance.png" alt="Reconcile OASIS Finance" class="wp-image-13619" style="width:410px" srcset="/wp-content/uploads/2024/10/Reconcile-OASIS-Finance.png 873w, /wp-content/uploads/2024/10/Reconcile-OASIS-Finance-300x218.png 300w, /wp-content/uploads/2024/10/Reconcile-OASIS-Finance-768x559.png 768w" sizes="auto, (max-width: 873px) 100vw, 873px" /></figure>
 </div>
 </div>
 
@@ -215,13 +215,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor Finance has the highest customer satisfaction (CSAT) score amongst Local Authority Maintained schools, as shown by a 2021 survey done on behalf of The Key.</p>
+<p class="wp-block-paragraph">OASIS Finance has the highest customer satisfaction (CSAT) score amongst Local Authority Maintained schools, as shown by a 2021 survey done on behalf of The Key.</p>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full"><img width="1048" height="652" src="/wp-content/uploads/2024/10/Arbor-Finance-top-rated.png" alt="Arbor Finance top-rated" class="wp-image-13615" srcset="/wp-content/uploads/2024/10/Arbor-Finance-top-rated.png 1048w, /wp-content/uploads/2024/10/Arbor-Finance-top-rated-300x187.png 300w, /wp-content/uploads/2024/10/Arbor-Finance-top-rated-1024x637.png 1024w, /wp-content/uploads/2024/10/Arbor-Finance-top-rated-768x478.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img width="1048" height="652" src="/wp-content/uploads/2024/10/OASIS-Finance-top-rated.png" alt="OASIS Finance top-rated" class="wp-image-13615" srcset="/wp-content/uploads/2024/10/OASIS-Finance-top-rated.png 1048w, /wp-content/uploads/2024/10/OASIS-Finance-top-rated-300x187.png 300w, /wp-content/uploads/2024/10/OASIS-Finance-top-rated-1024x637.png 1024w, /wp-content/uploads/2024/10/OASIS-Finance-top-rated-768x478.png 768w" sizes="auto, (max-width: 1048px) 100vw, 1048px" /></figure>
 </div>
 </div>
 </div>
@@ -343,7 +343,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="border-radius:16px;margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading">The Arbor Blog</h2>
+<h2 class="wp-block-heading">The OASIS Blog</h2>
 
 
 
@@ -358,11 +358,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-830038f9d3fc734dd7a832842e3345f9 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">How schools in North Yorkshire make day-to-day accounting simple with Arbor Finance</h3>
+<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-830038f9d3fc734dd7a832842e3345f9 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">How schools in North Yorkshire make day-to-day accounting simple with OASIS Finance</h3>
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ea341aacc02a074c23a0d6e4010ae936 wp-block-paragraph"><a href="https://arbor-education.com/how-schools-make-day-to-day-accounting-simple-with-arbor-finance/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ea341aacc02a074c23a0d6e4010ae936 wp-block-paragraph"><a href="/pricing/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -374,11 +374,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Saving time and money with Arbor </h3>
+<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Saving time and money with OASIS </h3>
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-saving-time-and-money-with-arbor-mis/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/switching-to-oasis/">Read more</a></p>
 </div>
 </div>
 
@@ -390,11 +390,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-463073bf77bb3ae4e1dad23bc02c8040 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Cost, time, value: A report investigating the ROI schools and trusts can get from Arbor</h3>
+<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-463073bf77bb3ae4e1dad23bc02c8040 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Cost, time, value: A report investigating the ROI schools can get from OASIS</h3>
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-8a9fe110a635744cbae62a13ceae5085 wp-block-paragraph"><a href="https://arbor-education-8475353.hs-sites.com/arbor-roi-schools-and-trusts" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-8a9fe110a635744cbae62a13ceae5085 wp-block-paragraph"><a href="/pricing/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -402,7 +402,7 @@ export default function Page() {
 
 <div class="wp-block-column has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-3444414e wp-block-column-is-layout-constrained" style="border-radius:12px;background-color:#aaea0f80;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:202px">
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-d0a28cf8 wp-block-group-is-layout-flex" style="min-height:100%;padding-bottom:5px">
-<p class="has-accent-2-color has-text-color has-link-color has-small-font-size wp-elements-e3b56a04355bac1ae67044f890c498d4 wp-block-paragraph">MATs</p>
+<p class="has-accent-2-color has-text-color has-link-color has-small-font-size wp-elements-e3b56a04355bac1ae67044f890c498d4 wp-block-paragraph">school groups</p>
 
 
 
@@ -410,7 +410,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-top-tips-for-managing-your-workload-from-school-business-leaders/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/faq/">Read more</a></p>
 </div>
 </div>
 </div>
@@ -419,7 +419,7 @@ export default function Page() {
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5ca31eee wp-block-group-is-layout-constrained" style="margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading has-text-align-center">Book a demo for Arbor Finance today</h2>
+<h2 class="wp-block-heading has-text-align-center">Book a demo for OASIS Finance today</h2>
 
 
 

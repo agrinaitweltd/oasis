@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "BI Connector - Arbor",
-  description: "BI Connector Instantly connect your Arbor data to your BI tool, and bring your MIS data to life with custom visualisations. Get in touch Simple setup and sharing Out-of-the-box templates Get started straight away with our ready-to-go templates based on your attendance, assessment, behaviour and demographic data No need for manual exports and imports We…",
+  title: "BI Connector - OASIS",
+  description: "BI Connector Instantly connect your OASIS data to your BI tool, and bring your MIS data to life with custom visualisations. Get in touch Simple setup and sharing Out-of-the-box templates Get started straight away with our ready-to-go templates based on your attendance, assessment, behaviour and demographic data No need for manual exports and imports We…",
 };
 
 export default function Page() {
@@ -17,12 +17,12 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Instantly connect your Arbor data to your BI tool, and bring your MIS data to life with custom visualisations.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Instantly connect your OASIS data to your BI tool, and bring your MIS data to life with custom visualisations.</p>
 
 
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 
@@ -122,7 +122,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Create and edit Arbor report templates in a way that’s right for you</p>
+<p class="wp-block-paragraph">Create and edit OASIS report templates in a way that’s right for you</p>
 </div>
 
 
@@ -132,7 +132,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Analyse your Arbor data alongside other data sets, like Google Maps or the Deprivation Index</p>
+<p class="wp-block-paragraph">Analyse your OASIS data alongside other data sets, like Google Maps or the Deprivation Index</p>
 </div>
 
 
@@ -152,7 +152,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Get top tips, templates and best practice from the Arbor Community on Arbor HQ</p>
+<p class="wp-block-paragraph">Get top tips, templates and best practice from the OASIS Community on OASIS HQ</p>
 </div>
 </div>
 </div>
@@ -161,11 +161,11 @@ export default function Page() {
 
 
 <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="border-radius:16px;margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading">The Arbor Blog</h2>
+<h2 class="wp-block-heading">The OASIS Blog</h2>
 
 
 
-<p class="wp-block-paragraph">Guides, articles and insights on how to make the most of your data with Arbor</p>
+<p class="wp-block-paragraph">Guides, articles and insights on how to make the most of your data with OASIS</p>
 
 
 
@@ -180,7 +180,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-31ac9d1be6a1e8ee7f0de130bb1a86d8 wp-block-paragraph"><a href="https://arbor-education.com/blog-staff-absence-in-schools-data-drop/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-31ac9d1be6a1e8ee7f0de130bb1a86d8 wp-block-paragraph"><a href="/faq/">Read more</a></p>
 </div>
 </div>
 
@@ -192,11 +192,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Live National Benchmarks &#8211; now in Arbor</h3>
+<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Live National Benchmarks &#8211; now in OASIS</h3>
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/live-national-benchmarks-now-in-arbors-bi-connector/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/faq/" target="_blank" rel="noreferrer noopener">Read more</a></p>
 </div>
 </div>
 
@@ -208,11 +208,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-3005aed819f0ec5c14ead7457ec9d694 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">5 easy steps to build a BI dashboard with your Arbor data</h3>
+<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-3005aed819f0ec5c14ead7457ec9d694 wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">5 easy steps to build a BI dashboard with your OASIS data</h3>
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-6a9de922732fd3400ca8928e032f6ecd wp-block-paragraph" style="padding-bottom:1px"><a href="https://arbor-education.com/blog-5-easy-steps-to-build-a-bi-dashboard-with-your-arbor-data/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-6a9de922732fd3400ca8928e032f6ecd wp-block-paragraph" style="padding-bottom:1px"><a href="/pricing/">Read more</a></p>
 </div>
 </div>
 
@@ -228,7 +228,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-data-drop-attendance-of-pupil-premium-eligible-sen-students/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/library/">Read more</a></p>
 </div>
 </div>
 </div>
@@ -237,13 +237,13 @@ export default function Page() {
 
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5ca31eee wp-block-group-is-layout-constrained" style="margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading has-text-align-center">Find out more about Arbor&#8217;s BI Connector</h2>
+<h2 class="wp-block-heading has-text-align-center">Find out more about OASIS's BI Connector</h2>
 
 
 
 <div class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-f56f9fcf wp-block-group-is-layout-flex">
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 </div>

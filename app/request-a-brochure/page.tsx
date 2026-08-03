@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Request a brochure - Arbor",
-  description: "117 On average, schools save  117 minutes per staff member, per week with Arbor",
+  title: "Request a Brochure - OASIS School Management System Uganda",
+  description: "117 On average, schools save  117 minutes per staff member, per week with OASIS",
 };
 
 export default function Page() {
@@ -21,18 +21,14 @@ export default function Page() {
 
 <div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-02e41962 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "8475353",
-    formId: "2d28233f-4f66-4e51-a508-0996d8e7547a",
-    css: "",
-    cssClass: "arbor-hubspot-form arbor-hubspot-form-two-columns"
-});
-</script>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="display:flex;align-items:center;justify-content:center;text-align:center">
+<div>
+<p class="wp-block-paragraph">Enter your details and we&#8217;ll email you the OASIS brochure:</p>
+<p class="wp-block-paragraph" style="font-size:clamp(20px, 1.5rem + 1vw, 32px)"><a href="mailto:hello@oasis-schools.ug">hello@oasis-schools.ug</a></p>
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a demo instead</a></div>
+</div>
+</div>
 </div>
 
 
@@ -53,7 +49,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:55%">
-<h3 class="wp-block-heading">On average, schools save  117 minutes per staff member, per week with Arbor</h3>
+<h3 class="wp-block-heading">On average, schools save  117 minutes per staff member, per week with OASIS</h3>
 </div>
 </div>
 </div>

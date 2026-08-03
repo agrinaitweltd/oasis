@@ -1,39 +1,36 @@
 export type NavLink = { label: string; href: string; external?: boolean };
 
 export const productsLinks: NavLink[] = [
-  { label: "Arbor School MIS", href: "/school-mis/" },
-  { label: "Arbor MAT MIS", href: "/products/group-mat-mis/" },
-  { label: "Arbor Local Authority MIS", href: "/local-authority-mis/" },
-  { label: "Arbor Finance", href: "/products/arbor-finance/" },
-  { label: "Arbor Workflows", href: "/workflows/" },
-  { label: "Arbor AI", href: "/arbor-ai/" },
-  { label: "SAMpeople", href: "/sampeople/" },
-  { label: "TimeTabler", href: "/timetabler/" },
+  { label: "Student Information System", href: "/school-mis/" },
+  { label: "Multi-Campus & School Groups", href: "/products/group-schools-mis/" },
+  { label: "Government Schools MIS", href: "/government-schools-mis/" },
+  { label: "Finance & School Fees", href: "/products/finance/" },
+  { label: "Workflows & Automation", href: "/workflows/" },
+  { label: "Insights & Analytics", href: "/oasis-insights/" },
+  { label: "Staff Management", href: "/staff-management/" },
+  { label: "Timetable Management", href: "/timetable-management/" },
 ];
 
 export const schoolTypesLinks: NavLink[] = [
-  { label: "Arbor for Primary Schools", href: "/primary-schools/" },
-  { label: "Arbor for Secondary Schools", href: "/secondary-schools/" },
-  { label: "Arbor for Special Schools, APs, and PRUs", href: "/products/special-school-mis/" },
-  { label: "Arbor for MATs", href: "/arbor-for-mats/" },
-  { label: "Arbor for Local Authorities", href: "/local-authorities/" },
+  { label: "Primary Schools", href: "/primary-schools/" },
+  { label: "Secondary Schools", href: "/secondary-schools/" },
+  { label: "Vocational & Special Institutions", href: "/products/special-school-mis/" },
+  { label: "School Groups & Multi-Campus", href: "/multi-campus-schools/" },
+  { label: "Government Schools", href: "/government-schools/" },
 ];
 
 export const resourcesLinks: NavLink[] = [
-  { label: "Blog", href: "https://arbor-education.com/blog/", external: true },
-  { label: "eBooks and Case Studies", href: "/library/" },
-  { label: "Webinars", href: "https://www.bigmarker.com/communities/arbor-education-webinars/conferences", external: true },
-  { label: "Help Centre", href: "https://support.arbor-education.com/hc/en-us", external: true },
-  { label: "Pay-for-One Promise", href: "/pay-for-one-promise/" },
-  { label: "Moving to Arbor", href: "/moving-to-arbor/" },
+  { label: "Pricing", href: "/pricing/" },
+  { label: "FAQ", href: "/faq/" },
+  { label: "Guides & Case Studies", href: "/library/" },
+  { label: "Switching to OASIS", href: "/switching-to-oasis/" },
 ];
 
 export const aboutUsLinks: NavLink[] = [
-  { label: "About Arbor", href: "/about-us/" },
-  { label: "Careers", href: "https://apply.workable.com/arbor-education-3/?lng=en", external: true },
+  { label: "About OASIS", href: "/about-us/" },
   { label: "Become a Partner", href: "/become-a-partner/" },
   { label: "Partners and Integrations", href: "/our-partners-integrations/" },
-  { label: "Data Protection and GDPR", href: "/about-us/data-protection-gdpr/" },
+  { label: "Data Protection & Privacy", href: "/about-us/data-protection-gdpr/" },
   { label: "Contact Us", href: "/contact/" },
 ];
 
@@ -46,17 +43,16 @@ export const megaMenu = [
 
 export const footerProductsPrimary: NavLink[] = productsLinks;
 export const footerProductsSecondary: NavLink[] = [
-  { label: "Arbor Training", href: "/arbor-training/" },
-  { label: "Auto Absence", href: "/auto-absence/" },
-  { label: "BI Connector", href: "/bi-connector/" },
-  { label: "Custom Data Warehouse", href: "/custom-data-warehouse/" },
-  { label: "School Payments", href: "/arbor-payments/" },
-  { label: "SMS Subscription", href: "/sms-subscription/" },
+  { label: "Training & Onboarding", href: "/training/" },
+  { label: "Attendance Tracking", href: "/auto-absence/" },
+  { label: "School Analytics", href: "/bi-connector/" },
+  { label: "Documents & Data Storage", href: "/custom-data-warehouse/" },
+  { label: "School Payments", href: "/school-payments/" },
+  { label: "SMS & Email Communication", href: "/sms-subscription/" },
 ];
-export const footerProductsWales: NavLink[] = [{ label: "Arbor for Wales", href: "/wales/" }];
 
 export const footerColumns = [
-  { title: "Products", primary: footerProductsPrimary, secondary: [...footerProductsSecondary, ...footerProductsWales] },
+  { title: "Products", primary: footerProductsPrimary, secondary: footerProductsSecondary },
   { title: "School Types", primary: schoolTypesLinks, secondary: [] as NavLink[] },
   { title: "Resources", primary: resourcesLinks, secondary: [] as NavLink[] },
   { title: "About us", primary: aboutUsLinks, secondary: [] as NavLink[] },

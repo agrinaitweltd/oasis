@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TimeTabler - Arbor",
-  description: "School timetabling TimeTabling, from the people who literally wrote the book on it TimeTabler is the UK’s leading timetabling software. Fast, friendly and powerful, it helps you tackle even the most complex timetabling challenges with confidence. TimeTabler is now part of the Arbor School Management Suite With Arbor and TimeTabler together, you can manage last-minute…",
+  title: "TimeTabler - OASIS",
+  description: "School timetabling TimeTabling, from the people who literally wrote the book on it TimeTabler is Uganda's leading timetabling software. Fast, friendly and powerful, it helps you tackle even the most complex timetabling challenges with confidence. TimeTabler is now part of the OASIS School Management Suite With OASIS and TimeTabler together, you can manage last-minute…",
 };
 
 export default function Page() {
@@ -21,12 +21,12 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">TimeTabler is the UK’s leading timetabling software. Fast, friendly and powerful, it helps you tackle even the most complex timetabling challenges with confidence.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">TimeTabler is Uganda's leading timetabling software. Fast, friendly and powerful, it helps you tackle even the most complex timetabling challenges with confidence.</p>
 
 
 
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="377" height="117" src="/wp-content/uploads/2024/10/TimeTabler-Arbor.png" alt="" class="wp-image-13508" style="width:auto;height:65px" srcset="/wp-content/uploads/2024/10/TimeTabler-Arbor.png 377w, /wp-content/uploads/2024/10/TimeTabler-Arbor-300x93.png 300w" sizes="auto, (max-width: 377px) 100vw, 377px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="377" height="117" src="/wp-content/uploads/2024/10/TimeTabler-OASIS.png" alt="" class="wp-image-13508" style="width:auto;height:65px" srcset="/wp-content/uploads/2024/10/TimeTabler-OASIS.png 377w, /wp-content/uploads/2024/10/TimeTabler-OASIS-300x93.png 300w" sizes="auto, (max-width: 377px) 100vw, 377px" /></figure>
 </div>
 </div>
 
@@ -42,11 +42,11 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
-<h2 class="wp-block-heading has-large-font-size">TimeTabler is now part of the Arbor School Management Suite</h2>
+<h2 class="wp-block-heading has-large-font-size">TimeTabler is now part of the OASIS School Management Suite</h2>
 
 
 
-<p class="wp-block-paragraph">With Arbor and TimeTabler together, you can manage last-minute changes to rooms or staffing, and create accurate reports on teacher workloads and room usage, straight from your MIS.</p>
+<p class="wp-block-paragraph">With OASIS and TimeTabler together, you can manage last-minute changes to rooms or staffing, and create accurate reports on teacher workloads and room usage, straight from your MIS.</p>
 </div>
 
 
@@ -64,7 +64,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16073" alt="School timetable" src="/wp-content/uploads/2024/11/Newland-House-school.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Newland-House-school.jpg 675w, /wp-content/uploads/2024/11/Newland-House-school-300x300.jpg 300w, /wp-content/uploads/2024/11/Newland-House-school-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Newland-House-school-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Newland-House-school-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -74,7 +74,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;It is no exaggeration to say that TimeTabler has reduced my workload by well over 100 hours. The investment has been worth every penny.&#8221;</p>
-<cite><strong>Charles Brenan</strong><br>Director of Studies and Newland House School</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Director of Studies and Newland House School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -84,7 +84,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16088" alt="School timetable" src="/wp-content/uploads/2024/11/Tower.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Tower.jpg 675w, /wp-content/uploads/2024/11/Tower-300x300.jpg 300w, /wp-content/uploads/2024/11/Tower-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Tower-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Tower-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -94,7 +94,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;It is an exceptional product, saving countless hours and makes the whole process of producing a quality timetable for the children a delight.&#8221;</p>
-<cite><strong>Marcus Taylor</strong><br>Bursar, Tower College</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Bursar, Tower College</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -104,7 +104,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16040" alt="School timetable" src="/wp-content/uploads/2024/11/59.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/59.jpg 675w, /wp-content/uploads/2024/11/59-300x300.jpg 300w, /wp-content/uploads/2024/11/59-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/59-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/59-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -114,7 +114,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;Since 1999 I have been able to approach the timetabling season with pleasure, because that is when I began to use TimeTabler.&#8221;</p>
-<cite><strong>Mary Saso</strong><br>Timetabler, International School of the Sacred Heart</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Timetabler, International School of the Sacred Heart</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -124,7 +124,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16060" alt="School timetable" src="/wp-content/uploads/2024/11/Knox-college.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Knox-college.jpg 675w, /wp-content/uploads/2024/11/Knox-college-300x300.jpg 300w, /wp-content/uploads/2024/11/Knox-college-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Knox-college-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Knox-college-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -134,7 +134,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;TimeTabler stood head and shoulders above the competition. Simply it retained the ‘art’ of timetabling, but with the science built in.</p>
-<cite><strong>Derek Simpson</strong><br>Ex-Depute, Knox Academy</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Ex-Depute, Knox Academy</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -144,7 +144,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><img width="675" height="675" class="wp-block-cover__image-background wp-image-16043" alt="School timetable" src="/wp-content/uploads/2024/11/Arnold-school.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Arnold-school.jpg 675w, /wp-content/uploads/2024/11/Arnold-school-300x300.jpg 300w, /wp-content/uploads/2024/11/Arnold-school-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Arnold-school-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Arnold-school-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -154,7 +154,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;The TimeTabler program is the easiest and most versatile I have used and I have tried most of them! For the timetabler it is a dream.&#8221;</p>
-<cite><strong>Heather Salmon</strong><br>Ex-Timetabler, Arnold School</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Ex-Timetabler, Arnold School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -225,7 +225,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">TimeTabler has been designed and refined with thousands of timetablers across the UK. It’s constantly updated to handle the latest curriculums, trends and best-practices in timetabling.&nbsp;</p>
+<p class="wp-block-paragraph">TimeTabler has been designed and refined with thousands of timetablers across Uganda. It’s constantly updated to handle the latest curriculums, trends and best-practices in timetabling.&nbsp;</p>
 </div>
 
 
@@ -353,7 +353,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="border-radius:16px;margin-top:88px;margin-bottom:88px">
-<h2 class="wp-block-heading">The Arbor Blog</h2>
+<h2 class="wp-block-heading">The OASIS Blog</h2>
 
 
 
@@ -372,7 +372,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-079dae95991bee7351968abc60781111 wp-block-paragraph"><a href="https://arbor-education.com/blog-flexible-working-in-schools-recruitment/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-079dae95991bee7351968abc60781111 wp-block-paragraph"><a href="/faq/">Read more</a></p>
 </div>
 </div>
 
@@ -384,11 +384,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Welcoming TimeTabler to The Key Group</h3>
+<h3 class="wp-block-heading wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">Timetable Management, built into OASIS</h3>
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-welcoming-timetabler-to-the-key-group/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/faq/">Read more</a></p>
 </div>
 </div>
 
@@ -400,11 +400,11 @@ export default function Page() {
 
 
 
-<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-7e7046ac3a6496650e5f2f63cf0d98bd wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">“Lived, not laminated” – How Dartmoor MAT implements policies, processes and procedures</h3>
+<h3 class="wp-block-heading has-base-2-color has-text-color has-link-color wp-elements-7e7046ac3a6496650e5f2f63cf0d98bd wp-container-content-9cfa9a5a" style="font-size:clamp(0.957rem, 0.957rem + ((1vw - 0.2rem) * 1.049), 1.45rem);">“Lived, not laminated” – How Dartmoor school group implements policies, processes and procedures</h3>
 
 
 
-<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ac20cc12a5e894f13e660e535679a60d wp-block-paragraph"><a href="https://arbor-education.com/blog-how-dartmoor-mat-implements-policies-education-processes-and-procedures/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link has-base-2-color has-text-color has-link-color wp-elements-ac20cc12a5e894f13e660e535679a60d wp-block-paragraph"><a href="/pricing/">Read more</a></p>
 </div>
 </div>
 
@@ -420,7 +420,7 @@ export default function Page() {
 
 
 
-<p class="is-style-arrow-link wp-block-paragraph"><a href="https://arbor-education.com/blog-share-courses-with-arbor-shared-teaching/" target="_blank" rel="noreferrer noopener">Read more</a></p>
+<p class="is-style-arrow-link wp-block-paragraph"><a href="/library/">Read more</a></p>
 </div>
 </div>
 </div>
@@ -435,7 +435,7 @@ export default function Page() {
 
 <div class="wp-block-group is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-f56f9fcf wp-block-group-is-layout-flex">
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://arbor-education-8475353.hs-sites.com/customer-contact-us" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/" target="_blank" rel="noreferrer noopener">Get in touch</a></div>
 </div>
 </div>
 </div>

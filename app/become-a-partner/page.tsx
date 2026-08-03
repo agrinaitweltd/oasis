@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Become a partner - Arbor",
-  description: "Become a Partner We&#039;re always looking for new partners who can help us grow, innovate and support our schools Integration Partner Integrate your app through Arbor’s REST and GraphQL APIs and reach our entire network of schools with your product or service. Plus, we provide full developer documentation and Software Developer Kits to help you…",
+  title: "Become a partner - OASIS",
+  description: "Become a Partner We&#039;re always looking for new partners who can help us grow, innovate and support our schools Integration Partner Integrate your app through OASIS's REST and GraphQL APIs and reach our entire network of schools with your product or service. Plus, we provide full developer documentation and Software Developer Kits to help you…",
 };
 
 export default function Page() {
@@ -40,11 +40,11 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-2c90304e wp-block-group-is-layout-flex">
-<p class="wp-block-paragraph">Integrate your app through Arbor’s REST and GraphQL APIs and reach our entire network of schools with your product or service. Plus, we provide full developer documentation and Software Developer Kits to help you build your integration.</p>
+<p class="wp-block-paragraph">Integrate your app through OASIS's REST and GraphQL APIs and reach our entire network of schools with your product or service. Plus, we provide full developer documentation and Software Developer Kits to help you build your integration.</p>
 
 
 
-<p class="wp-block-paragraph">Get in touch at <a href="mailto:api@arbor-education.com"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">api@arbor-education.com</mark></a> to find out more.</p>
+<p class="wp-block-paragraph">Get in touch at <a href="mailto:api@oasis-schools.ug"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">api@oasis-schools.ug</mark></a> to find out more.</p>
 </div>
 </div>
 </div>
@@ -60,7 +60,7 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-2c90304e wp-block-group-is-layout-flex">
-<p class="wp-block-paragraph">As Arbor grows, we want to make sure schools can switch to our MIS whilst keeping the expert support of their Local Authority or IT support provider. We offer a comprehensive accreditation programme for both Arbor MIS and Arbor Finance. As an accredited partner, you can provide first line support and training to Arbor schools under your existing SLAs.</p>
+<p class="wp-block-paragraph">As OASIS grows, we want to make sure schools can switch to our MIS whilst keeping the expert support of their Local Authority or IT support provider. We offer a comprehensive accreditation programme for both OASIS and OASIS Finance. As an accredited partner, you can provide first line support and training to OASIS schools under your existing SLAs.</p>
 
 
 
@@ -80,11 +80,11 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-2c90304e wp-block-group-is-layout-flex">
-<p class="wp-block-paragraph">Over 40 Local Authorities already work with us through our market-leading partner programme. We’ll work with you each step of the way to make sure that Arbor is a success at your schools.</p>
+<p class="wp-block-paragraph">Over 40 Local Authorities already work with us through our market-leading partner programme. We’ll work with you each step of the way to make sure that OASIS is a success at your schools.</p>
 
 
 
-<p class="wp-block-paragraph"><a href="/local-authorities/" target="_blank" rel="noreferrer noopener">Find out more</a></p>
+<p class="wp-block-paragraph"><a href="/government-schools/" target="_blank" rel="noreferrer noopener">Find out more</a></p>
 </div>
 </div>
 </div>
@@ -93,7 +93,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignfull has-custom-color-1-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-a69c84e2 wp-block-group-is-layout-constrained" style="margin-top:88px;margin-bottom:0;padding-top:88px;padding-bottom:88px">
-<h2 class="wp-block-heading has-text-align-center">Become an Arbor Partner today</h2>
+<h2 class="wp-block-heading has-text-align-center">Become an OASIS Partner today</h2>
 
 
 
@@ -105,7 +105,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="margin-top:48px;margin-right:0;margin-bottom:48px;margin-left:0;font-size:14px">We know your team will be investing time, effort and resources into becoming an approved Arbor support partner. In line with market practice, we will compensate you for your hard work and commitment. This service fee is provided on the condition that your schools are aware of this relationship and such payments are in line with your codes of practice.</p>
+<p class="has-text-align-center wp-block-paragraph" style="margin-top:48px;margin-right:0;margin-bottom:48px;margin-left:0;font-size:14px">We know your team will be investing time, effort and resources into becoming an approved OASIS support partner. In line with market practice, we will compensate you for your hard work and commitment. This service fee is provided on the condition that your schools are aware of this relationship and such payments are in line with your codes of practice.</p>
 </div>
 </div>` }}
     />

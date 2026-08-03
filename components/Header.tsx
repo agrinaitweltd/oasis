@@ -20,11 +20,11 @@ export default function Header() {
             <div className="wp-block-site-logo">
               <Link href="/" className="custom-logo-link" rel="home" aria-current="page">
                 <Image
-                  width={125}
+                  width={140}
                   height={48}
-                  src="/wp-content/uploads/2024/10/arbor-education-logo.svg"
+                  src="/wp-content/uploads/2024/10/oasis-logo.svg"
                   className="custom-logo"
-                  alt="Arbor"
+                  alt="OASIS"
                   priority
                 />
               </Link>
@@ -162,14 +162,9 @@ export default function Header() {
                   </Link>
                 </div>
                 <div className="wp-block-button is-style-outline is-style-outline--1">
-                  <a
-                    className="wp-block-button__link wp-element-button"
-                    href="https://login.arbor.sc/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Log in
-                  </a>
+                  <Link className="wp-block-button__link wp-element-button" href="/contact/">
+                    Start Free Trial
+                  </Link>
                 </div>
               </div>
             </nav>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Moving to Arbor - Arbor",
-  description: "Moving to Arbor Over 11,000 schools have moved to Arbor using our tried and tested process, more than any other provider Step 1 Get in touch The first step is to get in touch with our team of friendly experts. We’ll book a call to talk through the specific needs of your school or MAT,…",
+  title: "Moving to OASIS - OASIS",
+  description: "Moving to OASIS Over 11,000 schools have moved to OASIS using our tried and tested process, more than any other provider Step 1 Get in touch The first step is to get in touch with our team of friendly experts. We’ll book a call to talk through the specific needs of your school or school group,…",
 };
 
 export default function Page() {
@@ -13,11 +13,11 @@ export default function Page() {
 <div class="wp-block-group alignfull has-accent-5-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:132px;padding-bottom:88px">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-cbeafe78 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<h1 class="wp-block-heading">Moving to Arbor</h1>
+<h1 class="wp-block-heading">Moving to OASIS</h1>
 
 
 
-<p class="has-grenette-pro-font-family wp-block-paragraph" style="font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 1.098), 1.5rem);line-height:1.3">Over 11,000 schools have moved to Arbor using our tried and tested process, more than any other provider<br></p>
+<p class="has-grenette-pro-font-family wp-block-paragraph" style="font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 1.098), 1.5rem);line-height:1.3">Over 11,000 schools have moved to OASIS using our tried and tested process, more than any other provider<br></p>
 </div>
 
 
@@ -44,7 +44,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">The first step is to get in touch with our team of friendly experts. We’ll book a call to talk through the specific needs of your school or MAT, before scheduling a personalised demo of Arbor MIS with your local Arbor Partnership Manager.</p>
+<p class="wp-block-paragraph">The first step is to get in touch with our team of friendly experts. We’ll book a call to talk through the specific needs of your school or school group, before scheduling a personalised demo of OASIS with your local OASIS Partnership Manager.</p>
 </div>
 </div>
 </div>
@@ -64,7 +64,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Once you’ve decided to move to Arbor and signed your contract, you’ll work with our expert Onboarding Team to make sure your transition to Arbor runs smoothly. Your staff can access our library of free digital training resources during this time, in case they want to get a headstart.</p>
+<p class="wp-block-paragraph">Once you’ve decided to move to OASIS and signed your contract, you’ll work with our expert Onboarding Team to make sure your transition to OASIS runs smoothly. Your staff can access our library of free digital training resources during this time, in case they want to get a headstart.</p>
 </div>
 </div>
 </div>
@@ -84,7 +84,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">We’ve moved over 11,000 schools to Arbor using our simple, secure migration process &#8211; that’s more than all other providers combined. We’ll give you all the guidance you need to transfer your school&#8217;s data to Arbor. Don’t worry &#8211; you’ll have plenty of time to thoroughly check everything before your Arbor site goes live.</p>
+<p class="wp-block-paragraph">We’ve moved over 11,000 schools to OASIS using our simple, secure migration process &#8211; that’s more than all other providers combined. We’ll give you all the guidance you need to transfer your school&#8217;s data to OASIS. Don’t worry &#8211; you’ll have plenty of time to thoroughly check everything before your OASIS site goes live.</p>
 </div>
 </div>
 </div>
@@ -104,7 +104,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Once your Arbor site is set up, we’ll give your staff all the training and support they need to use Arbor confidently from day one. Our Customer Education Team has a 99% satisfaction rate!</p>
+<p class="wp-block-paragraph">Once your OASIS site is set up, we’ll give your staff all the training and support they need to use OASIS confidently from day one. Our Customer Education Team has a 99% satisfaction rate!</p>
 </div>
 </div>
 </div>
@@ -124,7 +124,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Once your onboarding is complete, our Customer Success Team will work with you to make Arbor a success at your school in the long term. You can also reach our experienced Support Team by phone, email and web chat from 8am-5pm, Monday to Friday.</p>
+<p class="wp-block-paragraph">Once your onboarding is complete, our Customer Success Team will work with you to make OASIS a success at your school in the long term. You can also reach our experienced Support Team by phone, email and web chat from 8am-5pm, Monday to Friday.</p>
 
 
 
@@ -137,7 +137,7 @@ export default function Page() {
 
 
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-container-core-group-is-layout-ce3b1d66 wp-block-group-is-layout-constrained" style="margin-top:88px;margin-bottom:0;padding-top:0;padding-bottom:0">
-<h2 class="wp-block-heading has-text-align-center">Get started with Arbor today</h2>
+<h2 class="wp-block-heading has-text-align-center">Get started with OASIS today</h2>
 
 
 

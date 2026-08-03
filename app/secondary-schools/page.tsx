@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Arbor for Secondary Schools - Arbor",
-  description: "Arbor for Secondary Schools Make it easier to manage all your moving parts. Arbor helps you join up people, systems and policies across your whole school. Book a demo Why thousands of schools are switching to Arbor Top-rated by schools for four years running 99% satisfaction for customer training 12,000 schools migrated more than any…",
+  title: "OASIS for Secondary Schools - OASIS",
+  description: "OASIS for Secondary Schools Make it easier to manage all your moving parts. OASIS helps you join up people, systems and policies across your whole school. Book a demo Why thousands of schools are switching to OASIS Top-rated by schools for four years running 99% satisfaction for customer training schools migrated more than any…",
 };
 
 export default function Page() {
@@ -13,11 +13,11 @@ export default function Page() {
 <div class="wp-block-group alignfull has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:88px;padding-bottom:88px">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2a9448a0 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<h1 class="wp-block-heading">Arbor for <em>Secondary Schools</em></h1>
+<h1 class="wp-block-heading">OASIS for <em>Secondary Schools</em></h1>
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it easier to manage all your moving parts. Arbor helps you join up people, systems and policies across your whole school.</p>
+<p class="wp-block-paragraph" style="font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);">Make it easier to manage all your moving parts. OASIS helps you join up people, systems and policies across your whole school.</p>
 
 
 
@@ -39,7 +39,7 @@ export default function Page() {
 <div class="wp-block-group alignfull has-accent-5-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:88px;padding-bottom:88px">
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-39907d55 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<h2 class="wp-block-heading">Why thousands of schools are switching to Arbor</h2>
+<h2 class="wp-block-heading">Why thousands of schools are switching to OASIS</h2>
 </div>
 
 
@@ -110,7 +110,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.532), 1.125rem);">With dedicated tools for the office, leaders and more, Arbor MIS helps you break down silos and work together in one, shared system</p>
+<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.532), 1.125rem);">With dedicated tools for the office, leaders and more, OASIS helps you break down silos and work together in one, shared system</p>
 </div>
 </div>
 
@@ -167,7 +167,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor organises everything in one place: calendar, live student stats, to-do lists, pastoral notes, and alerts. Record everything as soon as it happens, and follow up in a couple of clicks.</p>
+<p class="wp-block-paragraph">OASIS organises everything in one place: calendar, live student stats, to-do lists, pastoral notes, and alerts. Record everything as soon as it happens, and follow up in a couple of clicks.</p>
 
 
 
@@ -289,15 +289,15 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0px;padding-left:66px;flex-basis:350px">
-<p class="has-grenette-pro-font-family wp-block-paragraph" style="font-size:clamp(1.6rem, 1.6rem + ((1vw - 0.2rem) * 2.34), 2.7rem);line-height:1.3"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">Arbor Workflows</mark></em> is here</p>
+<p class="has-grenette-pro-font-family wp-block-paragraph" style="font-size:clamp(1.6rem, 1.6rem + ((1vw - 0.2rem) * 2.34), 2.7rem);line-height:1.3"><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">OASIS Workflows</mark></em> is here</p>
 
 
 
-<p class="has-contrast-color has-text-color has-link-color wp-elements-f1298ea132fd380b3e8ac37ae571c226 wp-block-paragraph"><strong>Get started with Arbor Workflows today</strong></p>
+<p class="has-contrast-color has-text-color has-link-color wp-elements-f1298ea132fd380b3e8ac37ae571c226 wp-block-paragraph"><strong>Get started with OASIS Workflows today</strong></p>
 
 
 
-<p class="wp-block-paragraph" style="padding-right:var(--wp--preset--spacing--30)">Turn every day manual processes into automatic actions which Arbor runs for you. Let Arbor run the right tasks, at the right time. </p>
+<p class="wp-block-paragraph" style="padding-right:var(--wp--preset--spacing--30)">Turn every day manual processes into automatic actions which OASIS runs for you. Let OASIS run the right tasks, at the right time. </p>
 
 
 
@@ -316,7 +316,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16087" alt="School MIS Arbor" src="/wp-content/uploads/2024/11/Thierry-BRunier-4.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Thierry-BRunier-4.jpg 675w, /wp-content/uploads/2024/11/Thierry-BRunier-4-300x300.jpg 300w, /wp-content/uploads/2024/11/Thierry-BRunier-4-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Thierry-BRunier-4-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Thierry-BRunier-4-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -325,8 +325,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“I liken Arbor to when I got my last car — you could tell the person who designed it probably wanted to drive it.”</p>
-<cite><strong>Thierry Brunier</strong><br>Data Manager, Ralph Thoresby School</cite></blockquote>
+<p class="wp-block-paragraph">“I liken OASIS to when I got my last car — you could tell the person who designed it probably wanted to drive it.”</p>
+<cite><strong>OASIS User</strong><br>Data Manager, Ralph Thoresby School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -336,7 +336,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16056" alt="Arbor School MIS" src="/wp-content/uploads/2024/11/Kate-Kinney.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Kate-Kinney.jpg 675w, /wp-content/uploads/2024/11/Kate-Kinney-300x300.jpg 300w, /wp-content/uploads/2024/11/Kate-Kinney-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Kate-Kinney-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Kate-Kinney-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -345,8 +345,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“The staff at Baxter College were able to show the amazing work they do day in and day out, to Ofsted thanks to Arbor.”</p>
-<cite><strong>Kate Kinney</strong><br>Baxter College</cite></blockquote>
+<p class="wp-block-paragraph">“The staff at Baxter College were able to show the amazing work they do day in and day out, to Ofsted thanks to OASIS.”</p>
+<cite><strong>OASIS User</strong><br>Baxter College</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -356,7 +356,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16064" alt="Arbor School MIS" src="/wp-content/uploads/2024/11/Martyn-Essery.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Martyn-Essery.jpg 675w, /wp-content/uploads/2024/11/Martyn-Essery-300x300.jpg 300w, /wp-content/uploads/2024/11/Martyn-Essery-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Martyn-Essery-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Martyn-Essery-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -365,8 +365,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“If you’re looking for an MIS which does everything, there’s no other option really. When we met Arbor, you could just tell this was a different way of doing things.”</p>
-<cite><strong>Martyn Essery</strong><br>Headteacher, The Reach Free School</cite></blockquote>
+<p class="wp-block-paragraph">“If you’re looking for an MIS which does everything, there’s no other option really. When we met OASIS, you could just tell this was a different way of doing things.”</p>
+<cite><strong>OASIS User</strong><br>Headteacher, The Reach Free School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -376,7 +376,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16053" alt="" src="/wp-content/uploads/2024/11/Hinchingbrooke-School.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Hinchingbrooke-School.jpg 675w, /wp-content/uploads/2024/11/Hinchingbrooke-School-300x300.jpg 300w, /wp-content/uploads/2024/11/Hinchingbrooke-School-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Hinchingbrooke-School-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Hinchingbrooke-School-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -385,8 +385,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“We’re saving time, we’re joining up our processes. Jobs that I allocated an hour to in our old cloud MIS are taking me minutes in Arbor &#8211; we’re no longer held back by our MIS.”</p>
-<cite><strong>David Pendlebury</strong><br>Assistant Principal, Hinchingbrooke School</cite></blockquote>
+<p class="wp-block-paragraph">“We’re saving time, we’re joining up our processes. Jobs that I allocated an hour to in our old cloud MIS are taking me minutes in OASIS &#8211; we’re no longer held back by our MIS.”</p>
+<cite><strong>OASIS User</strong><br>Assistant Principal, Hinchingbrooke School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -396,7 +396,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16039" alt="Secondary School MIS" src="/wp-content/uploads/2024/11/32.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/32.jpg 675w, /wp-content/uploads/2024/11/32-300x300.jpg 300w, /wp-content/uploads/2024/11/32-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/32-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/32-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -406,7 +406,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">“I&#8217;d been working with our old MIS here for over 20 years&#8230;. But I really wouldn&#8217;t want to go back to the old system.”.&#8221;</p>
-<cite><strong>Joanne Hedges</strong><br>Data Manager, Manshead Academy </cite></blockquote>
+<cite><strong>OASIS User</strong><br>Data Manager, Manshead Academy </cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -416,7 +416,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16055" alt="Secondary School MIS" src="/wp-content/uploads/2024/11/Jon-Brook.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Jon-Brook.jpg 675w, /wp-content/uploads/2024/11/Jon-Brook-300x300.jpg 300w, /wp-content/uploads/2024/11/Jon-Brook-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Jon-Brook-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Jon-Brook-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -425,8 +425,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">“Moving to Arbor is one of the best things we’ve done in the last few years&#8230; It’s night and day different to what we were dealing with before.”</p>
-<cite><strong>Jonathan Brook</strong><br>Deputy Headteacher, Droitwich Spa High School </cite></blockquote>
+<p class="wp-block-paragraph">“Moving to OASIS is one of the best things we’ve done in the last few years&#8230; It’s night and day different to what we were dealing with before.”</p>
+<cite><strong>OASIS User</strong><br>Deputy Headteacher, Droitwich Spa High School </cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -443,7 +443,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor brings all your data together &#8211; from student performance and interventions, to a history of parent comms, staff records and benchmarks from the DfE and Ofsted. With everything in one place, you can work together to spot patterns, solve issues and plan ahead.&nbsp;<br></p>
+<p class="wp-block-paragraph">OASIS brings all your data together &#8211; from student performance and interventions, to a history of parent comms, staff records and benchmarks from the DfE and Ofsted. With everything in one place, you can work together to spot patterns, solve issues and plan ahead.&nbsp;<br></p>
 </div>
 
 
@@ -490,7 +490,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Against DfE and Ofsted benchmarks, plus our live national database of thousands of Arbor schools.&nbsp;</p>
+<p class="wp-block-paragraph">Against DfE and Ofsted benchmarks, plus our live national database of thousands of OASIS schools.&nbsp;</p>
 </div>
 
 
@@ -525,11 +525,11 @@ export default function Page() {
 
 
 
-<h2 class="wp-block-heading has-text-align-center">The Arbor School Management Suite for Secondary Schools</h2>
+<h2 class="wp-block-heading has-text-align-center">The OASIS School Management Suite for Secondary Schools</h2>
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);line-height:1.4">Arbor brings together top-rated, specialist systems that work together to streamline tasks and join up data across your whole secondary school</p>
+<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.798), 20px);line-height:1.4">OASIS brings together top-rated, specialist systems that work together to streamline tasks and join up data across your whole secondary school</p>
 
 
 
@@ -545,12 +545,12 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="587" height="365" src="/wp-content/uploads/2024/10/Arbor-card-1.png" alt="" class="wp-image-14218" srcset="/wp-content/uploads/2024/10/Arbor-card-1.png 587w, /wp-content/uploads/2024/10/Arbor-card-1-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
+<figure class="wp-block-image size-full"><img width="587" height="365" src="/wp-content/uploads/2024/10/OASIS-card-1.png" alt="" class="wp-image-14218" srcset="/wp-content/uploads/2024/10/OASIS-card-1.png 587w, /wp-content/uploads/2024/10/OASIS-card-1-300x187.png 300w" sizes="auto, (max-width: 587px) 100vw, 587px" /></figure>
 
 
 
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-f2cd1e68 wp-block-group-is-layout-flex" style="padding-bottom:5px">
-<h4 class="wp-block-heading has-text-align-center">The UK&#8217;s most popular School MIS</h4>
+<h4 class="wp-block-heading has-text-align-center">The Uganda's most popular School MIS</h4>
 
 
 
@@ -580,11 +580,11 @@ export default function Page() {
 
 
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-f2cd1e68 wp-block-group-is-layout-flex" style="padding-bottom:5px">
-<h4 class="wp-block-heading has-text-align-center">The UK&#8217;s fastest-growing education HR system</h4>
+<h4 class="wp-block-heading has-text-align-center">The Uganda's fastest-growing education HR system</h4>
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="font-size:14px"><a href="/sampeople/">Find out more</a></p>
+<p class="has-text-align-center wp-block-paragraph" style="font-size:14px"><a href="/staff-management/">Find out more</a></p>
 </div>
 </div>
 
@@ -604,11 +604,11 @@ export default function Page() {
 
 
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-f2cd1e68 wp-block-group-is-layout-flex" style="padding-bottom:5px">
-<h4 class="wp-block-heading has-text-align-center">The UK’s leading TimeTabling software</h4>
+<h4 class="wp-block-heading has-text-align-center">The Uganda's leading TimeTabling software</h4>
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="font-size:14px"><a href="/timetabler/">Find out more</a></p>
+<p class="has-text-align-center wp-block-paragraph" style="font-size:14px"><a href="/timetable-management/">Find out more</a></p>
 </div>
 </div>
 
@@ -624,7 +624,7 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide flex-direction-column is-layout-flex wp-container-core-columns-is-layout-9e03f809 wp-block-columns-is-layout-flex" style="padding-top:88px">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:60%">
-<div class="wp-block-cover is-light static" style="padding-top:0;min-height:100%;aspect-ratio:unset;"><img width="1230" height="1185" class="wp-block-cover__image-background wp-image-15027" alt="Data Manager" src="/wp-content/uploads/2024/10/Data-Manager_All-through_7670.png" style="object-position:31% 17%" data-object-fit="cover" data-object-position="31% 17%" srcset="/wp-content/uploads/2024/10/Data-Manager_All-through_7670.png 1230w, /wp-content/uploads/2024/10/Data-Manager_All-through_7670-300x289.png 300w, /wp-content/uploads/2024/10/Data-Manager_All-through_7670-1024x987.png 1024w, /wp-content/uploads/2024/10/Data-Manager_All-through_7670-768x740.png 768w, /wp-content/uploads/2024/10/Data-Manager_All-through_7670-1200x1156.png 1200w" sizes="auto, (max-width: 1230px) 100vw, 1230px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light static" style="padding-top:0;min-height:100%;aspect-ratio:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -640,7 +640,7 @@ export default function Page() {
 
 
 <div class="wp-block-group has-custom-color-1-background-color has-background is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-8e7a97d7 wp-block-group-is-layout-flex" style="padding-top:48px;padding-right:48px;padding-bottom:48px;padding-left:48px">
-<p class="has-grenette-pro-font-family has-x-large-font-size wp-block-paragraph">agree Arbor has improved their working life</p>
+<p class="has-grenette-pro-font-family has-x-large-font-size wp-block-paragraph">agree OASIS has improved their working life</p>
 </div>
 </div>
 </div>
@@ -654,7 +654,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.691), 1.2rem);">Arbor has migrated over 1,300 secondary schools from legacy, server-based systems to the cloud</p>
+<p class="wp-block-paragraph" style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.691), 1.2rem);">OASIS has migrated over 1,300 secondary schools from legacy, server-based systems to the cloud</p>
 
 
 
@@ -689,7 +689,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">We update Arbor fortnightly, listening closely and responding to your feedback</p>
+<p class="wp-block-paragraph">We update OASIS fortnightly, listening closely and responding to your feedback</p>
 </div>
 </div>
 </div>
@@ -772,12 +772,12 @@ export default function Page() {
 
 
 
-<li>✨ Standard Arbor AI features including Ask Arbor and Ofsted Inspection Companion</li>
+<li>✨ Standard OASIS AI features including Ask OASIS and Ofsted Inspection Companion</li>
 </ul>
 
 
 
-<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">Arbor Workflows features</h4>
+<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">OASIS Workflows features</h4>
 
 
 
@@ -786,7 +786,7 @@ export default function Page() {
 
 
 
-<li>Update Arbor MIS</li>
+<li>Update OASIS</li>
 
 
 
@@ -860,12 +860,12 @@ export default function Page() {
 
 
 
-<li>✨ Higher Arbor AI Monthly Free Allowance </li>
+<li>✨ Higher OASIS AI Monthly Free Allowance </li>
 </ul>
 
 
 
-<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">Arbor Workflows features</h4>
+<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">OASIS Workflows features</h4>
 
 
 
@@ -944,12 +944,12 @@ export default function Page() {
 
 
 
-<li>✨ High<em>est</em> Arbor AI Monthly Free Allowance </li>
+<li>✨ High<em>est</em> OASIS AI Monthly Free Allowance </li>
 </ul>
 
 
 
-<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">Arbor Workflows features</h4>
+<h4 class="wp-block-heading has-text-align-left has-accent-color has-text-color has-link-color has-medium-font-size wp-elements-fbaba57b30343762b08032b4d9ee86fe">OASIS Workflows features</h4>
 
 
 

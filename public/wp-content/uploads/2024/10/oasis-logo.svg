@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="48" viewBox="0 0 140 48" fill="none">
+  <g id="Symbol">
+    <circle cx="24" cy="24" r="24" fill="#FEF9F1"/>
+    <path d="M24 40C15.1634 40 8 32.8366 8 24C8 20 12 12 24 6C36 12 40 20 40 24C40 32.8366 32.8366 40 24 40Z" fill="#009D00"/>
+    <path d="M24 34C19.5817 34 16 30.4183 16 26C16 23.2 18.6667 18.6667 24 14.6667C29.3333 18.6667 32 23.2 32 26C32 30.4183 28.4183 34 24 34Z" fill="#70CC12"/>
+    <path d="M18 34C18 30 20.6667 24.6667 24 21.3333C27.3333 24.6667 30 30 30 34" stroke="#AAEA0F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="Wordmark" fill="#16140C">
+    <text x="52" y="30" font-family="Inter, sans-serif" font-size="22" font-weight="700" letter-spacing="0.5">OASIS</text>
+  </g>
+</svg>

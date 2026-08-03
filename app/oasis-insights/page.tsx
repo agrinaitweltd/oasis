@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Arbor AI - Arbor",
-  description: "Arbor AI Put your admin on autopilot and focus on the work that only you can do Get in touch Let Arbor AI... Speed up admin Speed up admin Let Arbor create the first draft for you. From generating emails and reports to creating student summaries in seconds, Arbor can give you a head start…",
+  title: "OASIS AI - OASIS",
+  description: "OASIS AI Put your admin on autopilot and focus on the work that only you can do Get in touch Let OASIS AI... Speed up admin Speed up admin Let OASIS create the first draft for you. From generating emails and reports to creating student summaries in seconds, OASIS can give you a head start…",
 };
 
 export default function Page() {
@@ -14,11 +14,11 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-2a9448a0 wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:0">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent.png" alt="" class="wp-image-16847" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent.png" alt="" class="wp-image-16847" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
-<h1 class="wp-block-heading">Arbor AI</h1>
+<h1 class="wp-block-heading">OASIS AI</h1>
 </div>
 
 
@@ -43,7 +43,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full"><img width="1678" height="1191" src="/wp-content/uploads/2025/03/Ad-hoc-2.png" alt="Arbor AI" class="wp-image-16837" srcset="/wp-content/uploads/2025/03/Ad-hoc-2.png 1678w, /wp-content/uploads/2025/03/Ad-hoc-2-300x213.png 300w, /wp-content/uploads/2025/03/Ad-hoc-2-1024x727.png 1024w, /wp-content/uploads/2025/03/Ad-hoc-2-768x545.png 768w, /wp-content/uploads/2025/03/Ad-hoc-2-1536x1090.png 1536w, /wp-content/uploads/2025/03/Ad-hoc-2-1200x852.png 1200w" sizes="auto, (max-width: 1678px) 100vw, 1678px" /></figure>
+<figure class="wp-block-image size-full"><img width="1678" height="1191" src="/wp-content/uploads/2025/03/Ad-hoc-2.png" alt="OASIS AI" class="wp-image-16837" srcset="/wp-content/uploads/2025/03/Ad-hoc-2.png 1678w, /wp-content/uploads/2025/03/Ad-hoc-2-300x213.png 300w, /wp-content/uploads/2025/03/Ad-hoc-2-1024x727.png 1024w, /wp-content/uploads/2025/03/Ad-hoc-2-768x545.png 768w, /wp-content/uploads/2025/03/Ad-hoc-2-1536x1090.png 1536w, /wp-content/uploads/2025/03/Ad-hoc-2-1200x852.png 1200w" sizes="auto, (max-width: 1678px) 100vw, 1678px" /></figure>
 </div>
 </div>
 </div>
@@ -57,7 +57,7 @@ export default function Page() {
 
 
 
-<h2 class="wp-block-heading has-text-align-center">Let Arbor AI&#8230;</h2>
+<h2 class="wp-block-heading has-text-align-center">Let OASIS AI&#8230;</h2>
 </div>
 </div>
 </div>
@@ -70,7 +70,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -79,13 +79,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Let Arbor create the first draft for you. From generating emails and reports to creating student summaries in seconds, Arbor can give you a head start on your admin tasks &#8211; all you need to do is review and approve.</p>
+<p class="wp-block-paragraph">Let OASIS create the first draft for you. From generating emails and reports to creating student summaries in seconds, OASIS can give you a head start on your admin tasks &#8211; all you need to do is review and approve.</p>
 </div>
 
 
 
 <div class="wp-block-column has-accent-3-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1619" height="1587" src="/wp-content/uploads/2025/03/Ask-Arbor-1.png" alt="" class="wp-image-16891" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:272px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-1.png 1619w, /wp-content/uploads/2025/03/Ask-Arbor-1-300x294.png 300w, /wp-content/uploads/2025/03/Ask-Arbor-1-1024x1004.png 1024w, /wp-content/uploads/2025/03/Ask-Arbor-1-768x753.png 768w, /wp-content/uploads/2025/03/Ask-Arbor-1-1536x1506.png 1536w, /wp-content/uploads/2025/03/Ask-Arbor-1-1200x1176.png 1200w" sizes="auto, (max-width: 1619px) 100vw, 1619px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1619" height="1587" src="/wp-content/uploads/2025/03/Ask-OASIS-1.png" alt="" class="wp-image-16891" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:272px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-1.png 1619w, /wp-content/uploads/2025/03/Ask-OASIS-1-300x294.png 300w, /wp-content/uploads/2025/03/Ask-OASIS-1-1024x1004.png 1024w, /wp-content/uploads/2025/03/Ask-OASIS-1-768x753.png 768w, /wp-content/uploads/2025/03/Ask-OASIS-1-1536x1506.png 1536w, /wp-content/uploads/2025/03/Ask-OASIS-1-1200x1176.png 1200w" sizes="auto, (max-width: 1619px) 100vw, 1619px" /></figure>
 </div>
 </div>
 </div></div>
@@ -96,7 +96,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -105,7 +105,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Tell Arbor what you need, whether that&#8217;s a new formula or to know who’s best to cover a lesson, and Arbor AI will give you a suggestion. We’ll even show you our workings out!<br></p>
+<p class="wp-block-paragraph">Tell OASIS what you need, whether that&#8217;s a new formula or to know who’s best to cover a lesson, and OASIS AI will give you a suggestion. We’ll even show you our workings out!<br></p>
 </div>
 
 
@@ -122,7 +122,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -131,13 +131,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">No more clicking through menus, exporting into Excel or waiting on colleagues. Just ask a question and get the data straight from Arbor &#8211; instantly.</p>
+<p class="wp-block-paragraph">No more clicking through menus, exporting into Excel or waiting on colleagues. Just ask a question and get the data straight from OASIS &#8211; instantly.</p>
 </div>
 
 
 
 <div class="wp-block-column has-accent-2-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="5594" height="3222" src="/wp-content/uploads/2025/03/Ask-Arbor-1-1.png" alt="" class="wp-image-16896" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-1-1.png 5594w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-300x173.png 300w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-1024x590.png 1024w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-768x442.png 768w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-1536x885.png 1536w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-2048x1180.png 2048w, /wp-content/uploads/2025/03/Ask-Arbor-1-1-1200x691.png 1200w" sizes="auto, (max-width: 5594px) 100vw, 5594px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="5594" height="3222" src="/wp-content/uploads/2025/03/Ask-OASIS-1-1.png" alt="" class="wp-image-16896" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-1-1.png 5594w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-300x173.png 300w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1024x590.png 1024w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-768x442.png 768w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1536x885.png 1536w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-2048x1180.png 2048w, /wp-content/uploads/2025/03/Ask-OASIS-1-1-1200x691.png 1200w" sizes="auto, (max-width: 5594px) 100vw, 5594px" /></figure>
 </div>
 </div>
 </div></div>
@@ -148,7 +148,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-e938e61a wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png" alt="" class="wp-image-16849" style="width:59px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-1-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -157,7 +157,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Hand over entire tasks to Arbor and we’ll do the legwork for you. Start today with absence management and intervention policy set up, with more possibilities on governor and Ofsted packs coming soon.</p>
+<p class="wp-block-paragraph">Hand over entire tasks to OASIS and we’ll do the legwork for you. Start today with absence management and intervention policy set up, with more possibilities on governor and Ofsted packs coming soon.</p>
 </div>
 
 
@@ -178,7 +178,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-19421 size-large" alt="" src="/wp-content/uploads/2026/04/Content-library-and-website-icons-1024x1024.png" data-object-fit="cover" srcset="/wp-content/uploads/2026/04/Content-library-and-website-icons-1024x1024.png 1024w, /wp-content/uploads/2026/04/Content-library-and-website-icons-300x300.png 300w, /wp-content/uploads/2026/04/Content-library-and-website-icons-768x768.png 768w, /wp-content/uploads/2026/04/Content-library-and-website-icons-800x800.png?crop=1 800w, /wp-content/uploads/2026/04/Content-library-and-website-icons-600x600.png?crop=1 600w, /wp-content/uploads/2026/04/Content-library-and-website-icons-400x400.png?crop=1 400w, /wp-content/uploads/2026/04/Content-library-and-website-icons-200x200.png?crop=1 200w, /wp-content/uploads/2026/04/Content-library-and-website-icons.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -187,8 +187,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">&#8220;[Ask Arbor] gives me more time to be able to work on those wider, more long-term strategic approaches. I would cry if I had to go back to that data-driven process now!&#8221;</p>
-<cite><strong>Anita McArthur-Worbey</strong><br>Icknield Infant and Nursery School</cite></blockquote>
+<p class="wp-block-paragraph">&#8220;[Ask OASIS] gives me more time to be able to work on those wider, more long-term strategic approaches. I would cry if I had to go back to that data-driven process now!&#8221;</p>
+<cite><strong>OASIS User</strong><br>Icknield Infant and Nursery School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -198,7 +198,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-19423 size-large" alt="" src="/wp-content/uploads/2026/04/Content-library-and-website-icons-1-1024x1024.png" data-object-fit="cover" srcset="/wp-content/uploads/2026/04/Content-library-and-website-icons-1-1024x1024.png 1024w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-300x300.png 300w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-768x768.png 768w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-800x800.png?crop=1 800w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-600x600.png?crop=1 600w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-400x400.png?crop=1 400w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1-200x200.png?crop=1 200w, /wp-content/uploads/2026/04/Content-library-and-website-icons-1.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -207,8 +207,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">Arbor AI has already given us so many efficiencies in data reporting. Getting an hour back each day makes you available for someone who really needs to talk about their child. That makes a big difference.</p>
-<cite><strong>Leona Bateman</strong><br>Head of Data and Business Support Systems at Shaw Education Trust</cite></blockquote>
+<p class="wp-block-paragraph">OASIS AI has already given us so many efficiencies in data reporting. Getting an hour back each day makes you available for someone who really needs to talk about their child. That makes a big difference.</p>
+<cite><strong>OASIS User</strong><br>Head of Data and Business Support Systems at Shaw Education Trust</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -218,7 +218,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-19425 size-large" alt="" src="/wp-content/uploads/2026/04/Content-library-and-website-icons-2-1024x1024.png" data-object-fit="cover" srcset="/wp-content/uploads/2026/04/Content-library-and-website-icons-2-1024x1024.png 1024w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-300x300.png 300w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-768x768.png 768w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-800x800.png?crop=1 800w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-600x600.png?crop=1 600w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-400x400.png?crop=1 400w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2-200x200.png?crop=1 200w, /wp-content/uploads/2026/04/Content-library-and-website-icons-2.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -228,7 +228,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">[Auto Absence] saves about an hour of work a day, turning a two/three person job into a one/two person job on some days. &#8230; By freeing up this time, it means they can spend more time actually helping students.</p>
-<cite><strong>Jack Culpin</strong><br>Assistant Principal: Data &amp; Attendance at Wrenn School</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Assistant Principal: Data &amp; Attendance at Wrenn School</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -238,7 +238,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-16994 size-large" alt="Arbor AI" src="/wp-content/uploads/2025/03/Arbor-Headshots-1-1024x1024.png" data-object-fit="cover" srcset="/wp-content/uploads/2025/03/Arbor-Headshots-1-1024x1024.png 1024w, /wp-content/uploads/2025/03/Arbor-Headshots-1-300x300.png 300w, /wp-content/uploads/2025/03/Arbor-Headshots-1-768x768.png 768w, /wp-content/uploads/2025/03/Arbor-Headshots-1-800x800.png?crop=1 800w, /wp-content/uploads/2025/03/Arbor-Headshots-1-600x600.png?crop=1 600w, /wp-content/uploads/2025/03/Arbor-Headshots-1-400x400.png?crop=1 400w, /wp-content/uploads/2025/03/Arbor-Headshots-1-200x200.png?crop=1 200w, /wp-content/uploads/2025/03/Arbor-Headshots-1.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -247,8 +247,8 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
-<p class="wp-block-paragraph">&#8220;Arbor are nailing the AI features &#8211; I&#8217;m already excited for what&#8217;s next in your pipeline.&#8221;</p>
-<cite><strong>Tom Walch</strong><br>Head of Data at Harbour Learning Trust</cite></blockquote>
+<p class="wp-block-paragraph">&#8220;OASIS are nailing the AI features &#8211; I&#8217;m already excited for what&#8217;s next in your pipeline.&#8221;</p>
+<cite><strong>OASIS User</strong><br>Head of Data at Harbour Learning Trust</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -258,7 +258,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="675" height="675" class="wp-block-cover__image-background wp-image-16056 size-full" alt="Arbor School MIS" src="/wp-content/uploads/2024/11/Kate-Kinney.jpg" data-object-fit="cover" srcset="/wp-content/uploads/2024/11/Kate-Kinney.jpg 675w, /wp-content/uploads/2024/11/Kate-Kinney-300x300.jpg 300w, /wp-content/uploads/2024/11/Kate-Kinney-600x600.jpg?crop=1 600w, /wp-content/uploads/2024/11/Kate-Kinney-400x400.jpg?crop=1 400w, /wp-content/uploads/2024/11/Kate-Kinney-200x200.jpg?crop=1 200w" sizes="auto, (max-width: 675px) 100vw, 675px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -268,7 +268,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">&#8220;[Auto Absence] means that our staff no longer have to sit on calls or listening to long voicemails. One click to adjust the absence code and save &#8211; that&#8217;s it, that&#8217;s how easy it is! We&#8217;re so excited about this feature.”</p>
-<cite><strong>Kate Kinney</strong><br>Data Systems Analyst at Baxter College</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Data Systems Analyst at Baxter College</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -278,7 +278,7 @@ export default function Page() {
 <div class="wp-block-getwid-content-slider-slide"><div class="wp-block-getwid-content-slider-slide__wrapper">
 <div class="wp-block-columns has-custom-color-1-background-color has-background is-layout-flex wp-container-core-columns-is-layout-4e631f4f wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 <div class="wp-block-column is-vertically-aligned-stretch is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
-<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><img width="1024" height="1024" class="wp-block-cover__image-background wp-image-16999 size-large" alt="Arbor AI" src="/wp-content/uploads/2025/03/Arbor-Headshots-2-1024x1024.png" data-object-fit="cover" srcset="/wp-content/uploads/2025/03/Arbor-Headshots-2-1024x1024.png 1024w, /wp-content/uploads/2025/03/Arbor-Headshots-2-300x300.png 300w, /wp-content/uploads/2025/03/Arbor-Headshots-2-768x768.png 768w, /wp-content/uploads/2025/03/Arbor-Headshots-2-800x800.png?crop=1 800w, /wp-content/uploads/2025/03/Arbor-Headshots-2-600x600.png?crop=1 600w, /wp-content/uploads/2025/03/Arbor-Headshots-2-400x400.png?crop=1 400w, /wp-content/uploads/2025/03/Arbor-Headshots-2-200x200.png?crop=1 200w, /wp-content/uploads/2025/03/Arbor-Headshots-2.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-cover is-light has-aspect-ratio" style="min-height:100%;aspect-ratio:1;height:unset;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#b0b978"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 </div>
@@ -288,7 +288,7 @@ export default function Page() {
 <div class="wp-block-column is-vertically-aligned-stretch has-custom-color-1-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
 <blockquote class="wp-block-quote is-style-default has-background is-layout-flow wp-block-quote-is-layout-flow" style="background-color:#ffffff00">
 <p class="wp-block-paragraph">“Auto Absence saves me about an hour to an hour and a half every morning! It’s so quick and easy.”</p>
-<cite><strong>Carolyn Dancer</strong><br>Reprographics Manager, responsible for recording absence, at The Chalfonts Community College</cite></blockquote>
+<cite><strong>OASIS User</strong><br>Reprographics Manager, responsible for recording absence, at The Chalfonts Community College</cite></blockquote>
 </div>
 </div>
 </div></div>
@@ -302,7 +302,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.532), 1.125rem);">Arbor AI shows up right where you need it, freeing up your time for the tasks that only you can do</p>
+<p class="has-text-align-center wp-block-paragraph" style="margin-top:var(--wp--preset--spacing--10);font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.532), 1.125rem);">OASIS AI shows up right where you need it, freeing up your time for the tasks that only you can do</p>
 
 
 
@@ -310,7 +310,7 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-left:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -319,13 +319,13 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Need to know which year groups have the best attendance, whether classroom 2B is free, or whose birthday is coming up? No need to click around or build a report &#8211; just Ask Arbor.&nbsp;</p>
+<p class="wp-block-paragraph">Need to know which year groups have the best attendance, whether classroom 2B is free, or whose birthday is coming up? No need to click around or build a report &#8211; just Ask OASIS.&nbsp;</p>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1620" height="1020" src="/wp-content/uploads/2025/09/Ask-Arbor-Website-Gif-1.gif" alt="Ask Arbor website GiF" class="wp-image-18105" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1620" height="1020" src="/wp-content/uploads/2025/09/Ask-OASIS-Website-Gif-1.gif" alt="Ask OASIS website GiF" class="wp-image-18105" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
 </div>
 </div>
 
@@ -334,7 +334,7 @@ export default function Page() {
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-default is-layout-flex wp-container-core-columns-is-layout-6ee76cfc wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -343,7 +343,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor&#8217;s Ofsted Inspection Companion automatically pulls together all the data and content inspectors need into one neat, editable document. Just a few quick prompts gets you Ofsted ready in minutes, giving you more time back to prepare for inspection. </p>
+<p class="wp-block-paragraph">OASIS's Ofsted Inspection Companion automatically pulls together all the data and content inspectors need into one neat, editable document. Just a few quick prompts gets you Ofsted ready in minutes, giving you more time back to prepare for inspection. </p>
 </div>
 
 
@@ -364,7 +364,7 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -388,7 +388,7 @@ export default function Page() {
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40);padding-left:0px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -397,7 +397,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Arbor will summarise key data points about your students, and combine it with written comments from you, to produce a quick summary including attendance, behaviour, and attainment data.</p>
+<p class="wp-block-paragraph">OASIS will summarise key data points about your students, and combine it with written comments from you, to produce a quick summary including attendance, behaviour, and attainment data.</p>
 </div>
 </div>
 
@@ -405,14 +405,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-6ee76cfc wp-block-columns-is-layout-flex" style="margin-top:0;margin-bottom:0">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/Arbor-AI-feature-Suggest-email-gif.gif" alt="" class="wp-image-16908" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:488px;height:auto"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/OASIS-AI-feature-Suggest-email-gif.gif" alt="" class="wp-image-16908" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:488px;height:auto"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:0px;padding-left:var(--wp--preset--spacing--40)">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -421,7 +421,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Not sure how to phrase something? Short on time? Let Arbor know what your email, letter or SMS is about, the tone of voice and language(s) you want to use, and Arbor will draft and translate it for you.</p>
+<p class="wp-block-paragraph">Not sure how to phrase something? Short on time? Let OASIS know what your email, letter or SMS is about, the tone of voice and language(s) you want to use, and OASIS will draft and translate it for you.</p>
 </div>
 </div>
 
@@ -429,14 +429,14 @@ export default function Page() {
 
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-style-first-col-to-second is-layout-flex wp-container-core-columns-is-layout-6c28b6c3 wp-block-columns-is-layout-flex" style="margin-top:0px;margin-bottom:0px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/Arbor-AI-feature-Suggest-formula-gif-1.gif" alt="" class="wp-image-16961" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="1790" height="1080" src="/wp-content/uploads/2025/03/OASIS-AI-feature-Suggest-formula-gif-1.gif" alt="" class="wp-image-16961" style="border-radius:4px;box-shadow:var(--wp--preset--shadow--deep)"/></figure>
 </div>
 
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--50);padding-left:0px">
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
-<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-Arbor-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img width="780" height="840" src="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png" alt="" class="wp-image-16920" style="width:56px;height:auto" srcset="/wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3.png 780w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-279x300.png 279w, /wp-content/uploads/2025/03/Ask-OASIS-Transparrent-3-768x827.png 768w" sizes="auto, (max-width: 780px) 100vw, 780px" /></figure>
 
 
 
@@ -445,7 +445,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Not a spreadsheet whizz? No problem. Simply describe what you want to calculate or colour-code, and Arbor will create a custom formula to make it happen.</p>
+<p class="wp-block-paragraph">Not a spreadsheet whizz? No problem. Simply describe what you want to calculate or colour-code, and OASIS will create a custom formula to make it happen.</p>
 </div>
 </div>
 </div>
@@ -455,7 +455,7 @@ export default function Page() {
 <div class="wp-block-group alignfull has-base-2-color has-custom-color-1-background-color has-text-color has-background has-link-color wp-elements-68df83718d81ce3f96142a408b73c065 has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:93px;padding-bottom:165px">
 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-92341e6c wp-block-columns-is-layout-flex" style="margin-top:48px">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-link-color wp-elements-0b0b6ada9c1e55d8ddd79c7c6ff79619">How Arbor AI is changing the way schools work for the better</h2>
+<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-link-color wp-elements-0b0b6ada9c1e55d8ddd79c7c6ff79619">How OASIS AI is changing the way schools work for the better</h2>
 </div>
 </div>
 
@@ -487,7 +487,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center has-contrast-color has-text-color has-link-color wp-elements-867721953342109c79d31070f4fc5f5f wp-block-paragraph">schools using Arbor AI</p>
+<p class="has-text-align-center has-contrast-color has-text-color has-link-color wp-elements-867721953342109c79d31070f4fc5f5f wp-block-paragraph">schools using OASIS AI</p>
 </div>
 </div>
 </div>
@@ -526,7 +526,7 @@ export default function Page() {
 
 
 
-<p class="has-base-2-color has-text-color has-link-color wp-elements-7c874ea1d6db10ed888d4fc97f8b2f56 wp-block-paragraph">We strictly follow all data protection and privacy laws, including the Data Protection Act 2018 and UK GDPR regulations.</p>
+<p class="has-base-2-color has-text-color has-link-color wp-elements-7c874ea1d6db10ed888d4fc97f8b2f56 wp-block-paragraph">We strictly follow all data protection and privacy laws, including the Data Protection Act 2018 and Uganda GDPR regulations.</p>
 
 
 
@@ -542,7 +542,7 @@ export default function Page() {
 
 
 
-<p class="has-base-2-color has-text-color has-link-color wp-elements-62b37e1afb8df8bad76851b4d77107e1 wp-block-paragraph">We have contractual agreements with all our providers to make sure they process your data in compliance with UK data protection laws.</p>
+<p class="has-base-2-color has-text-color has-link-color wp-elements-62b37e1afb8df8bad76851b4d77107e1 wp-block-paragraph">We have contractual agreements with all our providers to make sure they process your data in compliance with Uganda data protection laws.</p>
 </div>
 </div>
 
@@ -580,7 +580,7 @@ export default function Page() {
 
 
 
-<p class="has-base-2-color has-text-color has-link-color wp-elements-45f8c7ed889b6975c63fff74fad52c9b wp-block-paragraph">Arbor ensures you will only see the data you have access to.</p>
+<p class="has-base-2-color has-text-color has-link-color wp-elements-45f8c7ed889b6975c63fff74fad52c9b wp-block-paragraph">OASIS ensures you will only see the data you have access to.</p>
 
 
 
@@ -596,7 +596,7 @@ export default function Page() {
 
 
 
-<p class="has-base-2-color has-text-color has-link-color wp-elements-f2fd53ce5b4a00cb7dfb4f94902628e4 wp-block-paragraph">As an Arbor admin you decide who has access to Arbor AI in your schools. </p>
+<p class="has-base-2-color has-text-color has-link-color wp-elements-f2fd53ce5b4a00cb7dfb4f94902628e4 wp-block-paragraph">As an OASIS admin you decide who has access to OASIS AI in your schools. </p>
 
 
 
@@ -643,7 +643,7 @@ export default function Page() {
 
 
 
-<p class="has-text-align-center has-accent-color has-text-color has-link-color wp-elements-716514760474b2985aa33779d0832e35 wp-block-paragraph" style="font-size:14px"><a href="https://www.bigmarker.com/series/arbor-s-ai-bootcamp/series_summit" target="_blank" rel="noreferrer noopener nofollow">Join the Bootcamp here</a></p>
+<p class="has-text-align-center has-accent-color has-text-color has-link-color wp-elements-716514760474b2985aa33779d0832e35 wp-block-paragraph" style="font-size:14px"><a href="/contact/" target="_blank" rel="noreferrer noopener nofollow">Join the Bootcamp here</a></p>
 </div>
 </div>
 </div>
@@ -679,11 +679,11 @@ export default function Page() {
 
 
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-f2cd1e68 wp-block-group-is-layout-flex" style="padding-bottom:5px">
-<h4 class="wp-block-heading has-text-align-center">Share ideas on Arbor HQ</h4>
+<h4 class="wp-block-heading has-text-align-center">Share ideas on OASIS HQ</h4>
 
 
 
-<p class="has-text-align-center has-accent-color has-text-color has-link-color wp-elements-36cee4508a3c93561a27a1d4c67bf1e3 wp-block-paragraph" style="font-size:14px"><a href="https://arbor-hq.circle.so/home" target="_blank" rel="noreferrer noopener">Visit Arbor HQ</a></p>
+<p class="has-text-align-center has-accent-color has-text-color has-link-color wp-elements-36cee4508a3c93561a27a1d4c67bf1e3 wp-block-paragraph" style="font-size:14px"><a href="/contact/" target="_blank" rel="noreferrer noopener">Visit OASIS HQ</a></p>
 </div>
 </div>
 </div>
