@@ -3,8 +3,7 @@ import "@/styles/blocks.css";
 import "@/styles/dashicons.css";
 import "@/styles/globals.css";
 import "@/styles/site.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import "@/styles/auth.css";
 
 export const metadata: Metadata = {
   title: "OASIS | School Management System Uganda",
@@ -20,14 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en-UG">
       <body className="wp-site-blocks wp-custom-logo wp-embed-responsive wp-theme-arbor mega-menu-max-mega-menu-1 block-theme">
-        <a className="skip-link screen-reader-text" id="wp-skip-link" href="#wp--skip-link--target">
+        <a className="skip-link screen-reader-text" id="wp-skip-link" href="#main-content">
           Skip to content
         </a>
-        <Header />
-        <main id="wp--skip-link--target" className="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style={{ marginTop: 0, marginBottom: 0 }}>
-          {children}
-        </main>
-        <Footer />
+        {children}
       </body>
     </html>
   );
