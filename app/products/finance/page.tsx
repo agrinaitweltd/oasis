@@ -29,6 +29,10 @@ export default function Page() {
 
 
 
+<p class="wp-block-paragraph has-small-font-size">Have a finance-specific question? Email <a href="mailto:finance@oasis.co.ug">finance@oasis.co.ug</a></p>
+
+
+
 <div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-7387b849 wp-block-group-is-layout-flex">
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a demo</a></div>
@@ -404,7 +408,7 @@ export default function Page() {
 
 
 
-<div class="wp-block-column has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-3444414e wp-block-column-is-layout-constrained" style="border-radius:12px;background-color:#aaea0f80;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:202px">
+<div class="wp-block-column has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-3444414e wp-block-column-is-layout-constrained" style="border-radius:12px;background-color:#C7C9FB80;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:202px">
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-d0a28cf8 wp-block-group-is-layout-flex" style="min-height:100%;padding-bottom:5px">
 <p class="has-accent-2-color has-text-color has-link-color has-small-font-size wp-elements-e3b56a04355bac1ae67044f890c498d4 wp-block-paragraph">school groups</p>
 

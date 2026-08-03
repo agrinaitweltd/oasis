@@ -88,7 +88,7 @@ export default function Footer() {
         <div className="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style={{ paddingTop: "var(--wp--preset--spacing--30)", paddingBottom: 0 }}>
           <div className="wp-block-group is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex footer-flex-row" style={{ marginTop: 0, marginBottom: 0, paddingTop: 0 }}>
             <p className="inline-block has-link-color has-grenette-pro-font-family wp-block-paragraph" style={{ fontSize: "clamp(27.894px, 1.743rem + ((1vw - 3.2px) * 2.674), 48px)", letterSpacing: "-0.96px", lineHeight: 1.17 }}>
-              Get in touch: <a href="mailto:hello@oasis.ug">hello@oasis.ug</a>
+              Get in touch: <a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a>
             </p>
 
             <div className="wp-block-group is-nowrap is-layout-flex wp-block-group-is-layout-flex">

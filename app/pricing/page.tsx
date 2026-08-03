@@ -28,8 +28,8 @@ export default function Page() {
             style={{
               display: "inline-block",
               background: "var(--wp--preset--color--accent-5)",
-              border: "1px solid #009D00",
-              color: "#009D00",
+              border: "1px solid #888CF8",
+              color: "#888CF8",
               fontWeight: 700,
               fontSize: 14,
               padding: "8px 18px",

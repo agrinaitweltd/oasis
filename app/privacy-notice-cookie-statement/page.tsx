@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Notice &#038; Cookie Statement - OASIS",
-  description: "In this document IntroductionWho we are and how to contact usHow we process personal data and whyOur role as controller and processorWhom we share personal data withHow we store and transfer personal dataCookiesRights and complaints Introduction OASIS Limited (“OASIS”, “we”, “us” and “our”) operates oasis-schools.ug and OASIS's Management Information System (“MIS”). We are…",
+  description: "In this document IntroductionWho we are and how to contact usHow we process personal data and whyOur role as controller and processorWhom we share personal data withHow we store and transfer personal dataCookiesRights and complaints Introduction OASIS Limited (“OASIS”, “we”, “us” and “our”) operates oasis.co.ug and OASIS's Management Information System (“MIS”). We are…",
 };
 
 export default function Page() {
@@ -38,11 +38,11 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">OASIS Limited (“<b>OASIS</b>”, “<b>we</b>”, “<b>us</b>” and “<b>our</b>”) operates oasis-schools.ug and OASIS's Management Information System (“<b>MIS</b>”). We are committed to protecting your personal data. This Privacy Notice sets out how we handle personal data that is provided to us or collected by us in relation to our website, MIS, general enquiries, and other contact with us.</p>
+<p class="wp-block-paragraph">OASIS Limited (“<b>OASIS</b>”, “<b>we</b>”, “<b>us</b>” and “<b>our</b>”) operates oasis.co.ug and OASIS's Management Information System (“<b>MIS</b>”). We are committed to protecting your personal data. This Privacy Notice sets out how we handle personal data that is provided to us or collected by us in relation to our website, MIS, general enquiries, and other contact with us.</p>
 
 
 
-<p class="wp-block-paragraph">If you have any questions about this Privacy Notice or how we handle personal data, contact <a href="mailto:dataprotection@oasis-schools.ug">dataprotection@oasis-schools.ug</a>.</p>
+<p class="wp-block-paragraph">If you have any questions about this Privacy Notice or how we handle personal data, contact <a href="mailto:dataprotection@oasis.co.ug">dataprotection@oasis.co.ug</a>.</p>
 
 
 
@@ -290,7 +290,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">To make a request or complaint, or to opt out of marketing emails, contact us at <a href="mailto:dataprotection@oasis-schools.ug">dataprotection@oasis-schools.ug</a>. We hope to be able to address any of your concerns. You can also make a complaint to the Information Commissioner’s Office.</p>
+<p class="wp-block-paragraph">To make a request or complaint, or to opt out of marketing emails, contact us at <a href="mailto:dataprotection@oasis.co.ug">dataprotection@oasis.co.ug</a>. We hope to be able to address any of your concerns. You can also make a complaint to the Information Commissioner’s Office.</p>
 
 
 

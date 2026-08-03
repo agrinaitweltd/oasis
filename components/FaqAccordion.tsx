@@ -77,7 +77,7 @@ export default function FaqAccordion() {
               </span>
             </button>
             {open && (
-              <div style={{ padding: "0 24px 20px" }}>
+              <div style={{ padding: "0 24px 20px", animation: "accordionReveal 220ms ease both" }}>
                 <p className="wp-block-paragraph" style={{ margin: 0, color: "var(--wp--preset--color--contrast-2)" }}>
                   {item.a}
                 </p>

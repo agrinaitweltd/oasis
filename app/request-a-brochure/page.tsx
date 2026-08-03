@@ -24,7 +24,7 @@ export default function Page() {
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="display:flex;align-items:center;justify-content:center;text-align:center">
 <div>
 <p class="wp-block-paragraph">Enter your details and we&#8217;ll email you the OASIS brochure:</p>
-<p class="wp-block-paragraph" style="font-size:clamp(20px, 1.5rem + 1vw, 32px)"><a href="mailto:hello@oasis-schools.ug">hello@oasis-schools.ug</a></p>
+<p class="wp-block-paragraph" style="font-size:clamp(20px, 1.5rem + 1vw, 32px)"><a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a></p>
 <div class="wp-block-buttons is-content-justification-center is-layout-flex wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a demo instead</a></div>
 </div>

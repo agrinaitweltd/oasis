@@ -94,7 +94,7 @@ export default function PricingToggle() {
               fontSize: 15,
               fontFamily: "inherit",
               fontWeight: 600,
-              backgroundColor: period === p.key ? "#009D00" : "transparent",
+              backgroundColor: period === p.key ? "#888CF8" : "transparent",
               color: period === p.key ? "#fff" : "#16140C",
               transition: "background-color 200ms ease, color 200ms ease, transform 150ms ease",
               transform: period === p.key ? "scale(1.04)" : "scale(1)",
@@ -138,8 +138,8 @@ export default function PricingToggle() {
                 borderRadius: 16,
                 padding: 32,
                 paddingTop: plan.highlight ? 40 : 32,
-                boxShadow: plan.highlight ? "0 20px 40px rgba(0,157,0,0.16)" : "var(--wp--preset--shadow--deep)",
-                border: plan.highlight ? "2px solid #009D00" : "1px solid rgba(22,20,12,0.08)",
+                boxShadow: plan.highlight ? "0 20px 40px rgba(136,140,248,0.24)" : "var(--wp--preset--shadow--deep)",
+                border: plan.highlight ? "2px solid #888CF8" : "1px solid rgba(22,20,12,0.08)",
                 display: "flex",
                 flexDirection: "column",
                 animationDelay: `${i * 80}ms`,
@@ -152,7 +152,7 @@ export default function PricingToggle() {
                     top: -14,
                     left: "50%",
                     transform: "translateX(-50%)",
-                    background: "#009D00",
+                    background: "#888CF8",
                     color: "#fff",
                     fontSize: 12,
                     fontWeight: 700,
@@ -160,6 +160,7 @@ export default function PricingToggle() {
                     borderRadius: 999,
                     letterSpacing: 0.3,
                     whiteSpace: "nowrap",
+                    animation: "badgePulse 2.4s ease-in-out infinite",
                   }}
                 >
                   Most popular
@@ -184,7 +185,7 @@ export default function PricingToggle() {
                   per student, billed {period}
                 </p>
                 {period === "yearly" && (
-                  <p className="wp-block-paragraph has-small-font-size" style={{ color: "#009D00", fontWeight: 600, marginTop: 4, marginBottom: 0 }}>
+                  <p className="wp-block-paragraph has-small-font-size" style={{ color: "#888CF8", fontWeight: 600, marginTop: 4, marginBottom: 0 }}>
                     Save {yearlySavingsPct}% vs. monthly
                   </p>
                 )}
@@ -193,7 +194,7 @@ export default function PricingToggle() {
               <ul style={{ listStyle: "none", padding: 0, margin: "24px 0", flexGrow: 1 }}>
                 {plan.features.map((feature) => (
                   <li key={feature} style={{ display: "flex", alignItems: "flex-start", gap: 8, marginBottom: 10, fontSize: 14 }}>
-                    <span style={{ color: "#009D00", fontWeight: 700, lineHeight: "20px" }}>&#10003;</span>
+                    <span style={{ color: "#888CF8", fontWeight: 700, lineHeight: "20px" }}>&#10003;</span>
                     <span>{feature}</span>
                   </li>
                 ))}

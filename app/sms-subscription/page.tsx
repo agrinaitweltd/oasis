@@ -161,7 +161,7 @@ export default function Page() {
 
 
 
-<div class="wp-block-column has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-3444414e wp-block-column-is-layout-constrained" style="border-radius:12px;background-color:#aaea0f80;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:202px">
+<div class="wp-block-column has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-3444414e wp-block-column-is-layout-constrained" style="border-radius:12px;background-color:#C7C9FB80;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;flex-basis:202px">
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-d0a28cf8 wp-block-group-is-layout-flex" style="min-height:100%;padding-bottom:5px">
 <p class="has-accent-2-color has-text-color has-link-color has-small-font-size wp-elements-c9d24138d6f2da75bd379005d6562383 wp-block-paragraph">Wellbeing</p>
 

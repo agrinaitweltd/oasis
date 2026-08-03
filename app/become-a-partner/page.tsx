@@ -44,7 +44,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph">Get in touch at <a href="mailto:api@oasis-schools.ug"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">api@oasis-schools.ug</mark></a> to find out more.</p>
+<p class="wp-block-paragraph">Get in touch at <a href="mailto:api@oasis.co.ug"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">api@oasis.co.ug</mark></a> to find out more.</p>
 </div>
 </div>
 </div>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact - OASIS",
-  description: "Get in touch orbook a demo Make an easy move to OASIS today Would you like a call with our sales team? Book a call Or get in touch using this form: Location Floor 4, FORA,21-33&nbsp;Great Eastern Street,London,EC2A 3EJ Phone Sales: 0208 050 1028 Support: Visit our Help Centre Email hello@oasis-schools.ug Social TwitterLinkedIn",
+  title: "Contact Us - OASIS School Management System Uganda",
+  description: "Get in touch with OASIS. Book a demo, request a brochure, or email us at info@oasis.co.ug. OASIS by Swivel Technologies, Kampala, Uganda.",
 };
 
 export default function Page() {
@@ -32,7 +32,7 @@ export default function Page() {
 
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:48px;margin-bottom:48px;text-align:center">
 <p class="has-text-align-center wp-block-paragraph">Or get in touch by email and our team will respond within one business day:</p>
-<p class="has-text-align-center wp-block-paragraph" style="font-size:clamp(20px, 1.5rem + 1vw, 32px)"><a href="mailto:hello@oasis-schools.ug">hello@oasis-schools.ug</a></p>
+<p class="has-text-align-center wp-block-paragraph" style="font-size:clamp(20px, 1.5rem + 1vw, 32px)"><a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a></p>
 </div>
 
 
@@ -58,7 +58,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="margin-top:6px"><a href="mailto:hello@oasis-schools.ug">hello@oasis-schools.ug</a></p>
+<p class="wp-block-paragraph" style="margin-top:6px"><a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a></p>
 
 
 
@@ -66,7 +66,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph" style="margin-top:6px"><a href="https://support.oasis-schools.ug/hc/en-us" target="_blank" rel="noreferrer noopener">Visit our Help Centre</a></p>
+<p class="wp-block-paragraph" style="margin-top:6px"><a href="mailto:support@oasis.co.ug">Email our support team</a></p>
 </div>
 
 
@@ -76,7 +76,7 @@ export default function Page() {
 
 
 
-<p class="wp-block-paragraph"><a href="mailto:hello@oasis-schools.ug">hello@oasis-schools.ug</a></p>
+<p class="wp-block-paragraph"><a href="mailto:info@oasis.co.ug">info@oasis.co.ug</a></p>
 </div>
 
 

@@ -48,7 +48,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7387b849 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-1f96cfca wp-block-group-is-layout-flex">
-<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#009d00" class="has-inline-color">More school groups</mark> choose OASIS </h5>
+<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#888CF8" class="has-inline-color">More school groups</mark> choose OASIS </h5>
 
 
 
@@ -60,7 +60,7 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-1f96cfca wp-block-group-is-layout-flex">
-<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#009d00" class="has-inline-color">99%</mark> satisfaction</h5>
+<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#888CF8" class="has-inline-color">99%</mark> satisfaction</h5>
 
 
 
@@ -74,7 +74,7 @@ export default function Page() {
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-7387b849 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50.01%">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-1f96cfca wp-block-group-is-layout-flex">
-<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#009d00" class="has-inline-color">12,000</mark> schools migrated<mark style="background-color:rgba(0, 0, 0, 0);color:#009d00" class="has-inline-color"></mark></h5>
+<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#888CF8" class="has-inline-color">12,000</mark> schools migrated<mark style="background-color:rgba(0, 0, 0, 0);color:#888CF8" class="has-inline-color"></mark></h5>
 
 
 
@@ -86,7 +86,7 @@ export default function Page() {
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:49.99%">
 <div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-1f96cfca wp-block-group-is-layout-flex">
-<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#009d00" class="has-inline-color">2 in 3</mark> schools who switch </h5>
+<h5 class="wp-block-heading" style="font-style:normal;font-weight:500"><mark style="background-color:rgba(0, 0, 0, 0);color:#888CF8" class="has-inline-color">2 in 3</mark> schools who switch </h5>
 
 
 

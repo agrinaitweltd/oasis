@@ -152,6 +152,63 @@ footer figure a:hover img {
   }
 }
 
+/* Smooth in-page anchor scrolling (e.g. legal page tables of contents) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Main content: gentle fade-in on page load/navigation */
+@keyframes pageFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+main {
+  animation: pageFadeIn 320ms ease both;
+}
+
+/* Footer nav columns: staggered fade-in as the footer loads in */
+.footer-columns-grid > div {
+  animation: fadeInUp 500ms ease both;
+}
+.footer-columns-grid > div:nth-child(1) { animation-delay: 0ms; }
+.footer-columns-grid > div:nth-child(2) { animation-delay: 60ms; }
+.footer-columns-grid > div:nth-child(3) { animation-delay: 120ms; }
+.footer-columns-grid > div:nth-child(4) { animation-delay: 180ms; }
+
+/* "Most popular" pricing badge: subtle breathing glow to draw the eye */
+@keyframes badgePulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(136, 140, 248, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(136, 140, 248, 0);
+  }
+}
+
+/* Accordion (FAQ) answer: slide/fade in when expanded */
+@keyframes accordionReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyboard focus: visible, animated outline for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #888CF8;
+  outline-offset: 2px;
+  transition: outline-offset 150ms ease;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001ms !important;
