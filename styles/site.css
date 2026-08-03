@@ -258,9 +258,72 @@ button:focus-visible {
   transition: outline-offset 150ms ease;
 }
 
+/* Scroll-reveal: headings, columns, images, buttons and quotes fade+slide up
+   as they enter the viewport (applied site-wide by components/ScrollReveal.tsx).
+   Only takes effect once JS has run and tagged elements with .scroll-reveal,
+   so nothing is ever hidden if JS is slow, disabled, or fails. */
+body.js-reveal-active .scroll-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+body.js-reveal-active .scroll-reveal.is-in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Mega-menu dropdown: soft opacity fade as it opens/closes. Deliberately
+   opacity-only (no transform/translate) - a transform here previously broke
+   the dropdown's width calculation and caused real regressions, so this
+   stays minimal on purpose. */
+.mega-sub-menu {
+  transition: opacity 200ms ease;
+}
+
+/* Links inside body copy: animated underline on hover */
+.entry-content a:not(.wp-element-button):not(.wp-block-navigation-item__content) {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 250ms ease;
+}
+.entry-content a:not(.wp-element-button):not(.wp-block-navigation-item__content):hover {
+  background-size: 100% 1px;
+}
+
+/* Testimonial slider: gentle entrance for each slide's photo circle */
+.wp-block-getwid-content-slider-slide .wp-block-cover {
+  transition: transform 300ms ease;
+}
+.wp-block-getwid-content-slider-slide:hover .wp-block-cover {
+  transform: scale(1.03);
+}
+
+/* Icon/emoji-style bullet checkmarks: tiny bounce when their list item comes
+   into view (pricing feature lists, module checklists) */
+.wizard-option-check {
+  transition: transform 200ms cubic-bezier(0.34, 1.56, 0.64, 1), background-color 180ms ease, border-color 180ms ease;
+}
+.wizard-option-card.is-selected .wizard-option-check {
+  transform: scale(1.15);
+}
+
+/* Auth/wizard inputs: animated focus ring already present via box-shadow
+   transition in auth.css - add a matching label color shift for polish */
+.auth-field:focus-within label {
+  color: #888cf8;
+  transition: color 150ms ease;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
+  }
+  body.js-reveal-active .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

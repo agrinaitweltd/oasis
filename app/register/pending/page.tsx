@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { AuthLogo } from "@/components/auth/AuthLogo";
 import { loadApplication } from "@/lib/onboarding-storage";
 import type { SchoolApplication } from "@/lib/onboarding-types";
 
@@ -27,15 +27,8 @@ export default function PendingReviewPage() {
     <div className="auth-shell" id="main-content" style={{ gridTemplateColumns: "1fr" }}>
       <div className="auth-form-col">
         <div className="auth-card" style={{ maxWidth: 520, textAlign: "center" }}>
-          <div style={{ marginBottom: 28 }}>
-            <Image
-              src="/images/oasis-logo-footer.svg"
-              alt="OASIS"
-              width={140}
-              height={48}
-              unoptimized
-              style={{ width: 140, height: 48, objectFit: "contain", margin: "0 auto" }}
-            />
+          <div style={{ marginBottom: 28, display: "flex", justifyContent: "center" }}>
+            <AuthLogo />
           </div>
 
           <div

@@ -2,7 +2,7 @@
 
 import { useState, type DragEvent } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { AuthLogo } from "@/components/auth/AuthLogo";
 import { documentRequirements, type DocumentKey } from "@/lib/onboarding-types";
 
 type UploadedFile = { name: string; sizeKb: number };
@@ -75,9 +75,7 @@ export default function DocumentUploadPage() {
     <div className="wizard-shell" id="main-content">
       <div className="wizard-topbar-wrap">
         <div className="wizard-topbar">
-          <Link href="/" style={{ display: "block", width: 110, height: 38 }}>
-            <Image src="/images/oasis-logo-footer.svg" alt="OASIS" width={110} height={38} unoptimized style={{ width: 110, height: 38, objectFit: "contain" }} />
-          </Link>
+          <AuthLogo width={110} height={38} />
           <span className="status-badge approved">Application Approved</span>
         </div>
       </div>

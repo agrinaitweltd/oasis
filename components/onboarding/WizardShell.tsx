@@ -1,24 +1,14 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
 import { onboardingSteps } from "@/lib/onboarding-steps";
+import { AuthLogo } from "@/components/auth/AuthLogo";
 
 export function WizardTopBar({ currentStep }: { currentStep: number }) {
   const percent = Math.round((currentStep / onboardingSteps.length) * 100);
   return (
     <div className="wizard-topbar-wrap">
       <div className="wizard-topbar">
-        <Link href="/" style={{ display: "block", width: 110, height: 38 }}>
-          <Image
-            src="/images/oasis-logo-footer.svg"
-            alt="OASIS"
-            width={110}
-            height={38}
-            unoptimized
-            style={{ width: 110, height: 38, objectFit: "contain" }}
-          />
-        </Link>
+        <AuthLogo width={110} height={38} />
         <span style={{ fontSize: 13, color: "#635f56", fontWeight: 600 }}>
           Step {currentStep} of {onboardingSteps.length}
         </span>

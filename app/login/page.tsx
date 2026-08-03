@@ -2,8 +2,8 @@
 
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { TextField, PasswordField, Checkbox, Spinner, SuccessIcon, ErrorIcon } from "@/components/auth/FormFields";
+import { AuthLogo } from "@/components/auth/AuthLogo";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -47,7 +47,7 @@ export default function LoginPage() {
     <div className="auth-shell" id="main-content">
       <aside className="auth-panel">
         <div className="auth-panel-logo">
-          <Image src="/images/oasis-logo-footer.svg" alt="OASIS" width={140} height={48} style={{ width: 140, height: 48, objectFit: "contain" }} unoptimized />
+          <AuthLogo />
         </div>
         <div className="auth-panel-copy">
           <h2>One platform. Every school.</h2>

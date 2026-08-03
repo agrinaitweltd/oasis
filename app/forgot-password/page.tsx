@@ -2,8 +2,8 @@
 
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { TextField, Spinner, SuccessIcon } from "@/components/auth/FormFields";
+import { AuthLogo } from "@/components/auth/AuthLogo";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
@@ -27,7 +27,7 @@ export default function ForgotPasswordPage() {
     <div className="auth-shell" id="main-content">
       <aside className="auth-panel">
         <div className="auth-panel-logo">
-          <Image src="/images/oasis-logo-footer.svg" alt="OASIS" width={140} height={48} style={{ width: 140, height: 48, objectFit: "contain" }} unoptimized />
+          <AuthLogo />
         </div>
         <div className="auth-panel-copy">
           <h2>Forgot your password?</h2>
