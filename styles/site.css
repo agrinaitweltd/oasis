@@ -1,6 +1,29 @@
 /* Custom OASIS site styles: layout fixes + animation polish added on top of the
    extracted theme CSS. Keep additive/non-destructive to preserve the original design. */
 
+/* Header CTA buttons on mobile: the theme's own mobile rule sets each button
+   to flex-basis: calc(50% - 6px) with a 24px gap between them, which doesn't
+   leave enough room (needs -12px, not -6px) - the row overflows by ~12px and
+   flex-wrap wraps the second button onto its own line, roughly doubling the
+   header's height. Give the pair enough breathing room to actually fit on
+   one line instead of wrapping. */
+@media (max-width: 930px) {
+  .header-buttons .wp-block-buttons {
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+  }
+  .header-buttons .wp-block-buttons > .wp-block-button {
+    flex-basis: calc(50% - 4px) !important;
+    min-width: 0;
+  }
+  .header-buttons .wp-block-buttons > .wp-block-button .wp-block-button__link {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
 /* Footer: equal-width column grid, collapsing responsively on smaller screens */
 @media (max-width: 900px) {
   .footer-columns-grid {
