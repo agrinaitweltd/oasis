@@ -30,3 +30,14 @@ export function AuthLogo({ width = 140, height = 48, href = "/" }: { width?: num
     </Link>
   );
 }
+
+// Animated gradient wordmark used on the auth card itself (alongside the
+// icon logo in the branding panel), per the brand's slow-drifting purple
+// gradient treatment: linear-gradient(90deg, #9498EF, #B59DFF).
+export function AuthWordmark({ href = "/", fontSize = 22 }: { href?: string; fontSize?: number }) {
+  return (
+    <Link href={href} className="auth-wordmark" style={{ fontSize }}>
+      OASIS
+    </Link>
+  );
+}

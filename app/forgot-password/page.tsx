@@ -25,17 +25,20 @@ export default function ForgotPasswordPage() {
 
   return (
     <div className="auth-shell" id="main-content">
-      <aside className="auth-panel">
-        <div className="auth-panel-logo">
-          <AuthLogo />
-        </div>
-        <div className="auth-panel-copy">
-          <h2>Forgot your password?</h2>
-          <p>No problem. Enter the email address on your account and we&#8217;ll send you a link to reset it.</p>
-        </div>
-      </aside>
+      <div className="auth-bg-blob-3" aria-hidden="true" />
 
-      <div className="auth-form-col">
+      <div className="auth-outer">
+        <aside className="auth-panel">
+          <div className="auth-panel-logo">
+            <AuthLogo />
+          </div>
+          <div className="auth-panel-copy">
+            <h2>Forgot your password?</h2>
+            <p>No problem. Enter the email address on your account and we&#8217;ll send you a link to reset it.</p>
+          </div>
+        </aside>
+
+        <div className="auth-form-col">
         <div className="auth-card">
           <Link href="/login" className="auth-back-link">
             &larr; Back to sign in
@@ -98,6 +101,7 @@ export default function ForgotPasswordPage() {
             <Link href="/legal-statement/">Terms</Link>
             <Link href="/">OASIS.co.ug</Link>
           </div>
+        </div>
         </div>
       </div>
     </div>

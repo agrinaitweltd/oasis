@@ -10,17 +10,102 @@
 }
 
 .auth-shell {
+  position: relative;
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  background: var(--wp--preset--color--base, #fffcf8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  overflow: hidden;
+  isolation: isolate;
+  background: linear-gradient(160deg, #f7f6ff 0%, #fdfcfb 45%, #f3f1ff 100%);
   font-family: Inter, sans-serif;
   color: #16140c;
 }
 
-@media (min-width: 960px) {
-  .auth-shell {
-    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+/* Elegant animated background: soft blurred gradient blobs drifting very
+   slowly, so the auth card stays the clear visual focus. Pseudo-elements on
+   .auth-shell itself so every auth page gets them automatically, without
+   needing extra markup. */
+.auth-shell::before,
+.auth-shell::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.5;
+  will-change: transform;
+  pointer-events: none;
+}
+.auth-shell::before {
+  width: 520px;
+  height: 520px;
+  top: -180px;
+  left: -140px;
+  background: radial-gradient(circle, #a6a9f7 0%, rgba(166, 169, 247, 0) 70%);
+  animation: authBlobFloat1 24s ease-in-out infinite;
+}
+.auth-shell::after {
+  width: 460px;
+  height: 460px;
+  bottom: -160px;
+  right: -120px;
+  background: radial-gradient(circle, #888cf8 0%, rgba(136, 140, 248, 0) 70%);
+  animation: authBlobFloat2 28s ease-in-out infinite;
+}
+.auth-bg-blob-3 {
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(70px);
+  opacity: 0.5;
+  will-change: transform;
+  pointer-events: none;
+  width: 360px;
+  height: 360px;
+  top: 38%;
+  left: 62%;
+  background: radial-gradient(circle, #f0c9ff 0%, rgba(240, 201, 255, 0) 70%);
+  animation: authBlobFloat3 32s ease-in-out infinite;
+}
+@keyframes authBlobFloat1 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(50px, 40px, 0) scale(1.08); }
+}
+@keyframes authBlobFloat2 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-45px, -30px, 0) scale(1.06); }
+}
+@keyframes authBlobFloat3 {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-35px, 45px, 0) scale(0.93); }
+}
+
+/* Outer glass card: merges the branding panel + form column into a single
+   premium unit, floating above the animated background. */
+.auth-outer {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1040px;
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 30px 80px -20px rgba(84, 74, 178, 0.32), 0 10px 30px rgba(22, 20, 12, 0.06);
+  animation: authFadeUp 600ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  transition: box-shadow 320ms ease, transform 320ms ease;
+}
+.auth-outer:hover {
+  box-shadow: 0 36px 90px -18px rgba(84, 74, 178, 0.38), 0 14px 34px rgba(22, 20, 12, 0.08);
+}
+@media (max-width: 700px) {
+  .auth-outer {
+    border-radius: 20px;
   }
 }
 
@@ -29,6 +114,7 @@
   display: none;
   position: relative;
   overflow: hidden;
+  flex-basis: 42%;
   background: linear-gradient(160deg, #6d70e0 0%, #888cf8 45%, #a6a9f7 100%);
   background-size: 200% 200%;
   animation: authPanelDrift 14s ease-in-out infinite;
@@ -81,12 +167,14 @@
   font-weight: 600;
   margin: 0 0 16px;
   letter-spacing: -0.02em;
+  transition: opacity 200ms ease;
 }
 .auth-panel-copy p {
   font-size: 16px;
   line-height: 1.6;
   opacity: 0.92;
   margin: 0;
+  transition: opacity 200ms ease;
 }
 .auth-panel-stats {
   position: relative;
@@ -110,16 +198,52 @@
 
 /* Right form column */
 .auth-form-col {
+  flex: 1;
+  min-width: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 48px 40px;
+}
+@media (max-width: 520px) {
+  .auth-form-col {
+    padding: 40px 24px;
+  }
 }
 .auth-card {
   width: 100%;
   max-width: 420px;
-  animation: authFadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+/* Standalone glass card: pages without a branding panel (pending review,
+   document upload) get the full glassmorphism treatment directly on
+   .auth-card since there's no .auth-outer wrapping it. */
+.auth-shell > .auth-form-col {
+  padding: 24px;
+}
+.auth-shell > .auth-form-col > .auth-card {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(28px) saturate(160%);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 24px;
+  box-shadow: 0 30px 80px -20px rgba(84, 74, 178, 0.32), 0 10px 30px rgba(22, 20, 12, 0.06);
+  padding: 48px 40px;
+  animation: authFadeUp 500ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  transition: box-shadow 320ms ease, transform 320ms ease;
+}
+.auth-shell > .auth-form-col > .auth-card:hover {
+  box-shadow: 0 36px 90px -18px rgba(84, 74, 178, 0.38), 0 14px 34px rgba(22, 20, 12, 0.08);
+}
+@media (max-width: 520px) {
+  .auth-shell > .auth-form-col > .auth-card {
+    padding: 32px 22px;
+    border-radius: 20px;
+  }
+}
+
 .auth-card-logo {
   margin-bottom: 32px;
 }
@@ -148,6 +272,88 @@
   }
 }
 
+/* Gradient wordmark: slow-drifting animated brand gradient, used atop the
+   form column so the OASIS name itself feels alive without being loud. */
+.auth-wordmark {
+  display: inline-block;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  background: linear-gradient(90deg, #9498ef, #b59dff, #9498ef);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: authWordmarkDrift 6s ease-in-out infinite;
+}
+@keyframes authWordmarkDrift {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+}
+
+/* 3D sliding overlay transition between Sign In / Sign Up */
+.auth-flip-stage {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  perspective: 1600px;
+}
+.auth-flip-face {
+  width: 100%;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+.auth-flip-face.enter-from-right {
+  animation: authFlipInRight 880ms cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+.auth-flip-face.enter-from-left {
+  animation: authFlipInLeft 880ms cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+@keyframes authFlipInRight {
+  0% { transform: translate3d(70px, 0, 0) rotateY(0deg); opacity: 0; }
+  25% { transform: translate3d(46px, 0, 0) rotateY(-4deg); opacity: 0.45; }
+  70% { transform: translate3d(-6px, 0, 0) rotateY(-1deg); opacity: 1; }
+  100% { transform: translate3d(0, 0, 0) rotateY(0deg); opacity: 1; }
+}
+@keyframes authFlipInLeft {
+  0% { transform: translate3d(-70px, 0, 0) rotateY(0deg); opacity: 0; }
+  25% { transform: translate3d(-46px, 0, 0) rotateY(4deg); opacity: 0.45; }
+  70% { transform: translate3d(6px, 0, 0) rotateY(1deg); opacity: 1; }
+  100% { transform: translate3d(0, 0, 0) rotateY(0deg); opacity: 1; }
+}
+
+/* Sign In / Sign Up pill toggle */
+.auth-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: rgba(22, 20, 12, 0.05);
+  padding: 4px;
+  border-radius: 999px;
+  margin-bottom: 28px;
+}
+.auth-mode-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-family: inherit;
+  color: #635f56;
+  transition: background-color 220ms ease, color 220ms ease, box-shadow 220ms ease;
+}
+.auth-mode-btn.is-active {
+  background: #fff;
+  color: #16140c;
+  box-shadow: 0 4px 14px rgba(22, 20, 12, 0.1);
+}
+.auth-mode-btn:not(.is-active):hover {
+  color: #16140c;
+}
+
 /* Form primitives */
 .auth-field {
   margin-bottom: 20px;
@@ -170,14 +376,14 @@
   font-size: 15px;
   font-family: inherit;
   color: #16140c;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
   border: 1.5px solid rgba(22, 20, 12, 0.14);
-  border-radius: 10px;
-  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  border-radius: 12px;
+  transition: border-color 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
   outline: none;
 }
 .auth-input::placeholder {
-  color: #a19d95;
+  color: transparent;
 }
 .auth-input:hover,
 .auth-select:hover {
@@ -186,7 +392,8 @@
 .auth-input:focus,
 .auth-select:focus {
   border-color: #888cf8;
-  box-shadow: 0 0 0 4px rgba(136, 140, 248, 0.15);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(136, 140, 248, 0.16), 0 0 20px rgba(136, 140, 248, 0.18);
 }
 .auth-input.has-error,
 .auth-select.has-error {
@@ -204,12 +411,79 @@
 }
 .auth-input.has-success {
   border-color: #34a853;
+  padding-right: 40px;
+}
+.auth-input.has-success:focus {
+  box-shadow: 0 0 0 4px rgba(52, 168, 83, 0.14), 0 0 20px rgba(52, 168, 83, 0.14);
 }
 .auth-input:disabled,
 .auth-select:disabled {
   background: #f4f2ee;
   cursor: not-allowed;
   opacity: 0.7;
+}
+
+/* Floating labels: the label sits inside the input until it's focused or
+   has a value, then floats up into a small tag above the border. Driven by
+   a React-tracked "is-floated" class (focus/value state) rather than CSS
+   sibling selectors, so it works the same for text inputs, password
+   fields (which have a toggle button between input and label) and selects. */
+.auth-field-float .auth-input-wrap {
+  position: relative;
+}
+.auth-field-float label {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  margin: 0;
+  padding: 0 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #8a867f;
+  background: transparent;
+  border-radius: 4px;
+  pointer-events: none;
+  transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1), font-size 200ms ease, color 200ms ease, background-color 200ms ease;
+  transform-origin: left top;
+}
+.auth-field-float label.is-floated {
+  transform: translateY(-21px) scale(0.86);
+  font-weight: 700;
+  color: #7376e8;
+  background: rgba(255, 255, 255, 0.92);
+}
+.auth-field-float .auth-input:focus ~ label.is-floated,
+.auth-field-float .auth-input-wrap:focus-within label.is-floated {
+  color: #7376e8;
+}
+.auth-field-float .has-error ~ label.is-floated {
+  color: #e5484d;
+}
+
+/* Inline success / loading indicators, positioned inside the input on the
+   right so they read as part of the field rather than a separate element. */
+.auth-field-success {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #34a853;
+  display: flex;
+  animation: authFadeUp 220ms ease both;
+  pointer-events: none;
+}
+.auth-field-spinner {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  border-radius: 50%;
+  border: 2px solid rgba(136, 140, 248, 0.25);
+  border-top-color: #888cf8;
+  animation: authSpin 700ms linear infinite;
+  pointer-events: none;
 }
 
 .auth-password-toggle {
@@ -884,7 +1158,14 @@
   .auth-error-text,
   .wizard-step-panel,
   .skeleton,
-  .auth-spinner {
+  .auth-spinner,
+  .auth-shell::before,
+  .auth-shell::after,
+  .auth-bg-blob-3,
+  .auth-panel,
+  .auth-wordmark,
+  .auth-outer,
+  .auth-flip-face {
     animation-duration: 0.001ms !important;
   }
 }

@@ -7,18 +7,29 @@ type FieldWrapperProps = {
   error?: string;
   hint?: string;
   required?: boolean;
+  floated?: boolean;
+  success?: boolean;
+  loading?: boolean;
   children: (id: string) => ReactNode;
 };
 
-export function FieldWrapper({ label, error, hint, required, children }: FieldWrapperProps) {
+export function FieldWrapper({ label, error, hint, required, floated, success, loading, children }: FieldWrapperProps) {
   const id = useId();
   return (
-    <div className="auth-field">
-      <label htmlFor={id}>
-        {label}
-        {required && <span style={{ color: "#e5484d" }}> *</span>}
-      </label>
-      {children(id)}
+    <div className="auth-field auth-field-float">
+      <div className="auth-input-wrap">
+        {children(id)}
+        <label htmlFor={id} className={floated ? "is-floated" : ""}>
+          {label}
+          {required && <span style={{ color: "#e5484d" }}> *</span>}
+        </label>
+        {loading && <span className="auth-field-spinner" aria-hidden="true" />}
+        {!loading && success && !error && (
+          <span className="auth-field-success" aria-hidden="true">
+            <SuccessIcon />
+          </span>
+        )}
+      </div>
       {error && (
         <p className="auth-error-text" role="alert">
           <ErrorIcon /> {error}
@@ -33,16 +44,31 @@ type TextFieldProps = Omit<InputHTMLAttributes<HTMLInputElement>, "id"> & {
   label: string;
   error?: string;
   hint?: string;
+  success?: boolean;
+  loading?: boolean;
 };
 
-export function TextField({ label, error, hint, required, className, ...rest }: TextFieldProps) {
+export function TextField({ label, error, hint, required, success, loading, className, value, onFocus, onBlur, ...rest }: TextFieldProps) {
+  const [focused, setFocused] = useState(false);
+  const hasValue = value !== undefined && value !== null && String(value).length > 0;
   return (
-    <FieldWrapper label={label} error={error} hint={hint} required={required}>
+    <FieldWrapper label={label} error={error} hint={hint} required={required} floated={focused || hasValue} success={success} loading={loading}>
       {(id) => (
         <input
           id={id}
-          className={`auth-input${error ? " has-error" : ""}${className ? " " + className : ""}`}
+          value={value}
+          placeholder=" "
+          className={`auth-input${error ? " has-error" : ""}${success && !error ? " has-success" : ""}${className ? " " + className : ""}`}
           required={required}
+          disabled={loading || rest.disabled}
+          onFocus={(e) => {
+            setFocused(true);
+            onFocus?.(e);
+          }}
+          onBlur={(e) => {
+            setFocused(false);
+            onBlur?.(e);
+          }}
           {...rest}
         />
       )}
@@ -56,18 +82,30 @@ type PasswordFieldProps = Omit<InputHTMLAttributes<HTMLInputElement>, "id" | "ty
   hint?: string;
 };
 
-export function PasswordField({ label, error, hint, required, ...rest }: PasswordFieldProps) {
+export function PasswordField({ label, error, hint, required, value, onFocus, onBlur, ...rest }: PasswordFieldProps) {
   const [visible, setVisible] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const hasValue = value !== undefined && value !== null && String(value).length > 0;
   return (
-    <FieldWrapper label={label} error={error} hint={hint} required={required}>
+    <FieldWrapper label={label} error={error} hint={hint} required={required} floated={focused || hasValue}>
       {(id) => (
-        <div className="auth-input-wrap">
+        <>
           <input
             id={id}
+            value={value}
             type={visible ? "text" : "password"}
+            placeholder=" "
             className={`auth-input${error ? " has-error" : ""}`}
             style={{ paddingRight: 44 }}
             required={required}
+            onFocus={(e) => {
+              setFocused(true);
+              onFocus?.(e);
+            }}
+            onBlur={(e) => {
+              setFocused(false);
+              onBlur?.(e);
+            }}
             {...rest}
           />
           <button
@@ -79,7 +117,7 @@ export function PasswordField({ label, error, hint, required, ...rest }: Passwor
           >
             {visible ? <EyeOffIcon /> : <EyeIcon />}
           </button>
-        </div>
+        </>
       )}
     </FieldWrapper>
   );
@@ -95,7 +133,7 @@ type SelectFieldProps = Omit<SelectHTMLAttributes<HTMLSelectElement>, "id"> & {
 
 export function SelectField({ label, error, hint, required, options, placeholder, ...rest }: SelectFieldProps) {
   return (
-    <FieldWrapper label={label} error={error} hint={hint} required={required}>
+    <FieldWrapper label={label} error={error} hint={hint} required={required} floated>
       {(id) => (
         <select id={id} className={`auth-select${error ? " has-error" : ""}`} required={required} {...rest}>
           {placeholder && (
