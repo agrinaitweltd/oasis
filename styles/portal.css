@@ -1,0 +1,90 @@
+/* Tailwind entry point for the OASIS product/admin portal ONLY.
+   Imported exclusively by app/portal/layout.tsx so Next.js scopes this
+   bundle (including Tailwind's base reset) to /portal/* routes - the
+   marketing site's hand-tuned CSS is completely unaffected. */
+@import "tailwindcss";
+
+@theme {
+  --color-oasis-50: #f4f4fe;
+  --color-oasis-100: #ecebfd;
+  --color-oasis-200: #dbd9fb;
+  --color-oasis-300: #bfbdf8;
+  --color-oasis-400: #a6a9f7;
+  --color-oasis-500: #9498ef;
+  --color-oasis-600: #7376e8;
+  --color-oasis-700: #5f61c9;
+  --color-oasis-800: #4c4ea3;
+  --color-oasis-900: #3f4180;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 18px;
+  --radius-card-lg: 20px;
+
+  --shadow-card: 0 1px 2px rgba(16, 14, 40, 0.04), 0 8px 24px -8px rgba(16, 14, 40, 0.08);
+  --shadow-card-hover: 0 4px 10px rgba(16, 14, 40, 0.06), 0 16px 36px -10px rgba(16, 14, 40, 0.14);
+  --shadow-popover: 0 12px 40px -8px rgba(16, 14, 40, 0.22);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-color: #f6f6fb;
+    color: #16151f;
+  }
+  ::selection {
+    background-color: var(--color-oasis-200);
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 999px;
+  }
+}
+
+@keyframes portal-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: portal-fade-up 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes portal-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-pop {
+  animation: portal-pop 220ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-pop {
+    animation-duration: 0.001ms !important;
+  }
+}

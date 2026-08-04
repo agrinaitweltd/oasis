@@ -32,20 +32,20 @@ const plans: Plan[] = [
   {
     name: "Starter",
     range: "50–250 students",
-    prices: { monthly: 3000, termly: 2500, yearly: 2000 },
+    prices: { monthly: 3000, termly: 2600, yearly: 2300 },
     features: baseFeatures,
   },
   {
     name: "Growth",
     range: "250–1,000 students",
-    prices: { monthly: 1850, termly: 1500, yearly: 1150 },
+    prices: { monthly: 2200, termly: 1900, yearly: 1600 },
     highlight: true,
     features: [...baseFeatures, "Multi-Campus Dashboard", "School Analytics"],
   },
   {
     name: "Scale",
     range: "1,000–2,500 students",
-    prices: { monthly: 1000, termly: 700, yearly: 500 },
+    prices: { monthly: 1400, termly: 1100, yearly: 900 },
     features: [...baseFeatures, "Multi-Campus Dashboard", "School Analytics", "Priority Support"],
   },
 ];
