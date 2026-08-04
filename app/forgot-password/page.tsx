@@ -40,7 +40,7 @@ export default function ForgotPasswordPage() {
 
         <div className="auth-form-col">
         <div className="auth-card">
-          <Link href="/login" className="auth-back-link">
+          <Link href="/portal/login" className="auth-back-link">
             &larr; Back to sign in
           </Link>
 
@@ -64,7 +64,7 @@ export default function ForgotPasswordPage() {
               <p className="auth-subtitle">
                 If an account exists for {email}, we&#8217;ve sent a link to reset your password.
               </p>
-              <Link href="/login" className="auth-btn auth-btn-secondary" style={{ textDecoration: "none" }}>
+              <Link href="/portal/login" className="auth-btn auth-btn-secondary" style={{ textDecoration: "none" }}>
                 Return to sign in
               </Link>
             </div>

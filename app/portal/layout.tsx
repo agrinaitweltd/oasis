@@ -1,4 +1,5 @@
 import "@/styles/portal.css";
+import "@/styles/auth.css";
 import type { Metadata } from "next";
 import { ToastProvider } from "@/hooks/useToast";
 

@@ -283,7 +283,7 @@ export default function Header() {
                   </Link>
                 </div>
                 <div className="wp-block-button is-style-outline is-style-outline--1">
-                  <Link className="wp-block-button__link wp-element-button" href="/login">
+                  <Link className="wp-block-button__link wp-element-button" href="/portal/login">
                     Sign In
                   </Link>
                 </div>
@@ -455,7 +455,7 @@ export default function Header() {
           </Link>
           <Link
             className="wp-block-button__link wp-element-button is-style-outline is-style-outline--1"
-            href="/login"
+            href="/portal/login"
             onClick={closeDrawer}
             style={{ display: "block", textAlign: "center" }}
           >

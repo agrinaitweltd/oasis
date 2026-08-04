@@ -10,9 +10,19 @@ import Link from "next/link";
 const LOGO_DEFAULT = "/images/logo.png";
 const LOGO_FALLBACK = "/images/oasis-logo.svg";
 
-export function AuthLogo({ width = 140, height = 48, href = "/" }: { width?: number; height?: number; href?: string }) {
+export function AuthLogo({
+  width = 140,
+  height = 48,
+  href = "/",
+  srcOverride,
+}: {
+  width?: number;
+  height?: number;
+  href?: string;
+  srcOverride?: string;
+}) {
   const [error, setError] = useState(false);
-  const src = error ? LOGO_FALLBACK : LOGO_DEFAULT;
+  const src = error ? LOGO_FALLBACK : srcOverride ?? LOGO_DEFAULT;
 
   return (
     <Link href={href} style={{ display: "block", width, height }}>

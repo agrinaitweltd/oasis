@@ -19,7 +19,7 @@ const SESSION_KEY = "oasis_portal_session";
 // visible copy reference these) - this is a temporary stand-in for real
 // credential verification against a backend.
 function checkCredentials(username: string, password: string) {
-  return username === "admin" && password === "admin120";
+  return username === "admin" && password === "admin123";
 }
 
 export function signInWithPassword(input: {
