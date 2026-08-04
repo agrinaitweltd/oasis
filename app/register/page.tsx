@@ -176,22 +176,24 @@ export default function RegisterPage() {
       <WizardTopBar currentStep={step} />
       <div className="wizard-body">
         <div className="wizard-card">
-          {step === 1 && <Step1Organisation data={app.data.organisation} errors={errors} onChange={(p) => patch("organisation", p)} />}
-          {step === 2 && (
-            <Step2SchoolType value={app.data.schoolType.schoolType} onChange={(v) => patch("schoolType", { schoolType: v })} />
-          )}
-          {step === 3 && <Step3Location data={app.data.location} errors={errors} onChange={(p) => patch("location", p)} />}
-          {step === 4 && <Step4Profile data={app.data.profile} errors={errors} onChange={(p) => patch("profile", p)} />}
-          {step === 5 && (
-            <Step5StudentNumbers data={app.data.studentNumbers} errors={errors} onChange={(p) => patch("studentNumbers", p)} />
-          )}
-          {step === 6 && <Step6Staff data={app.data.staff} errors={errors} onChange={(p) => patch("staff", p)} />}
-          {step === 7 && <Step7Academic data={app.data.academic} errors={errors} onChange={(p) => patch("academic", p)} />}
-          {step === 8 && (
-            <Step8CurrentSystems data={app.data.currentSystems} errors={errors} onChange={(p) => patch("currentSystems", p)} />
-          )}
-          {step === 9 && <Step9Modules selected={app.data.modules.modules} error={errors.modules} onToggle={toggleModule} />}
-          {step === 10 && <Step10Review data={app.data} goToStep={goToStep} />}
+          <div key={step} className="wizard-step-transition">
+            {step === 1 && <Step1Organisation data={app.data.organisation} errors={errors} onChange={(p) => patch("organisation", p)} />}
+            {step === 2 && (
+              <Step2SchoolType value={app.data.schoolType.schoolType} onChange={(v) => patch("schoolType", { schoolType: v })} />
+            )}
+            {step === 3 && <Step3Location data={app.data.location} errors={errors} onChange={(p) => patch("location", p)} />}
+            {step === 4 && <Step4Profile data={app.data.profile} errors={errors} onChange={(p) => patch("profile", p)} />}
+            {step === 5 && (
+              <Step5StudentNumbers data={app.data.studentNumbers} errors={errors} onChange={(p) => patch("studentNumbers", p)} />
+            )}
+            {step === 6 && <Step6Staff data={app.data.staff} errors={errors} onChange={(p) => patch("staff", p)} />}
+            {step === 7 && <Step7Academic data={app.data.academic} errors={errors} onChange={(p) => patch("academic", p)} />}
+            {step === 8 && (
+              <Step8CurrentSystems data={app.data.currentSystems} errors={errors} onChange={(p) => patch("currentSystems", p)} />
+            )}
+            {step === 9 && <Step9Modules selected={app.data.modules.modules} error={errors.modules} onToggle={toggleModule} />}
+            {step === 10 && <Step10Review data={app.data} goToStep={goToStep} />}
+          </div>
         </div>
       </div>
       <WizardFooter

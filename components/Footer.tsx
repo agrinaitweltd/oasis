@@ -111,7 +111,7 @@ export default function Footer() {
               </figure>
               <figure className="wp-block-image size-large is-resized">
                 <a href="https://twitter.com/oasis_uganda" target="_blank" rel="noreferrer noopener">
-                  <Image width={32} height={33} src="/images/X.svg" alt="" style={{ width: 32 }} />
+                  <Image width={32} height={33} src="/images/footer-image-1.svg" alt="" style={{ width: 32 }} />
                 </a>
               </figure>
             </div>

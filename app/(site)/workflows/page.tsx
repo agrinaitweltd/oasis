@@ -71,7 +71,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-3-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/169.png" alt="OASIS Workflows" class="wp-image-18793" style="border-radius:4px;aspect-ratio:1.7778874021088982;width:425px;height:auto" srcset="/images/169.png 2000w, /images/169-300x169.png 300w, /images/169-1024x576.png 1024w, /images/169-768x432.png 768w, /images/169-1536x864.png 1536w, /images/169-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/workflows-page-image-1.png" alt="OASIS Workflows" class="wp-image-18793" style="border-radius:4px;aspect-ratio:1.7778874021088982;width:425px;height:auto" srcset="/images/workflows-page-image-1.png 2000w, /images/workflows-page-image-1-300x169.png 300w, /images/workflows-page-image-1-1024x576.png 1024w, /images/workflows-page-image-1-768x432.png 768w, /images/workflows-page-image-1-1536x864.png 1536w, /images/workflows-page-image-1-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -93,7 +93,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-4-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="2000" height="1125" src="/images/169-1.png" alt="OASIS Workflows" class="wp-image-18795" style="border-radius:4px" srcset="/images/169-1.png 2000w, /images/169-1-300x169.png 300w, /images/169-1-1024x576.png 1024w, /images/169-1-768x432.png 768w, /images/169-1-1536x864.png 1536w, /images/169-1-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img width="2000" height="1125" src="/images/workflows-page-image-2.png" alt="OASIS Workflows" class="wp-image-18795" style="border-radius:4px" srcset="/images/workflows-page-image-2.png 2000w, /images/workflows-page-image-2-300x169.png 300w, /images/workflows-page-image-2-1024x576.png 1024w, /images/workflows-page-image-2-768x432.png 768w, /images/workflows-page-image-2-1536x864.png 1536w, /images/workflows-page-image-2-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>
@@ -115,7 +115,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-2-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1352" height="807" src="/images/2-Dashboard_1-1.png" alt="OASIS Workflows" class="wp-image-18797" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/images/2-Dashboard_1-1.png 1352w, /images/2-Dashboard_1-1-300x179.png 300w, /images/2-Dashboard_1-1-1024x611.png 1024w, /images/2-Dashboard_1-1-768x458.png 768w, /images/2-Dashboard_1-1-1200x716.png 1200w" sizes="auto, (max-width: 1352px) 100vw, 1352px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="1352" height="807" src="/images/workflows-page-image-3.png" alt="OASIS Workflows" class="wp-image-18797" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a;width:446px;height:auto" srcset="/images/workflows-page-image-3.png 1352w, /images/workflows-page-image-3-300x179.png 300w, /images/workflows-page-image-3-1024x611.png 1024w, /images/workflows-page-image-3-768x458.png 768w, /images/workflows-page-image-3-1200x716.png 1200w" sizes="auto, (max-width: 1352px) 100vw, 1352px" /></figure>
 </div>
 </div>
 </div></div>
@@ -137,7 +137,7 @@ export default function Page() {
 
 
 <div class="wp-block-column has-accent-background-color has-background is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:50%">
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/169-2.png" alt="OASIS Workflows" class="wp-image-18800" style="border-radius:4px;width:468px;height:auto" srcset="/images/169-2.png 2000w, /images/169-2-300x169.png 300w, /images/169-2-1024x576.png 1024w, /images/169-2-768x432.png 768w, /images/169-2-1536x864.png 1536w, /images/169-2-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border"><img width="2000" height="1125" src="/images/workflows-page-image-4.png" alt="OASIS Workflows" class="wp-image-18800" style="border-radius:4px;width:468px;height:auto" srcset="/images/workflows-page-image-4.png 2000w, /images/workflows-page-image-4-300x169.png 300w, /images/workflows-page-image-4-1024x576.png 1024w, /images/workflows-page-image-4-768x432.png 768w, /images/workflows-page-image-4-1536x864.png 1536w, /images/workflows-page-image-4-1200x675.png 1200w" sizes="auto, (max-width: 2000px) 100vw, 2000px" /></figure>
 </div>
 </div>
 </div></div>

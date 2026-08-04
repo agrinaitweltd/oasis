@@ -119,7 +119,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-right:var(--wp--preset--spacing--40)">
-<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="439" src="/images/Screenshot-2025-04-23-at-11.43.33-1024x439.png" alt="OASIS absence" class="wp-image-17273" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/Screenshot-2025-04-23-at-11.43.33-1024x439.png 1024w, /images/Screenshot-2025-04-23-at-11.43.33-300x129.png 300w, /images/Screenshot-2025-04-23-at-11.43.33-768x330.png 768w, /images/Screenshot-2025-04-23-at-11.43.33-1536x659.png 1536w, /images/Screenshot-2025-04-23-at-11.43.33-1200x515.png 1200w, /images/Screenshot-2025-04-23-at-11.43.33.png 1636w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large has-custom-border"><img width="1024" height="439" src="/images/auto-absence-page-image-1-1024x439.png" alt="OASIS absence" class="wp-image-17273" style="border-radius:4px;box-shadow:0px 12px 24px 0 #0000001a" srcset="/images/auto-absence-page-image-1-1024x439.png 1024w, /images/auto-absence-page-image-1-300x129.png 300w, /images/auto-absence-page-image-1-768x330.png 768w, /images/auto-absence-page-image-1-1536x659.png 1536w, /images/auto-absence-page-image-1-1200x515.png 1200w, /images/auto-absence-page-image-1.png 1636w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 </div>
@@ -361,7 +361,7 @@ export default function Page() {
 
 <div class="wp-block-columns is-not-stacked-on-mobile overflow-x-auto is-layout-flex wp-container-core-columns-is-layout-40a5ed1d wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-right:91px">
-<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/images/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-17248" style="width:263px;height:auto" srcset="/images/Illus_Clear-data_RGB-1024x689.png 1024w, /images/Illus_Clear-data_RGB-300x202.png 300w, /images/Illus_Clear-data_RGB-768x517.png 768w, /images/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img width="1024" height="689" src="/images/auto-absence-page-image-2-1024x689.png" alt="" class="wp-image-17248" style="width:263px;height:auto" srcset="/images/auto-absence-page-image-2-1024x689.png 1024w, /images/auto-absence-page-image-2-300x202.png 300w, /images/auto-absence-page-image-2-768x517.png 768w, /images/auto-absence-page-image-2.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 
 
@@ -398,7 +398,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/12-2025-04.jpg" alt="" class="wp-image-17281" srcset="/images/12-2025-04.jpg 2237w, /images/12-300x213.jpg 300w, /images/12-1024x726.jpg 1024w, /images/12-768x545.jpg 768w, /images/12-1536x1090.jpg 1536w, /images/12-2048x1453.jpg 2048w, /images/12-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/auto-absence-page-image-3.jpg" alt="" class="wp-image-17281" srcset="/images/auto-absence-page-image-3.jpg 2237w, /images/auto-absence-page-image-4-300x213.jpg 300w, /images/auto-absence-page-image-4-1024x726.jpg 1024w, /images/auto-absence-page-image-4-768x545.jpg 768w, /images/auto-absence-page-image-4-1536x1090.jpg 1536w, /images/auto-absence-page-image-4-2048x1453.jpg 2048w, /images/auto-absence-page-image-4-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -418,7 +418,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/10.jpg" alt="" class="wp-image-17280" srcset="/images/10.jpg 2237w, /images/10-300x213.jpg 300w, /images/10-1024x726.jpg 1024w, /images/10-768x545.jpg 768w, /images/10-1536x1090.jpg 1536w, /images/10-2048x1453.jpg 2048w, /images/10-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/auto-absence-page-image-5.jpg" alt="" class="wp-image-17280" srcset="/images/auto-absence-page-image-5.jpg 2237w, /images/auto-absence-page-image-5-300x213.jpg 300w, /images/auto-absence-page-image-5-1024x726.jpg 1024w, /images/auto-absence-page-image-5-768x545.jpg 768w, /images/auto-absence-page-image-5-1536x1090.jpg 1536w, /images/auto-absence-page-image-5-2048x1453.jpg 2048w, /images/auto-absence-page-image-5-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 
@@ -438,7 +438,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-1af4f3bb wp-block-group-is-layout-flex" style="min-height:100%">
 <div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
-<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/15-2025-04.jpg" alt="" class="wp-image-17282" srcset="/images/15-2025-04.jpg 2237w, /images/15-300x213.jpg 300w, /images/15-1024x726.jpg 1024w, /images/15-768x545.jpg 768w, /images/15-1536x1090.jpg 1536w, /images/15-2048x1453.jpg 2048w, /images/15-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
+<figure class="wp-block-image size-full"><img width="2237" height="1587" src="/images/auto-absence-page-image-6.jpg" alt="" class="wp-image-17282" srcset="/images/auto-absence-page-image-6.jpg 2237w, /images/auto-absence-page-image-7-300x213.jpg 300w, /images/auto-absence-page-image-7-1024x726.jpg 1024w, /images/auto-absence-page-image-7-768x545.jpg 768w, /images/auto-absence-page-image-7-1536x1090.jpg 1536w, /images/auto-absence-page-image-7-2048x1453.jpg 2048w, /images/auto-absence-page-image-7-1200x851.jpg 1200w" sizes="auto, (max-width: 2237px) 100vw, 2237px" /></figure>
 
 
 

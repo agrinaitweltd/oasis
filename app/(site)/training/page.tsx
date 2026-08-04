@@ -29,7 +29,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%">
-<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/images/Arbor-1_866x720.png" alt="" class="wp-image-14462" style="border-radius:4px;object-fit:cover" srcset="/images/Arbor-1_866x720.png 866w, /images/Arbor-1_866x720-300x249.png 300w, /images/Arbor-1_866x720-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="866" height="720" src="/images/training-page-image-1.png" alt="" class="wp-image-14462" style="border-radius:4px;object-fit:cover" srcset="/images/training-page-image-1.png 866w, /images/training-page-image-1-300x249.png 300w, /images/training-page-image-1-768x639.png 768w" sizes="auto, (max-width: 866px) 100vw, 866px" /></figure>
 </div>
 </div>
 </div>
@@ -153,7 +153,7 @@ export default function Page() {
 <div class="wp-block-column has-base-2-background-color has-background has-global-padding is-layout-constrained wp-container-core-column-is-layout-26a738c0 wp-block-column-is-layout-constrained" style="border-radius:12px;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px;box-shadow:var(--wp--preset--shadow--deep)">
 <div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-d0a28cf8 wp-block-group-is-layout-flex" style="min-height:100%;padding-bottom:5px">
 <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
-<figure class="wp-block-image size-full has-custom-border"><img width="5760" height="3840" src="/images/LdnFilmed_ArborFest23-147-min.jpg" alt="OASIS Training" class="wp-image-16129" style="border-radius:4px" srcset="/images/LdnFilmed_ArborFest23-147-min.jpg 5760w, /images/LdnFilmed_ArborFest23-147-min-300x200.jpg 300w, /images/LdnFilmed_ArborFest23-147-min-1024x683.jpg 1024w, /images/LdnFilmed_ArborFest23-147-min-768x512.jpg 768w, /images/LdnFilmed_ArborFest23-147-min-1536x1024.jpg 1536w, /images/LdnFilmed_ArborFest23-147-min-2048x1365.jpg 2048w, /images/LdnFilmed_ArborFest23-147-min-1200x800.jpg 1200w" sizes="auto, (max-width: 5760px) 100vw, 5760px" /></figure>
+<figure class="wp-block-image size-full has-custom-border"><img width="5760" height="3840" src="/images/training-page-image-2.jpg" alt="OASIS Training" class="wp-image-16129" style="border-radius:4px" srcset="/images/training-page-image-2.jpg 5760w, /images/training-page-image-2-300x200.jpg 300w, /images/training-page-image-2-1024x683.jpg 1024w, /images/training-page-image-2-768x512.jpg 768w, /images/training-page-image-2-1536x1024.jpg 1536w, /images/training-page-image-2-2048x1365.jpg 2048w, /images/training-page-image-2-1200x800.jpg 1200w" sizes="auto, (max-width: 5760px) 100vw, 5760px" /></figure>
 
 
 

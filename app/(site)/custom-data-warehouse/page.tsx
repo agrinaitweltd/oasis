@@ -105,7 +105,7 @@ export default function Page() {
 
 
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-full is-resized"><img width="1288" height="1012" src="/images/Illus_Cloud-tools_RGB.png" alt="Data" class="wp-image-14493" style="width:350px" srcset="/images/Illus_Cloud-tools_RGB.png 1288w, /images/Illus_Cloud-tools_RGB-300x236.png 300w, /images/Illus_Cloud-tools_RGB-1024x805.png 1024w, /images/Illus_Cloud-tools_RGB-768x603.png 768w, /images/Illus_Cloud-tools_RGB-1200x943.png 1200w" sizes="auto, (max-width: 1288px) 100vw, 1288px" /></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img width="1288" height="1012" src="/images/custom-data-warehouse-page-image-1.png" alt="Data" class="wp-image-14493" style="width:350px" srcset="/images/custom-data-warehouse-page-image-1.png 1288w, /images/custom-data-warehouse-page-image-1-300x236.png 300w, /images/custom-data-warehouse-page-image-1-1024x805.png 1024w, /images/custom-data-warehouse-page-image-1-768x603.png 768w, /images/custom-data-warehouse-page-image-1-1200x943.png 1200w" sizes="auto, (max-width: 1288px) 100vw, 1288px" /></figure>
 </div>
 </div>
 
@@ -165,7 +165,7 @@ export default function Page() {
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-044b9ecc wp-block-columns-is-layout-flex" style="margin-top:88px;margin-bottom:88px">
 <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-<figure class="wp-block-image aligncenter size-large is-resized"><img width="1024" height="689" src="/images/Illus_Clear-data_RGB-1024x689.png" alt="" class="wp-image-14240" style="width:331px;height:auto" srcset="/images/Illus_Clear-data_RGB-1024x689.png 1024w, /images/Illus_Clear-data_RGB-300x202.png 300w, /images/Illus_Clear-data_RGB-768x517.png 768w, /images/Illus_Clear-data_RGB.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img width="1024" height="689" src="/images/auto-absence-page-image-2-1024x689.png" alt="" class="wp-image-14240" style="width:331px;height:auto" srcset="/images/auto-absence-page-image-2-1024x689.png 1024w, /images/auto-absence-page-image-2-300x202.png 300w, /images/auto-absence-page-image-2-768x517.png 768w, /images/auto-absence-page-image-2.png 1040w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 </div>
 </div>
 </div>

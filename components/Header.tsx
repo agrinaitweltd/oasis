@@ -85,7 +85,12 @@ export default function Header() {
     <header className="wp-block-template-part">
       <div
         className="wp-block-group alignwide has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained"
-        style={{ paddingTop: 20, paddingBottom: 20 }}
+        style={{
+          paddingTop: 20,
+          paddingBottom: 20,
+          boxShadow: scrolled ? "0 4px 20px rgba(22,20,12,0.08)" : "0 0 0 rgba(22,20,12,0)",
+          transition: "box-shadow 300ms ease",
+        }}
       >
         <div className="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-block-group-is-layout-flex">
           <div className="wp-block-group menu-container is-layout-flex wp-block-group-is-layout-flex">
