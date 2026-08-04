@@ -5,9 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { TextField, PasswordField, Checkbox, Spinner, ErrorIcon } from "@/components/auth/FormFields";
 import { AuthLogo, AuthWordmark } from "@/components/auth/AuthLogo";
-import { AuthSchoolSelector } from "@/components/auth/AuthSchoolSelector";
 import { useMockAuth } from "@/hooks/useMockAuth";
-import type { School } from "@/types/portal";
 
 type Status = "idle" | "loading" | "error";
 
@@ -15,17 +13,15 @@ export default function PortalLoginPage() {
   const router = useRouter();
   const { signIn } = useMockAuth();
 
-  const [school, setSchool] = useState<School | null>(null);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [formError, setFormError] = useState("");
-  const [errors, setErrors] = useState<{ school?: string; username?: string; password?: string }>({});
+  const [errors, setErrors] = useState<{ username?: string; password?: string }>({});
 
   function validate() {
     const next: typeof errors = {};
-    if (!school) next.school = "Please select your school to continue.";
     if (!username.trim()) next.username = "Enter your username.";
     if (!password) next.password = "Enter your password.";
     setErrors(next);
@@ -40,7 +36,7 @@ export default function PortalLoginPage() {
     setStatus("loading");
     await new Promise((r) => setTimeout(r, 700));
 
-    const result = signIn(username.trim(), password, school!.id);
+    const result = signIn(username.trim(), password);
     if (result.error) {
       setStatus("error");
       setFormError(result.error);
@@ -60,23 +56,23 @@ export default function PortalLoginPage() {
             <AuthLogo srcOverride="/images/logo1.png" href="/" />
           </div>
           <div className="auth-panel-copy">
-            <h2>One platform. Every school.</h2>
+            <h2>Internal console.</h2>
             <p>
-              Sign in to manage admissions, attendance, fees, timetables and more &#8212; all in one place, built
-              for schools across Uganda.
+              Sign in to review school setup requests, approve schools onto the platform, and manage their API
+              access &#8212; for OASIS &amp; Swivel Technologies staff only.
             </p>
             <div className="auth-panel-stats">
               <div>
                 <strong>10+</strong>
-                <span>hours saved weekly</span>
+                <span>schools onboarded</span>
               </div>
               <div>
                 <strong>95%</strong>
-                <span>faster fee collection</span>
+                <span>requests reviewed &lt;48h</span>
               </div>
               <div>
                 <strong>24/7</strong>
-                <span>parent &amp; teacher access</span>
+                <span>platform monitoring</span>
               </div>
             </div>
           </div>
@@ -89,8 +85,8 @@ export default function PortalLoginPage() {
             </div>
 
             <div className="auth-card">
-              <h1>Welcome back</h1>
-              <p className="auth-subtitle">Sign in to your OASIS account to continue.</p>
+              <h1>Staff sign in</h1>
+              <p className="auth-subtitle">This console is for OASIS and Swivel Technologies staff.</p>
 
               {status === "error" && formError && (
                 <div className="auth-alert auth-alert-error" role="alert">
@@ -100,8 +96,6 @@ export default function PortalLoginPage() {
               )}
 
               <form onSubmit={handleSubmit} noValidate>
-                <AuthSchoolSelector value={school} onChange={setSchool} error={errors.school} />
-
                 <TextField
                   label="Username"
                   autoComplete="username"
@@ -138,7 +132,7 @@ export default function PortalLoginPage() {
               </form>
 
               <p className="auth-footer-text">
-                Need help? <a href="mailto:support@oasis.co.ug" className="auth-link">Contact support</a>
+                Need access? <a href="mailto:support@oasis.co.ug" className="auth-link">Contact your team lead</a>
               </p>
 
               <div className="auth-footer-links">

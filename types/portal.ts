@@ -226,3 +226,39 @@ export type Role = {
   usersCount: number;
   permissions: string[];
 };
+
+// --- Internal OASIS/Swivel staff console -----------------------------------
+// The admin login (admin/admin123) is for OASIS staff, not school staff -
+// it's used to review schools that have requested a setup, approve/reject
+// them, and issue API keys. Distinct from the per-school SIS dashboard data
+// above.
+
+export type SchoolRequestStatus = "pending_review" | "approved" | "rejected" | "more_info_requested" | "suspended";
+
+export type SchoolRequest = {
+  id: string;
+  schoolName: string;
+  contactName: string;
+  contactRole: string;
+  contactEmail: string;
+  contactPhone: string;
+  district: string;
+  schoolType: string;
+  studentBand: string;
+  modulesRequested: string[];
+  requestedAt: string;
+  status: SchoolRequestStatus;
+  note?: string;
+};
+
+export type ApiKeyStatus = "active" | "revoked";
+
+export type ApiKey = {
+  id: string;
+  schoolRequestId: string;
+  label: string;
+  keyPreview: string;
+  createdAt: string;
+  lastUsedAt: string | null;
+  status: ApiKeyStatus;
+};

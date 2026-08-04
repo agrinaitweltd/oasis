@@ -3,7 +3,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { useMockAuth } from "@/hooks/useMockAuth";
-import { getSchoolById } from "@/lib/mock/schools";
 import { Sidebar } from "./Sidebar";
 import { Topbar } from "./Topbar";
 
@@ -25,14 +24,12 @@ export function PortalShell({ children }: { children: ReactNode }) {
     );
   }
 
-  const school = getSchoolById(session.schoolId);
-
   return (
     <div className="flex min-h-screen bg-slate-50">
       <Sidebar
         collapsed={collapsed}
         onToggle={() => setCollapsed((v) => !v)}
-        schoolName={school?.name ?? "OASIS Demo School"}
+        schoolName="Internal Console"
         onLogout={() => {
           logOut();
           router.replace("/portal/login");

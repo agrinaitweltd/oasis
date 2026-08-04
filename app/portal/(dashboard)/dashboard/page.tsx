@@ -15,6 +15,8 @@ import {
   Send,
   ClipboardList,
   ArrowRight,
+  Building2,
+  ClipboardCheck,
 } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card, CardHeader } from "@/components/portal/ui/Card";
@@ -23,6 +25,7 @@ import { MiniCalendar } from "@/components/portal/dashboard/MiniCalendar";
 import { TrendAreaChart, ComparisonBarChart, DonutChart } from "@/components/portal/charts/Charts";
 import { students, teachers, parents, classes, attendanceDays, attendanceForDate, announcements, activity } from "@/lib/mock";
 import { totalCollected, totalOutstanding } from "@/lib/mock/finance";
+import { schoolRequests } from "@/lib/mock/school-requests";
 
 function formatUgx(n: number) {
   return "UGX " + n.toLocaleString("en-UG");
@@ -48,20 +51,60 @@ export default function DashboardPage() {
     { name: "Female", value: students.filter((s) => s.gender === "Female").length },
   ];
 
+  const pendingRequests = schoolRequests.filter((r) => r.status === "pending_review");
+  const approvedSchools = schoolRequests.filter((r) => r.status === "approved");
+
   return (
     <div>
       <PageHeader
         title="Dashboard"
-        description="Here's what's happening across your school today."
+        description="Platform overview for the OASIS internal team."
         action={
           <Link
-            href="/portal/reports"
+            href="/portal/schools"
             className="inline-flex items-center gap-1.5 rounded-xl bg-oasis-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-oasis-600"
           >
-            View reports <ArrowRight className="h-4 w-4" />
+            Review schools <ArrowRight className="h-4 w-4" />
           </Link>
         }
       />
+
+      {pendingRequests.length > 0 && (
+        <Card className="mb-5 flex flex-col items-start gap-4 border-oasis-200 bg-oasis-50/60 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-start gap-3">
+            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-white text-oasis-600 shadow-sm">
+              <ClipboardCheck className="h-5 w-5" />
+            </span>
+            <div>
+              <p className="text-sm font-semibold text-slate-800">
+                {pendingRequests.length} school{pendingRequests.length !== 1 ? "s" : ""} awaiting review
+              </p>
+              <p className="mt-0.5 text-xs text-slate-500">
+                {pendingRequests
+                  .slice(0, 3)
+                  .map((r) => r.schoolName)
+                  .join(", ")}
+                {pendingRequests.length > 3 ? `, +${pendingRequests.length - 3} more` : ""}
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/portal/schools"
+            className="inline-flex flex-shrink-0 items-center gap-1.5 rounded-xl bg-white px-4 py-2 text-sm font-semibold text-oasis-700 shadow-sm transition hover:bg-oasis-100"
+          >
+            Review now <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </Card>
+      )}
+
+      <div className="mb-5 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <StatCard label="Pending Requests" value={String(pendingRequests.length)} icon={Building2} accent="amber" />
+        <StatCard label="Approved Schools" value={String(approvedSchools.length)} icon={GraduationCap} accent="emerald" />
+        <StatCard label="Total Requests" value={String(schoolRequests.length)} icon={ClipboardList} accent="oasis" />
+        <StatCard label="Districts Covered" value={String(new Set(schoolRequests.map((r) => r.district)).size)} icon={Users} accent="sky" />
+      </div>
+
+      <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-400">Sample school dashboard</p>
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
         <StatCard label="Students" value={students.length.toLocaleString()} icon={GraduationCap} trend={4} trendLabel="vs last term" accent="oasis" />
@@ -122,8 +165,8 @@ export default function DashboardPage() {
         <Card>
           <CardHeader title="Quick actions" />
           <div className="grid grid-cols-2 gap-3">
+            <QuickAction href="/portal/schools" icon={Building2} label="Review Schools" />
             <QuickAction href="/portal/students" icon={UserPlus} label="Add Student" />
-            <QuickAction href="/portal/attendance" icon={ClipboardList} label="Take Attendance" />
             <QuickAction href="/portal/finance" icon={FileSpreadsheet} label="New Invoice" />
             <QuickAction href="/portal/communication" icon={Send} label="Send SMS" />
           </div>

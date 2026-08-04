@@ -12,8 +12,8 @@ export function useMockAuth() {
     setLoaded(true);
   }, []);
 
-  const signIn = useCallback((username: string, password: string, schoolId: string) => {
-    const result = signInWithPassword({ username, password, schoolId });
+  const signIn = useCallback((username: string, password: string) => {
+    const result = signInWithPassword({ username, password });
     if (result.session) setSession(result.session);
     return result;
   }, []);

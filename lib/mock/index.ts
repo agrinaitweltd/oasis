@@ -9,3 +9,4 @@ export * from "./communication";
 export * from "./facilities";
 export * from "./users";
 export * from "./timetable";
+export * from "./school-requests";

@@ -1,6 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 import {
   LayoutDashboard,
+  Building2,
   GraduationCap,
   Users,
   UserCog,
@@ -27,6 +28,7 @@ export type PortalNavItem = {
 
 export const portalNav: PortalNavItem[] = [
   { label: "Dashboard", href: "/portal/dashboard", icon: LayoutDashboard },
+  { label: "Schools", href: "/portal/schools", icon: Building2 },
   { label: "Students", href: "/portal/students", icon: GraduationCap },
   { label: "Parents", href: "/portal/parents", icon: Users },
   { label: "Teachers", href: "/portal/teachers", icon: UserCog },

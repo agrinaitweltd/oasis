@@ -1,6 +1,9 @@
-// Client-side only mock authentication for the OASIS admin portal. There is
-// no backend yet - this exists purely so the UI/UX (guarded routes, signed
-// in state, sign out) is fully wired ahead of a real auth provider.
+// Client-side only mock authentication for the OASIS internal admin
+// console. This is signed into by OASIS/Swivel Technologies staff (not
+// school staff) to review school setup requests, approve/reject them, and
+// issue API keys - there is no backend yet, so this exists purely so the
+// UI/UX (guarded routes, signed in state, sign out) is fully wired ahead
+// of a real auth provider.
 //
 // The function shapes intentionally mirror what a Supabase Auth client call
 // would look like (signInWithPassword / getSession / signOut), so swapping
@@ -9,7 +12,6 @@
 
 export type PortalSession = {
   username: string;
-  schoolId: string;
   signedInAt: string;
 };
 
@@ -25,14 +27,12 @@ function checkCredentials(username: string, password: string) {
 export function signInWithPassword(input: {
   username: string;
   password: string;
-  schoolId: string;
 }): { session: PortalSession | null; error: string | null } {
   if (!checkCredentials(input.username, input.password)) {
     return { session: null, error: "Incorrect username or password." };
   }
   const session: PortalSession = {
     username: input.username,
-    schoolId: input.schoolId,
     signedInAt: new Date().toISOString(),
   };
   if (typeof window !== "undefined") {
