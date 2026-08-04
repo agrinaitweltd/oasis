@@ -8,9 +8,10 @@ import { SearchInput } from "@/components/portal/ui/Input";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Pagination } from "@/components/portal/ui/Pagination";
 import { Badge } from "@/components/portal/ui/Badge";
+import { Avatar } from "@/components/portal/ui/Avatar";
 import { useDebounce } from "@/hooks/useDebounce";
 import { usePagination } from "@/hooks/usePagination";
-import { schoolRequests, apiKeysForRequest } from "@/lib/mock/school-requests";
+import { schoolRequests } from "@/lib/mock/school-requests";
 import type { SchoolRequest, SchoolRequestStatus } from "@/types/portal";
 import { cn } from "@/lib/utils/cn";
 
@@ -21,7 +22,6 @@ const STAGE_TONE: Record<SchoolRequestStatus, "neutral" | "info" | "warning" | "
   more_info_requested: "info",
   suspended: "neutral",
 };
-
 const STAGE_LABEL: Record<SchoolRequestStatus, string> = {
   pending_review: "Pending Review",
   approved: "Approved",
@@ -29,8 +29,15 @@ const STAGE_LABEL: Record<SchoolRequestStatus, string> = {
   more_info_requested: "More Info Requested",
   suspended: "Suspended",
 };
-
 const STAGES: SchoolRequestStatus[] = ["pending_review", "approved", "more_info_requested", "rejected", "suspended"];
+
+const SUB_STATUS_TONE: Record<string, "neutral" | "info" | "warning" | "success" | "danger"> = {
+  active: "success",
+  trial: "info",
+  expiring: "warning",
+  cancelled: "neutral",
+  suspended: "danger",
+};
 
 export default function SchoolsPage() {
   const router = useRouter();
@@ -41,7 +48,7 @@ export default function SchoolsPage() {
   const filtered = useMemo(() => {
     const q = debouncedQuery.trim().toLowerCase();
     return schoolRequests.filter((r) => {
-      const matchesQuery = !q || r.schoolName.toLowerCase().includes(q) || r.contactName.toLowerCase().includes(q) || r.district.toLowerCase().includes(q);
+      const matchesQuery = !q || r.schoolName.toLowerCase().includes(q) || r.schoolCode.toLowerCase().includes(q) || r.district.toLowerCase().includes(q);
       const matchesStatus = statusFilter === "all" || r.status === statusFilter;
       return matchesQuery && matchesStatus;
     });
@@ -54,32 +61,28 @@ export default function SchoolsPage() {
       key: "school",
       header: "School",
       render: (r) => (
-        <div>
-          <p className="font-medium text-slate-800">{r.schoolName}</p>
-          <p className="text-xs text-slate-400">{r.district} District</p>
+        <div className="flex items-center gap-3">
+          <Avatar name={r.schoolName} />
+          <div>
+            <p className="font-medium text-slate-800">{r.schoolName}</p>
+            <p className="text-xs text-slate-400">{r.schoolCode}</p>
+          </div>
         </div>
       ),
     },
+    { key: "contact", header: "Contact Email", render: (r) => r.contactEmail },
     {
-      key: "contact",
-      header: "Contact",
-      render: (r) => (
-        <div>
-          <p className="text-slate-700">{r.contactName}</p>
-          <p className="text-xs text-slate-400">{r.contactRole}</p>
-        </div>
-      ),
+      key: "plan",
+      header: "Plan",
+      render: (r) => (r.plan ? <Badge tone="info">{r.plan}</Badge> : <span className="text-xs text-slate-400">—</span>),
     },
-    { key: "type", header: "Type", render: (r) => r.schoolType },
-    { key: "requested", header: "Requested", render: (r) => r.requestedAt },
     {
-      key: "keys",
-      header: "API Keys",
-      render: (r) => {
-        const count = apiKeysForRequest(r.id).length;
-        return count > 0 ? <Badge tone="info">{count} active</Badge> : <span className="text-xs text-slate-400">—</span>;
-      },
+      key: "subscription",
+      header: "Subscription",
+      render: (r) => (r.subscriptionStatus ? <Badge tone={SUB_STATUS_TONE[r.subscriptionStatus]}>{r.subscriptionStatus}</Badge> : <span className="text-xs text-slate-400">—</span>),
     },
+    { key: "storage", header: "Storage", render: (r) => (r.storageLimitMb ? `${(r.storageUsedMb / 1024).toFixed(1)}/${(r.storageLimitMb / 1024).toFixed(0)} GB` : "—") },
+    { key: "lastLogin", header: "Last Login", render: (r) => r.lastLoginAt ?? "—" },
     { key: "status", header: "Status", render: (r) => <Badge tone={STAGE_TONE[r.status]}>{STAGE_LABEL[r.status]}</Badge> },
   ];
 
@@ -89,7 +92,7 @@ export default function SchoolsPage() {
     <div>
       <PageHeader
         title="Schools"
-        description="Review setup requests, approve schools onto the platform, and manage their API keys"
+        description="School account metadata - names, plans, storage and status. No student, parent or academic data lives here."
         breadcrumbs={[{ label: "Dashboard", href: "/portal/dashboard" }, { label: "Schools" }]}
       />
 
@@ -111,13 +114,13 @@ export default function SchoolsPage() {
 
       <Card className="p-0">
         <div className="border-b border-slate-100 p-4">
-          <SearchInput placeholder="Search by school, contact or district..." value={query} onChange={(e) => setQuery(e.target.value)} className="max-w-sm" />
+          <SearchInput placeholder="Search by school, code or district..." value={query} onChange={(e) => setQuery(e.target.value)} className="max-w-sm" />
         </div>
         <Table
           columns={columns}
           rows={pageItems}
           onRowClick={(r) => router.push(`/portal/schools/${r.id}`)}
-          emptyTitle="No school requests match your filters"
+          emptyTitle="No schools match your filters"
         />
         <Pagination page={page} pageCount={pageCount} total={total} pageSize={pageSize} onPageChange={setPage} />
       </Card>

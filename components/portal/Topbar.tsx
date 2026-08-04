@@ -3,13 +3,13 @@
 import { useState } from "react";
 import { Bell, Menu, Search } from "lucide-react";
 import { Avatar } from "./ui/Avatar";
-import { activity } from "@/lib/mock";
+import { platformEvents } from "@/lib/mock";
 import { cn } from "@/lib/utils/cn";
 
 export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; username: string }) {
   const [notifOpen, setNotifOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
-  const notifications = activity.slice(0, 5);
+  const notifications = platformEvents.slice(0, 5);
 
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b border-slate-200/70 bg-white/80 px-4 backdrop-blur-md sm:px-6">
@@ -26,7 +26,7 @@ export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; u
         <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
         <input
           type="search"
-          placeholder="Search students, teachers, invoices..."
+          placeholder="Search schools, tickets, invoices..."
           className="h-10 w-full rounded-xl border border-slate-200 bg-slate-50 pl-9 pr-3 text-sm outline-none transition focus:border-oasis-400 focus:bg-white focus:ring-4 focus:ring-oasis-100"
         />
       </div>
@@ -82,8 +82,8 @@ export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; u
                 <p className="text-xs text-slate-400">Super Admin</p>
               </div>
               <div className="my-1 h-px bg-slate-100" />
-              <a href="/portal/settings" className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
-                Account settings
+              <a href="/portal/platform" className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
+                Platform settings
               </a>
               <a href="/portal/support" className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
                 Support

@@ -1,5 +1,12 @@
-// Domain types for the OASIS admin portal. Shaped so a future Supabase
-// table (same field names, snake_case columns mapped 1:1) can replace the
+// Domain types for the OASIS platform-admin console. This is signed into
+// by OASIS/Swivel Technologies staff to administer the PLATFORM - schools,
+// subscriptions, billing, uptime, support - not any individual school's
+// day-to-day data (students, parents, fees, attendance, grades). No type
+// here should ever carry student/parent/teacher personal records; that
+// data belongs to each school's own system, out of reach of this console
+// except via the time-boxed support-access mechanism below.
+//
+// Shaped so a future Supabase table (same field names) can replace the
 // mock data in lib/mock/* without changing anything that consumes these
 // types.
 
@@ -10,234 +17,18 @@ export type School = {
   logoInitials: string;
 };
 
-export type Gender = "Male" | "Female";
-
-export type Student = {
-  id: string;
-  admissionNo: string;
-  firstName: string;
-  lastName: string;
-  gender: Gender;
-  dateOfBirth: string;
-  classId: string;
-  className: string;
-  stream: string;
-  photoUrl: string | null;
-  status: "Active" | "Inactive" | "Graduated" | "Transferred";
-  guardianId: string;
-  medical: {
-    bloodGroup: string;
-    allergies: string[];
-    conditions: string[];
-    notes: string;
-  };
-  emergencyContacts: { name: string; relationship: string; phone: string }[];
-  documents: { name: string; type: string; uploadedAt: string }[];
-  behaviourNotes: { date: string; type: "Positive" | "Negative" | "Neutral"; note: string; recordedBy: string }[];
-  attendanceRate: number;
-};
-
-export type Parent = {
-  id: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-  studentIds: string[];
-  feeBalance: number;
-  lastMessageAt: string | null;
-};
-
-export type Teacher = {
-  id: string;
-  staffNo: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  phone: string;
-  subjects: string[];
-  classesTaught: string[];
-  status: "Active" | "On Leave" | "Inactive";
-  joinedAt: string;
-  photoUrl: string | null;
-};
-
-export type LeaveRequest = {
-  id: string;
-  teacherId: string;
-  type: "Sick" | "Annual" | "Maternity" | "Compassionate" | "Unpaid";
-  startDate: string;
-  endDate: string;
-  status: "Pending" | "Approved" | "Rejected";
-};
-
-export type SchoolClass = {
-  id: string;
-  name: string;
-  stream: string;
-  teacherId: string;
-  studentCount: number;
-  capacity: number;
-  room: string;
-};
-
-export type AttendanceStatus = "Present" | "Absent" | "Late" | "Excused";
-
-export type AttendanceRecord = {
-  id: string;
-  studentId: string;
-  classId: string;
-  date: string;
-  status: AttendanceStatus;
-  arrivalTime: string | null;
-  note?: string;
-};
-
-export type TimetableSlot = {
-  id: string;
-  day: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday";
-  period: number;
-  startTime: string;
-  endTime: string;
-  subject: string;
-  classId: string;
-  teacherId: string;
-  room: string;
-};
-
-export type Exam = {
-  id: string;
-  name: string;
-  term: string;
-  startDate: string;
-  endDate: string;
-  status: "Scheduled" | "In Progress" | "Marking" | "Published";
-  classIds: string[];
-};
-
-export type ExamResult = {
-  id: string;
-  examId: string;
-  studentId: string;
-  subject: string;
-  score: number;
-  maxScore: number;
-  grade: string;
-};
-
-export type Invoice = {
-  id: string;
-  invoiceNo: string;
-  studentId: string;
-  term: string;
-  amount: number;
-  amountPaid: number;
-  dueDate: string;
-  status: "Paid" | "Partial" | "Overdue" | "Pending";
-};
-
-export type Payment = {
-  id: string;
-  invoiceId: string;
-  studentId: string;
-  amount: number;
-  method: "Mobile Money" | "Bank Transfer" | "Cash" | "Card";
-  reference: string;
-  paidAt: string;
-};
-
-export type ExpenseRecord = {
-  id: string;
-  category: string;
-  description: string;
-  amount: number;
-  date: string;
-  approvedBy: string;
-};
-
-export type Announcement = {
-  id: string;
-  title: string;
-  body: string;
-  audience: "All" | "Parents" | "Teachers" | "Students";
-  channel: "SMS" | "Email" | "Push" | "In-App";
-  sentAt: string;
-  status: "Sent" | "Scheduled" | "Draft";
-  recipients: number;
-};
-
-export type ActivityItem = {
-  id: string;
-  type: "enrolment" | "payment" | "attendance" | "exam" | "communication" | "system";
-  message: string;
-  timestamp: string;
-  actor: string;
-};
-
-export type LibraryBook = {
-  id: string;
-  title: string;
-  author: string;
-  isbn: string;
-  category: string;
-  copiesTotal: number;
-  copiesAvailable: number;
-};
-
-export type LibraryLoan = {
-  id: string;
-  bookId: string;
-  studentId: string;
-  borrowedAt: string;
-  dueAt: string;
-  returnedAt: string | null;
-};
-
-export type TransportRoute = {
-  id: string;
-  name: string;
-  driver: string;
-  vehiclePlate: string;
-  capacity: number;
-  studentsAssigned: number;
-  stops: string[];
-};
-
-export type HostelRoom = {
-  id: string;
-  block: string;
-  roomNo: string;
-  capacity: number;
-  occupied: number;
-  wardenName: string;
-};
-
-export type PortalUser = {
-  id: string;
-  name: string;
-  email: string;
-  role: "Super Admin" | "Admin" | "Teacher" | "Accountant" | "Registrar";
-  status: "Active" | "Suspended";
-};
-
-export type Role = {
-  id: string;
-  name: string;
-  usersCount: number;
-  permissions: string[];
-};
-
-// --- Internal OASIS/Swivel staff console -----------------------------------
-// The admin login (admin/admin123) is for OASIS staff, not school staff -
-// it's used to review schools that have requested a setup, approve/reject
-// them, and issue API keys. Distinct from the per-school SIS dashboard data
-// above.
+// --- Schools (metadata only) ------------------------------------------------
 
 export type SchoolRequestStatus = "pending_review" | "approved" | "rejected" | "more_info_requested" | "suspended";
+export type SubscriptionPlanKey = "starter" | "growth" | "scale" | "trial";
+export type SubscriptionStatus = "trial" | "active" | "expiring" | "cancelled" | "suspended";
 
 export type SchoolRequest = {
   id: string;
   schoolName: string;
+  schoolCode: string;
+  logoInitials: string;
+  address: string;
   contactName: string;
   contactRole: string;
   contactEmail: string;
@@ -247,9 +38,19 @@ export type SchoolRequest = {
   studentBand: string;
   modulesRequested: string[];
   requestedAt: string;
+  createdAt: string;
   status: SchoolRequestStatus;
-  note?: string;
+  // Present once a school is approved and becomes a subscriber.
+  plan: SubscriptionPlanKey | null;
+  subscriptionStatus: SubscriptionStatus | null;
+  expiryDate: string | null;
+  storageUsedMb: number;
+  storageLimitMb: number;
+  lastLoginAt: string | null;
+  version: string;
 };
+
+// --- API keys ----------------------------------------------------------------
 
 export type ApiKeyStatus = "active" | "revoked";
 
@@ -261,4 +62,230 @@ export type ApiKey = {
   createdAt: string;
   lastUsedAt: string | null;
   status: ApiKeyStatus;
+};
+
+// --- Subscriptions & plans ---------------------------------------------------
+
+export type SubscriptionPlan = {
+  id: string;
+  key: SubscriptionPlanKey;
+  name: string;
+  priceMonthlyUgx: number;
+  studentRange: string;
+  features: string[];
+  schoolsOnPlan: number;
+};
+
+export type Invoice = {
+  id: string;
+  invoiceNo: string;
+  schoolId: string;
+  amountUgx: number;
+  issuedAt: string;
+  dueAt: string;
+  status: "paid" | "pending" | "overdue" | "failed";
+};
+
+// --- Platform finance ---------------------------------------------------------
+
+export type RevenuePoint = { label: string; revenueUgx: number };
+
+// --- Platform / system -------------------------------------------------------
+
+export type PlatformEventType =
+  | "school_created"
+  | "subscription_renewed"
+  | "subscription_cancelled"
+  | "admin_invited"
+  | "backup_completed"
+  | "feature_enabled"
+  | "maintenance"
+  | "deployment";
+
+export type PlatformEvent = {
+  id: string;
+  type: PlatformEventType;
+  message: string;
+  timestamp: string;
+  actor: string;
+};
+
+export type FeatureFlag = {
+  id: string;
+  key: string;
+  label: string;
+  description: string;
+  enabled: boolean;
+  rolloutPercent: number;
+};
+
+export type PlatformAnnouncement = {
+  id: string;
+  title: string;
+  body: string;
+  audience: "all" | "trial" | "active";
+  publishedAt: string;
+  status: "published" | "scheduled" | "draft";
+};
+
+// --- Security -----------------------------------------------------------------
+
+export type SecurityLogType = "failed_login" | "suspicious_activity" | "ip_blocked" | "session_revoked" | "2fa_change";
+
+export type SecurityLogEntry = {
+  id: string;
+  type: SecurityLogType;
+  detail: string;
+  ipAddress: string;
+  location: string;
+  timestamp: string;
+  severity: "low" | "medium" | "high";
+};
+
+export type BlockedIp = {
+  id: string;
+  ipAddress: string;
+  reason: string;
+  blockedAt: string;
+};
+
+// --- Analytics (aggregate only, never identifiable) ---------------------------
+
+export type PlatformAnalytics = {
+  totalStudents: number;
+  totalTeachers: number;
+  totalParents: number;
+  dailyUptimePct: number;
+  loginsThisMonth: number;
+  smsSentThisMonth: number;
+  avgAttendancePct: number;
+};
+
+// --- Support tickets ------------------------------------------------------------
+
+export type TicketStatus = "open" | "pending" | "resolved" | "closed";
+export type TicketPriority = "low" | "medium" | "high" | "urgent";
+
+export type SupportTicket = {
+  id: string;
+  schoolName: string;
+  title: string;
+  message: string;
+  status: TicketStatus;
+  priority: TicketPriority;
+  createdAt: string;
+  updatedAt: string;
+};
+
+// --- Notifications --------------------------------------------------------------
+
+export type PlatformNotification = {
+  id: string;
+  title: string;
+  body: string;
+  audience: "one" | "multiple" | "all";
+  targetSchools: string[];
+  sentAt: string;
+  status: "sent" | "scheduled" | "draft";
+};
+
+// --- Integrations ------------------------------------------------------------
+
+export type IntegrationCategory = "payments" | "email" | "sms" | "whatsapp" | "google";
+
+export type Integration = {
+  id: string;
+  name: string;
+  category: IntegrationCategory;
+  status: "connected" | "not_connected" | "error";
+  connectedSchools: number;
+};
+
+// --- Backups -------------------------------------------------------------------
+
+export type BackupStatus = "completed" | "running" | "failed";
+
+export type BackupRecord = {
+  id: string;
+  schoolName: string;
+  triggeredBy: string;
+  startedAt: string;
+  completedAt: string | null;
+  status: BackupStatus;
+  sizeMb: number;
+};
+
+// --- Audit log -------------------------------------------------------------------
+
+export type AuditLogEntry = PlatformEvent;
+
+// --- School administrators (accounts only, not internal users) -------------------
+
+export type SchoolAdminStatus = "active" | "disabled";
+
+export type SchoolAdminAccount = {
+  id: string;
+  schoolId: string;
+  schoolName: string;
+  name: string;
+  email: string;
+  status: SchoolAdminStatus;
+  lastLoginAt: string | null;
+  twoFactorEnabled: boolean;
+};
+
+// --- Developer tools ---------------------------------------------------------
+
+export type ErrorLogEntry = {
+  id: string;
+  message: string;
+  service: string;
+  level: "error" | "warning";
+  occurredAt: string;
+  count: number;
+};
+
+export type DeploymentRecord = {
+  id: string;
+  version: string;
+  environment: "production" | "staging";
+  status: "success" | "failed" | "in_progress";
+  deployedAt: string;
+  deployedBy: string;
+};
+
+export type QueueStatus = {
+  id: string;
+  name: string;
+  pending: number;
+  processing: number;
+  failed: number;
+};
+
+// --- Temporary support access ---------------------------------------------------
+// A time-boxed, school-approved, fully logged mechanism for staff to get
+// read-only access into a school's data for support purposes - the only
+// sanctioned way this console ever touches school-internal records.
+
+export type SupportAccessStatus = "pending" | "approved" | "denied" | "expired" | "revoked";
+
+export type SupportAccessAction = {
+  id: string;
+  action: string;
+  timestamp: string;
+};
+
+export type SupportAccessRequest = {
+  id: string;
+  schoolId: string;
+  schoolName: string;
+  requestedBy: string;
+  reason: string;
+  ticketId: string | null;
+  durationMinutes: 30 | 60;
+  status: SupportAccessStatus;
+  requestedAt: string;
+  approvedAt: string | null;
+  expiresAt: string | null;
+  actions: SupportAccessAction[];
 };

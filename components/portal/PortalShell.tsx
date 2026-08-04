@@ -13,7 +13,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    if (loaded && !session) router.replace("/portal/login");
+    if (loaded && !session) router.replace("/portal/admin");
   }, [loaded, session, router]);
 
   if (!loaded || !session) {
@@ -29,10 +29,10 @@ export function PortalShell({ children }: { children: ReactNode }) {
       <Sidebar
         collapsed={collapsed}
         onToggle={() => setCollapsed((v) => !v)}
-        schoolName="Internal Console"
+        schoolName="Platform Admin"
         onLogout={() => {
           logOut();
-          router.replace("/portal/login");
+          router.replace("/portal/admin");
         }}
         mobileOpen={mobileOpen}
         onMobileClose={() => setMobileOpen(false)}

@@ -17,6 +17,7 @@ import {
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card, CardHeader } from "@/components/portal/ui/Card";
 import { Badge } from "@/components/portal/ui/Badge";
+import { Avatar } from "@/components/portal/ui/Avatar";
 import { Button } from "@/components/portal/ui/Button";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { Modal } from "@/components/portal/ui/Modal";
@@ -128,14 +129,17 @@ export default function SchoolRequestDetailPage() {
 
       <Card className="mb-5">
         <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <div className="flex flex-wrap items-center gap-2">
-              <h1 className="text-xl font-bold text-slate-900">{request.schoolName}</h1>
-              <Badge tone={STAGE_TONE[status]}>{STAGE_LABEL[status]}</Badge>
+          <div className="flex items-center gap-4">
+            <Avatar name={request.schoolName} size={48} />
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="text-xl font-bold text-slate-900">{request.schoolName}</h1>
+                <Badge tone={STAGE_TONE[status]}>{STAGE_LABEL[status]}</Badge>
+              </div>
+              <p className="mt-1 text-sm text-slate-500">
+                {request.schoolCode} &middot; {request.district} District &middot; {request.schoolType}
+              </p>
             </div>
-            <p className="mt-1 text-sm text-slate-500">
-              {request.district} District &middot; {request.schoolType} &middot; Requested {request.requestedAt}
-            </p>
           </div>
           {status === "pending_review" && (
             <div className="flex gap-2">
@@ -169,32 +173,35 @@ export default function SchoolRequestDetailPage() {
       {tab === "overview" && (
         <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
           <Card>
-            <CardHeader title="Primary contact" />
+            <CardHeader title="School metadata" />
             <dl className="grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
-              <Detail label="Name" value={request.contactName} />
-              <Detail label="Role" value={request.contactRole} />
-              <Detail label="Email" value={request.contactEmail} />
-              <Detail label="Phone" value={request.contactPhone} />
+              <Detail label="School Name" value={request.schoolName} />
+              <Detail label="School Code" value={request.schoolCode} />
+              <Detail label="Address" value={request.address} />
+              <Detail label="Contact Email" value={request.contactEmail} />
+              <Detail label="Contact Phone" value={request.contactPhone} />
+              <Detail label="Created Date" value={request.createdAt} />
+              <Detail label="Version" value={request.version} />
             </dl>
           </Card>
           <Card>
-            <CardHeader title="School profile" />
+            <CardHeader title="Subscription" />
             <dl className="grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
-              <Detail label="School Type" value={request.schoolType} />
-              <Detail label="Student Population" value={request.studentBand} />
-              <Detail label="District" value={request.district} />
-              <Detail label="Requested On" value={request.requestedAt} />
+              <Detail label="Plan" value={request.plan ?? "No plan yet"} />
+              <Detail label="Subscription Status" value={request.subscriptionStatus ?? "—"} />
+              <Detail label="Expiry Date" value={request.expiryDate ?? "—"} />
+              <Detail label="Last Login" value={request.lastLoginAt ?? "Never"} />
+              <Detail
+                label="Storage Used"
+                value={request.storageLimitMb ? `${(request.storageUsedMb / 1024).toFixed(1)} GB of ${(request.storageLimitMb / 1024).toFixed(0)} GB` : "—"}
+              />
             </dl>
           </Card>
-          <Card className="lg:col-span-2">
-            <CardHeader title="Modules requested" />
-            <div className="flex flex-wrap gap-1.5">
-              {request.modulesRequested.map((m) => (
-                <Badge key={m} tone="info">
-                  {m}
-                </Badge>
-              ))}
-            </div>
+          <Card className="lg:col-span-2 border-dashed bg-slate-50/60">
+            <p className="text-xs text-slate-400">
+              This view is metadata only. Student, parent, attendance, fee, class and exam data belonging to this
+              school are never accessible here - see the Support tab for the time-boxed access process.
+            </p>
           </Card>
         </div>
       )}
