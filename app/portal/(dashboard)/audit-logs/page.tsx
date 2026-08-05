@@ -7,7 +7,8 @@ import { SearchInput, Select } from "@/components/portal/ui/Input";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Pagination } from "@/components/portal/ui/Pagination";
 import { Badge } from "@/components/portal/ui/Badge";
-import { auditLog } from "@/lib/mock/platform";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { useCollection } from "@/lib/store";
 import type { PlatformEvent } from "@/types/portal";
 import { useDebounce } from "@/hooks/useDebounce";
 import { usePagination } from "@/hooks/usePagination";
@@ -24,6 +25,7 @@ const TYPE_LABEL: Record<string, string> = {
 };
 
 export default function AuditLogsPage() {
+  const [auditLog] = useCollection<PlatformEvent>("oasis_platform_events");
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query);
   const [typeFilter, setTypeFilter] = useState("all");
@@ -35,7 +37,7 @@ export default function AuditLogsPage() {
       const matchesType = typeFilter === "all" || e.type === typeFilter;
       return matchesQuery && matchesType;
     });
-  }, [debouncedQuery, typeFilter]);
+  }, [auditLog, debouncedQuery, typeFilter]);
 
   const { page, pageCount, pageItems, total, pageSize, setPage } = usePagination(filtered, 12);
 
@@ -55,19 +57,27 @@ export default function AuditLogsPage() {
       />
 
       <Card className="p-0">
-        <div className="flex flex-col gap-3 border-b border-slate-100 p-4 sm:flex-row sm:items-center">
-          <SearchInput placeholder="Search events..." value={query} onChange={(e) => setQuery(e.target.value)} className="flex-1" />
-          <Select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value)} className="sm:w-56">
-            <option value="all">All event types</option>
-            {Object.entries(TYPE_LABEL).map(([key, label]) => (
-              <option key={key} value={key}>
-                {label}
-              </option>
-            ))}
-          </Select>
-        </div>
-        <Table columns={columns} rows={pageItems} emptyTitle="No events match your filters" />
-        <Pagination page={page} pageCount={pageCount} total={total} pageSize={pageSize} onPageChange={setPage} />
+        {auditLog.length === 0 ? (
+          <div className="p-6">
+            <EmptyState title="No platform actions logged yet" description="Approving schools, sending notifications and other admin actions will be recorded here." />
+          </div>
+        ) : (
+          <>
+            <div className="flex flex-col gap-3 border-b border-slate-100 p-4 sm:flex-row sm:items-center">
+              <SearchInput placeholder="Search events..." value={query} onChange={(e) => setQuery(e.target.value)} className="flex-1" />
+              <Select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value)} className="sm:w-56">
+                <option value="all">All event types</option>
+                {Object.entries(TYPE_LABEL).map(([key, label]) => (
+                  <option key={key} value={key}>
+                    {label}
+                  </option>
+                ))}
+              </Select>
+            </div>
+            <Table columns={columns} rows={pageItems} emptyTitle="No events match your filters" />
+            <Pagination page={page} pageCount={pageCount} total={total} pageSize={pageSize} onPageChange={setPage} />
+          </>
+        )}
       </Card>
     </div>
   );

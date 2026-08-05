@@ -3,13 +3,15 @@
 import { useState } from "react";
 import { Bell, Menu, Search } from "lucide-react";
 import { Avatar } from "./ui/Avatar";
-import { platformEvents } from "@/lib/mock";
+import { useCollection } from "@/lib/store";
+import type { PlatformEvent } from "@/types/portal";
 import { cn } from "@/lib/utils/cn";
 
 export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; username: string }) {
   const [notifOpen, setNotifOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
-  const notifications = platformEvents.slice(0, 5);
+  const [events] = useCollection<PlatformEvent>("oasis_platform_events");
+  const notifications = events.slice(0, 5);
 
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b border-slate-200/70 bg-white/80 px-4 backdrop-blur-md sm:px-6">
@@ -43,19 +45,25 @@ export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; u
             aria-label="Notifications"
           >
             <Bell className="h-[18px] w-[18px]" />
-            <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-rose-500 ring-2 ring-white" />
+            {notifications.length > 0 && (
+              <span className="absolute right-1.5 top-1.5 h-2 w-2 animate-pulse rounded-full bg-rose-500 ring-2 ring-white" />
+            )}
           </button>
           {notifOpen && (
             <div className="animate-pop absolute right-0 top-12 w-80 rounded-2xl border border-slate-100 bg-white p-2 shadow-popover">
-              <p className="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Recent notifications</p>
-              <div className="max-h-80 space-y-0.5 overflow-y-auto">
-                {notifications.map((n) => (
-                  <div key={n.id} className="rounded-xl px-3 py-2.5 transition hover:bg-slate-50">
-                    <p className="text-[13px] leading-snug text-slate-700">{n.message}</p>
-                    <p className="mt-0.5 text-[11px] text-slate-400">{n.timestamp}</p>
-                  </div>
-                ))}
-              </div>
+              <p className="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Recent activity</p>
+              {notifications.length === 0 ? (
+                <p className="px-3 py-6 text-center text-xs text-slate-400">Nothing yet - actions you take will show up here.</p>
+              ) : (
+                <div className="max-h-80 space-y-0.5 overflow-y-auto">
+                  {notifications.map((n) => (
+                    <div key={n.id} className="rounded-xl px-3 py-2.5 transition hover:bg-slate-50">
+                      <p className="text-[13px] leading-snug text-slate-700">{n.message}</p>
+                      <p className="mt-0.5 text-[11px] text-slate-400">{n.timestamp}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

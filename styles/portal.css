@@ -30,6 +30,17 @@
   html {
     -webkit-font-smoothing: antialiased;
   }
+  /* Inter is the only font used across the whole site (loaded via
+     @font-face in styles/blocks.css, imported in the root layout) - this
+     just makes that explicit for the portal rather than relying solely on
+     Tailwind's font-sans utility picking up --font-sans. */
+  body,
+  input,
+  select,
+  textarea,
+  button {
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  }
   body {
     background-color: #f6f6fb;
     color: #16151f;

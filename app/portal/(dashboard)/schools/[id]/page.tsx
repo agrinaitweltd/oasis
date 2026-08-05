@@ -22,9 +22,11 @@ import { Button } from "@/components/portal/ui/Button";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { Modal } from "@/components/portal/ui/Modal";
 import { Input } from "@/components/portal/ui/Input";
-import { getSchoolRequestById, apiKeysForRequest } from "@/lib/mock/school-requests";
+import { getSchoolById, updateSchoolStatus, apiKeysForSchool, addApiKey, revokeApiKey } from "@/lib/school-registry";
+import { logEvent } from "@/lib/platform-store";
+import { useCollection } from "@/lib/store";
 import { documentRequirements } from "@/lib/onboarding-types";
-import { applyAdminAction, type AdminActionType } from "@/lib/admin-actions";
+import type { AdminActionType } from "@/lib/admin-actions";
 import type { ApiKey, SchoolRequestStatus } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
 import { cn } from "@/lib/utils/cn";
@@ -51,12 +53,12 @@ const STAGE_LABEL: Record<SchoolRequestStatus, string> = {
   suspended: "Suspended",
 };
 
-function fakeKeySuffix() {
-  const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
-  let s = "";
-  for (let i = 0; i < 24; i++) s += chars[Math.floor(Math.random() * chars.length)];
-  return s;
-}
+const ACTION_TO_STATUS: Record<AdminActionType, SchoolRequestStatus> = {
+  approve: "approved",
+  reject: "rejected",
+  request_more_info: "more_info_requested",
+  suspend: "suspended",
+};
 
 export default function SchoolRequestDetailPage() {
   const params = useParams<{ id: string }>();
@@ -64,56 +66,52 @@ export default function SchoolRequestDetailPage() {
   const { toast } = useToast();
   const [tab, setTab] = useState<(typeof TABS)[number]["key"]>("overview");
 
-  const request = getSchoolRequestById(params.id);
-  const [status, setStatus] = useState<SchoolRequestStatus | null>(request?.status ?? null);
-  const [keys, setKeys] = useState<ApiKey[]>(() => (request ? apiKeysForRequest(request.id) : []));
+  // Reactive to the shared registry, so this page reflects changes made
+  // anywhere else (and updates live after our own actions).
+  const [allSchools] = useCollection<import("@/types/portal").SchoolRequest>("oasis_school_registry");
+  const request = allSchools.find((s) => s.id === params.id) ?? getSchoolById(params.id);
+  const [allKeys] = useCollection<ApiKey>("oasis_api_keys_registry");
+
   const [newKeyOpen, setNewKeyOpen] = useState(false);
   const [newKeyLabel, setNewKeyLabel] = useState("");
   const [revealedKey, setRevealedKey] = useState<{ label: string; full: string } | null>(null);
 
-  if (!request || !status) {
+  if (!request) {
     return (
       <div>
         <PageHeader title="School not found" breadcrumbs={[{ label: "Schools", href: "/portal/schools" }, { label: "Not found" }]} />
-        <EmptyState title="We couldn't find that school request" />
+        <EmptyState title="We couldn't find that school" />
       </div>
     );
   }
 
+  const status = request.status;
+  const keys = allKeys.filter((k) => k.schoolRequestId === request.id);
+
   function runAction(action: AdminActionType) {
-    const result = applyAdminAction({ applicationId: request!.id, action });
-    // applyAdminAction's return type is shared with the onboarding wizard's
-    // ApplicationStatus (which also has "draft"), but action-derived results
-    // are always one of the four non-draft statuses below.
-    setStatus(result.status as SchoolRequestStatus);
+    const nextStatus = ACTION_TO_STATUS[action];
+    updateSchoolStatus(request!.id, nextStatus);
     const messages: Record<AdminActionType, string> = {
       approve: `${request!.schoolName} has been approved and can now be onboarded.`,
       reject: `${request!.schoolName}'s request has been rejected.`,
       request_more_info: `More information has been requested from ${request!.schoolName}.`,
       suspend: `${request!.schoolName}'s access has been suspended.`,
     };
+    const eventType = action === "approve" ? "school_created" : action === "suspend" ? "subscription_cancelled" : "admin_invited";
+    logEvent(eventType, messages[action], "admin");
     toast(action === "approve" ? "success" : action === "reject" || action === "suspend" ? "error" : "info", "Status updated", messages[action]);
   }
 
   function generateKey() {
-    const full = `oas_live_${fakeKeySuffix()}`;
-    const key: ApiKey = {
-      id: `key_new_${Date.now()}`,
-      schoolRequestId: request!.id,
-      label: newKeyLabel.trim() || "New key",
-      keyPreview: `${full.slice(0, 12)}••••••••${full.slice(-4)}`,
-      createdAt: new Date().toISOString().slice(0, 10),
-      lastUsedAt: null,
-      status: "active",
-    };
-    setKeys((prev) => [key, ...prev]);
+    const { key, full } = addApiKey(request!.id, newKeyLabel);
     setRevealedKey({ label: key.label, full });
     setNewKeyOpen(false);
     setNewKeyLabel("");
+    logEvent("feature_enabled", `API key "${key.label}" issued for ${request!.schoolName}`, "admin");
   }
 
-  function revokeKey(id: string) {
-    setKeys((prev) => prev.map((k) => (k.id === id ? { ...k, status: "revoked" } : k)));
+  function handleRevoke(id: string) {
+    revokeApiKey(id);
     toast("info", "API key revoked", "This key can no longer be used to authenticate requests.");
   }
 
@@ -177,7 +175,7 @@ export default function SchoolRequestDetailPage() {
             <dl className="grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
               <Detail label="School Name" value={request.schoolName} />
               <Detail label="School Code" value={request.schoolCode} />
-              <Detail label="Address" value={request.address} />
+              <Detail label="Address" value={request.address || "—"} />
               <Detail label="Contact Email" value={request.contactEmail} />
               <Detail label="Contact Phone" value={request.contactPhone} />
               <Detail label="Created Date" value={request.createdAt} />
@@ -197,10 +195,22 @@ export default function SchoolRequestDetailPage() {
               />
             </dl>
           </Card>
+          {request.modulesRequested.length > 0 && (
+            <Card className="lg:col-span-2">
+              <CardHeader title="Modules requested" />
+              <div className="flex flex-wrap gap-1.5">
+                {request.modulesRequested.map((m) => (
+                  <Badge key={m} tone="info">
+                    {m}
+                  </Badge>
+                ))}
+              </div>
+            </Card>
+          )}
           <Card className="lg:col-span-2 border-dashed bg-slate-50/60">
             <p className="text-xs text-slate-400">
               This view is metadata only. Student, parent, attendance, fee, class and exam data belonging to this
-              school are never accessible here - see the Support tab for the time-boxed access process.
+              school are never accessible here - see the Support page for the time-boxed access process.
             </p>
           </Card>
         </div>
@@ -208,26 +218,28 @@ export default function SchoolRequestDetailPage() {
 
       {tab === "documents" && (
         <Card className="p-0">
+          <div className="border-b border-slate-100 p-4">
+            <p className="text-sm text-slate-500">
+              Document upload happens on the school&rsquo;s side after approval; nothing has been uploaded here yet.
+            </p>
+          </div>
           <div className="divide-y divide-slate-50">
-            {documentRequirements.map((doc, i) => {
-              const uploaded = i % 3 !== 2; // mock: most documents present, a few missing
-              return (
-                <div key={doc.key} className="flex items-center justify-between p-4">
-                  <div className="flex items-center gap-3">
-                    <span className={cn("flex h-9 w-9 items-center justify-center rounded-lg", uploaded ? "bg-emerald-50 text-emerald-600" : "bg-slate-100 text-slate-400")}>
-                      <FileText className="h-4 w-4" />
-                    </span>
-                    <div>
-                      <p className="text-sm font-medium text-slate-700">
-                        {doc.label} {doc.required && <span className="text-rose-400">*</span>}
-                      </p>
-                      <p className="text-xs text-slate-400">{doc.description}</p>
-                    </div>
+            {documentRequirements.map((doc) => (
+              <div key={doc.key} className="flex items-center justify-between p-4">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-slate-100 text-slate-400">
+                    <FileText className="h-4 w-4" />
+                  </span>
+                  <div>
+                    <p className="text-sm font-medium text-slate-700">
+                      {doc.label} {doc.required && <span className="text-rose-400">*</span>}
+                    </p>
+                    <p className="text-xs text-slate-400">{doc.description}</p>
                   </div>
-                  <Badge tone={uploaded ? "success" : "neutral"}>{uploaded ? "Uploaded" : "Missing"}</Badge>
                 </div>
-              );
-            })}
+                <Badge tone="neutral">Not uploaded</Badge>
+              </div>
+            ))}
           </div>
         </Card>
       )}
@@ -262,7 +274,7 @@ export default function SchoolRequestDetailPage() {
                   <div className="flex items-center gap-2">
                     <Badge tone={k.status === "active" ? "success" : "neutral"}>{k.status === "active" ? "Active" : "Revoked"}</Badge>
                     {k.status === "active" && (
-                      <Button variant="ghost" size="sm" onClick={() => revokeKey(k.id)}>
+                      <Button variant="ghost" size="sm" onClick={() => handleRevoke(k.id)}>
                         <Ban className="h-3.5 w-3.5" /> Revoke
                       </Button>
                     )}
@@ -276,7 +288,7 @@ export default function SchoolRequestDetailPage() {
 
       {tab === "actions" && (
         <Card>
-          <CardHeader title="Review actions" subtitle="Change this school's status. This mirrors what a real review workflow will call." />
+          <CardHeader title="Review actions" subtitle="Change this school's status." />
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <ActionButton
               label="Approve"
@@ -341,9 +353,7 @@ export default function SchoolRequestDetailPage() {
         title="API key generated"
         description="Copy this key now - you won't be able to see it again."
         maxWidth={480}
-        footer={
-          <Button onClick={() => setRevealedKey(null)}>Done</Button>
-        }
+        footer={<Button onClick={() => setRevealedKey(null)}>Done</Button>}
       >
         {revealedKey && (
           <div>

@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronsLeft, LogOut, Sparkles } from "lucide-react";
+import { ChevronsLeft, LogOut } from "lucide-react";
 import { portalNav } from "@/lib/portal-nav";
 import { cn } from "@/lib/utils/cn";
 
@@ -26,19 +27,38 @@ export function Sidebar({
   const content = (
     <div className="flex h-full flex-col">
       <div className={cn("flex items-center gap-2.5 px-4 py-5", collapsed && "justify-center px-0")}>
-        <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-oasis-500 text-white shadow-sm">
-          <Sparkles className="h-4.5 w-4.5" />
-        </span>
-        {!collapsed && (
-          <div className="min-w-0">
-            <p className="truncate text-sm font-bold text-slate-900">OASIS</p>
+        {collapsed ? (
+          <Image
+            key="logo1"
+            src="/images/logo1.png"
+            alt="OASIS"
+            width={32}
+            height={32}
+            unoptimized
+            priority
+            className="animate-pop flex-shrink-0"
+            style={{ width: 32, height: 32, objectFit: "contain" }}
+          />
+        ) : (
+          <div className="flex min-w-0 items-center gap-2.5">
+            <Image
+              key="logo"
+              src="/images/logo.png"
+              alt="OASIS"
+              width={120}
+              height={36}
+              unoptimized
+              priority
+              className="animate-pop flex-shrink-0"
+              style={{ width: 120, height: 36, objectFit: "contain", objectPosition: "left center" }}
+            />
             <p className="truncate text-[11px] text-slate-400">{schoolName}</p>
           </div>
         )}
       </div>
 
       <nav className="scrollbar-thin flex-1 space-y-0.5 overflow-y-auto px-2.5 pb-4">
-        {portalNav.map((item) => {
+        {portalNav.map((item, i) => {
           const active = pathname === item.href || pathname?.startsWith(item.href + "/");
           const Icon = item.icon;
           return (
@@ -48,12 +68,13 @@ export function Sidebar({
               onClick={onMobileClose}
               title={collapsed ? item.label : undefined}
               className={cn(
-                "group flex items-center gap-3 rounded-xl px-3 py-2.5 text-[13.5px] font-medium transition-all duration-150",
+                "group animate-fade-up flex items-center gap-3 rounded-xl px-3 py-2.5 text-[13.5px] font-medium transition-all duration-150",
                 collapsed && "justify-center px-0",
                 active ? "bg-oasis-50 text-oasis-700" : "text-slate-500 hover:bg-slate-100 hover:text-slate-800"
               )}
+              style={{ animationDelay: `${i * 25}ms` }}
             >
-              <Icon className={cn("h-[18px] w-[18px] flex-shrink-0 transition-transform", active && "scale-105")} />
+              <Icon className={cn("h-[18px] w-[18px] flex-shrink-0 transition-transform duration-200", active && "scale-110")} />
               {!collapsed && <span className="truncate">{item.label}</span>}
             </Link>
           );

@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Building2 } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { SearchInput } from "@/components/portal/ui/Input";
@@ -9,9 +10,10 @@ import { Table, type Column } from "@/components/portal/ui/Table";
 import { Pagination } from "@/components/portal/ui/Pagination";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Avatar } from "@/components/portal/ui/Avatar";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { useDebounce } from "@/hooks/useDebounce";
 import { usePagination } from "@/hooks/usePagination";
-import { schoolRequests } from "@/lib/mock/school-requests";
+import { useCollection } from "@/lib/store";
 import type { SchoolRequest, SchoolRequestStatus } from "@/types/portal";
 import { cn } from "@/lib/utils/cn";
 
@@ -41,18 +43,19 @@ const SUB_STATUS_TONE: Record<string, "neutral" | "info" | "warning" | "success"
 
 export default function SchoolsPage() {
   const router = useRouter();
+  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query);
   const [statusFilter, setStatusFilter] = useState<SchoolRequestStatus | "all">("all");
 
   const filtered = useMemo(() => {
     const q = debouncedQuery.trim().toLowerCase();
-    return schoolRequests.filter((r) => {
+    return schools.filter((r) => {
       const matchesQuery = !q || r.schoolName.toLowerCase().includes(q) || r.schoolCode.toLowerCase().includes(q) || r.district.toLowerCase().includes(q);
       const matchesStatus = statusFilter === "all" || r.status === statusFilter;
       return matchesQuery && matchesStatus;
     });
-  }, [debouncedQuery, statusFilter]);
+  }, [schools, debouncedQuery, statusFilter]);
 
   const { page, pageCount, pageItems, total, pageSize, setPage } = usePagination(filtered, 8);
 
@@ -86,7 +89,7 @@ export default function SchoolsPage() {
     { key: "status", header: "Status", render: (r) => <Badge tone={STAGE_TONE[r.status]}>{STAGE_LABEL[r.status]}</Badge> },
   ];
 
-  const counts = STAGES.map((s) => ({ status: s, count: schoolRequests.filter((r) => r.status === s).length }));
+  const counts = STAGES.map((s) => ({ status: s, count: schools.filter((r) => r.status === s).length }));
 
   return (
     <div>
@@ -102,7 +105,7 @@ export default function SchoolsPage() {
             key={status}
             onClick={() => setStatusFilter(statusFilter === status ? "all" : status)}
             className={cn(
-              "rounded-2xl border p-3.5 text-left transition",
+              "rounded-2xl border p-3.5 text-left transition hover:-translate-y-0.5",
               statusFilter === status ? "border-oasis-400 bg-oasis-50" : "border-slate-200/70 bg-white hover:border-slate-300"
             )}
           >
@@ -116,13 +119,20 @@ export default function SchoolsPage() {
         <div className="border-b border-slate-100 p-4">
           <SearchInput placeholder="Search by school, code or district..." value={query} onChange={(e) => setQuery(e.target.value)} className="max-w-sm" />
         </div>
-        <Table
-          columns={columns}
-          rows={pageItems}
-          onRowClick={(r) => router.push(`/portal/schools/${r.id}`)}
-          emptyTitle="No schools match your filters"
-        />
-        <Pagination page={page} pageCount={pageCount} total={total} pageSize={pageSize} onPageChange={setPage} />
+        {schools.length === 0 ? (
+          <div className="p-6">
+            <EmptyState
+              icon={Building2}
+              title="No schools registered yet"
+              description="Schools will appear here automatically as soon as they complete registration."
+            />
+          </div>
+        ) : (
+          <>
+            <Table columns={columns} rows={pageItems} onRowClick={(r) => router.push(`/portal/schools/${r.id}`)} emptyTitle="No schools match your filters" />
+            <Pagination page={page} pageCount={pageCount} total={total} pageSize={pageSize} onPageChange={setPage} />
+          </>
+        )}
       </Card>
     </div>
   );

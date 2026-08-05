@@ -9,15 +9,21 @@ import { Badge } from "@/components/portal/ui/Badge";
 import { Button } from "@/components/portal/ui/Button";
 import { Modal } from "@/components/portal/ui/Modal";
 import { Input, Select } from "@/components/portal/ui/Input";
-import { platformNotifications } from "@/lib/mock/platform";
-import { schoolRequests } from "@/lib/mock/school-requests";
-import type { PlatformNotification } from "@/types/portal";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { sendNotification } from "@/lib/platform-store";
+import { useCollection } from "@/lib/store";
+import type { PlatformNotification, SchoolRequest } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
 
 export default function NotificationsPage() {
   const { toast } = useToast();
+  const [notifications] = useCollection<PlatformNotification>("oasis_platform_notifications");
+  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
   const [composeOpen, setComposeOpen] = useState(false);
   const [audience, setAudience] = useState<"one" | "multiple" | "all">("all");
+  const [oneSchool, setOneSchool] = useState("");
+  const [title, setTitle] = useState("");
+  const [body, setBody] = useState("");
 
   const columns: Column<PlatformNotification>[] = [
     {
@@ -35,6 +41,19 @@ export default function NotificationsPage() {
     { key: "status", header: "Status", render: (n) => <Badge tone={n.status === "sent" ? "success" : n.status === "scheduled" ? "warning" : "neutral"}>{n.status}</Badge> },
   ];
 
+  function submit() {
+    if (!title.trim() || !body.trim()) {
+      toast("error", "Missing details", "Add a title and message.");
+      return;
+    }
+    const targetSchools = audience === "one" ? [oneSchool] : audience === "multiple" ? schools.map((s) => s.schoolName) : [];
+    sendNotification({ title: title.trim(), body: body.trim(), audience, targetSchools });
+    setComposeOpen(false);
+    setTitle("");
+    setBody("");
+    toast("success", "Notification sent", "");
+  }
+
   return (
     <div>
       <PageHeader
@@ -49,7 +68,13 @@ export default function NotificationsPage() {
       />
 
       <Card className="p-0">
-        <Table columns={columns} rows={platformNotifications} emptyTitle="No notifications sent yet" />
+        {notifications.length === 0 ? (
+          <div className="p-6">
+            <EmptyState title="No notifications sent yet" description="Compose one above to notify schools." />
+          </div>
+        ) : (
+          <Table columns={columns} rows={notifications} emptyTitle="No notifications sent yet" />
+        )}
       </Card>
 
       <Modal
@@ -62,12 +87,7 @@ export default function NotificationsPage() {
             <Button variant="secondary" onClick={() => setComposeOpen(false)}>
               Cancel
             </Button>
-            <Button
-              onClick={() => {
-                setComposeOpen(false);
-                toast("success", "Notification sent", "");
-              }}
-            >
+            <Button onClick={submit}>
               <Send className="h-4 w-4" /> Send
             </Button>
           </>
@@ -85,9 +105,10 @@ export default function NotificationsPage() {
           {audience === "one" && (
             <div>
               <label className="mb-1.5 block text-xs font-semibold text-slate-600">School</label>
-              <Select defaultValue={schoolRequests[0]?.id}>
-                {schoolRequests.map((s) => (
-                  <option key={s.id} value={s.id}>
+              <Select value={oneSchool} onChange={(e) => setOneSchool(e.target.value)}>
+                <option value="">Select a school</option>
+                {schools.map((s) => (
+                  <option key={s.id} value={s.schoolName}>
                     {s.schoolName}
                   </option>
                 ))}
@@ -96,11 +117,13 @@ export default function NotificationsPage() {
           )}
           <div>
             <label className="mb-1.5 block text-xs font-semibold text-slate-600">Title</label>
-            <Input placeholder="e.g. Scheduled maintenance" />
+            <Input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="e.g. Scheduled maintenance" />
           </div>
           <div>
             <label className="mb-1.5 block text-xs font-semibold text-slate-600">Message</label>
             <textarea
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
               rows={4}
               placeholder="Write your announcement..."
               className="w-full rounded-xl border border-slate-200 bg-white p-3.5 text-sm outline-none transition focus:border-oasis-400 focus:ring-4 focus:ring-oasis-100"

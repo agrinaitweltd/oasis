@@ -16,6 +16,7 @@ import Step10Review from "@/components/onboarding/steps/Step10Review";
 import { loadApplication, saveApplication } from "@/lib/onboarding-storage";
 import type { ModuleKey, OnboardingData, SchoolApplication } from "@/lib/onboarding-types";
 import { onboardingSteps } from "@/lib/onboarding-steps";
+import { registerSchoolFromApplication } from "@/lib/school-registry";
 
 type Errors = Record<string, string>;
 
@@ -168,6 +169,7 @@ export default function RegisterPage() {
     await new Promise((r) => setTimeout(r, 1200));
     const submitted: SchoolApplication = { ...app, status: "pending_review", submittedAt: new Date().toISOString() };
     saveApplication(submitted);
+    registerSchoolFromApplication(submitted);
     router.push("/register/pending");
   }
 

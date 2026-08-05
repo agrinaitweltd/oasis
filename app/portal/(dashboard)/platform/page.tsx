@@ -1,29 +1,45 @@
 "use client";
 
-import { useState } from "react";
-import { Megaphone, Plus, Rocket, ToggleLeft } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Megaphone, Plus, ToggleLeft } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card, CardHeader } from "@/components/portal/ui/Card";
-import { Badge } from "@/components/portal/ui/Badge";
 import { Button } from "@/components/portal/ui/Button";
 import { Select } from "@/components/portal/ui/Input";
-import { featureFlags as initialFlags, platformAnnouncements, globalSettings, deployments } from "@/lib/mock/platform";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { listFeatureFlags, toggleFeatureFlag, getMaintenanceMode, setMaintenanceMode, logEvent } from "@/lib/platform-store";
 import type { FeatureFlag } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
 import { cn } from "@/lib/utils/cn";
 
 const TABS = ["Overview", "Feature Flags", "Announcements", "Global Settings"] as const;
+const PLATFORM_VERSION = "0.1.0";
 
 export default function PlatformPage() {
   const { toast } = useToast();
   const [tab, setTab] = useState<(typeof TABS)[number]>("Overview");
-  const [maintenance, setMaintenance] = useState(globalSettings.maintenanceMode);
-  const [flags, setFlags] = useState<FeatureFlag[]>(initialFlags);
+  const [maintenance, setMaintenance] = useState(false);
+  const [flags, setFlags] = useState<FeatureFlag[]>([]);
+
+  useEffect(() => {
+    setMaintenance(getMaintenanceMode());
+    setFlags(listFeatureFlags());
+  }, []);
+
+  function toggleMaintenance() {
+    const next = !maintenance;
+    setMaintenanceMode(next);
+    setMaintenance(next);
+    logEvent("maintenance", next ? "Maintenance mode enabled" : "Maintenance mode disabled", "admin");
+    toast(next ? "info" : "success", next ? "Maintenance mode enabled" : "Maintenance mode disabled", "");
+  }
 
   function toggleFlag(id: string) {
-    setFlags((prev) => prev.map((f) => (f.id === id ? { ...f, enabled: !f.enabled } : f)));
-    const flag = flags.find((f) => f.id === id);
-    toast("info", "Feature flag updated", `${flag?.label} is now ${flag?.enabled ? "disabled" : "enabled"}.`);
+    toggleFeatureFlag(id);
+    const updated = listFeatureFlags();
+    setFlags(updated);
+    const flag = updated.find((f) => f.id === id);
+    toast("info", "Feature flag updated", `${flag?.label} is now ${flag?.enabled ? "enabled" : "disabled"}.`);
   }
 
   return (
@@ -60,31 +76,20 @@ export default function PlatformPage() {
               </div>
               <button
                 type="button"
-                onClick={() => {
-                  setMaintenance((v) => !v);
-                  toast(maintenance ? "success" : "info", maintenance ? "Maintenance mode disabled" : "Maintenance mode enabled", "");
-                }}
-                className={cn("relative h-7 w-12 flex-shrink-0 rounded-full transition", maintenance ? "bg-amber-500" : "bg-slate-300")}
+                onClick={toggleMaintenance}
+                className={cn("relative h-7 w-12 flex-shrink-0 rounded-full transition-colors duration-300", maintenance ? "bg-amber-500" : "bg-slate-300")}
               >
-                <span className={cn("absolute top-1 h-5 w-5 rounded-full bg-white shadow transition-transform", maintenance ? "translate-x-6" : "translate-x-1")} />
+                <span className={cn("absolute top-1 h-5 w-5 rounded-full bg-white shadow transition-transform duration-300", maintenance ? "translate-x-6" : "translate-x-1")} />
               </button>
             </div>
           </Card>
 
           <Card>
-            <CardHeader title="Version control" subtitle="Recent deployments" />
-            <ul className="space-y-2">
-              {deployments.map((d) => (
-                <li key={d.id} className="flex items-center justify-between rounded-xl bg-slate-50 px-3 py-2 text-sm">
-                  <div className="flex items-center gap-2">
-                    <Rocket className="h-3.5 w-3.5 text-slate-400" />
-                    <span className="font-medium text-slate-700">{d.version}</span>
-                    <span className="text-xs text-slate-400">{d.environment}</span>
-                  </div>
-                  <Badge tone={d.status === "success" ? "success" : d.status === "failed" ? "danger" : "warning"}>{d.status}</Badge>
-                </li>
-              ))}
-            </ul>
+            <CardHeader title="Version" subtitle="Current platform release" />
+            <div className="flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3 text-sm">
+              <span className="font-medium text-slate-700">OASIS Platform</span>
+              <span className="font-mono text-slate-500">v{PLATFORM_VERSION}</span>
+            </div>
           </Card>
         </div>
       )}
@@ -97,14 +102,13 @@ export default function PlatformPage() {
                 <div>
                   <p className="text-sm font-semibold text-slate-800">{f.label}</p>
                   <p className="text-xs text-slate-500">{f.description}</p>
-                  <p className="mt-1 text-[11px] text-slate-400">Rollout: {f.rolloutPercent}%</p>
                 </div>
                 <button
                   type="button"
                   onClick={() => toggleFlag(f.id)}
-                  className={cn("relative h-6 w-11 flex-shrink-0 rounded-full transition", f.enabled ? "bg-oasis-500" : "bg-slate-300")}
+                  className={cn("relative h-6 w-11 flex-shrink-0 rounded-full transition-colors duration-300", f.enabled ? "bg-oasis-500" : "bg-slate-300")}
                 >
-                  <span className={cn("absolute top-1 h-4 w-4 rounded-full bg-white shadow transition-transform", f.enabled ? "translate-x-6" : "translate-x-1")} />
+                  <span className={cn("absolute top-1 h-4 w-4 rounded-full bg-white shadow transition-transform duration-300", f.enabled ? "translate-x-6" : "translate-x-1")} />
                 </button>
               </div>
             ))}
@@ -113,32 +117,17 @@ export default function PlatformPage() {
       )}
 
       {tab === "Announcements" && (
-        <Card className="p-0">
-          <div className="flex items-center justify-between border-b border-slate-100 p-4">
-            <p className="text-sm text-slate-500">Platform-wide messages shown to schools.</p>
-            <Button size="sm" onClick={() => toast("info", "Compose announcement", "Announcement composer would open here.")}>
-              <Plus className="h-3.5 w-3.5" /> New announcement
-            </Button>
-          </div>
-          <div className="divide-y divide-slate-50">
-            {platformAnnouncements.map((a) => (
-              <div key={a.id} className="flex items-start justify-between gap-4 p-4">
-                <div className="flex items-start gap-3">
-                  <span className="mt-0.5 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-oasis-50 text-oasis-600">
-                    <Megaphone className="h-4 w-4" />
-                  </span>
-                  <div>
-                    <p className="text-sm font-semibold text-slate-800">{a.title}</p>
-                    <p className="text-xs text-slate-500">{a.body}</p>
-                    <p className="mt-1 text-[11px] text-slate-400">
-                      {a.audience} &middot; {a.publishedAt}
-                    </p>
-                  </div>
-                </div>
-                <Badge tone={a.status === "published" ? "success" : a.status === "scheduled" ? "warning" : "neutral"}>{a.status}</Badge>
-              </div>
-            ))}
-          </div>
+        <Card>
+          <EmptyState
+            icon={Megaphone}
+            title="No announcements yet"
+            description="Platform-wide announcements sent to schools appear here. Use Notifications to compose one."
+            action={
+              <Button onClick={() => toast("info", "Head to Notifications", "Announcements are composed there.")}>
+                <Plus className="h-4 w-4" /> Compose
+              </Button>
+            }
+          />
         </Card>
       )}
 
@@ -147,27 +136,27 @@ export default function PlatformPage() {
           <CardHeader title="Global academic & platform defaults" />
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <Field label="Default Academic Year Start">
-              <Select defaultValue={globalSettings.defaultAcademicYearStart}>
+              <Select defaultValue="February">
                 <option>January</option>
                 <option>February</option>
                 <option>September</option>
               </Select>
             </Field>
             <Field label="Default Terms per Year">
-              <Select defaultValue={String(globalSettings.defaultTermsPerYear)}>
+              <Select defaultValue="3">
                 <option value="2">2</option>
                 <option value="3">3</option>
               </Select>
             </Field>
             <Field label="Default Currency">
-              <Select defaultValue={globalSettings.defaultCurrency}>
+              <Select defaultValue="UGX">
                 <option>UGX</option>
                 <option>KES</option>
                 <option>USD</option>
               </Select>
             </Field>
             <Field label="Default Timezone">
-              <Select defaultValue={globalSettings.defaultTimezone}>
+              <Select defaultValue="Africa/Kampala">
                 <option>Africa/Kampala</option>
                 <option>Africa/Nairobi</option>
               </Select>

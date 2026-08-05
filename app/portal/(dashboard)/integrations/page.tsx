@@ -1,14 +1,14 @@
 "use client";
 
-import { CreditCard, Mail, MessageSquareText, Plug, ShieldQuestion } from "lucide-react";
+import { CreditCard, Mail, MessageSquareText, ShieldQuestion } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Button } from "@/components/portal/ui/Button";
-import { integrations } from "@/lib/mock/platform";
+import { INTEGRATION_DEFS } from "@/lib/platform-store";
 import { useToast } from "@/hooks/useToast";
 
-const CATEGORY_ICON: Record<string, typeof Plug> = {
+const CATEGORY_ICON: Record<string, typeof CreditCard> = {
   payments: CreditCard,
   email: Mail,
   sms: MessageSquareText,
@@ -25,7 +25,7 @@ const CATEGORY_LABEL: Record<string, string> = {
 
 export default function IntegrationsPage() {
   const { toast } = useToast();
-  const grouped = integrations.reduce<Record<string, typeof integrations>>((acc, i) => {
+  const grouped = INTEGRATION_DEFS.reduce<Record<string, typeof INTEGRATION_DEFS>>((acc, i) => {
     (acc[i.category] ??= []).push(i);
     return acc;
   }, {});
@@ -34,7 +34,7 @@ export default function IntegrationsPage() {
     <div>
       <PageHeader
         title="Integrations"
-        description="Platform-level connections for payments, email, SMS, WhatsApp and Google services."
+        description="Platform-level connections for payments, email, SMS, WhatsApp and Google services. Nothing is connected yet."
         breadcrumbs={[{ label: "Dashboard", href: "/portal/dashboard" }, { label: "Integrations" }]}
       />
 
@@ -45,26 +45,17 @@ export default function IntegrationsPage() {
             <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-slate-400">{CATEGORY_LABEL[category]}</p>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {items.map((i) => (
-                <Card key={i.id} className="flex items-center justify-between gap-3">
+                <Card key={i.name} className="flex items-center justify-between gap-3">
                   <div className="flex items-center gap-3">
                     <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-oasis-50 text-oasis-600">
                       <Icon className="h-5 w-5" />
                     </span>
-                    <div>
-                      <p className="text-sm font-semibold text-slate-800">{i.name}</p>
-                      <p className="text-xs text-slate-400">{i.connectedSchools} schools connected</p>
-                    </div>
+                    <p className="text-sm font-semibold text-slate-800">{i.name}</p>
                   </div>
                   <div className="flex flex-col items-end gap-2">
-                    <Badge tone={i.status === "connected" ? "success" : i.status === "error" ? "danger" : "neutral"}>
-                      {i.status === "connected" ? "Connected" : i.status === "error" ? "Error" : "Not Connected"}
-                    </Badge>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      onClick={() => toast("info", i.status === "connected" ? "Manage integration" : "Connect integration", i.name)}
-                    >
-                      {i.status === "connected" ? "Manage" : "Connect"}
+                    <Badge tone="neutral">Not Connected</Badge>
+                    <Button variant="ghost" size="sm" onClick={() => toast("info", "Connect integration", `Connecting ${i.name} requires backend credentials.`)}>
+                      Connect
                     </Button>
                   </div>
                 </Card>

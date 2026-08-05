@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { AlertTriangle, Database, Gauge, ListTree, Rocket, Trash2, Webhook } from "lucide-react";
+import { Database, Gauge, ListTree, Rocket, Trash2, Webhook } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card, CardHeader } from "@/components/portal/ui/Card";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Button } from "@/components/portal/ui/Button";
-import { apiKeys, getSchoolRequestById } from "@/lib/mock/school-requests";
-import { errorLogs, deployments, queues } from "@/lib/mock/platform";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { useCollection } from "@/lib/store";
+import type { ApiKey, SchoolRequest } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
 import { cn } from "@/lib/utils/cn";
 
@@ -16,12 +17,14 @@ const TABS = ["API Keys", "Queues", "Error Logs", "Deployments", "Maintenance"] 
 export default function DeveloperToolsPage() {
   const { toast } = useToast();
   const [tab, setTab] = useState<(typeof TABS)[number]>("API Keys");
+  const [keys] = useCollection<ApiKey>("oasis_api_keys_registry");
+  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
 
   return (
     <div>
       <PageHeader
         title="Developer Tools"
-        description="Feature flags, API keys, webhooks, queues, error logs, performance and deployments."
+        description="API keys, webhooks, queues, error logs, performance and deployments."
         breadcrumbs={[{ label: "Dashboard", href: "/portal/dashboard" }, { label: "Developer Tools" }]}
       />
 
@@ -42,94 +45,45 @@ export default function DeveloperToolsPage() {
 
       {tab === "API Keys" && (
         <Card className="p-0">
-          <CardHeader title={`All issued API keys (${apiKeys.length})`} subtitle="Across every school" className="p-5 pb-0" />
-          <div className="divide-y divide-slate-50">
-            {apiKeys.map((k) => (
-              <div key={k.id} className="flex items-center justify-between p-4">
-                <div>
-                  <p className="text-sm font-semibold text-slate-800">{getSchoolRequestById(k.schoolRequestId)?.schoolName}</p>
-                  <p className="mt-0.5 font-mono text-xs text-slate-400">{k.keyPreview}</p>
-                  <p className="mt-0.5 text-[11px] text-slate-400">
-                    {k.label} &middot; Created {k.createdAt}
-                  </p>
+          <CardHeader title={`All issued API keys (${keys.length})`} subtitle="Across every school" className="p-5 pb-0" />
+          {keys.length === 0 ? (
+            <div className="p-6">
+              <EmptyState title="No API keys issued yet" description="Generate keys from a school's detail page once it's approved." />
+            </div>
+          ) : (
+            <div className="divide-y divide-slate-50">
+              {keys.map((k) => (
+                <div key={k.id} className="flex items-center justify-between p-4">
+                  <div>
+                    <p className="text-sm font-semibold text-slate-800">{schools.find((s) => s.id === k.schoolRequestId)?.schoolName ?? "—"}</p>
+                    <p className="mt-0.5 font-mono text-xs text-slate-400">{k.keyPreview}</p>
+                    <p className="mt-0.5 text-[11px] text-slate-400">
+                      {k.label} &middot; Created {k.createdAt}
+                    </p>
+                  </div>
+                  <Badge tone={k.status === "active" ? "success" : "neutral"}>{k.status}</Badge>
                 </div>
-                <Badge tone={k.status === "active" ? "success" : "neutral"}>{k.status}</Badge>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </Card>
       )}
 
       {tab === "Queues" && (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {queues.map((q) => (
-            <Card key={q.id}>
-              <div className="mb-2 flex items-center gap-2">
-                <ListTree className="h-4 w-4 text-oasis-500" />
-                <p className="text-sm font-semibold text-slate-800">{q.name}</p>
-              </div>
-              <div className="grid grid-cols-3 gap-2 text-center">
-                <div className="rounded-xl bg-slate-50 py-3">
-                  <p className="text-lg font-bold text-slate-800">{q.pending}</p>
-                  <p className="text-[11px] text-slate-400">Pending</p>
-                </div>
-                <div className="rounded-xl bg-sky-50 py-3">
-                  <p className="text-lg font-bold text-sky-700">{q.processing}</p>
-                  <p className="text-[11px] text-sky-500">Processing</p>
-                </div>
-                <div className="rounded-xl bg-rose-50 py-3">
-                  <p className="text-lg font-bold text-rose-700">{q.failed}</p>
-                  <p className="text-[11px] text-rose-500">Failed</p>
-                </div>
-              </div>
-            </Card>
-          ))}
-        </div>
+        <Card>
+          <EmptyState icon={ListTree} title="No queue monitoring connected" description="Connect a job queue (e.g. for SMS, email or report generation) to see live queue depth here." />
+        </Card>
       )}
 
       {tab === "Error Logs" && (
-        <Card className="p-0">
-          <div className="divide-y divide-slate-50">
-            {errorLogs.map((e) => (
-              <div key={e.id} className="flex items-start justify-between gap-4 p-4">
-                <div className="flex items-start gap-3">
-                  <span className={cn("mt-0.5 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg", e.level === "error" ? "bg-rose-50 text-rose-500" : "bg-amber-50 text-amber-600")}>
-                    <AlertTriangle className="h-4 w-4" />
-                  </span>
-                  <div>
-                    <p className="text-sm font-medium text-slate-800">{e.message}</p>
-                    <p className="mt-0.5 text-xs text-slate-400">
-                      {e.service} &middot; {e.occurredAt}
-                    </p>
-                  </div>
-                </div>
-                <Badge tone={e.level === "error" ? "danger" : "warning"}>{e.count}x</Badge>
-              </div>
-            ))}
-          </div>
+        <Card>
+          <EmptyState title="No errors reported" description="Application error tracking will populate this list once connected." />
         </Card>
       )}
 
       {tab === "Deployments" && (
-        <Card className="p-0">
-          <div className="divide-y divide-slate-50">
-            {deployments.map((d) => (
-              <div key={d.id} className="flex items-center justify-between p-4">
-                <div className="flex items-center gap-3">
-                  <Rocket className="h-4 w-4 text-slate-400" />
-                  <div>
-                    <p className="text-sm font-medium text-slate-800">
-                      {d.version} <span className="text-xs font-normal text-slate-400">({d.environment})</span>
-                    </p>
-                    <p className="text-xs text-slate-400">
-                      {d.deployedBy} &middot; {d.deployedAt}
-                    </p>
-                  </div>
-                </div>
-                <Badge tone={d.status === "success" ? "success" : d.status === "failed" ? "danger" : "warning"}>{d.status}</Badge>
-              </div>
-            ))}
-          </div>
+        <Card>
+          <EmptyState icon={Rocket} title="No deployment history" description="Connect CI/CD to see deployment history here." />
         </Card>
       )}
 
@@ -139,23 +93,23 @@ export default function DeveloperToolsPage() {
             <Webhook className="mb-3 h-6 w-6 text-oasis-500" />
             <p className="text-sm font-semibold text-slate-800">Webhooks</p>
             <p className="mb-3 text-xs text-slate-500">Manage outbound webhook endpoints.</p>
-            <Button variant="secondary" size="sm" onClick={() => toast("info", "Webhooks", "Webhook management would open here.")}>
+            <Button variant="secondary" size="sm" onClick={() => toast("info", "Webhooks", "No webhook endpoints configured yet.")}>
               Manage
             </Button>
           </Card>
           <Card>
             <Gauge className="mb-3 h-6 w-6 text-oasis-500" />
             <p className="text-sm font-semibold text-slate-800">Performance Monitoring</p>
-            <p className="mb-3 text-xs text-slate-500">P50 response time: 142ms &middot; P99: 890ms</p>
-            <Button variant="secondary" size="sm" onClick={() => toast("info", "Performance", "Detailed dashboard would open here.")}>
+            <p className="mb-3 text-xs text-slate-500">No monitoring service connected.</p>
+            <Button variant="secondary" size="sm" onClick={() => toast("info", "Performance", "Connect a monitoring service to see metrics.")}>
               View details
             </Button>
           </Card>
           <Card>
             <Database className="mb-3 h-6 w-6 text-oasis-500" />
             <p className="text-sm font-semibold text-slate-800">Database Migrations</p>
-            <p className="mb-3 text-xs text-slate-500">18 migrations applied &middot; up to date</p>
-            <Button variant="secondary" size="sm" onClick={() => toast("info", "Migrations", "Migration history would open here.")}>
+            <p className="mb-3 text-xs text-slate-500">No database connected yet.</p>
+            <Button variant="secondary" size="sm" onClick={() => toast("info", "Migrations", "Connect a database to see migration history.")}>
               View history
             </Button>
           </Card>

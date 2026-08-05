@@ -1,20 +1,17 @@
 "use client";
 
-import { GraduationCap, LogIn, MessageSquareText, Server, UserCog, Users } from "lucide-react";
+import { Building2, MapPin, Server } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
-import { Card, CardHeader } from "@/components/portal/ui/Card";
+import { Card } from "@/components/portal/ui/Card";
 import { StatCard } from "@/components/portal/ui/StatCard";
-import { TrendAreaChart, ComparisonBarChart } from "@/components/portal/charts/Charts";
-import { platformAnalytics } from "@/lib/mock/platform";
-import { schoolRequests } from "@/lib/mock/school-requests";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { useCollection } from "@/lib/store";
+import type { SchoolRequest } from "@/types/portal";
 
 export default function AnalyticsPage() {
-  const a = platformAnalytics;
-  const loginTrend = Array.from({ length: 8 }, (_, i) => ({ label: `Wk ${i + 1}`, value: Math.round((a.loginsThisMonth / 30) * (5 + i)) }));
-  const byDistrict = [...new Set(schoolRequests.map((r) => r.district))].map((d) => ({
-    label: d,
-    schools: schoolRequests.filter((r) => r.district === d).length,
-  }));
+  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
+  const approved = schools.filter((r) => r.status === "approved");
+  const districts = new Set(schools.map((r) => r.district)).size;
 
   return (
     <div>
@@ -25,26 +22,25 @@ export default function AnalyticsPage() {
       />
 
       <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-4">
-        <StatCard label="Students Across All Schools" value={a.totalStudents.toLocaleString()} icon={GraduationCap} accent="oasis" />
-        <StatCard label="Teachers Across All Schools" value={a.totalTeachers.toLocaleString()} icon={UserCog} accent="sky" />
-        <StatCard label="Parents Across All Schools" value={a.totalParents.toLocaleString()} icon={Users} accent="amber" />
-        <StatCard label="Daily Platform Uptime" value={`${a.dailyUptimePct}%`} icon={Server} accent="emerald" />
-        <StatCard label="Logins This Month" value={a.loginsThisMonth.toLocaleString()} icon={LogIn} accent="oasis" />
-        <StatCard label="SMS Sent This Month" value={a.smsSentThisMonth.toLocaleString()} icon={MessageSquareText} accent="sky" />
-        <StatCard label="Avg. Attendance (Platform)" value={`${a.avgAttendancePct}%`} icon={GraduationCap} accent="emerald" />
-        <StatCard label="Schools Reporting" value={String(schoolRequests.filter((r) => r.status === "approved").length)} icon={Server} accent="amber" />
+        <StatCard label="Total Schools" value={String(schools.length)} icon={Building2} accent="oasis" />
+        <StatCard label="Approved Schools" value={String(approved.length)} icon={Building2} accent="emerald" />
+        <StatCard label="Districts Represented" value={String(districts)} icon={MapPin} accent="sky" />
+        <StatCard label="Reporting Schools" value={String(approved.length)} icon={Server} accent="amber" />
       </div>
 
-      <div className="grid grid-cols-1 gap-5 xl:grid-cols-2">
-        <Card>
-          <CardHeader title="Platform logins" subtitle="Last 8 weeks, aggregated" />
-          <TrendAreaChart data={loginTrend} />
-        </Card>
-        <Card>
-          <CardHeader title="Schools by district" />
-          <ComparisonBarChart data={byDistrict} bars={[{ key: "schools", color: "#9498ef" }]} />
-        </Card>
-      </div>
+      <Card>
+        {schools.length === 0 ? (
+          <EmptyState
+            title="No data to analyze yet"
+            description="Once schools register and go live, aggregate platform statistics (students, teachers, logins, attendance) will appear here - always anonymised, never per-person."
+          />
+        ) : (
+          <p className="text-sm text-slate-500">
+            Per-student, per-teacher and usage analytics require each school&rsquo;s system to be live and reporting
+            data. That connection hasn&rsquo;t been made yet for any school in this registry.
+          </p>
+        )}
+      </Card>
     </div>
   );
 }

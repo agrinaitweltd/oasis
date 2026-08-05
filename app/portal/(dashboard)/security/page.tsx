@@ -7,7 +7,10 @@ import { Card, CardHeader } from "@/components/portal/ui/Card";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Button } from "@/components/portal/ui/Button";
 import { StatCard } from "@/components/portal/ui/StatCard";
-import { securityLog as initialLog, blockedIps as initialBlocked } from "@/lib/mock/platform";
+import { EmptyState } from "@/components/portal/ui/EmptyState";
+import { unblockIp, logSecurityEvent } from "@/lib/platform-store";
+import { useCollection } from "@/lib/store";
+import type { BlockedIp, SecurityLogEntry } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
 
 const SEVERITY_TONE: Record<string, "neutral" | "warning" | "danger"> = { low: "neutral", medium: "warning", high: "danger" };
@@ -21,11 +24,12 @@ const TYPE_LABEL: Record<string, string> = {
 
 export default function SecurityPage() {
   const { toast } = useToast();
-  const [blocked, setBlocked] = useState(initialBlocked);
-  const [twoFactorRequired, setTwoFactorRequired] = useState(true);
+  const [log] = useCollection<SecurityLogEntry>("oasis_security_log");
+  const [blocked] = useCollection<BlockedIp>("oasis_blocked_ips");
+  const [twoFactorRequired, setTwoFactorRequired] = useState(false);
 
-  const failedLogins = initialLog.filter((l) => l.type === "failed_login").length;
-  const suspicious = initialLog.filter((l) => l.type === "suspicious_activity").length;
+  const failedLogins = log.filter((l) => l.type === "failed_login").length;
+  const suspicious = log.filter((l) => l.type === "suspicious_activity").length;
 
   return (
     <div>
@@ -36,56 +40,66 @@ export default function SecurityPage() {
       />
 
       <div className="mb-5 grid grid-cols-2 gap-4 lg:grid-cols-4">
-        <StatCard label="Failed Logins (14d)" value={String(failedLogins)} icon={ShieldAlert} accent="amber" />
+        <StatCard label="Failed Logins" value={String(failedLogins)} icon={ShieldAlert} accent="amber" />
         <StatCard label="Suspicious Activity" value={String(suspicious)} icon={ShieldAlert} accent="oasis" />
         <StatCard label="Blocked IPs" value={String(blocked.length)} icon={Ban} accent="sky" />
-        <StatCard label="2FA Adoption" value="58%" icon={Fingerprint} accent="emerald" />
+        <StatCard label="2FA Required" value={twoFactorRequired ? "Yes" : "No"} icon={Fingerprint} accent="emerald" />
       </div>
 
       <div className="grid grid-cols-1 gap-5 xl:grid-cols-3">
         <Card className="p-0 xl:col-span-2">
           <CardHeader title="Security log" className="p-5 pb-0" />
-          <div className="divide-y divide-slate-50">
-            {initialLog.slice(0, 12).map((l) => (
-              <div key={l.id} className="flex items-start justify-between gap-4 p-4">
-                <div>
-                  <div className="flex items-center gap-2">
-                    <p className="text-sm font-medium text-slate-800">{TYPE_LABEL[l.type]}</p>
-                    <Badge tone={SEVERITY_TONE[l.severity]}>{l.severity}</Badge>
+          {log.length === 0 ? (
+            <div className="p-6">
+              <EmptyState title="No security events yet" description="Failed logins, blocked IPs and session activity will be logged here." />
+            </div>
+          ) : (
+            <div className="divide-y divide-slate-50">
+              {log.slice(0, 12).map((l) => (
+                <div key={l.id} className="flex items-start justify-between gap-4 p-4">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-sm font-medium text-slate-800">{TYPE_LABEL[l.type]}</p>
+                      <Badge tone={SEVERITY_TONE[l.severity]}>{l.severity}</Badge>
+                    </div>
+                    <p className="mt-0.5 text-xs text-slate-500">{l.detail}</p>
+                    <p className="mt-1 text-[11px] text-slate-400">
+                      {l.ipAddress} &middot; {l.timestamp}
+                    </p>
                   </div>
-                  <p className="mt-0.5 text-xs text-slate-500">{l.detail}</p>
-                  <p className="mt-1 text-[11px] text-slate-400">
-                    {l.ipAddress} &middot; {l.location} &middot; {l.timestamp}
-                  </p>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </Card>
 
         <div className="space-y-5">
           <Card>
             <CardHeader title="Blocked IPs" />
-            <div className="space-y-2">
-              {blocked.map((ip) => (
-                <div key={ip.id} className="flex items-center justify-between rounded-xl bg-slate-50 px-3 py-2 text-sm">
-                  <div>
-                    <p className="font-mono text-xs font-medium text-slate-700">{ip.ipAddress}</p>
-                    <p className="text-[11px] text-slate-400">{ip.reason}</p>
+            {blocked.length === 0 ? (
+              <p className="text-sm text-slate-400">No IPs currently blocked.</p>
+            ) : (
+              <div className="space-y-2">
+                {blocked.map((ip) => (
+                  <div key={ip.id} className="flex items-center justify-between rounded-xl bg-slate-50 px-3 py-2 text-sm">
+                    <div>
+                      <p className="font-mono text-xs font-medium text-slate-700">{ip.ipAddress}</p>
+                      <p className="text-[11px] text-slate-400">{ip.reason}</p>
+                    </div>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => {
+                        unblockIp(ip.id);
+                        toast("info", "IP unblocked", ip.ipAddress);
+                      }}
+                    >
+                      Unblock
+                    </Button>
                   </div>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => {
-                      setBlocked((prev) => prev.filter((b) => b.id !== ip.id));
-                      toast("info", "IP unblocked", ip.ipAddress);
-                    }}
-                  >
-                    Unblock
-                  </Button>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </Card>
 
           <Card>
@@ -94,7 +108,10 @@ export default function SecurityPage() {
             <Button
               variant="danger"
               className="w-full"
-              onClick={() => toast("info", "Sessions revoked", "All active staff sessions have been signed out.")}
+              onClick={() => {
+                logSecurityEvent({ type: "session_revoked", detail: "All active staff sessions revoked", ipAddress: "—", location: "—", severity: "medium" });
+                toast("info", "Sessions revoked", "All active staff sessions have been signed out.");
+              }}
             >
               <LogOut className="h-4 w-4" /> Revoke all sessions
             </Button>
@@ -108,11 +125,12 @@ export default function SecurityPage() {
                 type="button"
                 onClick={() => {
                   setTwoFactorRequired((v) => !v);
+                  logSecurityEvent({ type: "2fa_change", detail: `2FA requirement ${twoFactorRequired ? "disabled" : "enabled"}`, ipAddress: "—", location: "—", severity: "low" });
                   toast("success", "Security setting updated", "");
                 }}
-                className={`relative h-6 w-11 flex-shrink-0 rounded-full transition ${twoFactorRequired ? "bg-oasis-500" : "bg-slate-300"}`}
+                className={`relative h-6 w-11 flex-shrink-0 rounded-full transition-colors duration-300 ${twoFactorRequired ? "bg-oasis-500" : "bg-slate-300"}`}
               >
-                <span className={`absolute top-1 h-4 w-4 rounded-full bg-white shadow transition-transform ${twoFactorRequired ? "translate-x-6" : "translate-x-1"}`} />
+                <span className={`absolute top-1 h-4 w-4 rounded-full bg-white shadow transition-transform duration-300 ${twoFactorRequired ? "translate-x-6" : "translate-x-1"}`} />
               </button>
             </div>
           </Card>
