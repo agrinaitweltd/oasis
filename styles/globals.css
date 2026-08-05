@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* Grenette Pro is the only font used across the entire site (marketing
+   pages, auth/wizard pages, and the admin portal) - loaded via @font-face
+   in blocks.css. This is the base fallback; headings already used it via
+   the has-grenette-pro-font-family utility, this makes body copy match. */
+body {
+  font-family: "Grenette Pro", sans-serif;
+}
 .jp-related-posts-i2{margin-top:1.5rem}
 .jp-related-posts-i2__list{--hgap:1rem;display:flex;flex-wrap:wrap;column-gap:var(--hgap);row-gap:2rem;margin:0;padding:0;list-style-type:none}
 .jp-related-posts-i2__post{display:flex;flex-direction:column;flex-basis:calc(( 100% - var(--hgap) ) / 2)}

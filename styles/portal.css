@@ -16,7 +16,7 @@
   --color-oasis-800: #4c4ea3;
   --color-oasis-900: #3f4180;
 
-  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Grenette Pro", ui-sans-serif, system-ui, sans-serif;
 
   --radius-card: 18px;
   --radius-card-lg: 20px;
@@ -39,7 +39,7 @@
   select,
   textarea,
   button {
-    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    font-family: "Grenette Pro", ui-sans-serif, system-ui, sans-serif;
   }
   body {
     background-color: #f6f6fb;

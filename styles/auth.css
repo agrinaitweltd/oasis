@@ -19,7 +19,7 @@
   overflow: hidden;
   isolation: isolate;
   background: linear-gradient(160deg, #f7f6ff 0%, #fdfcfb 45%, #f3f1ff 100%);
-  font-family: Inter, sans-serif;
+  font-family: "Grenette Pro", sans-serif;
   color: #16140c;
 }
 
@@ -743,7 +743,7 @@
 .wizard-shell {
   min-height: 100vh;
   background: var(--wp--preset--color--base, #fffcf8);
-  font-family: Inter, sans-serif;
+  font-family: "Grenette Pro", sans-serif;
   color: #16140c;
   display: flex;
   flex-direction: column;
