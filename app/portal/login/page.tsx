@@ -6,6 +6,8 @@ import Link from "next/link";
 import { TextField, PasswordField, Checkbox, Spinner, SuccessIcon, ErrorIcon } from "@/components/auth/FormFields";
 import { AuthLogo, AuthWordmark } from "@/components/auth/AuthLogo";
 import { loadApplication, saveApplication } from "@/lib/onboarding-storage";
+import { useAuth } from "@/lib/auth/AuthProvider";
+import { redirectPathForRole } from "@/lib/auth/roles";
 
 type Status = "idle" | "loading" | "success" | "error";
 type Mode = "login" | "signup";
@@ -106,6 +108,8 @@ export default function LoginPage() {
 }
 
 function LoginForm() {
+  const router = useRouter();
+  const { signIn } = useAuth();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
@@ -128,17 +132,16 @@ function LoginForm() {
     if (!validate()) return;
 
     setStatus("loading");
-    // No authentication backend exists yet - this simulates the request so the
-    // UI/UX (loading, error, success states) is fully in place ahead of it.
-    await new Promise((r) => setTimeout(r, 1200));
+    const result = await signIn({ email: email.trim(), password, rememberMe: remember });
 
-    if (email.trim().toLowerCase() === "demo@oasis.co.ug" && password === "wrongpassword") {
+    if (result.error) {
       setStatus("error");
-      setFormError("That email and password don't match. Please try again.");
+      setFormError(result.error);
       return;
     }
 
     setStatus("success");
+    router.push(redirectPathForRole(result.role));
   }
 
   if (status === "success") return <SuccessState email={email} />;
@@ -311,9 +314,7 @@ function SuccessState({ email }: { email: string }) {
         <SuccessIcon />
       </div>
       <h1>You&#8217;re signed in</h1>
-      <p className="auth-subtitle">
-        Welcome back, {email}. The OASIS platform dashboard is being built and will be available here soon.
-      </p>
+      <p className="auth-subtitle">Welcome back, {email}. Taking you to your dashboard&hellip;</p>
       <Link href="/" className="auth-btn auth-btn-secondary" style={{ textDecoration: "none", marginTop: 8 }}>
         Return to homepage
       </Link>

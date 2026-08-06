@@ -4,6 +4,7 @@ import "@/styles/dashicons.css";
 import "@/styles/globals.css";
 import "@/styles/site.css";
 import "@/styles/auth.css";
+import { AuthProvider } from "@/lib/auth/AuthProvider";
 
 export const metadata: Metadata = {
   title: "OASIS | School Management System Uganda",
@@ -22,7 +23,7 @@ export default function RootLayout({
         <a className="skip-link screen-reader-text" id="wp-skip-link" href="#main-content">
           Skip to content
         </a>
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

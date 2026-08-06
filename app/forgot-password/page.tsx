@@ -4,8 +4,10 @@ import { useState, type FormEvent } from "react";
 import Link from "next/link";
 import { TextField, Spinner, SuccessIcon } from "@/components/auth/FormFields";
 import { AuthLogo } from "@/components/auth/AuthLogo";
+import { useAuth } from "@/lib/auth/AuthProvider";
 
 export default function ForgotPasswordPage() {
+  const { requestPasswordReset } = useAuth();
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "sent">("idle");
@@ -18,8 +20,15 @@ export default function ForgotPasswordPage() {
     }
     setError("");
     setStatus("loading");
-    // No email-sending backend exists yet - this simulates the request.
-    await new Promise((r) => setTimeout(r, 1000));
+    const result = await requestPasswordReset(email.trim());
+    // Always show the "check your email" state regardless of whether the
+    // address exists - never reveal account existence to an unauthenticated
+    // caller. Supabase itself no-ops silently for unknown addresses.
+    if (result.error) {
+      setError(result.error);
+      setStatus("idle");
+      return;
+    }
     setStatus("sent");
   }
 

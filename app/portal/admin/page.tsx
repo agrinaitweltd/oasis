@@ -5,24 +5,26 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { TextField, PasswordField, Checkbox, Spinner, ErrorIcon } from "@/components/auth/FormFields";
 import { AuthLogo, AuthWordmark } from "@/components/auth/AuthLogo";
-import { useMockAuth } from "@/hooks/useMockAuth";
+import { useAuth } from "@/lib/auth/AuthProvider";
 
 type Status = "idle" | "loading" | "error";
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export default function AdminLoginPage() {
   const router = useRouter();
-  const { signIn } = useMockAuth();
+  const { signIn, signOut } = useAuth();
 
-  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [formError, setFormError] = useState("");
-  const [errors, setErrors] = useState<{ username?: string; password?: string }>({});
+  const [errors, setErrors] = useState<{ email?: string; password?: string }>({});
 
   function validate() {
     const next: typeof errors = {};
-    if (!username.trim()) next.username = "Enter your username.";
+    if (!email.trim()) next.email = "Enter your email address.";
+    else if (!EMAIL_RE.test(email)) next.email = "Enter a valid email address.";
     if (!password) next.password = "Enter your password.";
     setErrors(next);
     return Object.keys(next).length === 0;
@@ -34,12 +36,18 @@ export default function AdminLoginPage() {
     if (!validate()) return;
 
     setStatus("loading");
-    await new Promise((r) => setTimeout(r, 700));
+    const result = await signIn({ email: email.trim(), password, rememberMe: remember });
 
-    const result = signIn(username.trim(), password);
     if (result.error) {
       setStatus("error");
       setFormError(result.error);
+      return;
+    }
+
+    if (result.role !== "super_admin") {
+      await signOut();
+      setStatus("error");
+      setFormError("This console is for OASIS and Swivel Technologies staff only.");
       return;
     }
 
@@ -97,11 +105,13 @@ export default function AdminLoginPage() {
 
               <form onSubmit={handleSubmit} noValidate>
                 <TextField
-                  label="Username"
-                  autoComplete="username"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
-                  error={errors.username}
+                  label="Email address"
+                  type="email"
+                  autoComplete="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  error={errors.email}
+                  success={EMAIL_RE.test(email)}
                   required
                 />
                 <PasswordField
