@@ -1,15 +1,25 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState, type FormEvent } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { PasswordField, Spinner, SuccessIcon, ErrorIcon } from "@/components/auth/FormFields";
 import { AuthLogo, AuthWordmark } from "@/components/auth/AuthLogo";
 import { useAuth } from "@/lib/auth/AuthProvider";
 
 export default function ResetPasswordPage() {
+  return (
+    <Suspense fallback={null}>
+      <ResetPasswordForm />
+    </Suspense>
+  );
+}
+
+function ResetPasswordForm() {
   const router = useRouter();
-  const { updatePassword } = useAuth();
+  const searchParams = useSearchParams();
+  const token = searchParams.get("token");
+  const { resetPasswordWithToken } = useAuth();
 
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
@@ -29,10 +39,15 @@ export default function ResetPasswordPage() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setFormError("");
+    if (!token) {
+      setStatus("error");
+      setFormError("This link is invalid. Request a new password reset email and try again.");
+      return;
+    }
     if (!validate()) return;
 
     setStatus("loading");
-    const result = await updatePassword(password);
+    const result = await resetPasswordWithToken(token, password);
     if (result.error) {
       setStatus("error");
       setFormError(result.error);

@@ -9,7 +9,7 @@ import type { UserRole } from "./roles";
 type Profile = Tables<"profiles">;
 
 type AuthResult = { error: string | null };
-type SignInResult = AuthResult & { role: UserRole | null };
+type SignInResult = AuthResult & { role: UserRole | null; unverified?: boolean };
 
 type AuthContextValue = {
   user: User | null;
@@ -21,7 +21,7 @@ type AuthContextValue = {
   signIn: (input: { email: string; password: string; rememberMe?: boolean }) => Promise<SignInResult>;
   signOut: () => Promise<void>;
   requestPasswordReset: (email: string) => Promise<AuthResult>;
-  updatePassword: (newPassword: string) => Promise<AuthResult>;
+  resetPasswordWithToken: (token: string, newPassword: string) => Promise<AuthResult>;
   resendVerificationEmail: (email: string) => Promise<AuthResult>;
   refreshProfile: () => Promise<void>;
 };
@@ -91,20 +91,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const signUp: AuthContextValue["signUp"] = useCallback(
-    async ({ email, password, fullName, role, schoolId }) => {
-      const { error } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/dashboard")}`,
-          data: { full_name: fullName, role, school_id: schoolId ?? null },
-        },
-      });
-      return { error: error ? friendlyAuthError(error.message) : null };
-    },
-    [supabase]
-  );
+  const signUp: AuthContextValue["signUp"] = useCallback(async (input) => {
+    const res = await fetch("/api/auth/signup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(input),
+    });
+    const body = await res.json().catch(() => ({}));
+    return { error: res.ok ? null : (body.error ?? "Could not create your account. Please try again.") };
+  }, []);
 
   const signIn: AuthContextValue["signIn"] = useCallback(
     async ({ email, password, rememberMe }) => {
@@ -117,7 +112,22 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       if (error || !data.user) {
         return { error: friendlyAuthError(error?.message ?? "Sign in failed."), role: null };
       }
-      const { data: profileRow } = await supabase.from("profiles").select("role").eq("id", data.user.id).maybeSingle();
+
+      const { data: profileRow } = await supabase
+        .from("profiles")
+        .select("role, email_verified")
+        .eq("id", data.user.id)
+        .maybeSingle();
+
+      if (profileRow && !profileRow.email_verified) {
+        await supabase.auth.signOut();
+        return {
+          error: "Please verify your email before signing in - check your inbox for the confirmation link.",
+          role: null,
+          unverified: true,
+        };
+      }
+
       return { error: null, role: (profileRow?.role as UserRole | undefined) ?? null };
     },
     [supabase]
@@ -127,35 +137,35 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await supabase.auth.signOut();
   }, [supabase]);
 
-  const requestPasswordReset: AuthContextValue["requestPasswordReset"] = useCallback(
-    async (email) => {
-      const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/reset-password")}`,
-      });
-      return { error: error ? friendlyAuthError(error.message) : null };
-    },
-    [supabase]
-  );
+  const requestPasswordReset: AuthContextValue["requestPasswordReset"] = useCallback(async (email) => {
+    const res = await fetch("/api/auth/request-password-reset", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+    const body = await res.json().catch(() => ({}));
+    return { error: res.ok ? null : (body.error ?? "Something went wrong. Please try again.") };
+  }, []);
 
-  const updatePassword: AuthContextValue["updatePassword"] = useCallback(
-    async (newPassword) => {
-      const { error } = await supabase.auth.updateUser({ password: newPassword });
-      return { error: error ? friendlyAuthError(error.message) : null };
-    },
-    [supabase]
-  );
+  const resetPasswordWithToken: AuthContextValue["resetPasswordWithToken"] = useCallback(async (token, newPassword) => {
+    const res = await fetch("/api/auth/reset-password", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ token, password: newPassword }),
+    });
+    const body = await res.json().catch(() => ({}));
+    return { error: res.ok ? null : (body.error ?? "Could not reset your password. Please try again.") };
+  }, []);
 
-  const resendVerificationEmail: AuthContextValue["resendVerificationEmail"] = useCallback(
-    async (email) => {
-      const { error } = await supabase.auth.resend({
-        type: "signup",
-        email,
-        options: { emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent("/dashboard")}` },
-      });
-      return { error: error ? friendlyAuthError(error.message) : null };
-    },
-    [supabase]
-  );
+  const resendVerificationEmail: AuthContextValue["resendVerificationEmail"] = useCallback(async (email) => {
+    const res = await fetch("/api/auth/resend-verification", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
+    const body = await res.json().catch(() => ({}));
+    return { error: res.ok ? null : (body.error ?? "Something went wrong. Please try again.") };
+  }, []);
 
   const value: AuthContextValue = {
     user,
@@ -167,7 +177,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     signIn,
     signOut,
     requestPasswordReset,
-    updatePassword,
+    resetPasswordWithToken,
     resendVerificationEmail,
     refreshProfile,
   };
