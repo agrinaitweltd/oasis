@@ -5,12 +5,17 @@ import Link from "next/link";
 import { AuthLogo } from "@/components/auth/AuthLogo";
 import { loadApplication } from "@/lib/onboarding-storage";
 import type { SchoolApplication } from "@/lib/onboarding-types";
+import { openInApp } from "@/lib/app-deep-link";
 
 export default function PendingReviewPage() {
   const [app, setApp] = useState<SchoolApplication | null>(null);
 
   useEffect(() => {
     setApp(loadApplication());
+  }, []);
+
+  useEffect(() => {
+    openInApp("welcome");
   }, []);
 
   const statusLabel: Record<string, { label: string; className: string }> = {
@@ -86,6 +91,15 @@ export default function PendingReviewPage() {
           <p className="auth-hint-text" style={{ marginBottom: 24 }}>
             The account remains locked until your school has been approved by an OASIS administrator.
           </p>
+
+          <button
+            type="button"
+            onClick={() => openInApp("welcome")}
+            className="auth-btn auth-btn-primary"
+            style={{ marginBottom: 12 }}
+          >
+            Continue in the OASIS app
+          </button>
 
           <Link href="/" className="auth-btn auth-btn-secondary" style={{ textDecoration: "none" }}>
             Return to homepage
