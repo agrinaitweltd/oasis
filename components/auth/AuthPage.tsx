@@ -14,14 +14,14 @@ type Mode = "login" | "signup";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export default function LoginPage() {
-  const [mode, setMode] = useState<Mode>("login");
-  const [direction, setDirection] = useState<"forward" | "backward">("forward");
+export function AuthPage({ mode }: { mode: Mode }) {
+  const router = useRouter();
+  const [direction, setDirection] = useState<"forward" | "backward">(mode === "signup" ? "forward" : "backward");
 
   function switchMode(next: Mode) {
     if (next === mode) return;
     setDirection(next === "signup" ? "forward" : "backward");
-    setMode(next);
+    router.push(next === "signup" ? "/signup" : "/login");
   }
 
   return (

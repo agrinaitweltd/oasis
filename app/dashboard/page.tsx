@@ -11,7 +11,7 @@ export default function DashboardPage() {
   const { user, profile, role, loading, signOut } = useAuth();
 
   useEffect(() => {
-    if (!loading && !user) router.replace("/portal/login");
+    if (!loading && !user) router.replace("/login");
   }, [loading, user, router]);
 
   if (loading || !user) {
@@ -35,7 +35,7 @@ export default function DashboardPage() {
         type="button"
         onClick={async () => {
           await signOut();
-          router.push("/portal/login");
+          router.push("/login");
         }}
         className="auth-btn auth-btn-secondary"
         style={{ maxWidth: 240 }}

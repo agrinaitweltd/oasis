@@ -9,12 +9,12 @@ export async function GET(request: NextRequest) {
   const token = searchParams.get("token");
 
   if (!token) {
-    return NextResponse.redirect(`${origin}/portal/login?verify_error=missing_token`);
+    return NextResponse.redirect(`${origin}/login?verify_error=missing_token`);
   }
 
   const { userId, error } = await consumeToken(token, "verify_email");
   if (!userId) {
-    return NextResponse.redirect(`${origin}/portal/login?verify_error=${encodeURIComponent(error ?? "invalid")}`);
+    return NextResponse.redirect(`${origin}/login?verify_error=${encodeURIComponent(error ?? "invalid")}`);
   }
 
   const supabase = createAdminClient();
@@ -29,7 +29,7 @@ export async function GET(request: NextRequest) {
     try {
       const { subject, html } = welcomeEmailTemplate(
         profile.full_name || profile.email.split("@")[0],
-        `${origin}/portal/login`
+        `${origin}/login`
       );
       await sendEmail(profile.email, subject, html);
     } catch (err) {
@@ -37,5 +37,5 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  return NextResponse.redirect(`${origin}/portal/login?verified=1`);
+  return NextResponse.redirect(`${origin}/login?verified=1`);
 }

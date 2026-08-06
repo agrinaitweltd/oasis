@@ -54,7 +54,7 @@ function ResetPasswordForm() {
       return;
     }
     setStatus("success");
-    setTimeout(() => router.push("/portal/login"), 1800);
+    setTimeout(() => router.push("/login"), 1800);
   }
 
   return (
@@ -138,7 +138,7 @@ function ResetPasswordForm() {
                   </form>
 
                   <p className="auth-footer-text">
-                    <Link href="/portal/login" className="auth-link">
+                    <Link href="/login" className="auth-link">
                       Back to sign in
                     </Link>
                   </p>
