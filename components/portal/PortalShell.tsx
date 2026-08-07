@@ -16,7 +16,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (loading) return;
-    if (!user || role !== "super_admin") router.replace("/admin");
+    if (!user || role !== "super_admin") router.replace("/portal/admin");
   }, [loading, user, role, router]);
 
   if (loading || !user || role !== "super_admin") {
@@ -36,7 +36,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
         schoolName="Platform Admin"
         onLogout={async () => {
           await signOut();
-          router.replace("/admin");
+          router.replace("/portal/admin");
         }}
         mobileOpen={mobileOpen}
         onMobileClose={() => setMobileOpen(false)}
