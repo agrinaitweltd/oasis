@@ -7,6 +7,7 @@ import { Sidebar } from "@/components/portal/Sidebar";
 import { Topbar } from "@/components/portal/Topbar";
 import { schoolNav } from "@/lib/school-nav";
 import { FirstRunTutorial } from "@/components/school/FirstRunTutorial";
+import { ROLE_LABELS } from "@/lib/auth/roles";
 
 export function SchoolShell({ children }: { children: ReactNode }) {
   const router = useRouter();
@@ -50,7 +51,14 @@ export function SchoolShell({ children }: { children: ReactNode }) {
         onMobileClose={() => setMobileOpen(false)}
       />
       <div className="flex min-w-0 flex-1 flex-col">
-        <Topbar onMobileMenu={() => setMobileOpen(true)} username={profile?.full_name || user.email || "Account"} />
+        <Topbar
+          onMobileMenu={() => setMobileOpen(true)}
+          username={profile?.full_name || user.email || "Account"}
+          searchPlaceholder="Search students, staff..."
+          roleLabel={role ? ROLE_LABELS[role] : "Account"}
+          profileLinks={[]}
+          showNotifications={false}
+        />
         <main key={pathname} className="animate-fade-up flex-1 px-4 py-6 sm:px-6 lg:px-8">
           {children}
         </main>

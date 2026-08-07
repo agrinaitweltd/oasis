@@ -7,11 +7,28 @@ import { useCollection } from "@/lib/store";
 import type { PlatformEvent } from "@/types/portal";
 import { cn } from "@/lib/utils/cn";
 
-export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; username: string }) {
+export function Topbar({
+  onMobileMenu,
+  username,
+  searchPlaceholder = "Search schools, tickets, invoices...",
+  roleLabel = "Super Admin",
+  profileLinks = [
+    { href: "/portal/platform", label: "Platform settings" },
+    { href: "/portal/support", label: "Support" },
+  ],
+  showNotifications = true,
+}: {
+  onMobileMenu: () => void;
+  username: string;
+  searchPlaceholder?: string;
+  roleLabel?: string;
+  profileLinks?: { href: string; label: string }[];
+  showNotifications?: boolean;
+}) {
   const [notifOpen, setNotifOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const [events] = useCollection<PlatformEvent>("oasis_platform_events");
-  const notifications = events.slice(0, 5);
+  const notifications = showNotifications ? events.slice(0, 5) : [];
 
   return (
     <header className="sticky top-0 z-30 flex h-16 items-center gap-3 border-b border-slate-200/70 bg-white/80 px-4 backdrop-blur-md sm:px-6">
@@ -28,45 +45,47 @@ export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; u
         <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
         <input
           type="search"
-          placeholder="Search schools, tickets, invoices..."
+          placeholder={searchPlaceholder}
           className="h-10 w-full rounded-xl border border-slate-200 bg-slate-50 pl-9 pr-3 text-sm outline-none transition focus:border-oasis-400 focus:bg-white focus:ring-4 focus:ring-oasis-100"
         />
       </div>
 
       <div className="ml-auto flex items-center gap-1.5">
-        <div className="relative">
-          <button
-            type="button"
-            onClick={() => {
-              setNotifOpen((v) => !v);
-              setProfileOpen(false);
-            }}
-            className="relative flex h-9 w-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100"
-            aria-label="Notifications"
-          >
-            <Bell className="h-[18px] w-[18px]" />
-            {notifications.length > 0 && (
-              <span className="absolute right-1.5 top-1.5 h-2 w-2 animate-pulse rounded-full bg-rose-500 ring-2 ring-white" />
-            )}
-          </button>
-          {notifOpen && (
-            <div className="animate-pop absolute right-0 top-12 w-80 rounded-2xl border border-slate-100 bg-white p-2 shadow-popover">
-              <p className="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Recent activity</p>
-              {notifications.length === 0 ? (
-                <p className="px-3 py-6 text-center text-xs text-slate-400">Nothing yet - actions you take will show up here.</p>
-              ) : (
-                <div className="max-h-80 space-y-0.5 overflow-y-auto">
-                  {notifications.map((n) => (
-                    <div key={n.id} className="rounded-xl px-3 py-2.5 transition hover:bg-slate-50">
-                      <p className="text-[13px] leading-snug text-slate-700">{n.message}</p>
-                      <p className="mt-0.5 text-[11px] text-slate-400">{n.timestamp}</p>
-                    </div>
-                  ))}
-                </div>
+        {showNotifications && (
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => {
+                setNotifOpen((v) => !v);
+                setProfileOpen(false);
+              }}
+              className="relative flex h-9 w-9 items-center justify-center rounded-lg text-slate-500 transition hover:bg-slate-100"
+              aria-label="Notifications"
+            >
+              <Bell className="h-[18px] w-[18px]" />
+              {notifications.length > 0 && (
+                <span className="absolute right-1.5 top-1.5 h-2 w-2 animate-pulse rounded-full bg-rose-500 ring-2 ring-white" />
               )}
-            </div>
-          )}
-        </div>
+            </button>
+            {notifOpen && (
+              <div className="animate-pop absolute right-0 top-12 w-80 rounded-2xl border border-slate-100 bg-white p-2 shadow-popover">
+                <p className="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Recent activity</p>
+                {notifications.length === 0 ? (
+                  <p className="px-3 py-6 text-center text-xs text-slate-400">Nothing yet - actions you take will show up here.</p>
+                ) : (
+                  <div className="max-h-80 space-y-0.5 overflow-y-auto">
+                    {notifications.map((n) => (
+                      <div key={n.id} className="rounded-xl px-3 py-2.5 transition hover:bg-slate-50">
+                        <p className="text-[13px] leading-snug text-slate-700">{n.message}</p>
+                        <p className="mt-0.5 text-[11px] text-slate-400">{n.timestamp}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
 
         <div className="relative">
           <button
@@ -87,15 +106,14 @@ export function Topbar({ onMobileMenu, username }: { onMobileMenu: () => void; u
             <div className="animate-pop absolute right-0 top-12 w-52 rounded-2xl border border-slate-100 bg-white p-1.5 shadow-popover">
               <div className="px-3 py-2">
                 <p className="text-sm font-semibold text-slate-800">{username}</p>
-                <p className="text-xs text-slate-400">Super Admin</p>
+                <p className="text-xs text-slate-400">{roleLabel}</p>
               </div>
               <div className="my-1 h-px bg-slate-100" />
-              <a href="/portal/platform" className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
-                Platform settings
-              </a>
-              <a href="/portal/support" className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
-                Support
-              </a>
+              {profileLinks.map((link) => (
+                <a key={link.href} href={link.href} className="block rounded-lg px-3 py-2 text-sm text-slate-600 transition hover:bg-slate-50">
+                  {link.label}
+                </a>
+              ))}
             </div>
           )}
         </div>
