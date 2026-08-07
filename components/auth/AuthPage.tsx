@@ -8,7 +8,6 @@ import { AuthLogo, AuthWordmark } from "@/components/auth/AuthLogo";
 import { loadApplication, saveApplication } from "@/lib/onboarding-storage";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { redirectPathForRole } from "@/lib/auth/roles";
-import { createClient } from "@/lib/supabase/client";
 
 type Status = "idle" | "loading" | "success" | "error";
 type Mode = "login" | "signup";
@@ -271,6 +270,7 @@ function SignupForm({ onDone }: { onDone: () => void }) {
       password,
       fullName: fullName.trim(),
       role: "school_admin",
+      newSchoolName: schoolName.trim(),
     });
     if (created.error) {
       setStatus("idle");
@@ -278,28 +278,14 @@ function SignupForm({ onDone }: { onDone: () => void }) {
       return;
     }
 
+    // create-account already created the school (pending_review) and
+    // linked profile.school_id via user_metadata - nothing left to do here
+    // but sign in.
     const signedIn = await signIn({ email: email.trim(), password });
     if (signedIn.error) {
       setStatus("idle");
       setFormError(signedIn.error);
       return;
-    }
-
-    const supabase = createClient();
-    const { data: school, error: schoolError } = await supabase
-      .rpc("submit_school_registration", { p_name: schoolName.trim(), p_contact_email: email.trim() })
-      .single();
-    if (schoolError || !school) {
-      setStatus("idle");
-      setFormError("Your account was created, but we couldn't start your school application. Please contact support.");
-      return;
-    }
-
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (user) {
-      await supabase.from("profiles").update({ school_id: school.id }).eq("id", user.id);
     }
 
     const app = loadApplication();

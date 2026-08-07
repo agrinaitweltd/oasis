@@ -23,7 +23,18 @@ type AuthContextValue = {
   // app via its send-otp / create-account / reset-password-otp Edge
   // Functions - Supabase's own confirmation emails are never used.
   sendSignupOtp: (email: string) => Promise<AuthResult>;
-  completeSignup: (input: { email: string; code: string; password: string; fullName: string; role: SelfServiceRole }) => Promise<AuthResult>;
+  // For role: "school_admin", pass newSchoolName - create-account creates
+  // the school itself now. For every other role, pass schoolId (must be an
+  // already-approved school - the "select your school" step).
+  completeSignup: (input: {
+    email: string;
+    code: string;
+    password: string;
+    fullName: string;
+    role: SelfServiceRole;
+    newSchoolName?: string;
+    schoolId?: string;
+  }) => Promise<AuthResult>;
   signIn: (input: { email: string; password: string; rememberMe?: boolean }) => Promise<SignInResult>;
   signOut: () => Promise<void>;
   sendPasswordResetOtp: (email: string) => Promise<AuthResult>;
@@ -121,9 +132,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   );
 
   const completeSignup: AuthContextValue["completeSignup"] = useCallback(
-    async ({ email, code, password, fullName, role }) => {
+    async ({ email, code, password, fullName, role, newSchoolName, schoolId }) => {
       const { error } = await supabase.functions.invoke("create-account", {
-        body: { email, code, password, full_name: fullName, role },
+        body: {
+          email,
+          code,
+          password,
+          full_name: fullName,
+          role,
+          new_school_name: newSchoolName,
+          school_id: schoolId,
+        },
       });
       return { error: error ? await functionErrorMessage(error) : null };
     },
