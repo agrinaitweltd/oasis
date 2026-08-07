@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronsLeft, LogOut } from "lucide-react";
-import { portalNav } from "@/lib/portal-nav";
+import { portalNav, type PortalNavItem } from "@/lib/portal-nav";
 import { cn } from "@/lib/utils/cn";
 
 export function Sidebar({
@@ -14,6 +14,7 @@ export function Sidebar({
   onLogout,
   mobileOpen,
   onMobileClose,
+  nav = portalNav,
 }: {
   collapsed: boolean;
   onToggle: () => void;
@@ -21,6 +22,7 @@ export function Sidebar({
   onLogout: () => void;
   mobileOpen: boolean;
   onMobileClose: () => void;
+  nav?: PortalNavItem[];
 }) {
   const pathname = usePathname();
 
@@ -58,7 +60,7 @@ export function Sidebar({
       </div>
 
       <nav className="scrollbar-thin flex-1 space-y-0.5 overflow-y-auto px-2.5 pb-4">
-        {portalNav.map((item, i) => {
+        {nav.map((item, i) => {
           const active = pathname === item.href || pathname?.startsWith(item.href + "/");
           const Icon = item.icon;
           return (
