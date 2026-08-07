@@ -10,68 +10,44 @@ export type Database = {
   };
   public: {
     Tables: {
-      email_action_tokens: {
-        Row: {
-          created_at: string;
-          expires_at: string;
-          id: string;
-          token: string;
-          type: string;
-          used_at: string | null;
-          user_id: string;
-        };
-        Insert: {
-          created_at?: string;
-          expires_at: string;
-          id?: string;
-          token: string;
-          type: string;
-          used_at?: string | null;
-          user_id: string;
-        };
-        Update: {
-          created_at?: string;
-          expires_at?: string;
-          id?: string;
-          token?: string;
-          type?: string;
-          used_at?: string | null;
-          user_id?: string;
-        };
-        Relationships: [];
-      };
       profiles: {
         Row: {
           created_at: string;
           email: string | null;
-          email_verified: boolean;
           full_name: string | null;
           id: string;
+          is_form_tutor: boolean;
+          is_headteacher: boolean;
           phone: string | null;
           role: Database["public"]["Enums"]["user_role"];
           school_id: string | null;
+          tutor_group: string | null;
           updated_at: string;
         };
         Insert: {
           created_at?: string;
           email?: string | null;
-          email_verified?: boolean;
           full_name?: string | null;
           id: string;
+          is_form_tutor?: boolean;
+          is_headteacher?: boolean;
           phone?: string | null;
           role?: Database["public"]["Enums"]["user_role"];
           school_id?: string | null;
+          tutor_group?: string | null;
           updated_at?: string;
         };
         Update: {
           created_at?: string;
           email?: string | null;
-          email_verified?: boolean;
           full_name?: string | null;
           id?: string;
+          is_form_tutor?: boolean;
+          is_headteacher?: boolean;
           phone?: string | null;
           role?: Database["public"]["Enums"]["user_role"];
           school_id?: string | null;
+          tutor_group?: string | null;
           updated_at?: string;
         };
         Relationships: [
@@ -142,8 +118,25 @@ export type Database = {
     Views: {
       [_ in never]: never;
     };
+    // mobile_otp_* functions belong to the mobile app team's OTP system
+    // (private.mobile_app_email_otps) - called only via their Edge
+    // Functions (send-otp/create-account/reset-password-otp), never
+    // directly from this codebase. Do not touch.
     Functions: {
-      [_ in never]: never;
+      mobile_otp_consume: { Args: { p_id: string }; Returns: undefined };
+      mobile_otp_get_latest_unconsumed: {
+        Args: { p_email: string; p_purpose: string };
+        Returns: { attempts: number; code_hash: string; created_at: string; expires_at: string; id: string }[];
+      };
+      mobile_otp_get_recent: {
+        Args: { p_email: string; p_purpose: string };
+        Returns: { created_at: string }[];
+      };
+      mobile_otp_increment_attempts: { Args: { p_id: string }; Returns: undefined };
+      mobile_otp_insert: {
+        Args: { p_code_hash: string; p_email: string; p_expires_at: string; p_purpose: string };
+        Returns: undefined;
+      };
     };
     Enums: {
       school_status: "pending_review" | "approved" | "rejected" | "more_info_requested" | "suspended";

@@ -9,7 +9,8 @@ import type { UserRole } from "./roles";
 type Profile = Tables<"profiles">;
 
 type AuthResult = { error: string | null };
-type SignInResult = AuthResult & { role: UserRole | null; unverified?: boolean };
+type SignInResult = AuthResult & { role: UserRole | null };
+type SelfServiceRole = Exclude<UserRole, "super_admin">;
 
 type AuthContextValue = {
   user: User | null;
@@ -17,12 +18,15 @@ type AuthContextValue = {
   profile: Profile | null;
   role: UserRole | null;
   loading: boolean;
-  signUp: (input: { email: string; password: string; fullName: string; role: UserRole; schoolId?: string | null }) => Promise<AuthResult>;
+  // Signup and password reset are both OTP-driven, shared with the mobile
+  // app via its send-otp / create-account / reset-password-otp Edge
+  // Functions - Supabase's own confirmation emails are never used.
+  sendSignupOtp: (email: string) => Promise<AuthResult>;
+  completeSignup: (input: { email: string; code: string; password: string; fullName: string; role: SelfServiceRole }) => Promise<AuthResult>;
   signIn: (input: { email: string; password: string; rememberMe?: boolean }) => Promise<SignInResult>;
   signOut: () => Promise<void>;
-  requestPasswordReset: (email: string) => Promise<AuthResult>;
-  resetPasswordWithToken: (token: string, newPassword: string) => Promise<AuthResult>;
-  resendVerificationEmail: (email: string) => Promise<AuthResult>;
+  sendPasswordResetOtp: (email: string) => Promise<AuthResult>;
+  resetPasswordWithOtp: (input: { email: string; code: string; newPassword: string }) => Promise<AuthResult>;
   refreshProfile: () => Promise<void>;
 };
 
@@ -40,6 +44,22 @@ function friendlyAuthError(message: string): string {
   if (m.includes("expired") || m.includes("invalid") ) return "That link has expired or was already used. Request a new one and try again.";
   if (m.includes("network") || m.includes("fetch")) return "We couldn't reach the server. Check your connection and try again.";
   return message;
+}
+
+// supabase.functions.invoke() throws a FunctionsHttpError on non-2xx
+// responses whose .context is the raw Response - our Edge Functions always
+// reply with { error: string } on failure, so unwrap that for the UI.
+async function functionErrorMessage(error: unknown): Promise<string> {
+  const context = (error as { context?: Response })?.context;
+  if (context) {
+    try {
+      const body = await context.clone().json();
+      if (typeof body?.error === "string") return body.error;
+    } catch {
+      // fall through to the generic message below
+    }
+  }
+  return error instanceof Error ? error.message : "Something went wrong. Please try again.";
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
@@ -91,15 +111,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const signUp: AuthContextValue["signUp"] = useCallback(async (input) => {
-    const res = await fetch("/api/auth/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(input),
-    });
-    const body = await res.json().catch(() => ({}));
-    return { error: res.ok ? null : (body.error ?? "Could not create your account. Please try again.") };
-  }, []);
+  const sendSignupOtp: AuthContextValue["sendSignupOtp"] = useCallback(
+    async (email) => {
+      const { error } = await supabase.functions.invoke("send-otp", { body: { email, purpose: "signup_verify" } });
+      return { error: error ? await functionErrorMessage(error) : null };
+    },
+    [supabase]
+  );
+
+  const completeSignup: AuthContextValue["completeSignup"] = useCallback(
+    async ({ email, code, password, fullName, role }) => {
+      const { error } = await supabase.functions.invoke("create-account", {
+        body: { email, code, password, full_name: fullName, role },
+      });
+      return { error: error ? await functionErrorMessage(error) : null };
+    },
+    [supabase]
+  );
 
   const signIn: AuthContextValue["signIn"] = useCallback(
     async ({ email, password, rememberMe }) => {
@@ -113,20 +141,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         return { error: friendlyAuthError(error?.message ?? "Sign in failed."), role: null };
       }
 
-      const { data: profileRow } = await supabase
-        .from("profiles")
-        .select("role, email_verified")
-        .eq("id", data.user.id)
-        .maybeSingle();
-
-      if (profileRow && !profileRow.email_verified) {
-        await supabase.auth.signOut();
-        return {
-          error: "Please verify your email before signing in - check your inbox for the confirmation link.",
-          role: null,
-          unverified: true,
-        };
-      }
+      // Accounts only ever get created after their signup OTP is verified
+      // (see create-account), so any existing profile is already confirmed -
+      // there's no separate "unverified" state to gate on here.
+      const { data: profileRow } = await supabase.from("profiles").select("role").eq("id", data.user.id).maybeSingle();
 
       return { error: null, role: (profileRow?.role as UserRole | undefined) ?? null };
     },
@@ -137,35 +155,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await supabase.auth.signOut();
   }, [supabase]);
 
-  const requestPasswordReset: AuthContextValue["requestPasswordReset"] = useCallback(async (email) => {
-    const res = await fetch("/api/auth/request-password-reset", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email }),
-    });
-    const body = await res.json().catch(() => ({}));
-    return { error: res.ok ? null : (body.error ?? "Something went wrong. Please try again.") };
-  }, []);
+  const sendPasswordResetOtp: AuthContextValue["sendPasswordResetOtp"] = useCallback(
+    async (email) => {
+      const { error } = await supabase.functions.invoke("send-otp", { body: { email, purpose: "password_reset" } });
+      return { error: error ? await functionErrorMessage(error) : null };
+    },
+    [supabase]
+  );
 
-  const resetPasswordWithToken: AuthContextValue["resetPasswordWithToken"] = useCallback(async (token, newPassword) => {
-    const res = await fetch("/api/auth/reset-password", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ token, password: newPassword }),
-    });
-    const body = await res.json().catch(() => ({}));
-    return { error: res.ok ? null : (body.error ?? "Could not reset your password. Please try again.") };
-  }, []);
-
-  const resendVerificationEmail: AuthContextValue["resendVerificationEmail"] = useCallback(async (email) => {
-    const res = await fetch("/api/auth/resend-verification", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email }),
-    });
-    const body = await res.json().catch(() => ({}));
-    return { error: res.ok ? null : (body.error ?? "Something went wrong. Please try again.") };
-  }, []);
+  const resetPasswordWithOtp: AuthContextValue["resetPasswordWithOtp"] = useCallback(
+    async ({ email, code, newPassword }) => {
+      const { error } = await supabase.functions.invoke("reset-password-otp", { body: { email, code, newPassword } });
+      return { error: error ? await functionErrorMessage(error) : null };
+    },
+    [supabase]
+  );
 
   const value: AuthContextValue = {
     user,
@@ -173,12 +177,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     profile,
     role: (profile?.role as UserRole | undefined) ?? null,
     loading,
-    signUp,
+    sendSignupOtp,
+    completeSignup,
     signIn,
     signOut,
-    requestPasswordReset,
-    resetPasswordWithToken,
-    resendVerificationEmail,
+    sendPasswordResetOtp,
+    resetPasswordWithOtp,
     refreshProfile,
   };
 
