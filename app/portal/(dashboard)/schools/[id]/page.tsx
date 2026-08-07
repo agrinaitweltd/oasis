@@ -22,10 +22,14 @@ import { Button } from "@/components/portal/ui/Button";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { Modal } from "@/components/portal/ui/Modal";
 import { Input } from "@/components/portal/ui/Input";
-import { getSchoolById, updateSchoolStatus, apiKeysForSchool, addApiKey, revokeApiKey } from "@/lib/school-registry";
+import { addApiKey, revokeApiKey } from "@/lib/school-registry";
 import { logEvent } from "@/lib/platform-store";
 import { useCollection } from "@/lib/store";
+import { useRealtimeRows } from "@/lib/supabase/useRealtimeRows";
+import { schoolRowToRequest } from "@/lib/supabase/school-mapper";
+import { createClient } from "@/lib/supabase/client";
 import { documentRequirements } from "@/lib/onboarding-types";
+import type { Tables } from "@/types/database.types";
 import type { AdminActionType } from "@/lib/admin-actions";
 import type { ApiKey, SchoolRequestStatus } from "@/types/portal";
 import { useToast } from "@/hooks/useToast";
@@ -66,10 +70,12 @@ export default function SchoolRequestDetailPage() {
   const { toast } = useToast();
   const [tab, setTab] = useState<(typeof TABS)[number]["key"]>("overview");
 
-  // Reactive to the shared registry, so this page reflects changes made
-  // anywhere else (and updates live after our own actions).
-  const [allSchools] = useCollection<import("@/types/portal").SchoolRequest>("oasis_school_registry");
-  const request = allSchools.find((s) => s.id === params.id) ?? getSchoolById(params.id);
+  // Live from Supabase (Realtime postgres_changes) - reflects changes made
+  // anywhere else, including the mobile app, instantly.
+  const { rows: schoolRows, loading } = useRealtimeRows<Tables<"schools">>("schools");
+  const schoolRow = schoolRows.find((s) => s.id === params.id);
+  const request = schoolRow ? schoolRowToRequest(schoolRow) : undefined;
+  // API keys aren't part of the shared schema yet - still admin-console-local.
   const [allKeys] = useCollection<ApiKey>("oasis_api_keys_registry");
 
   const [newKeyOpen, setNewKeyOpen] = useState(false);
@@ -77,6 +83,7 @@ export default function SchoolRequestDetailPage() {
   const [revealedKey, setRevealedKey] = useState<{ label: string; full: string } | null>(null);
 
   if (!request) {
+    if (loading) return null;
     return (
       <div>
         <PageHeader title="School not found" breadcrumbs={[{ label: "Schools", href: "/portal/schools" }, { label: "Not found" }]} />
@@ -88,9 +95,14 @@ export default function SchoolRequestDetailPage() {
   const status = request.status;
   const keys = allKeys.filter((k) => k.schoolRequestId === request.id);
 
-  function runAction(action: AdminActionType) {
+  async function runAction(action: AdminActionType) {
     const nextStatus = ACTION_TO_STATUS[action];
-    updateSchoolStatus(request!.id, nextStatus);
+    const patch = nextStatus === "approved" ? { status: nextStatus, plan: "starter", subscription_status: "trial" } : { status: nextStatus };
+    const { error } = await createClient().from("schools").update(patch).eq("id", request!.id);
+    if (error) {
+      toast("error", "Couldn't update status", error.message);
+      return;
+    }
     const messages: Record<AdminActionType, string> = {
       approve: `${request!.schoolName} has been approved and can now be onboarded.`,
       reject: `${request!.schoolName}'s request has been rejected.`,

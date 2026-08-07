@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import {
   Building2,
@@ -16,10 +17,14 @@ import { Card, CardHeader } from "@/components/portal/ui/Card";
 import { StatCard } from "@/components/portal/ui/StatCard";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { useCollection } from "@/lib/store";
-import type { SchoolRequest, PlatformEvent } from "@/types/portal";
+import { useRealtimeRows } from "@/lib/supabase/useRealtimeRows";
+import { schoolRowToRequest } from "@/lib/supabase/school-mapper";
+import type { Tables } from "@/types/database.types";
+import type { PlatformEvent } from "@/types/portal";
 
 export default function DashboardPage() {
-  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
+  const { rows } = useRealtimeRows<Tables<"schools">>("schools");
+  const schools = useMemo(() => rows.map(schoolRowToRequest), [rows]);
   const [events] = useCollection<PlatformEvent>("oasis_platform_events");
 
   const approved = schools.filter((r) => r.status === "approved");

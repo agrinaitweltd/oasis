@@ -137,6 +137,19 @@ export type Database = {
         Args: { p_code_hash: string; p_email: string; p_expires_at: string; p_purpose: string };
         Returns: undefined;
       };
+      submit_school_registration: {
+        Args: {
+          p_address?: string;
+          p_contact_email?: string;
+          p_contact_name?: string;
+          p_contact_phone?: string;
+          p_district?: string;
+          p_name: string;
+          p_school_type?: string;
+          p_student_band?: string;
+        };
+        Returns: { code: string; id: string }[];
+      };
     };
     Enums: {
       school_status: "pending_review" | "approved" | "rejected" | "more_info_requested" | "suspended";

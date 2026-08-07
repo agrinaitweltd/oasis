@@ -13,7 +13,9 @@ import { Avatar } from "@/components/portal/ui/Avatar";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { useDebounce } from "@/hooks/useDebounce";
 import { usePagination } from "@/hooks/usePagination";
-import { useCollection } from "@/lib/store";
+import { useRealtimeRows } from "@/lib/supabase/useRealtimeRows";
+import { schoolRowToRequest } from "@/lib/supabase/school-mapper";
+import type { Tables } from "@/types/database.types";
 import type { SchoolRequest, SchoolRequestStatus } from "@/types/portal";
 import { cn } from "@/lib/utils/cn";
 
@@ -43,7 +45,8 @@ const SUB_STATUS_TONE: Record<string, "neutral" | "info" | "warning" | "success"
 
 export default function SchoolsPage() {
   const router = useRouter();
-  const [schools] = useCollection<SchoolRequest>("oasis_school_registry");
+  const { rows } = useRealtimeRows<Tables<"schools">>("schools");
+  const schools = useMemo(() => rows.map(schoolRowToRequest), [rows]);
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query);
   const [statusFilter, setStatusFilter] = useState<SchoolRequestStatus | "all">("all");

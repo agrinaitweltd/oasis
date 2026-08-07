@@ -17,6 +17,7 @@ import { loadApplication, saveApplication } from "@/lib/onboarding-storage";
 import type { ModuleKey, OnboardingData, SchoolApplication } from "@/lib/onboarding-types";
 import { onboardingSteps } from "@/lib/onboarding-steps";
 import { registerSchoolFromApplication } from "@/lib/school-registry";
+import { createClient } from "@/lib/supabase/client";
 
 type Errors = Record<string, string>;
 
@@ -166,9 +167,41 @@ export default function RegisterPage() {
   async function handleSubmit() {
     if (!app) return;
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1200));
+
     const submitted: SchoolApplication = { ...app, status: "pending_review", submittedAt: new Date().toISOString() };
     saveApplication(submitted);
+
+    // Real submission - lands in the shared Supabase schools table so it's
+    // visible to the mobile app too. Uses a SECURITY DEFINER RPC rather than
+    // a direct insert().select() because anon has no SELECT policy on
+    // schools (by design - applicant PII shouldn't be publicly readable);
+    // the RPC returns only the new row's id/code.
+    const supabase = createClient();
+    const { org, location, schoolType, studentNumbers } = {
+      org: submitted.data.organisation,
+      location: submitted.data.location,
+      schoolType: submitted.data.schoolType,
+      studentNumbers: submitted.data.studentNumbers,
+    };
+    const { error } = await supabase.rpc("submit_school_registration", {
+      p_name: org.schoolName || "Untitled School",
+      p_district: location.district || undefined,
+      p_address: [location.physicalAddress, location.cityTown, location.district].filter(Boolean).join(", ") || undefined,
+      p_contact_name: org.headTeacherName || org.directorName || undefined,
+      p_contact_email: org.schoolEmail || undefined,
+      p_contact_phone: org.schoolPhone || undefined,
+      p_school_type: schoolType.schoolType || undefined,
+      p_student_band: studentNumbers.currentPopulation || undefined,
+    });
+    if (error) {
+      // Still let the applicant through to the local/admin-console mirror
+      // below rather than stranding them on a failed submit - but log this,
+      // since it means the shared backend didn't get the record.
+      console.error("submit_school_registration failed:", error.message);
+    }
+
+    // Local mirror the platform-admin console currently reads from
+    // (lib/store.ts) - not yet migrated to query Supabase directly.
     registerSchoolFromApplication(submitted);
     router.push("/register/pending");
   }
