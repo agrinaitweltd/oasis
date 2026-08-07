@@ -6,6 +6,7 @@ import { useAuth } from "@/lib/auth/AuthProvider";
 import { Sidebar } from "@/components/portal/Sidebar";
 import { Topbar } from "@/components/portal/Topbar";
 import { schoolNav } from "@/lib/school-nav";
+import { FirstRunTutorial } from "@/components/school/FirstRunTutorial";
 
 export function SchoolShell({ children }: { children: ReactNode }) {
   const router = useRouter();
@@ -35,6 +36,7 @@ export function SchoolShell({ children }: { children: ReactNode }) {
 
   return (
     <div className="flex min-h-screen bg-slate-50">
+      <FirstRunTutorial />
       <Sidebar
         collapsed={collapsed}
         onToggle={() => setCollapsed((v) => !v)}

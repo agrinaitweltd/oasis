@@ -5,6 +5,7 @@ import { useRouter, usePathname } from "next/navigation";
 import { useAuth } from "@/lib/auth/AuthProvider";
 import { Sidebar } from "./Sidebar";
 import { Topbar } from "./Topbar";
+import { FirstRunTutorial } from "@/components/school/FirstRunTutorial";
 
 export function PortalShell({ children }: { children: ReactNode }) {
   const router = useRouter();
@@ -28,6 +29,7 @@ export function PortalShell({ children }: { children: ReactNode }) {
 
   return (
     <div className="flex min-h-screen bg-slate-50">
+      <FirstRunTutorial />
       <Sidebar
         collapsed={collapsed}
         onToggle={() => setCollapsed((v) => !v)}

@@ -658,6 +658,7 @@ export type Database = {
           created_at: string;
           email: string | null;
           full_name: string | null;
+          has_seen_tutorial: boolean;
           id: string;
           is_form_tutor: boolean;
           is_headteacher: boolean;
@@ -671,6 +672,7 @@ export type Database = {
           created_at?: string;
           email?: string | null;
           full_name?: string | null;
+          has_seen_tutorial?: boolean;
           id: string;
           is_form_tutor?: boolean;
           is_headteacher?: boolean;
@@ -684,6 +686,7 @@ export type Database = {
           created_at?: string;
           email?: string | null;
           full_name?: string | null;
+          has_seen_tutorial?: boolean;
           id?: string;
           is_form_tutor?: boolean;
           is_headteacher?: boolean;

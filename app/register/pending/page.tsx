@@ -1,14 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { AuthLogo } from "@/components/auth/AuthLogo";
 import { loadApplication } from "@/lib/onboarding-storage";
 import type { SchoolApplication } from "@/lib/onboarding-types";
 import { openInApp } from "@/lib/app-deep-link";
+import { useAuth } from "@/lib/auth/AuthProvider";
+import { createClient } from "@/lib/supabase/client";
+import type { Tables } from "@/types/database.types";
+import { redirectPathForRole } from "@/lib/auth/roles";
 
 export default function PendingReviewPage() {
+  const router = useRouter();
+  const { user, profile, role } = useAuth();
   const [app, setApp] = useState<SchoolApplication | null>(null);
+  const [liveSchool, setLiveSchool] = useState<Tables<"schools"> | null>(null);
 
   useEffect(() => {
     setApp(loadApplication());
@@ -18,6 +26,22 @@ export default function PendingReviewPage() {
     openInApp("welcome");
   }, []);
 
+  // If signed in, the real, current status lives in Supabase - prefer that
+  // over the local application snapshot, which can go stale.
+  useEffect(() => {
+    if (!profile?.school_id) return;
+    createClient()
+      .from("schools")
+      .select("*")
+      .eq("id", profile.school_id)
+      .maybeSingle()
+      .then(({ data }) => setLiveSchool(data));
+  }, [profile?.school_id]);
+
+  useEffect(() => {
+    if (liveSchool?.status === "approved") router.replace(redirectPathForRole(role));
+  }, [liveSchool, role, router]);
+
   const statusLabel: Record<string, { label: string; className: string }> = {
     draft: { label: "Draft", className: "pending" },
     pending_review: { label: "Pending Review", className: "pending" },
@@ -26,7 +50,8 @@ export default function PendingReviewPage() {
     more_info_requested: { label: "More Info Requested", className: "pending" },
     suspended: { label: "Suspended", className: "rejected" },
   };
-  const current = app ? statusLabel[app.status] ?? statusLabel.pending_review : statusLabel.pending_review;
+  const effectiveStatus = liveSchool?.status ?? app?.status;
+  const current = effectiveStatus ? (statusLabel[effectiveStatus] ?? statusLabel.pending_review) : statusLabel.pending_review;
 
   return (
     <div className="auth-shell" id="main-content" style={{ gridTemplateColumns: "1fr" }}>
@@ -65,24 +90,30 @@ export default function PendingReviewPage() {
             <span className={`status-badge ${current.className}`}>{current.label}</span>
           </div>
 
-          {app?.data.organisation.schoolName && (
+          {(liveSchool?.name || app?.data.organisation.schoolName) && (
             <div className="wizard-review-section" style={{ textAlign: "left", marginBottom: 24 }}>
               <dl className="wizard-review-grid">
                 <div className="wizard-review-item">
                   <dt>School</dt>
-                  <dd>{app.data.organisation.schoolName}</dd>
+                  <dd>{liveSchool?.name || app?.data.organisation.schoolName}</dd>
                 </div>
                 <div className="wizard-review-item">
                   <dt>Reference</dt>
-                  <dd>{app.id}</dd>
+                  <dd>{liveSchool?.code || app?.id}</dd>
                 </div>
                 <div className="wizard-review-item">
                   <dt>Submitted</dt>
-                  <dd>{app.submittedAt ? new Date(app.submittedAt).toLocaleDateString() : "—"}</dd>
+                  <dd>
+                    {liveSchool?.created_at
+                      ? new Date(liveSchool.created_at).toLocaleDateString()
+                      : app?.submittedAt
+                        ? new Date(app.submittedAt).toLocaleDateString()
+                        : "—"}
+                  </dd>
                 </div>
                 <div className="wizard-review-item">
                   <dt>Contact Email</dt>
-                  <dd>{app.data.organisation.schoolEmail}</dd>
+                  <dd>{liveSchool?.contact_email || app?.data.organisation.schoolEmail}</dd>
                 </div>
               </dl>
             </div>
@@ -105,12 +136,36 @@ export default function PendingReviewPage() {
             Return to homepage
           </Link>
 
+          {user && (
+            <p className="auth-footer-text">
+              <SignOutLink />
+            </p>
+          )}
+
           <p className="auth-footer-text">
             Questions about your application? <a href="mailto:support@oasis.co.ug" className="auth-link">Contact support</a>
           </p>
         </div>
       </div>
     </div>
+  );
+}
+
+function SignOutLink() {
+  const router = useRouter();
+  const { signOut } = useAuth();
+  return (
+    <button
+      type="button"
+      className="auth-link"
+      style={{ background: "none", border: "none", cursor: "pointer", padding: 0, font: "inherit" }}
+      onClick={async () => {
+        await signOut();
+        router.push("/login");
+      }}
+    >
+      Sign out
+    </button>
   );
 }
 

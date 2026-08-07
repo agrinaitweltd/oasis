@@ -18,6 +18,7 @@ import type { ModuleKey, OnboardingData, SchoolApplication } from "@/lib/onboard
 import { onboardingSteps } from "@/lib/onboarding-steps";
 import { registerSchoolFromApplication } from "@/lib/school-registry";
 import { createClient } from "@/lib/supabase/client";
+import { useAuth } from "@/lib/auth/AuthProvider";
 
 type Errors = Record<string, string>;
 
@@ -81,6 +82,7 @@ function validateStep(step: number, data: OnboardingData): Errors {
 
 export default function RegisterPage() {
   const router = useRouter();
+  const { profile } = useAuth();
   const [app, setApp] = useState<SchoolApplication | null>(null);
   const [step, setStep] = useState(1);
   const [errors, setErrors] = useState<Errors>({});
@@ -172,10 +174,7 @@ export default function RegisterPage() {
     saveApplication(submitted);
 
     // Real submission - lands in the shared Supabase schools table so it's
-    // visible to the mobile app too. Uses a SECURITY DEFINER RPC rather than
-    // a direct insert().select() because anon has no SELECT policy on
-    // schools (by design - applicant PII shouldn't be publicly readable);
-    // the RPC returns only the new row's id/code.
+    // visible to the mobile app too.
     const supabase = createClient();
     const { org, location, schoolType, studentNumbers } = {
       org: submitted.data.organisation,
@@ -183,21 +182,37 @@ export default function RegisterPage() {
       schoolType: submitted.data.schoolType,
       studentNumbers: submitted.data.studentNumbers,
     };
-    const { error } = await supabase.rpc("submit_school_registration", {
-      p_name: org.schoolName || "Untitled School",
-      p_district: location.district || undefined,
-      p_address: [location.physicalAddress, location.cityTown, location.district].filter(Boolean).join(", ") || undefined,
-      p_contact_name: org.headTeacherName || org.directorName || undefined,
-      p_contact_email: org.schoolEmail || undefined,
-      p_contact_phone: org.schoolPhone || undefined,
-      p_school_type: schoolType.schoolType || undefined,
-      p_student_band: studentNumbers.currentPopulation || undefined,
-    });
+    const fields = {
+      name: org.schoolName || "Untitled School",
+      district: location.district || null,
+      address: [location.physicalAddress, location.cityTown, location.district].filter(Boolean).join(", ") || null,
+      contact_name: org.headTeacherName || org.directorName || null,
+      contact_email: org.schoolEmail || null,
+      contact_phone: org.schoolPhone || null,
+      school_type: schoolType.schoolType || null,
+      student_band: studentNumbers.currentPopulation || null,
+    };
+
+    // The school row already exists (created at signup, linked via
+    // profile.school_id) - update it directly now we're authenticated,
+    // rather than creating a second row via the anon RPC.
+    const { error } = profile?.school_id
+      ? await supabase.from("schools").update(fields).eq("id", profile.school_id)
+      : await supabase.rpc("submit_school_registration", {
+          p_name: fields.name,
+          p_district: fields.district ?? undefined,
+          p_address: fields.address ?? undefined,
+          p_contact_name: fields.contact_name ?? undefined,
+          p_contact_email: fields.contact_email ?? undefined,
+          p_contact_phone: fields.contact_phone ?? undefined,
+          p_school_type: fields.school_type ?? undefined,
+          p_student_band: fields.student_band ?? undefined,
+        });
     if (error) {
       // Still let the applicant through to the local/admin-console mirror
       // below rather than stranding them on a failed submit - but log this,
       // since it means the shared backend didn't get the record.
-      console.error("submit_school_registration failed:", error.message);
+      console.error("School registration submit failed:", error.message);
     }
 
     // Local mirror the platform-admin console currently reads from

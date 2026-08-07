@@ -9,7 +9,8 @@ import type { UserRole } from "./roles";
 type Profile = Tables<"profiles">;
 
 type AuthResult = { error: string | null };
-type SignInResult = AuthResult & { role: UserRole | null };
+type SchoolStatus = Tables<"schools">["status"];
+type SignInResult = AuthResult & { role: UserRole | null; schoolStatus?: SchoolStatus | null };
 type SelfServiceRole = Exclude<UserRole, "super_admin">;
 
 type AuthContextValue = {
@@ -144,9 +145,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       // Accounts only ever get created after their signup OTP is verified
       // (see create-account), so any existing profile is already confirmed -
       // there's no separate "unverified" state to gate on here.
-      const { data: profileRow } = await supabase.from("profiles").select("role").eq("id", data.user.id).maybeSingle();
+      const { data: profileRow } = await supabase.from("profiles").select("role, school_id").eq("id", data.user.id).maybeSingle();
+      const role = (profileRow?.role as UserRole | undefined) ?? null;
 
-      return { error: null, role: (profileRow?.role as UserRole | undefined) ?? null };
+      // school_admin accounts are created up-front at signup, before the
+      // school is approved - gate dashboard access on the linked school's
+      // review status rather than assuming approval.
+      if (role === "school_admin" && profileRow?.school_id) {
+        const { data: school } = await supabase.from("schools").select("status").eq("id", profileRow.school_id).maybeSingle();
+        return { error: null, role, schoolStatus: school?.status ?? null };
+      }
+
+      return { error: null, role };
     },
     [supabase]
   );
