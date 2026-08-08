@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useMemo, useState, type FormEvent } from "react";
 import { Plus } from "lucide-react";
 import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Button } from "@/components/portal/ui/Button";
 import { Drawer } from "@/components/portal/ui/Drawer";
-import { Input, SearchInput } from "@/components/portal/ui/Input";
+import { Input, Select, SearchInput } from "@/components/portal/ui/Input";
 import { Avatar } from "@/components/portal/ui/Avatar";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Field } from "@/components/school/Field";
@@ -24,7 +24,13 @@ export default function StudentsPage() {
   const { profile, role } = useAuth();
   const { toast } = useToast();
   const { rows, loading } = useRealtimeRows<Student>("students", "full_name");
+  const { rows: classes } = useRealtimeRows<Tables<"classes">>("classes", "name");
+  const { rows: streams } = useRealtimeRows<Tables<"streams">>("streams", "name");
+  const { rows: houses } = useRealtimeRows<Tables<"houses">>("houses", "name");
+  const { rows: guardians } = useRealtimeRows<Tables<"guardians">>("guardians", "full_name");
   const canWrite = role === "school_admin" || role === "teacher";
+
+  const classById = useMemo(() => new Map(classes.map((c) => [c.id, c])), [classes]);
 
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query);
@@ -33,40 +39,70 @@ export default function StudentsPage() {
   const [open, setOpen] = useState(false);
   const [fullName, setFullName] = useState("");
   const [admissionNumber, setAdmissionNumber] = useState("");
-  const [formClass, setFormClass] = useState("");
-  const [house, setHouse] = useState("");
+  const [classId, setClassId] = useState("");
+  const [streamId, setStreamId] = useState("");
+  const [houseId, setHouseId] = useState("");
   const [dob, setDob] = useState("");
-  const [guardianName, setGuardianName] = useState("");
-  const [guardianPhone, setGuardianPhone] = useState("");
+  const [guardianId, setGuardianId] = useState("");
   const [saving, setSaving] = useState(false);
+
+  const streamsForClass = classId ? streams.filter((s) => s.class_id === classId) : [];
+
+  function resetForm() {
+    setFullName("");
+    setAdmissionNumber("");
+    setClassId("");
+    setStreamId("");
+    setHouseId("");
+    setDob("");
+    setGuardianId("");
+  }
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     if (!profile?.school_id || !fullName.trim()) return;
     setSaving(true);
-    const { error } = await createClient().from("students").insert({
-      school_id: profile.school_id,
-      full_name: fullName.trim(),
-      admission_number: admissionNumber.trim() || null,
-      form_class: formClass.trim() || null,
-      house: house.trim() || null,
-      date_of_birth: dob || null,
-      guardian_name: guardianName.trim() || null,
-      guardian_phone: guardianPhone.trim() || null,
-    });
-    setSaving(false);
-    if (error) {
-      toast("error", "Couldn't add student", error.message);
+    const supabase = createClient();
+    const selectedClass = classes.find((c) => c.id === classId);
+    const selectedGuardian = guardians.find((g) => g.id === guardianId);
+    const { data: student, error } = await supabase
+      .from("students")
+      .insert({
+        school_id: profile.school_id,
+        full_name: fullName.trim(),
+        admission_number: admissionNumber.trim() || null,
+        class_id: classId || null,
+        stream_id: streamId || null,
+        form_class: selectedClass?.name || null,
+        house: houses.find((h) => h.id === houseId)?.name || null,
+        date_of_birth: dob || null,
+        guardian_name: selectedGuardian?.full_name || null,
+        guardian_phone: selectedGuardian?.phone || null,
+        guardian_email: selectedGuardian?.email || null,
+      })
+      .select("id")
+      .single();
+
+    if (error || !student) {
+      setSaving(false);
+      toast("error", "Couldn't add student", error?.message || "");
       return;
     }
+
+    if (guardianId) {
+      const { error: linkError } = await supabase.from("student_guardians").insert({
+        school_id: profile.school_id,
+        student_id: student.id,
+        guardian_id: guardianId,
+      });
+      if (linkError) {
+        toast("error", "Student added, but guardian link failed", linkError.message);
+      }
+    }
+
+    setSaving(false);
     setOpen(false);
-    setFullName("");
-    setAdmissionNumber("");
-    setFormClass("");
-    setHouse("");
-    setDob("");
-    setGuardianName("");
-    setGuardianPhone("");
+    resetForm();
     toast("success", "Student added", "");
   }
 
@@ -84,7 +120,7 @@ export default function StudentsPage() {
         </div>
       ),
     },
-    { key: "class", header: "Class", render: (r) => r.form_class || "—" },
+    { key: "class", header: "Class", render: (r) => (r.class_id && classById.get(r.class_id)?.name) || r.form_class || "—" },
     { key: "house", header: "House", render: (r) => r.house || "—" },
     { key: "guardian", header: "Guardian", render: (r) => r.guardian_name || "—" },
     { key: "status", header: "Status", render: (r) => <Badge tone={r.status === "active" ? "success" : "neutral"}>{r.status}</Badge> },
@@ -94,7 +130,7 @@ export default function StudentsPage() {
     <div>
       <PageHeader
         title="Student Management"
-        description="Personal info, admission number, form/class, house, guardian contacts."
+        description="Personal info, admission number, class, house, guardian contacts."
         breadcrumbs={[{ label: "Dashboard", href: "/dashboard" }, { label: "Student Management" }]}
         action={
           canWrite && (
@@ -120,20 +156,57 @@ export default function StudentsPage() {
           <Field label="Admission number">
             <Input value={admissionNumber} onChange={(e) => setAdmissionNumber(e.target.value)} />
           </Field>
-          <Field label="Form / class">
-            <Input value={formClass} onChange={(e) => setFormClass(e.target.value)} />
+          <Field label="Class">
+            <Select
+              value={classId}
+              onChange={(e) => {
+                setClassId(e.target.value);
+                setStreamId("");
+              }}
+            >
+              <option value="">Select class…</option>
+              {classes.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.name}
+                </option>
+              ))}
+            </Select>
           </Field>
+          {classId && (
+            <Field label="Stream">
+              <Select value={streamId} onChange={(e) => setStreamId(e.target.value)} disabled={streamsForClass.length === 0}>
+                <option value="">{streamsForClass.length ? "Select stream…" : "No streams for this class"}</option>
+                {streamsForClass.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {s.name}
+                  </option>
+                ))}
+              </Select>
+            </Field>
+          )}
           <Field label="House">
-            <Input value={house} onChange={(e) => setHouse(e.target.value)} />
+            <Select value={houseId} onChange={(e) => setHouseId(e.target.value)}>
+              <option value="">Select house…</option>
+              {houses.map((h) => (
+                <option key={h.id} value={h.id}>
+                  {h.name}
+                </option>
+              ))}
+            </Select>
           </Field>
           <Field label="Date of birth">
             <Input type="date" value={dob} onChange={(e) => setDob(e.target.value)} />
           </Field>
-          <Field label="Guardian name">
-            <Input value={guardianName} onChange={(e) => setGuardianName(e.target.value)} />
-          </Field>
-          <Field label="Guardian phone">
-            <Input value={guardianPhone} onChange={(e) => setGuardianPhone(e.target.value)} />
+          <Field label="Guardian">
+            <Select value={guardianId} onChange={(e) => setGuardianId(e.target.value)}>
+              <option value="">Select guardian…</option>
+              {guardians.map((g) => (
+                <option key={g.id} value={g.id}>
+                  {g.full_name}
+                  {g.relationship ? ` (${g.relationship})` : ""}
+                </option>
+              ))}
+            </Select>
           </Field>
           <div className="flex justify-end gap-2 pt-2">
             <Button type="button" variant="secondary" onClick={() => setOpen(false)}>
