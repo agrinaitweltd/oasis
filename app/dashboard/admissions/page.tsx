@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Button } from "@/components/portal/ui/Button";
-import { Modal } from "@/components/portal/ui/Modal";
+import { Drawer } from "@/components/portal/ui/Drawer";
 import { Input } from "@/components/portal/ui/Input";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Field } from "@/components/school/Field";
@@ -121,7 +121,7 @@ export default function AdmissionsPage() {
         <Table columns={columns} rows={rows} loading={loading} emptyTitle="No applications yet" />
       </Card>
 
-      <Modal open={open} onClose={() => setOpen(false)} title="Add admission application" maxWidth={480}>
+      <Drawer open={open} onClose={() => setOpen(false)} title="Add admission application" width={480}>
         <form onSubmit={handleSubmit} className="space-y-4">
           <Field label="Applicant name">
             <Input value={applicantName} onChange={(e) => setApplicantName(e.target.value)} required />
@@ -150,7 +150,7 @@ export default function AdmissionsPage() {
             </Button>
           </div>
         </form>
-      </Modal>
+      </Drawer>
     </div>
   );
 }

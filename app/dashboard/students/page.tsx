@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Button } from "@/components/portal/ui/Button";
-import { Modal } from "@/components/portal/ui/Modal";
+import { Drawer } from "@/components/portal/ui/Drawer";
 import { Input, SearchInput } from "@/components/portal/ui/Input";
 import { Avatar } from "@/components/portal/ui/Avatar";
 import { Badge } from "@/components/portal/ui/Badge";
@@ -112,7 +112,7 @@ export default function StudentsPage() {
         <Table columns={columns} rows={filtered} loading={loading} emptyTitle="No students yet" />
       </Card>
 
-      <Modal open={open} onClose={() => setOpen(false)} title="Add student" maxWidth={480}>
+      <Drawer open={open} onClose={() => setOpen(false)} title="Add student" width={480}>
         <form onSubmit={handleSubmit} className="space-y-4">
           <Field label="Full name">
             <Input value={fullName} onChange={(e) => setFullName(e.target.value)} required />
@@ -144,7 +144,7 @@ export default function StudentsPage() {
             </Button>
           </div>
         </form>
-      </Modal>
+      </Drawer>
     </div>
   );
 }

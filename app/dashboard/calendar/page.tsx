@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Button } from "@/components/portal/ui/Button";
-import { Modal } from "@/components/portal/ui/Modal";
+import { Drawer } from "@/components/portal/ui/Drawer";
 import { Input } from "@/components/portal/ui/Input";
 import { Badge } from "@/components/portal/ui/Badge";
 import { Field, textareaClassName } from "@/components/school/Field";
@@ -114,7 +114,7 @@ export default function CalendarPage() {
         />
       </Card>
 
-      <Modal open={open} onClose={() => setOpen(false)} title="Add calendar event" maxWidth={480}>
+      <Drawer open={open} onClose={() => setOpen(false)} title="Add calendar event" width={480}>
         <form onSubmit={handleSubmit} className="space-y-4">
           <Field label="Title">
             <Input value={title} onChange={(e) => setTitle(e.target.value)} required />
@@ -137,7 +137,7 @@ export default function CalendarPage() {
             </Button>
           </div>
         </form>
-      </Modal>
+      </Drawer>
     </div>
   );
 }

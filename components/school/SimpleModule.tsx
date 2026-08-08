@@ -6,7 +6,7 @@ import { PageHeader } from "@/components/portal/PageHeader";
 import { Card } from "@/components/portal/ui/Card";
 import { Table, type Column } from "@/components/portal/ui/Table";
 import { Button } from "@/components/portal/ui/Button";
-import { Modal } from "@/components/portal/ui/Modal";
+import { Drawer } from "@/components/portal/ui/Drawer";
 import { Input } from "@/components/portal/ui/Input";
 import { Field, textareaClassName } from "@/components/school/Field";
 import { useAuth } from "@/lib/auth/AuthProvider";
@@ -131,7 +131,7 @@ export function SimpleModule<T extends Row>({
       )}
 
       {canWrite && (
-        <Modal open={open} onClose={() => setOpen(false)} title={`Add ${breadcrumbLabel ?? title}`} maxWidth={480}>
+        <Drawer open={open} onClose={() => setOpen(false)} title={`Add ${breadcrumbLabel ?? title}`} width={480}>
           <FormBody
             fields={fields}
             values={values}
@@ -168,7 +168,7 @@ export function SimpleModule<T extends Row>({
               toast("success", "Saved", "");
             }}
           />
-        </Modal>
+        </Drawer>
       )}
     </div>
   );
