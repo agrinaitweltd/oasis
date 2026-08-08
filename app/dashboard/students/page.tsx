@@ -27,6 +27,8 @@ export default function StudentsPage() {
   const { rows: classes } = useRealtimeRows<Tables<"classes">>("classes", "name");
   const { rows: streams } = useRealtimeRows<Tables<"streams">>("streams", "name");
   const { rows: houses } = useRealtimeRows<Tables<"houses">>("houses", "name");
+  const { rows: dormitories } = useRealtimeRows<Tables<"dormitories">>("dormitories", "name");
+  const { rows: transportRoutes } = useRealtimeRows<Tables<"transport_routes">>("transport_routes", "name");
   const { rows: guardians } = useRealtimeRows<Tables<"guardians">>("guardians", "full_name");
   const canWrite = role === "school_admin" || role === "teacher";
 
@@ -42,6 +44,8 @@ export default function StudentsPage() {
   const [classId, setClassId] = useState("");
   const [streamId, setStreamId] = useState("");
   const [houseId, setHouseId] = useState("");
+  const [dormitoryId, setDormitoryId] = useState("");
+  const [transportRouteId, setTransportRouteId] = useState("");
   const [dob, setDob] = useState("");
   const [guardianId, setGuardianId] = useState("");
   const [saving, setSaving] = useState(false);
@@ -54,6 +58,8 @@ export default function StudentsPage() {
     setClassId("");
     setStreamId("");
     setHouseId("");
+    setDormitoryId("");
+    setTransportRouteId("");
     setDob("");
     setGuardianId("");
   }
@@ -75,6 +81,8 @@ export default function StudentsPage() {
         stream_id: streamId || null,
         form_class: selectedClass?.name || null,
         house: houses.find((h) => h.id === houseId)?.name || null,
+        dormitory: dormitories.find((d) => d.id === dormitoryId)?.name || null,
+        transport_route: transportRoutes.find((t) => t.id === transportRouteId)?.name || null,
         date_of_birth: dob || null,
         guardian_name: selectedGuardian?.full_name || null,
         guardian_phone: selectedGuardian?.phone || null,
@@ -190,6 +198,26 @@ export default function StudentsPage() {
               {houses.map((h) => (
                 <option key={h.id} value={h.id}>
                   {h.name}
+                </option>
+              ))}
+            </Select>
+          </Field>
+          <Field label="Dormitory">
+            <Select value={dormitoryId} onChange={(e) => setDormitoryId(e.target.value)}>
+              <option value="">Select dormitory…</option>
+              {dormitories.map((d) => (
+                <option key={d.id} value={d.id}>
+                  {d.name}
+                </option>
+              ))}
+            </Select>
+          </Field>
+          <Field label="Transport route">
+            <Select value={transportRouteId} onChange={(e) => setTransportRouteId(e.target.value)}>
+              <option value="">Select route…</option>
+              {transportRoutes.map((t) => (
+                <option key={t.id} value={t.id}>
+                  {t.name}
                 </option>
               ))}
             </Select>
