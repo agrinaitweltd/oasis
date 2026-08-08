@@ -348,7 +348,7 @@ export type Database = {
           name: string
           room_number: string | null
           school_id: string
-          stream: string | null
+          stream_id: string | null
         }
         Insert: {
           academic_year?: string | null
@@ -360,7 +360,7 @@ export type Database = {
           name: string
           room_number?: string | null
           school_id: string
-          stream?: string | null
+          stream_id?: string | null
         }
         Update: {
           academic_year?: string | null
@@ -372,7 +372,7 @@ export type Database = {
           name?: string
           room_number?: string | null
           school_id?: string
-          stream?: string | null
+          stream_id?: string | null
         }
         Relationships: [
           {
@@ -387,6 +387,13 @@ export type Database = {
             columns: ["school_id"]
             isOneToOne: false
             referencedRelation: "schools"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "classes_stream_id_fkey"
+            columns: ["stream_id"]
+            isOneToOne: false
+            referencedRelation: "streams"
             referencedColumns: ["id"]
           },
         ]
@@ -772,6 +779,57 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "grade_bands_school_id_fkey"
+            columns: ["school_id"]
+            isOneToOne: false
+            referencedRelation: "schools"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      guardians: {
+        Row: {
+          created_at: string
+          email: string | null
+          full_name: string
+          id: string
+          is_emergency_contact: boolean
+          phone: string | null
+          profile_id: string | null
+          relationship: string | null
+          school_id: string
+        }
+        Insert: {
+          created_at?: string
+          email?: string | null
+          full_name: string
+          id?: string
+          is_emergency_contact?: boolean
+          phone?: string | null
+          profile_id?: string | null
+          relationship?: string | null
+          school_id: string
+        }
+        Update: {
+          created_at?: string
+          email?: string | null
+          full_name?: string
+          id?: string
+          is_emergency_contact?: boolean
+          phone?: string | null
+          profile_id?: string | null
+          relationship?: string | null
+          school_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "guardians_profile_id_fkey"
+            columns: ["profile_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "guardians_school_id_fkey"
             columns: ["school_id"]
             isOneToOne: false
             referencedRelation: "schools"
@@ -1175,6 +1233,7 @@ export type Database = {
           id: string
           logo_url: string | null
           name: string
+          onboarding_skipped_steps: string[]
           plan: string | null
           school_type: string | null
           status: Database["public"]["Enums"]["school_status"]
@@ -1194,6 +1253,7 @@ export type Database = {
           id?: string
           logo_url?: string | null
           name: string
+          onboarding_skipped_steps?: string[]
           plan?: string | null
           school_type?: string | null
           status?: Database["public"]["Enums"]["school_status"]
@@ -1213,6 +1273,7 @@ export type Database = {
           id?: string
           logo_url?: string | null
           name?: string
+          onboarding_skipped_steps?: string[]
           plan?: string | null
           school_type?: string | null
           status?: Database["public"]["Enums"]["school_status"]
@@ -1457,6 +1518,91 @@ export type Database = {
           },
         ]
       }
+      streams: {
+        Row: {
+          class_id: string
+          created_at: string
+          id: string
+          name: string
+          school_id: string
+        }
+        Insert: {
+          class_id: string
+          created_at?: string
+          id?: string
+          name: string
+          school_id: string
+        }
+        Update: {
+          class_id?: string
+          created_at?: string
+          id?: string
+          name?: string
+          school_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "streams_class_id_fkey"
+            columns: ["class_id"]
+            isOneToOne: false
+            referencedRelation: "classes"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "streams_school_id_fkey"
+            columns: ["school_id"]
+            isOneToOne: false
+            referencedRelation: "schools"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      student_guardians: {
+        Row: {
+          created_at: string
+          guardian_id: string
+          id: string
+          school_id: string
+          student_id: string
+        }
+        Insert: {
+          created_at?: string
+          guardian_id: string
+          id?: string
+          school_id: string
+          student_id: string
+        }
+        Update: {
+          created_at?: string
+          guardian_id?: string
+          id?: string
+          school_id?: string
+          student_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "student_guardians_guardian_id_fkey"
+            columns: ["guardian_id"]
+            isOneToOne: false
+            referencedRelation: "guardians"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "student_guardians_school_id_fkey"
+            columns: ["school_id"]
+            isOneToOne: false
+            referencedRelation: "schools"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "student_guardians_student_id_fkey"
+            columns: ["student_id"]
+            isOneToOne: false
+            referencedRelation: "students"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       students: {
         Row: {
           admission_date: string | null
@@ -1490,6 +1636,7 @@ export type Database = {
           religion: string | null
           school_id: string
           status: string
+          stream_id: string | null
           student_profile_id: string | null
           transport_route: string | null
           updated_at: string
@@ -1526,6 +1673,7 @@ export type Database = {
           religion?: string | null
           school_id: string
           status?: string
+          stream_id?: string | null
           student_profile_id?: string | null
           transport_route?: string | null
           updated_at?: string
@@ -1562,6 +1710,7 @@ export type Database = {
           religion?: string | null
           school_id?: string
           status?: string
+          stream_id?: string | null
           student_profile_id?: string | null
           transport_route?: string | null
           updated_at?: string
@@ -1586,6 +1735,13 @@ export type Database = {
             columns: ["school_id"]
             isOneToOne: false
             referencedRelation: "schools"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "students_stream_id_fkey"
+            columns: ["stream_id"]
+            isOneToOne: false
+            referencedRelation: "streams"
             referencedColumns: ["id"]
           },
           {

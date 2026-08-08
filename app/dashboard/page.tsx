@@ -8,6 +8,7 @@ import { Card } from "@/components/portal/ui/Card";
 import { EmptyState } from "@/components/portal/ui/EmptyState";
 import { schoolNav } from "@/lib/school-nav";
 import { Building2 } from "lucide-react";
+import { OnboardingChecklist } from "@/components/school/OnboardingChecklist";
 
 export default function DashboardPage() {
   const { user, profile, role } = useAuth();
@@ -28,6 +29,8 @@ export default function DashboardPage() {
           />
         </Card>
       )}
+
+      {profile?.school_id && role === "school_admin" && <OnboardingChecklist />}
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
         {schoolNav

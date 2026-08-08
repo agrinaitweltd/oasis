@@ -22,6 +22,7 @@ import {
   FileText,
   Sparkles,
   LineChart,
+  Settings2,
 } from "lucide-react";
 
 export type SchoolNavItem = {
@@ -35,6 +36,7 @@ export type SchoolNavItem = {
 // via Realtime. See lib/school-modules.ts for build status per module.
 export const schoolNav: SchoolNavItem[] = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+  { label: "School Setup", href: "/dashboard/setup", icon: Settings2 },
   { label: "Student Management", href: "/dashboard/students", icon: Users },
   { label: "Admissions", href: "/dashboard/admissions", icon: ClipboardList },
   { label: "Attendance", href: "/dashboard/attendance", icon: CalendarCheck },
