@@ -1,7 +1,3 @@
-// Auto-generated from the live Supabase schema via the Supabase MCP
-// (generate_typescript_types). Regenerate after every migration rather
-// than hand-editing this file.
-
 export type Json =
   | string
   | number
@@ -348,7 +344,6 @@ export type Database = {
           name: string
           room_number: string | null
           school_id: string
-          stream_id: string | null
         }
         Insert: {
           academic_year?: string | null
@@ -360,7 +355,6 @@ export type Database = {
           name: string
           room_number?: string | null
           school_id: string
-          stream_id?: string | null
         }
         Update: {
           academic_year?: string | null
@@ -372,7 +366,6 @@ export type Database = {
           name?: string
           room_number?: string | null
           school_id?: string
-          stream_id?: string | null
         }
         Relationships: [
           {
@@ -387,13 +380,6 @@ export type Database = {
             columns: ["school_id"]
             isOneToOne: false
             referencedRelation: "schools"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "classes_stream_id_fkey"
-            columns: ["stream_id"]
-            isOneToOne: false
-            referencedRelation: "streams"
             referencedColumns: ["id"]
           },
         ]
@@ -1613,9 +1599,11 @@ export type Database = {
           created_at: string
           date_of_birth: string | null
           dormitory: string | null
+          dormitory_id: string | null
           emergency_contact_name: string | null
           emergency_contact_phone: string | null
           fee_category: string | null
+          fee_category_id: string | null
           first_name: string | null
           form_class: string | null
           full_name: string
@@ -1625,6 +1613,7 @@ export type Database = {
           guardian_phone: string | null
           guardian_profile_id: string | null
           house: string | null
+          house_id: string | null
           id: string
           last_name: string | null
           medical_conditions: string | null
@@ -1639,6 +1628,7 @@ export type Database = {
           stream_id: string | null
           student_profile_id: string | null
           transport_route: string | null
+          transport_route_id: string | null
           updated_at: string
         }
         Insert: {
@@ -1650,9 +1640,11 @@ export type Database = {
           created_at?: string
           date_of_birth?: string | null
           dormitory?: string | null
+          dormitory_id?: string | null
           emergency_contact_name?: string | null
           emergency_contact_phone?: string | null
           fee_category?: string | null
+          fee_category_id?: string | null
           first_name?: string | null
           form_class?: string | null
           full_name: string
@@ -1662,6 +1654,7 @@ export type Database = {
           guardian_phone?: string | null
           guardian_profile_id?: string | null
           house?: string | null
+          house_id?: string | null
           id?: string
           last_name?: string | null
           medical_conditions?: string | null
@@ -1676,6 +1669,7 @@ export type Database = {
           stream_id?: string | null
           student_profile_id?: string | null
           transport_route?: string | null
+          transport_route_id?: string | null
           updated_at?: string
         }
         Update: {
@@ -1687,9 +1681,11 @@ export type Database = {
           created_at?: string
           date_of_birth?: string | null
           dormitory?: string | null
+          dormitory_id?: string | null
           emergency_contact_name?: string | null
           emergency_contact_phone?: string | null
           fee_category?: string | null
+          fee_category_id?: string | null
           first_name?: string | null
           form_class?: string | null
           full_name?: string
@@ -1699,6 +1695,7 @@ export type Database = {
           guardian_phone?: string | null
           guardian_profile_id?: string | null
           house?: string | null
+          house_id?: string | null
           id?: string
           last_name?: string | null
           medical_conditions?: string | null
@@ -1713,6 +1710,7 @@ export type Database = {
           stream_id?: string | null
           student_profile_id?: string | null
           transport_route?: string | null
+          transport_route_id?: string | null
           updated_at?: string
         }
         Relationships: [
@@ -1724,10 +1722,31 @@ export type Database = {
             referencedColumns: ["id"]
           },
           {
+            foreignKeyName: "students_dormitory_id_fkey"
+            columns: ["dormitory_id"]
+            isOneToOne: false
+            referencedRelation: "dormitories"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "students_fee_category_id_fkey"
+            columns: ["fee_category_id"]
+            isOneToOne: false
+            referencedRelation: "fee_categories"
+            referencedColumns: ["id"]
+          },
+          {
             foreignKeyName: "students_guardian_profile_id_fkey"
             columns: ["guardian_profile_id"]
             isOneToOne: false
             referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "students_house_id_fkey"
+            columns: ["house_id"]
+            isOneToOne: false
+            referencedRelation: "houses"
             referencedColumns: ["id"]
           },
           {
@@ -1749,6 +1768,13 @@ export type Database = {
             columns: ["student_profile_id"]
             isOneToOne: false
             referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "students_transport_route_id_fkey"
+            columns: ["transport_route_id"]
+            isOneToOne: false
+            referencedRelation: "transport_routes"
             referencedColumns: ["id"]
           },
         ]
